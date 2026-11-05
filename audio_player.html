@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bali Bliss — Editorial Audio Suite</title>
+  <style>
+    :root {
+      --bg: #0c0d0e;
+      --card-bg: #141618;
+      --card-border: #23272b;
+      --text-main: #f0f2f5;
+      --text-dim: #8b929a;
+      --accent: #d4af37;
+      --accent-glow: rgba(212, 175, 55, 0.15);
+      --highlight: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      padding: 48px 24px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 48px;
+    }
+
+    .brand-kicker {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--accent);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 400;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: var(--text-dim);
+      font-size: 15px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--text-dim);
+      margin: 40px 0 16px 0;
+      font-weight: 500;
+    }
+
+    .track-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .track-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: border-color 0.2s ease, background 0.2s ease;
+    }
+
+    .track-card:hover {
+      border-color: #383e46;
+    }
+
+    .track-card.active {
+      border-color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    .track-info {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .track-name {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--highlight);
+      margin-bottom: 4px;
+    }
+
+    .track-meta {
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    .track-controls {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .play-btn {
+      background: #1e2226;
+      border: 1px solid #333940;
+      color: var(--text-main);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .play-btn:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #000;
+    }
+
+    .play-btn svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+
+    .badge {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: #202428;
+      color: var(--text-dim);
+      font-family: monospace;
+    }
+
+    .now-playing-bar {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 48px);
+      max-width: 860px;
+      background: rgba(20, 22, 24, 0.95);
+      backdrop-filter: blur(12px);
+      border: 1px solid #2e343b;
+      border-radius: 16px;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 16px 32px rgba(0,0,0,0.4);
+      display: none;
+    }
+
+    .now-playing-info {
+      font-size: 14px;
+      color: var(--highlight);
+    }
+
+    .now-playing-status {
+      font-size: 12px;
+      color: var(--accent);
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="brand-kicker">Bali Bliss Weddings</div>
+      <h1>Editorial Audio Suite</h1>
+      <p class="subtitle">Bespoke tactile sound design & ambient music beds for vertical reels.</p>
+    </header>
+
+    <div class="section-title">Editorial Soundscapes & Music Beds</div>
+    <div class="track-grid">
+      <div class="track-card" id="card-6">
+        <div class="track-info">
+          <div class="track-name">Uluwatu Sunset Horizon (Felt Piano & Cello)</div>
+          <div class="track-meta">D Major 9th felt piano with warm cello drone and room resonance — 68 BPM</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">10.0s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/uluwatu_sunset_piano.wav', 'Uluwatu Sunset Horizon', 'card-6')">
+            <svg id="icon-card-6" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-7">
+        <div class="track-info">
+          <div class="track-name">Ubud Sanctuary Reverie (Organic Bamboo Marimba)</div>
+          <div class="track-meta">Acoustic mallet strikes, Balinese harmonics, and jungle canopy pad — 62 BPM</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">8.0s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/ubud_sanctuary_marimba.wav', 'Ubud Sanctuary Reverie', 'card-7')">
+            <svg id="icon-card-7" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-8">
+        <div class="track-info">
+          <div class="track-name">Ceremony String Swell (Cinematic Wedding Strings)</div>
+          <div class="track-meta">Lush ensemble crescendo resolving into warm D Major for vow reveals — 72 BPM</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">9.0s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/ceremony_string_swell.wav', 'Ceremony String Swell', 'card-8')">
+            <svg id="icon-card-8" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-title">Tactile Editorial Transition SFX</div>
+    <div class="track-grid">
+      <div class="track-card" id="card-1">
+        <div class="track-info">
+          <div class="track-name">35mm Contax Film Shutter & Advance</div>
+          <div class="track-meta">Crisp mechanical camera click & ratchet advance for photography reveals</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">0.45s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/film_shutter_snap.wav', '35mm Film Shutter Snap', 'card-1')">
+            <svg id="icon-card-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-2">
+        <div class="track-info">
+          <div class="track-name">Linen Art-Paper Page Flutter</div>
+          <div class="track-meta">Heavy textured art paper turn for magazine spread flips and itinerary cards</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">0.75s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/linen_page_flutter.wav', 'Linen Page Flutter', 'card-2')">
+            <svg id="icon-card-2" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-3">
+        <div class="track-info">
+          <div class="track-name">Velvet 55Hz Sub Pulse</div>
+          <div class="track-meta">Warm low-frequency weight for smooth cinematic cuts without aggressive whooshes</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">1.8s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/velvet_sub_pulse.wav', 'Velvet Sub Pulse', 'card-3')">
+            <svg id="icon-card-3" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-4">
+        <div class="track-info">
+          <div class="track-name">Crystal Champagne Harmonic Ring</div>
+          <div class="track-meta">Resonant 1864Hz chime with long delicate ring for toast and vow cuts</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">2.8s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/crystal_champagne_ring.wav', 'Crystal Champagne Ring', 'card-4')">
+            <svg id="icon-card-4" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-5">
+        <div class="track-info">
+          <div class="track-name">Uluwatu Ocean Dusk Swell</div>
+          <div class="track-meta">Atmospheric coastal surf and ocean breeze for cliffside venue scene changes</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">4.0s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/ocean_dusk_swell.wav', 'Ocean Dusk Swell', 'card-5')">
+            <svg id="icon-card-5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="now-playing-bar" id="player-bar">
+    <div class="now-playing-info" id="now-title">Playing Track</div>
+    <div class="now-playing-status" id="now-status">PLAYING</div>
+  </div>
+
+  <script>
+    let currentAudio = null;
+    let currentCardId = null;
+
+    const playIcon = '<path d="M8 5v14l11-7z"/>';
+    const pauseIcon = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+
+    function togglePlay(src, title, cardId) {
+      const playerBar = document.getElementById('player-bar');
+      const nowTitle = document.getElementById('now-title');
+      const nowStatus = document.getElementById('now-status');
+
+      if (currentAudio && currentCardId === cardId) {
+        if (!currentAudio.paused) {
+          currentAudio.pause();
+          document.getElementById('icon-' + cardId).innerHTML = playIcon;
+          document.getElementById(cardId).classList.remove('active');
+          nowStatus.textContent = 'PAUSED';
+          return;
+        } else {
+          currentAudio.play();
+          document.getElementById('icon-' + cardId).innerHTML = pauseIcon;
+          document.getElementById(cardId).classList.add('active');
+          nowStatus.textContent = 'PLAYING';
+          return;
+        }
+      }
+
+      if (currentAudio) {
+        currentAudio.pause();
+        if (currentCardId) {
+          document.getElementById('icon-' + currentCardId).innerHTML = playIcon;
+          document.getElementById(currentCardId).classList.remove('active');
+        }
+      }
+
+      currentAudio = new Audio(src);
+      currentCardId = cardId;
+      document.getElementById('icon-' + cardId).innerHTML = pauseIcon;
+      document.getElementById(cardId).classList.add('active');
+
+      nowTitle.textContent = title;
+      nowStatus.textContent = 'PLAYING';
+      playerBar.style.display = 'flex';
+
+      currentAudio.play().catch(e => console.error("Playback error:", e));
+
+      currentAudio.onended = () => {
+        document.getElementById('icon-' + cardId).innerHTML = playIcon;
+        document.getElementById(cardId).classList.remove('active');
+        playerBar.style.display = 'none';
+      };
+    }
+  </script>
+</body>
+</html>
