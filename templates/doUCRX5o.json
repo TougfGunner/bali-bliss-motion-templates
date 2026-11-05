@@ -1,0 +1,931 @@
+{
+  "id": "6995115d-3ff0-4bd8-92ee-6e5802ad5364",
+  "slug": "doUCRX5o",
+  "name": "Notification Animation - Joseph Lauriano",
+  "brand": "Bali Bliss",
+  "description": "Follow me please! :)",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 30,
+  "durationMs": 11941,
+  "styles": [
+    "dark",
+    "glassy",
+    "minimal"
+  ],
+  "tags": [
+    "notifications",
+    "iphone",
+    "joseph",
+    "dark",
+    "1"
+  ],
+  "effortLevel": "standard",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 1,
+    "totalLayers": 11,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "glow": 1,
+      "kind": "shader",
+      "angle": 28,
+      "color": "#2E6BE6",
+      "focus": 1,
+      "shine": 1,
+      "speed": 1,
+      "waves": 1,
+      "preset": "silk",
+      "backgroundColor": "#000102"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "c7ddb066-2f28-447a-a1e8-1ae3b09765c4",
+        "name": "Shot 1",
+        "light": {
+          "pose": {
+            "ambience": 1,
+            "position": {
+              "x": 5.345726411966002,
+              "y": 12.05038837805521,
+              "z": 4.712891794476187
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "dacfade8-5584-4195-907f-d6415933abf1",
+            "src": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/29737c63-070d-45fc-b350-15a5bbf693df.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "ChatGPT Image 31 de ago. de 2026, 10_12_45",
+            "frame": "iphone",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 0.246226440080296,
+              "y": 0.246226440080296,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9000000000000339,
+              "y": 0.16650610082572886,
+              "z": -0.3262444444444444
+            },
+            "rotation": {
+              "x": -0.19198621771937624,
+              "y": 0.4014257279586958,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/29737c63-070d-45fc-b350-15a5bbf693df.thumb.jpg",
+            "animations": [
+              {
+                "id": "fba251a4-ae67-4e65-9784-02d4fdc223ba",
+                "amount": {
+                  "x": 0,
+                  "y": 2.375,
+                  "z": 0
+                },
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "bundleId": "d1007553-87ab-49c2-981c-12654513e357",
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 2650,
+                "presetKind": "slide"
+              },
+              {
+                "id": "ffb879d8-8618-4e7f-8161-0f1963086b3e",
+                "amount": {
+                  "x": 0.19198621771937624,
+                  "y": -0.4014257279586958,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 2650
+              }
+            ],
+            "layerOrder": 0,
+            "cornerRadius": 0
+          },
+          {
+            "id": "6b6f326b-8d67-4c21-9a99-7cd4f768dae5",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 0.33
+            },
+            "inMs": 3588.332703382139,
+            "kind": "shape",
+            "size": {
+              "width": 0.4752145454545449,
+              "height": 0.1316472727272726
+            },
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 1.8309005957899334,
+              "y": 1.6235508624992514,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "13695d81-e833-49e5-af61-3728b12895b7",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8982387405917378,
+              "y": 0.9241025910650537,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [],
+            "layerOrder": 1,
+            "lockAspect": false,
+            "cornerRadius": 0.46588643837263755,
+            "layerEffects": {
+              "liquidGlass": {
+                "blur": 10,
+                "enabled": true,
+                "highlight": 0.6,
+                "dispersion": 0.4,
+                "refraction": 0.5
+              }
+            },
+            "layerEffectsOrder": [
+              "liquidGlass"
+            ]
+          },
+          {
+            "id": "fee10d39-5df2-46d6-b77d-7b71a964258c",
+            "src": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/708aae7f-3de4-4868-837d-f7729c75197f.jpg",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 3588.332703382139,
+            "kind": "image",
+            "name": "joseph picture",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 0.04205290823251007,
+              "y": 0.04205290823251007,
+              "z": 1
+            },
+            "groupId": "13695d81-e833-49e5-af61-3728b12895b7",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.2216314321868342,
+              "y": 0.9220252171031654,
+              "z": 0.023555555555555552
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/708aae7f-3de4-4868-837d-f7729c75197f.thumb.jpg",
+            "layerOrder": 2,
+            "cornerRadius": 1
+          },
+          {
+            "id": "b7e6c4e1-98df-47c5-aff0-b80111d515f3",
+            "src": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/03891b43-1d75-4838-9e72-db798b57e8d9.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 3588.332703382139,
+            "kind": "image",
+            "name": "x logo",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 0.015940399656938328,
+              "y": 0.015940399656938328,
+              "z": 1
+            },
+            "groupId": "13695d81-e833-49e5-af61-3728b12895b7",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.152900295406318,
+              "y": 0.8602159110355337,
+              "z": 0.2049333333333333
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/03891b43-1d75-4838-9e72-db798b57e8d9.thumb.jpg",
+            "layerOrder": 3,
+            "cornerRadius": 0.5688340893020244
+          },
+          {
+            "id": "24d7b286-23ba-4ca4-88dd-a0882adf53f9",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.05,
+              "color": "#000000",
+              "family": "inter",
+              "weight": 600,
+              "textAlign": "left",
+              "letterSpacing": 0
+            },
+            "inMs": 3588.332703382139,
+            "kind": "text",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed-width",
+            "content": "Joseph Lauriano",
+            "groupId": "13695d81-e833-49e5-af61-3728b12895b7",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.2888075473839703,
+            "position": {
+              "x": -1.7902449535691465,
+              "y": 0.9528073948874409,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [],
+            "layerOrder": 4,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "e0b32141-01ee-48dc-86a5-c95f7ee84739",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.04,
+              "color": "#3d3d3d",
+              "family": "inter",
+              "weight": 600,
+              "textAlign": "left",
+              "letterSpacing": 0
+            },
+            "inMs": 3588.332703382139,
+            "kind": "text",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed-width",
+            "content": "start following you!",
+            "groupId": "13695d81-e833-49e5-af61-3728b12895b7",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.2888075473839703,
+            "position": {
+              "x": -1.7904080747495525,
+              "y": 0.8865654716751901,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [],
+            "layerOrder": 5,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "095a1abd-7bb1-4bef-ba7d-2648e182eba3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 0.33
+            },
+            "inMs": 5740.628835469257,
+            "kind": "shape",
+            "size": {
+              "width": 0.4752145454545449,
+              "height": 0.1316472727272726
+            },
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 1.8309005957899334,
+              "y": 1.6235508624992514,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "5c9d04f7-5b1f-4b5b-88d4-105db99eb5fa",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8982426835904886,
+              "y": 1.1632103399075149,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [],
+            "layerOrder": 6,
+            "lockAspect": false,
+            "cornerRadius": 0.46588643837263755,
+            "layerEffects": {
+              "liquidGlass": {
+                "blur": 10,
+                "enabled": true,
+                "highlight": 0.6,
+                "dispersion": 0.4,
+                "refraction": 0.5
+              }
+            },
+            "layerEffectsOrder": [
+              "liquidGlass"
+            ]
+          },
+          {
+            "id": "8d6ab367-97a4-4e70-98f8-845e47f0ca9f",
+            "src": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/708aae7f-3de4-4868-837d-f7729c75197f.jpg",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5740.628835469257,
+            "kind": "image",
+            "name": "joseph picture",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 0.04205290823251007,
+              "y": 0.04205290823251007,
+              "z": 1
+            },
+            "groupId": "5c9d04f7-5b1f-4b5b-88d4-105db99eb5fa",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.221635375185585,
+              "y": 1.1611329659456266,
+              "z": 0.023555555555555552
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/708aae7f-3de4-4868-837d-f7729c75197f.thumb.jpg",
+            "layerOrder": 7,
+            "cornerRadius": 1
+          },
+          {
+            "id": "8bc367da-74fe-4547-8c39-c2abe6497754",
+            "src": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/e68e5370-3480-4a16-ac2c-d6819e220f6a.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5740.628835469257,
+            "kind": "image",
+            "name": "x logo",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 0.015940399656938328,
+              "y": 0.015940399656938328,
+              "z": 1
+            },
+            "groupId": "5c9d04f7-5b1f-4b5b-88d4-105db99eb5fa",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.1529042384050685,
+              "y": 1.099323659877995,
+              "z": 0.2049333333333333
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/6995115d-3ff0-4bd8-92ee-6e5802ad5364/e68e5370-3480-4a16-ac2c-d6819e220f6a.thumb.jpg",
+            "layerOrder": 8,
+            "cornerRadius": 0.5688340893020244
+          },
+          {
+            "id": "12e99cc2-1718-4625-8c97-70514e7ac9c0",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.05,
+              "color": "#000000",
+              "family": "inter",
+              "weight": 600,
+              "textAlign": "left",
+              "letterSpacing": 0
+            },
+            "inMs": 5740.628835469257,
+            "kind": "text",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed-width",
+            "content": "\"Hello!\"",
+            "groupId": "5c9d04f7-5b1f-4b5b-88d4-105db99eb5fa",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.2888075473839703,
+            "position": {
+              "x": -1.7902488965678973,
+              "y": 1.1919151437299023,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [],
+            "layerOrder": 9,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "566a4202-9cea-4d09-9cb3-ac6cef652382",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.04,
+              "color": "#3d3d3d",
+              "family": "inter",
+              "weight": 600,
+              "textAlign": "left",
+              "letterSpacing": 0
+            },
+            "inMs": 5740.628835469257,
+            "kind": "text",
+            "outMs": 11940.821006784698,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed-width",
+            "content": "Joseph messaged you",
+            "groupId": "5c9d04f7-5b1f-4b5b-88d4-105db99eb5fa",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.2888075473839703,
+            "position": {
+              "x": -1.7904120177483034,
+              "y": 1.1256732205176514,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [],
+            "layerOrder": 10,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          }
+        ],
+        "groups": [
+          {
+            "id": "13695d81-e833-49e5-af61-3728b12895b7",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "e3a9c1ec-7508-42b3-8319-b9c95e96c4d8",
+                "amount": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 1
+                },
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3588.332703382139,
+                "bundleId": "30fa49f2-90b0-4998-a3e5-540f81847657",
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "float"
+              },
+              {
+                "id": "4dae5242-69a6-4325-83d3-09462429b95b",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3588.332703382139,
+                "bundleId": "87682a9e-671b-4656-9f5c-0dc541110697",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              },
+              {
+                "id": "92f435ba-d45c-45db-a3eb-504914967ab7",
+                "amount": {
+                  "x": 0,
+                  "y": -0.2414444444444444,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5292.289804241614,
+                "property": "position",
+                "durationMs": 500
+              }
+            ]
+          },
+          {
+            "id": "5c9d04f7-5b1f-4b5b-88d4-105db99eb5fa",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "92f435ba-d45c-45db-a3eb-504914967ab7",
+                "amount": {
+                  "x": 0,
+                  "y": -0.2414444444444444,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5292.289804241614,
+                "property": "position",
+                "durationMs": 500
+              },
+              {
+                "id": "986adcad-d21e-4757-b795-7656d27b4c0e",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5740.628835469257,
+                "bundleId": "456295dd-858d-41ff-a5af-6e2ea98d4942",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              },
+              {
+                "id": "ad6efa34-51d1-463d-b11f-be3f2d9643da",
+                "amount": {
+                  "x": 0.92,
+                  "y": 0.92,
+                  "z": 1
+                },
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5740.628835469257,
+                "bundleId": "2a10b4c9-4820-4448-adf3-353dd932f2ec",
+                "property": "scale",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "scale"
+              }
+            ]
+          }
+        ],
+        "startMs": 0,
+        "duration": 11940.821006784698,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0.59,
+          "bottom": 0.5,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "motionBlur"
+        ],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "glitch": {
+            "speed": 1,
+            "enabled": false,
+            "intensity": 0.5
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.45
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": false,
+            "intensity": 0.06
+          },
+          "colorGrade": {
+            "enabled": false,
+            "contrast": 1.32,
+            "exposure": 1.31,
+            "saturation": 1.23
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 1.2,
+            "focalLength": 98,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 6,
+            "enabled": false
+          }
+        }
+      }
+    ]
+  }
+}

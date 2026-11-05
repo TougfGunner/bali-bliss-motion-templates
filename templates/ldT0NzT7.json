@@ -1,0 +1,1455 @@
+{
+  "id": "1a85dbb4-2506-432b-8bda-8ad1a96c6b76",
+  "slug": "ldT0NzT7",
+  "name": "iPhone 17 Pro Max Lineup",
+  "brand": "Bali Bliss",
+  "description": "Apple's newest iPhone 17 Pro Maxes in a lineup with a clean touch of purchase with FaceID.",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 30,
+  "durationMs": 12572,
+  "styles": [
+    "minimal",
+    "dark",
+    "luxury"
+  ],
+  "tags": [
+    "apple",
+    "iphone",
+    "purchase",
+    "store"
+  ],
+  "effortLevel": "deep",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 2,
+    "totalLayers": 16,
+    "entrancePresets": [
+      "Fade + Blur",
+      "Rack Focus",
+      "Word Flow"
+    ],
+    "exitPresets": [
+      "Fade"
+    ]
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#000102"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "74c67cf7-02ea-486e-bbdb-40818a1310bf",
+        "name": "lineup shot 1",
+        "light": {
+          "pose": {
+            "position": {
+              "x": 5.345726411966002,
+              "y": 12.05038837805521,
+              "z": 4.712891794476187
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "74c67cf7-02ea-486e-bbdb-40818a1310bf-main-image",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/95b4e8f5-982a-4bc4-9fcd-436b9cd87e11.webp",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "iPhone 17 bg",
+            "frame": "iphone",
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 0.06836586417262656,
+              "y": 0.06836586417262656,
+              "z": 0.996506239458481
+            },
+            "groupId": "d8c0c10e-6bfc-4b36-9728-0daf4eb44788",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.4038444444444442,
+              "y": 0.7007777777777777,
+              "z": 0.5629777777777777
+            },
+            "rotation": {
+              "x": -0.07910749090972981,
+              "y": 0.9548554141116854,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/95b4e8f5-982a-4bc4-9fcd-436b9cd87e11.thumb.jpg",
+            "animations": [
+              {
+                "id": "8db69289-bf9a-4790-a1c2-6cdfb6673d05",
+                "amount": {
+                  "x": 0.18255555555555553,
+                  "y": 0.0029301269362225213,
+                  "z": 0.00942222222222222
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 1734.7113234011692
+              },
+              {
+                "id": "2c0627b5-3e9e-44d6-a8b9-3bfd32a46471",
+                "amount": {
+                  "x": 0.0039337304752525976,
+                  "y": -3.1207119921209214,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 1734.7113234011692
+              },
+              {
+                "id": "d314d590-6a61-43ec-b56e-421e6d70101a",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "bundleId": "e54fae28-3d26-42c9-9268-96a6a0a991a4",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 1023.3844799800306,
+                "presetKind": "fade"
+              }
+            ],
+            "frameColor": "silver",
+            "frameGloss": 0.85,
+            "layerOrder": 2,
+            "cornerRadius": 0
+          },
+          {
+            "id": "e4c33694-c3a6-49b1-9f71-f6e1c86fad08",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 0
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.8728872290392529,
+              "height": 0.1427677758300545
+            },
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": true,
+              "opacity": 1
+            },
+            "opacity": 0.05,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8672422510072009,
+              "y": 1.228903671237313,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 1,
+            "layerEffects": {
+              "glow": {
+                "blur": 0.07537777777777777,
+                "mode": "edge",
+                "angle": 135,
+                "color": "#6f4fa7",
+                "sheen": 0.5,
+                "enabled": false,
+                "intensity": 1.6
+              },
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              },
+              "liquidGlass": {
+                "blur": 10,
+                "enabled": true,
+                "highlight": 0.6,
+                "dispersion": 0.4,
+                "refraction": 0.5
+              },
+              "backdropBlur": {
+                "blur": 24,
+                "enabled": false
+              }
+            },
+            "layerEffectsOrder": [
+              "liquidGlass"
+            ]
+          },
+          {
+            "id": "f6134b2f-b262-441f-86b9-c6139a76c9b0",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/f3f0ed41-11f3-4866-8070-6b84ffe56886.webp",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "iPhone 17 bg",
+            "frame": "iphone",
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 0.13188764940239042,
+              "y": 0.13188764940239042,
+              "z": 1
+            },
+            "groupId": "d8c0c10e-6bfc-4b36-9728-0daf4eb44788",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.8737777777777773,
+              "y": 0.7,
+              "z": -1.3850666666666664
+            },
+            "rotation": {
+              "x": -0.07321671111111339,
+              "y": 0.9480266727198936,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/f3f0ed41-11f3-4866-8070-6b84ffe56886.thumb.jpg",
+            "frameColor": "silver",
+            "frameGloss": 1,
+            "layerOrder": 3,
+            "cornerRadius": 0
+          },
+          {
+            "id": "7bed41f8-ed04-4fd9-a07a-ba421689a987",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/bf2c5bc0-290b-4ae5-b82d-85407bbeae0d.webp",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1308.068644870799,
+            "kind": "image",
+            "name": "iPhone 17 bg",
+            "frame": "iphone",
+            "outMs": 4878.382450233984,
+            "scale": {
+              "x": 0.06683888888888888,
+              "y": 0.06683888888888888,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": true,
+              "opacity": 1
+            },
+            "groupId": "d8c0c10e-6bfc-4b36-9728-0daf4eb44788",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.2118666666666664,
+              "y": 0.7015310870505347,
+              "z": 0.6254
+            },
+            "rotation": {
+              "x": -0.07675087262128204,
+              "y": -2.162576535444942,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/bf2c5bc0-290b-4ae5-b82d-85407bbeae0d.thumb.jpg",
+            "animations": [
+              {
+                "id": "44d140d5-245b-488c-9c09-2d02f82fbfe7",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1308.068644870799,
+                "bundleId": "b84e5339-5df4-48e8-baa0-d3c14457e97d",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 250,
+                "presetKind": "fade"
+              },
+              {
+                "id": "071165bb-1e9d-49a9-b8e4-adc0755a0d48",
+                "amount": {
+                  "x": 0.16135555555555553,
+                  "y": 0.00942222222222222,
+                  "z": 0.005888888888888888
+                },
+                "easing": "ease-in-out",
+                "startMs": 1342.1670828091744,
+                "property": "position",
+                "durationMs": 1265.2329171907325
+              },
+              {
+                "id": "ec57bd4d-5d2d-4c99-b200-d14552d3772b",
+                "amount": {
+                  "x": 0.00457415897575722,
+                  "y": -0.0331627965293011,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2538.008411964542,
+                "property": "tilt",
+                "durationMs": 500
+              }
+            ],
+            "frameColor": "silver",
+            "frameGloss": 0.5,
+            "layerOrder": 4,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              }
+            },
+            "layerEffectsOrder": []
+          },
+          {
+            "id": "0a3165ea-03d8-4d5b-b812-4eae9be642b2",
+            "exit": {
+              "fade": true,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 500,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.05,
+              "color": "#ffffff",
+              "family": "poppins",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 0,
+            "kind": "text",
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "iPhone 17 Pro Max",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Word Flow",
+              "slideX": 0,
+              "slideY": 0.06,
+              "stagger": {
+                "mode": "word",
+                "delayMs": 80
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.8,
+            "position": {
+              "x": -1.8672546124219125,
+              "y": 1.2287040849462794,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.0659845585420236,
+            "animations": [],
+            "layerOrder": 1,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "25911d12-046f-4053-ab9f-0cac2f1acfb2",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/7ce16f5d-1da6-459b-a0b3-56cba95105fd.webp",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 2107.399999999907,
+            "kind": "image",
+            "name": "iPhone 17 bg",
+            "frame": "iphone",
+            "outMs": 4677.364591060621,
+            "scale": {
+              "x": 0.060652036299247446,
+              "y": 0.060652036299247446,
+              "z": 1
+            },
+            "groupId": "d8c0c10e-6bfc-4b36-9728-0daf4eb44788",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.0351999999999997,
+              "y": 0.7054888888888888,
+              "z": 0.8550666666666665
+            },
+            "rotation": {
+              "x": -0.05499153561251582,
+              "y": -2.2249975214898985,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/7ce16f5d-1da6-459b-a0b3-56cba95105fd.thumb.jpg",
+            "animations": [
+              {
+                "id": "97c3d77e-4512-4d95-9a0e-8b6ac20500fd",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2107.399999999907,
+                "bundleId": "7f408300-353f-4227-a781-e23dc9eceb5f",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 250,
+                "presetKind": "fade"
+              },
+              {
+                "id": "d250b920-cbff-4eb8-929e-0e5f9e983d0f",
+                "amount": {
+                  "x": 0.1472222222222222,
+                  "y": 0.006779012909690629,
+                  "z": -0.06359999999999999
+                },
+                "easing": "ease-in-out",
+                "startMs": 2107.399999999907,
+                "property": "position",
+                "durationMs": 1180.399513600822
+              },
+              {
+                "id": "918b7ab1-dd3d-46dd-b151-b104f1bc58df",
+                "amount": {
+                  "x": 0.0031546625616496876,
+                  "y": -0.04731931266199352,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2107.399999999907,
+                "property": "tilt",
+                "durationMs": 500
+              }
+            ],
+            "frameColor": "silver",
+            "frameGloss": 0.25,
+            "layerOrder": 5,
+            "cornerRadius": 0
+          },
+          {
+            "id": "10b41cc2-2420-4256-9c48-9c8f81da4eb5",
+            "exit": {
+              "fade": true,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 500,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.05,
+              "color": "#ffffff",
+              "family": "poppins",
+              "weight": 700,
+              "textAlign": "left",
+              "letterSpacing": 0
+            },
+            "inMs": 3285.4266149155383,
+            "kind": "text",
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "Buy from $1999\nor $89.95/mo. per mo*\nfor 24 mo*",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Rack Focus",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 30,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1.12,
+              "staggerMs": 0,
+              "durationMs": 700,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.8,
+            "position": {
+              "x": -1.2749546928937734,
+              "y": 0.7133231453221255,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [],
+            "layerOrder": 6,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "333ccd4c-22a9-4c1f-80b3-8b0665c2fafe",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#0a0a0a",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 3285.4266149155383,
+            "kind": "shape",
+            "size": {
+              "width": 0.7247173059093908,
+              "height": 0.18992583654707657
+            },
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 1,
+              "y": 0.6644736168457056,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.0005888888888888888,
+              "enabled": true,
+              "opacity": 1
+            },
+            "groupId": "152a343b-0150-4a86-917f-ebc9cccdd291",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.2810007264248338,
+              "y": 0.4932055181592722,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "b9c5bac9-f076-4c25-839c-2d8d2d3b9f5b",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3285.4266149155383,
+                "bundleId": "702edec7-6769-46e3-83c6-89c08e2b63d2",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 7,
+            "lockAspect": false,
+            "cornerRadius": 0.602983580531964,
+            "layerEffects": {
+              "glow": {
+                "blur": 0.014151954898627339,
+                "mode": "edge",
+                "angle": 135,
+                "color": "#3121a2",
+                "sheen": 0,
+                "enabled": true,
+                "intensity": 1
+              },
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              }
+            },
+            "layerEffectsOrder": [
+              "glow"
+            ]
+          },
+          {
+            "id": "8dabce55-fade-4616-8425-bb611069ce70",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/eec7ca94-7f3a-40fc-a7cc-84388186ae0b.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 3285.4266149155383,
+            "kind": "image",
+            "name": "Apple Logo",
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 0.01443344502815307,
+              "y": 0.01443344502815307,
+              "z": 1
+            },
+            "groupId": "152a343b-0150-4a86-917f-ebc9cccdd291",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.348186007474255,
+              "y": 0.49392882504493035,
+              "z": 0.008244444444444443
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/eec7ca94-7f3a-40fc-a7cc-84388186ae0b.thumb.jpg",
+            "animations": [
+              {
+                "id": "f764fb58-fe90-4637-ad9c-db0e8fe931aa",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3285.4266149155383,
+                "bundleId": "00adb3fa-053b-4337-8f1a-821b1ee5ca5f",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              },
+              {
+                "id": "37599516-2ead-4eac-8d5f-6b85d52c0bdd",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-out",
+                  "offsetMs": -500
+                },
+                "easing": "ease-in-out",
+                "startMs": 4542.927343323632,
+                "bundleId": "154cd9a5-f558-424c-8eae-6b54f978b23a",
+                "property": "opacity",
+                "durationMs": 500,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 8,
+            "cornerRadius": 0
+          },
+          {
+            "id": "1fd87665-24b4-4a4d-ac13-dbf9911b3ce7",
+            "exit": {
+              "fade": true,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 300,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.07,
+              "color": "#ffffff",
+              "family": "poppins",
+              "weight": 300,
+              "textAlign": "left",
+              "letterSpacing": 0
+            },
+            "inMs": 3285.4266149155383,
+            "kind": "text",
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "Pay",
+            "groupId": "152a343b-0150-4a86-917f-ebc9cccdd291",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Fade + Blur",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 40,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.8,
+            "position": {
+              "x": -1.2308314605915056,
+              "y": 0.49336200282203463,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [],
+            "layerOrder": 9,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "99944437-61f3-4fe9-b8eb-c44e177a1c7b",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/d7688099-e2b0-4c39-8d08-12cfe5d1427b.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 3285.4266149155383,
+            "kind": "image",
+            "name": "Mac Cursor",
+            "outMs": 5042.927343323632,
+            "scale": {
+              "x": 0.012381604676633125,
+              "y": 0.012381604676633125,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.2834821959351412,
+              "y": -0.004786366207716167,
+              "z": -0.01
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/d7688099-e2b0-4c39-8d08-12cfe5d1427b.thumb.jpg",
+            "animations": [
+              {
+                "id": "13f7272c-0389-489e-8e87-ad3c41ba4ca9",
+                "path": {
+                  "control": {
+                    "x": 0.3870094292332853,
+                    "y": 0.09542077097384877,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": 0.15644450745731375,
+                  "y": 0.43418821043592987,
+                  "z": 0.016488888888888886
+                },
+                "easing": "ease-in-out",
+                "startMs": 3285.4266149155383,
+                "property": "position",
+                "durationMs": 1657.5513382375075
+              },
+              {
+                "id": "b810086a-d1e7-45d0-878d-1ab45a685dbd",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-out",
+                  "offsetMs": -500
+                },
+                "easing": "ease-in-out",
+                "startMs": 4542.927343323632,
+                "bundleId": "362c59b4-e8ef-4b98-9240-0313be7466a6",
+                "property": "opacity",
+                "durationMs": 500,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 10,
+            "cornerRadius": 0
+          }
+        ],
+        "groups": [
+          {
+            "id": "152a343b-0150-4a86-917f-ebc9cccdd291",
+            "name": "Apple Pay"
+          },
+          {
+            "id": "d8c0c10e-6bfc-4b36-9728-0daf4eb44788",
+            "name": "iPhones",
+            "animations": [
+              {
+                "id": "8a058d47-eeec-4cac-8173-62780c076080",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-out",
+                  "offsetMs": -500
+                },
+                "easing": "ease-in-out",
+                "startMs": 4542.927343323632,
+                "bundleId": "a56d5c8a-78de-49cc-80b2-8bd6af2afebe",
+                "property": "opacity",
+                "durationMs": 500,
+                "presetKind": "fade"
+              }
+            ]
+          }
+        ],
+        "startMs": 0,
+        "duration": 5042.927343323632,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.3,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": false,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 91
+          },
+          "depthOfField": {
+            "target": {
+              "x": -2.3,
+              "y": 0.82,
+              "z": 1.18
+            },
+            "enabled": false,
+            "aperture": 7.2,
+            "bokehScale": 0,
+            "bokehShape": "anamorphic",
+            "focusRange": 1.45,
+            "focalLength": 8,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 2,
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "6305643b-ed3f-48fb-93f6-0ee453215711",
+        "name": "Shot 2",
+        "light": {
+          "pose": {
+            "position": {
+              "x": 5.345726411966002,
+              "y": 12.05038837805521,
+              "z": 4.712891794476187
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "2dc8f0d6-e548-4adb-bc9b-4afc12393af2",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#0a0a0a",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.7247173059093908,
+              "height": 0.18992583654707657
+            },
+            "outMs": 7529.4223301028105,
+            "scale": {
+              "x": 1,
+              "y": 0.6644736168457056,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.0005888888888888888,
+              "enabled": true,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.2810007264248338,
+              "y": 0.4585728012748904,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "64dfa854-7745-4b9a-ae9c-022989080624",
+                "amount": {
+                  "x": -0.6189992735751662,
+                  "y": 0.2443791894009254,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 394.0244726732626
+              },
+              {
+                "id": "f56f7f2c-5a92-4f13-8534-bcdc55e199b9",
+                "amount": {
+                  "x": 0.7890981701274835,
+                  "y": 6.293076142866532,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "scale",
+                "durationMs": 394.0244726732626
+              }
+            ],
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 0.3,
+            "layerEffects": {
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": true,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              }
+            },
+            "layerEffectsOrder": [
+              "dropShadow"
+            ]
+          },
+          {
+            "id": "10e31ab3-7d90-45cf-a659-e1854c9cecd7",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/30043f12-6bb4-43a7-b5c8-50145b172ff7.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 468.9265276524362,
+            "kind": "video",
+            "name": "Video Apple Store",
+            "frame": "iphone",
+            "outMs": 2124.5361013016445,
+            "scale": {
+              "x": 0.14017959183673467,
+              "y": 0.14017959183673467,
+              "z": 1.0653061224489795
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": true,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9000000000000001,
+              "y": 0.6997060946420296,
+              "z": -0.001
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/30043f12-6bb4-43a7-b5c8-50145b172ff7.thumb.jpg",
+            "trimEndMs": 1655.6095736492084,
+            "animations": [
+              {
+                "id": "d211e208-d627-4eb1-ad00-7d47f64c5a85",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 468.9265276524362,
+                "bundleId": "e57888a2-7a69-4153-9bd0-f27f1886a75f",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 275.2253315836398,
+                "presetKind": "fade"
+              },
+              {
+                "id": "b04c6e16-bf57-44e5-b368-074861eb622d",
+                "amount": {
+                  "x": -8.881784197001252e-16,
+                  "y": 0.391650122292338,
+                  "z": 1.7501777777777776
+                },
+                "easing": "ease-in-out",
+                "startMs": 802.1446335398396,
+                "property": "position",
+                "durationMs": 500
+              },
+              {
+                "id": "84cc8537-4117-49aa-981e-cd32ed9a7723",
+                "amount": {
+                  "x": 4.440892098500626e-16,
+                  "y": -0.7623213605168153,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1302.1446335398396,
+                "property": "position",
+                "durationMs": 500
+              }
+            ],
+            "layerOrder": 1,
+            "trimStartMs": 0,
+            "cornerRadius": 0,
+            "sourceDurationMs": 10172
+          },
+          {
+            "id": "eae7bb5c-feea-4cea-ac61-9b4c8166b0da",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/9ee8439c-3d97-4153-b17f-9a905a5fda34.webm",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5625.168696968511,
+            "kind": "video",
+            "name": "Purchase Confimation",
+            "outMs": 7529.4223301028105,
+            "scale": {
+              "x": 0.0538216471903207,
+              "y": 0.0538216471903207,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9000000000000037,
+              "y": 1.1399104939882652,
+              "z": 0.28148888888888884
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/9ee8439c-3d97-4153-b17f-9a905a5fda34.thumb.jpg",
+            "trimEndMs": 1904.2536331343,
+            "layerOrder": 2,
+            "trimStartMs": 0,
+            "cornerRadius": 0,
+            "sourceDurationMs": 2833
+          },
+          {
+            "id": "757a012d-67d0-4cae-aa0b-245b3f418975",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/e56c8b3d-00e4-4f64-b629-f2f182b5cd01.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6563.566329292266,
+            "kind": "audio",
+            "name": "apple-pay-sound",
+            "outMs": 7529.4223301028105,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 3,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1032
+          },
+          {
+            "id": "3247d388-52a7-4022-97ea-24adf28c0458",
+            "src": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/30043f12-6bb4-43a7-b5c8-50145b172ff7.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 2063.116797067305,
+            "kind": "video",
+            "name": "Video Apple Store",
+            "frame": "iphone",
+            "outMs": 7529.4223301028105,
+            "scale": {
+              "x": 0.14015555555555553,
+              "y": 0.14015555555555553,
+              "z": 1.0653061224489795
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": true,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9000000000000015,
+              "y": 0.3287142263418604,
+              "z": 1.7489999999999997
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/1a85dbb4-2506-432b-8bda-8ad1a96c6b76/30043f12-6bb4-43a7-b5c8-50145b172ff7.thumb.jpg",
+            "trimEndMs": 6642.7186755793955,
+            "animations": [
+              {
+                "id": "a46eafe6-4a73-4a1d-9b2e-e86f72e05828",
+                "amount": {
+                  "x": 1.5543122344752192e-15,
+                  "y": 0.38316204685870514,
+                  "z": -1.7666666666666664
+                },
+                "easing": "ease-in-out",
+                "startMs": 3138.9936933105105,
+                "property": "position",
+                "durationMs": 500
+              }
+            ],
+            "layerOrder": 4,
+            "trimStartMs": 1176.41314254389,
+            "cornerRadius": 0,
+            "sourceDurationMs": 10172
+          }
+        ],
+        "startMs": 5042.927343323632,
+        "duration": 7529.4223301028105,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.45
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10.5,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

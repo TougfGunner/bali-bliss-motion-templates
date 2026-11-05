@@ -1,0 +1,692 @@
+{
+  "id": "23f709d7-fb09-4acc-8ea4-e99856534ba2",
+  "slug": "44ybB4zj",
+  "name": "Desktop app presentation",
+  "brand": "Bali Bliss",
+  "description": "A presentation motion prototype for an AI assistant desktop app, featuring smooth wide and telephoto camera movements, dynamic focus transitions, and cinematic camera motion to showcase the product experience.",
+  "category": "product_app",
+  "aspectRatio": "9:16",
+  "fps": 30,
+  "durationMs": 20000,
+  "styles": [
+    "modern",
+    "clean"
+  ],
+  "tags": [
+    "dashboard design",
+    "typing",
+    "saas",
+    "ai",
+    "macbook"
+  ],
+  "effortLevel": "standard",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 1,
+    "totalLayers": 1,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "glow": 2,
+      "kind": "shader",
+      "angle": 28,
+      "color": "#7A38FF",
+      "focus": 2,
+      "shine": 2,
+      "speed": 0.7,
+      "waves": 1.35,
+      "colors": [
+        "#3E2A7E",
+        "#8B5CF6",
+        "#F5D0A9"
+      ],
+      "preset": "undertones",
+      "backgroundColor": "#08080E"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 28.125
+    },
+    "shots": [
+      {
+        "id": "52f459e9-92ca-43b3-95b6-ecd07a29ab64",
+        "name": "Shot 1",
+        "light": {
+          "pose": {
+            "ambience": 1,
+            "position": {
+              "x": 5.345726411966002,
+              "y": 12.05038837805521,
+              "z": 4.712891794476187
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "4470a4d1-63b6-462a-9a71-74c8314078f7",
+            "src": "assets/templates/23f709d7-fb09-4acc-8ea4-e99856534ba2/cceddda5-fd54-4aa3-aadf-4ea9a45c94d2.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Cortexa Prototype",
+            "frame": "macbook",
+            "outMs": 20000,
+            "scale": {
+              "x": 0.34685555555555553,
+              "y": 0.34685555555555553,
+              "z": 0.9494908350305499
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.3712323367753323,
+              "y": 0.688638925749625,
+              "z": -0.02252233520414476
+            },
+            "rotation": {
+              "x": -0.026179938779914945,
+              "y": 0.9861110273767962,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/23f709d7-fb09-4acc-8ea4-e99856534ba2/cceddda5-fd54-4aa3-aadf-4ea9a45c94d2.thumb.jpg",
+            "trimEndMs": 20000,
+            "animations": [
+              {
+                "id": "88dccc31-7e35-4eae-9cc2-0aeeccf9efb2",
+                "amount": {
+                  "x": -0.5299999999999999,
+                  "y": 0.058192827513056766,
+                  "z": 0.47559042558381764
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 996.6335742760265
+              },
+              {
+                "id": "fd878153-f65e-4ff0-8d1a-873a6d0b2e13",
+                "amount": {
+                  "x": 0.2792526803190927,
+                  "y": -0.9773843811168246,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 996.6335742760265
+              },
+              {
+                "id": "67efc3fa-f6c6-4cc5-930a-c16d99675d19",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "frameLidAngle",
+                "direction": "reverse",
+                "durationMs": 996.6335742760265
+              },
+              {
+                "id": "aef48917-843d-4ad2-93bd-1d912cec03cc",
+                "amount": {
+                  "x": -0.3250666666666666,
+                  "y": -0.15075555555555553,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 996.6335742760265,
+                "property": "position",
+                "durationMs": 2004.456341069465
+              },
+              {
+                "id": "edd7060e-2463-41b7-b57d-82a8c0ec8419",
+                "amount": {
+                  "x": 0.12217304763960307,
+                  "y": -0.5410520681182421,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 996.6335742760265,
+                "property": "tilt",
+                "durationMs": 2004.456341069465
+              },
+              {
+                "id": "b0c5b0fe-a7ec-42bc-b080-436898706185",
+                "amount": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3001.0899153454916,
+                "property": "position",
+                "direction": "forward",
+                "durationMs": 3403.725388739115
+              },
+              {
+                "id": "1a0ae0c3-db6f-4c47-b6c6-816190313d05",
+                "amount": {
+                  "x": -0.15707963267948966,
+                  "y": 0.05235987755982989,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3001.0899153454916,
+                "property": "tilt",
+                "durationMs": 3403.725388739115
+              },
+              {
+                "id": "2dee5493-7697-4916-9d1a-3d1f988b7c20",
+                "amount": {
+                  "x": 0.5818222222222221,
+                  "y": -0.19079999999999997,
+                  "z": 1.7584222222222219
+                },
+                "easing": "ease-in-out",
+                "startMs": 6404.815304084606,
+                "property": "position",
+                "durationMs": 995.786468800241
+              },
+              {
+                "id": "3777b074-d279-4f81-b9f9-be0c5ca6a82a",
+                "amount": {
+                  "x": 0.10471975511965978,
+                  "y": 0.5061454830783556,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 6404.815304084606,
+                "property": "tilt",
+                "durationMs": 995.786468800241
+              },
+              {
+                "id": "c7dbc0b6-e661-4357-b80a-a600d0372b71",
+                "amount": {
+                  "x": 0.20943951023931956,
+                  "y": -0.03490658503988659,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10002.229109098673,
+                "property": "tilt",
+                "durationMs": 1996.7478176497189
+              },
+              {
+                "id": "e9e4ddff-5472-4363-8659-fe25443a297d",
+                "amount": {
+                  "x": -0.2826666666666666,
+                  "y": 0.04946666666666666,
+                  "z": -0.6583777777777777
+                },
+                "easing": "ease-in-out",
+                "startMs": 10002.229109098673,
+                "property": "position",
+                "durationMs": 1996.7478176497189
+              },
+              {
+                "id": "1d987a6f-df51-4b70-9f3b-2d8810edc2a1",
+                "amount": {
+                  "x": -0.15707963267948966,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 13993.515245051245,
+                "property": "tilt",
+                "durationMs": 1003.4034270749598
+              },
+              {
+                "id": "2f99657c-477d-4f97-bf7d-3bab134f1d25",
+                "amount": {
+                  "x": 0.1837333333333333,
+                  "y": 0.09186666666666665,
+                  "z": 0.9422222222222221
+                },
+                "easing": "ease-in-out",
+                "startMs": 14002.00437412078,
+                "property": "position",
+                "durationMs": 994.9142980054257
+              },
+              {
+                "id": "9ed78310-1641-4876-9b0e-5a119ad5d10f",
+                "amount": {
+                  "x": -0.19198621771937624,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14996.918672126205,
+                "property": "tilt",
+                "durationMs": 2681.114456425501
+              },
+              {
+                "id": "86438af6-d10e-4698-8b9d-ffe5c49ddac2",
+                "amount": {
+                  "x": -0.1578222222222222,
+                  "y": 0.19197777777777775,
+                  "z": -2.008111111111111
+                },
+                "easing": "ease-in-out",
+                "startMs": 14996.918672126205,
+                "property": "position",
+                "durationMs": 2681.114456425501
+              },
+              {
+                "id": "feffed84-59e4-49fa-9617-68e04d5db524",
+                "amount": {
+                  "x": -2.2424888888888885,
+                  "y": -0.02473333333333333,
+                  "z": -0.8079555555555554
+                },
+                "easing": "ease-in",
+                "startMs": 17678.033128551706,
+                "property": "position",
+                "durationMs": 838.9668714482941
+              },
+              {
+                "id": "d002b139-c3ea-4dd7-b37d-a137efd7134b",
+                "amount": {
+                  "x": 0.08726646259971647,
+                  "y": -0.5235987755982988,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 17678.033128551706,
+                "property": "tilt",
+                "durationMs": 838.9668714482941
+              },
+              {
+                "id": "727f4bab-fc51-47db-af52-b3e885c603e5",
+                "amount": 0,
+                "easing": "ease-in",
+                "startMs": 17936.3086848121,
+                "property": "frameLidAngle",
+                "durationMs": 580.6913151879016
+              }
+            ],
+            "layerOrder": 0,
+            "trimStartMs": 0,
+            "cornerRadius": 0,
+            "sourceDurationMs": 20000
+          }
+        ],
+        "startMs": 0,
+        "duration": 20000,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "d3f9eeb1-28a3-4aa1-aa3d-c6e09a22312d",
+            "zoom": 0.7342306510663088,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "3b6526bb-5cb0-4ce0-a005-3db6732eb997",
+            "zoom": 1.8692824093458542,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "4b7b02fa-4f55-4a97-b237-45a42b0e79cb",
+            "zoom": 2.377936429666814,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "50ddc1d5-c430-42d7-b201-2ba15511ee4e",
+            "zoom": 1.022930138454296,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "91d2229f-047a-4955-99d6-86811e3aa088",
+            "zoom": 1.3931608416462746,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "8691621b-1c42-4e5a-b0a5-302d24fbeec5",
+            "zoom": 1.022930138454296,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "e06adfbe-6493-4850-a868-44f669fb7a19",
+            "zoom": 1.060895109402413,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "06263843-c894-4f79-979e-495ffc32eb6e",
+            "zoom": 0.7739609010247475,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "fisheye",
+          "depthOfField"
+        ],
+        "framerBlocks": [
+          {
+            "id": "bce095ce-d2ef-42c4-87fd-5cd5776c0a76",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 0,
+            "duration": 996.6335742760265,
+            "toFramingId": "d3f9eeb1-28a3-4aa1-aa3d-c6e09a22312d",
+            "fromFramingId": "3b6526bb-5cb0-4ce0-a005-3db6732eb997"
+          },
+          {
+            "id": "e546fe74-96ec-4164-b0b2-26d3d7c4b9ae",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 996.6335742760265,
+            "duration": 2004.456341069465,
+            "toFramingId": "91d2229f-047a-4955-99d6-86811e3aa088",
+            "fromFramingId": "d3f9eeb1-28a3-4aa1-aa3d-c6e09a22312d"
+          },
+          {
+            "id": "d34f15a2-1b3a-445e-8750-bb483dc7d978",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 3001.0899153454916,
+            "duration": 3403.725388739115,
+            "toFramingId": "4b7b02fa-4f55-4a97-b237-45a42b0e79cb",
+            "fromFramingId": "91d2229f-047a-4955-99d6-86811e3aa088"
+          },
+          {
+            "id": "e7145ec9-52d9-4496-b38d-98b0d6d4da76",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 6404.815304084606,
+            "duration": 995.786468800241,
+            "toFramingId": "50ddc1d5-c430-42d7-b201-2ba15511ee4e",
+            "fromFramingId": "4b7b02fa-4f55-4a97-b237-45a42b0e79cb"
+          },
+          {
+            "id": "286aa3ae-c87c-4fd1-9744-64c198863d8c",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 7406.978598708288,
+            "duration": 2595.250510390385,
+            "toFramingId": "8691621b-1c42-4e5a-b0a5-302d24fbeec5",
+            "fromFramingId": "50ddc1d5-c430-42d7-b201-2ba15511ee4e"
+          },
+          {
+            "id": "fde86e68-acf5-4740-acce-a4f1fe7252ae",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 11998.976926748392,
+            "duration": 2003.0274473723875,
+            "toFramingId": "e06adfbe-6493-4850-a868-44f669fb7a19",
+            "fromFramingId": "8691621b-1c42-4e5a-b0a5-302d24fbeec5"
+          },
+          {
+            "id": "3ccb219a-f56c-4f96-b323-2fa707fde7ce",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 14002.00437412078,
+            "duration": 994.9142980054257,
+            "toFramingId": "06263843-c894-4f79-979e-495ffc32eb6e",
+            "fromFramingId": "e06adfbe-6493-4850-a868-44f669fb7a19"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "glitch": {
+            "speed": 1,
+            "enabled": false,
+            "intensity": 0.5
+          },
+          "fisheye": {
+            "enabled": true,
+            "intensity": 0
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": false,
+            "intensity": 0.06
+          },
+          "colorGrade": {
+            "enabled": false,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": true,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 28.125,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 3,
+            "enabled": false
+          }
+        },
+        "effectAnimations": [
+          {
+            "id": "cd4bc4f2-0778-40d9-9078-ab40645afa4e",
+            "amount": 22,
+            "easing": "ease-in-out",
+            "startMs": 0,
+            "property": "aperture",
+            "direction": "reverse",
+            "effectKey": "depthOfField",
+            "durationMs": 996.6335742760265
+          },
+          {
+            "id": "75c3a957-53fe-4ff2-8091-a403fa8583a4",
+            "amount": 1,
+            "easing": "ease-in-out",
+            "startMs": 0,
+            "property": "intensity",
+            "direction": "reverse",
+            "effectKey": "fisheye",
+            "durationMs": 996.6335742760265
+          },
+          {
+            "id": "cbc3d5fb-b49c-4f33-8236-70c797ce2cf3",
+            "amount": 2,
+            "easing": "ease-in-out",
+            "startMs": 0,
+            "property": "intensity",
+            "direction": "reverse",
+            "effectKey": "bloom",
+            "durationMs": 448.23646346778725
+          },
+          {
+            "id": "4e90fedc-7b71-42ff-b084-b17611c8fb8d",
+            "amount": 0.1,
+            "easing": "ease-in-out",
+            "startMs": 448.23646346778725,
+            "property": "intensity",
+            "effectKey": "bloom",
+            "durationMs": 548.3971108082392
+          },
+          {
+            "id": "8012c934-394d-4323-9fb4-bed89410247d",
+            "amount": 22,
+            "easing": "ease-in-out",
+            "startMs": 996.6335742760265,
+            "property": "aperture",
+            "direction": "forward",
+            "effectKey": "depthOfField",
+            "durationMs": 2004.456341069465
+          },
+          {
+            "id": "f636daae-5880-491c-af92-177f1b65aa5b",
+            "amount": 0.25,
+            "easing": "ease-in-out",
+            "startMs": 996.6335742760265,
+            "property": "intensity",
+            "direction": "forward",
+            "effectKey": "fisheye",
+            "durationMs": 2012.0649442378399
+          },
+          {
+            "id": "bae6b84e-364f-4639-bada-d66758e157a8",
+            "amount": 0.5,
+            "easing": "ease-in-out",
+            "startMs": 6404.815304084606,
+            "property": "intensity",
+            "direction": "forward",
+            "effectKey": "fisheye",
+            "durationMs": 995.786468800241
+          },
+          {
+            "id": "d2a4c6ac-a7b3-4df4-ac0c-08ebec8a778e",
+            "amount": 0,
+            "easing": "ease-in-out",
+            "startMs": 7400.601772884847,
+            "property": "intensity",
+            "direction": "forward",
+            "effectKey": "fisheye",
+            "durationMs": 2601.6273362138254
+          },
+          {
+            "id": "1a10b124-ff09-4674-8190-a93fddde25af",
+            "amount": 0.3,
+            "easing": "ease-in-out",
+            "startMs": 10008.683172980305,
+            "property": "intensity",
+            "direction": "forward",
+            "effectKey": "fisheye",
+            "durationMs": 1990.2937537680864
+          },
+          {
+            "id": "da67c34a-695e-469c-9134-ceda8dfda17a",
+            "amount": 0,
+            "easing": "ease-in-out",
+            "startMs": 12395.989072548231,
+            "property": "intensity",
+            "effectKey": "bloom",
+            "durationMs": 1348.680328074759
+          },
+          {
+            "id": "88a0ed5b-7252-44d0-828e-4be933fbf1a0",
+            "amount": 0,
+            "easing": "ease-in-out",
+            "startMs": 13993.515245051245,
+            "property": "intensity",
+            "effectKey": "fisheye",
+            "durationMs": 1003.4034270749598
+          }
+        ]
+      }
+    ]
+  }
+}

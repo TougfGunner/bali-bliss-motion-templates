@@ -1,0 +1,1492 @@
+{
+  "id": "d91b972a-3317-4d4e-a4f7-ebedac361404",
+  "slug": "hwvlY79H",
+  "name": "Fintech dark",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 30,
+  "durationMs": 17009,
+  "styles": [
+    "dark",
+    "minimal",
+    "cinematic"
+  ],
+  "tags": [],
+  "effortLevel": "standard",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 5,
+    "totalLayers": 11,
+    "entrancePresets": [
+      "Rack Focus",
+      "Slide",
+      "Typewriter"
+    ],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#000000"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 8.164907646953038
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 149
+    },
+    "shots": [
+      {
+        "id": "0d236ff3-da2b-4595-b003-33b5914747d7",
+        "name": "Shot 1",
+        "light": {
+          "pose": {
+            "position": {
+              "x": -13.5,
+              "y": 4.5,
+              "z": 15
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": [
+            {
+              "id": "69a08fe5-6192-451a-adf5-cf17e5e8c2ff",
+              "amount": {
+                "x": -16,
+                "y": 4.5,
+                "z": -6.5
+              },
+              "easing": "linear",
+              "startMs": 0,
+              "property": "position",
+              "durationMs": 3000,
+              "customEasing": {
+                "x1": 0.48,
+                "x2": 0.47,
+                "y1": 0.44,
+                "y2": 0.96
+              }
+            }
+          ]
+        },
+        "assets": [
+          {
+            "id": "0d236ff3-da2b-4595-b003-33b5914747d7-main-image",
+            "src": "assets/templates/d91b972a-3317-4d4e-a4f7-ebedac361404/6fb1d1b2-bc1c-4e76-962b-82be8b3f0c12.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 3000,
+            "scale": {
+              "x": 0.3567333338289721,
+              "y": 0.3567333338289721,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.5246732003233272,
+              "y": -0.4151461676777477,
+              "z": -0.13530689240052624
+            },
+            "rotation": {
+              "x": -0.3065611543735687,
+              "y": 0.7330382858376184,
+              "z": 0.03737715550570919
+            },
+            "thumbSrc": "assets/templates/d91b972a-3317-4d4e-a4f7-ebedac361404/6fb1d1b2-bc1c-4e76-962b-82be8b3f0c12.thumb.jpg",
+            "animations": [
+              {
+                "id": "a07554ef-67c7-4b98-bf70-c733b279dac1",
+                "amount": {
+                  "x": -0.12509291478075912,
+                  "y": -0.0037591447166430703,
+                  "z": 0.06011156691551009
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 3000
+              },
+              {
+                "id": "17248b52-6f48-4916-a773-b747cd82eb21",
+                "amount": {
+                  "x": 0.015249857804994271,
+                  "y": -0.1266161293989979,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 3000
+              }
+            ],
+            "layerOrder": 0,
+            "cornerRadius": 0
+          }
+        ],
+        "startMs": 0,
+        "duration": 3000,
+        "edgeFade": {
+          "top": 0.38,
+          "left": 0,
+          "right": 0.64,
+          "bottom": 0.37,
+          "enabled": true
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "edgeFade",
+          "depthOfField",
+          "bloom",
+          "chromaticAberration",
+          "vignette",
+          "filmGrain"
+        ],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 1,
+            "threshold": 0.89
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 1
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": true,
+            "intensity": 0.02
+          },
+          "atmosphere": {
+            "fog": 0.5,
+            "haze": 0.25,
+            "mist": 0.2,
+            "range": 1,
+            "start": 0,
+            "enabled": false,
+            "intensity": 1,
+            "mistHeight": 0.35
+          },
+          "colorGrade": {
+            "enabled": false,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 0.92
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0
+            },
+            "enabled": true,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 0.6,
+            "focalLength": 159,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 10,
+            "enabled": true
+          }
+        }
+      },
+      {
+        "id": "33abef7b-a533-48f5-b695-4554d4981938",
+        "name": "Shot 1",
+        "light": {
+          "pose": {
+            "position": {
+              "x": 20.389558838013386,
+              "y": 4.5,
+              "z": -19.01357121613897
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "1efdaa91-3755-474c-bb16-438ee65ff45c",
+            "src": "assets/templates/d91b972a-3317-4d4e-a4f7-ebedac361404/86084a5b-db66-471d-a38e-3398b8ae3850.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 3469.929874146756,
+            "scale": {
+              "x": 0.3687094905186374,
+              "y": 0.3687094905186374,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.087039439825099,
+              "y": 0.208412037068195,
+              "z": 0.23110759749441323
+            },
+            "rotation": {
+              "x": -0.7989794201801776,
+              "y": -0.48530322822833205,
+              "z": -0.5005122286921437
+            },
+            "thumbSrc": "assets/templates/d91b972a-3317-4d4e-a4f7-ebedac361404/86084a5b-db66-471d-a38e-3398b8ae3850.thumb.jpg",
+            "animations": [
+              {
+                "id": "f494fba2-35ae-406f-8dc5-c32171b9bc37",
+                "amount": {
+                  "x": -0.14983735884095317,
+                  "y": -0.05618566677223524,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "direction": "reverse",
+                "durationMs": 3469.929874146756
+              }
+            ],
+            "layerOrder": 0,
+            "cornerRadius": 0
+          }
+        ],
+        "startMs": 3000,
+        "duration": 3469.9298741467574,
+        "edgeFade": {
+          "top": 0.35,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.23,
+          "enabled": true
+        },
+        "framings": [
+          {
+            "id": "c051761a-0de5-4747-80cb-1b76dd66c759",
+            "zoom": 1.1117113294819472,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9714203326719095,
+                "y": 0.7505363932471555,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "db66103f-d55b-43cd-a2ed-7cddcbe85bde",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "edgeFade",
+          "depthOfField",
+          "bloom",
+          "chromaticAberration",
+          "filmGrain",
+          "vignette"
+        ],
+        "framerBlocks": [
+          {
+            "id": "467712c6-9022-4e85-962d-71af02ef527f",
+            "mode": "zoom",
+            "easing": "linear",
+            "startMs": 0,
+            "duration": 3469.9298741467574,
+            "toFramingId": "c051761a-0de5-4747-80cb-1b76dd66c759",
+            "fromFramingId": "db66103f-d55b-43cd-a2ed-7cddcbe85bde"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 2.1,
+            "threshold": 0.74
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 1
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": true,
+            "intensity": 0.02
+          },
+          "atmosphere": {
+            "fog": 0.5,
+            "haze": 0.25,
+            "mist": 0.2,
+            "range": 1,
+            "start": 0,
+            "enabled": false,
+            "intensity": 1,
+            "mistHeight": 0.35
+          },
+          "colorGrade": {
+            "enabled": false,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 0.92
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0.23
+            },
+            "enabled": true,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 0.6,
+            "focalLength": 159,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 10,
+            "enabled": true
+          }
+        },
+        "effectAnimations": [
+          {
+            "id": "14580c99-c211-4073-8234-a630abaee610",
+            "amount": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": -0.37
+            },
+            "easing": "ease-in-out",
+            "startMs": 508.86375014117124,
+            "property": "target",
+            "effectKey": "depthOfField",
+            "durationMs": 2461.3557901781132
+          }
+        ]
+      },
+      {
+        "id": "deb1f88d-6dd8-4385-b8a1-da76cb621ccd",
+        "name": "Shot 1",
+        "light": {
+          "pose": {
+            "position": {
+              "x": 5,
+              "y": -40,
+              "z": -14.01480501090225
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": [
+            {
+              "id": "5b7d0408-8a1b-4471-b2ae-722008e2c682",
+              "amount": {
+                "x": 20.5,
+                "y": -40,
+                "z": 21.5
+              },
+              "easing": "ease-in-out",
+              "startMs": 399.6373272479214,
+              "property": "position",
+              "durationMs": 2438.577466053288
+            }
+          ]
+        },
+        "assets": [
+          {
+            "id": "d3947edf-9505-4812-b9aa-684d53e0edee",
+            "src": "assets/templates/d91b972a-3317-4d4e-a4f7-ebedac361404/cb9bb0a8-bf54-43d3-b312-b30a52f444d0.png",
+            "crop": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 0.9545814465844669
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 3373.3595099232152,
+            "scale": {
+              "x": 0.2654236974993643,
+              "y": 0.2654236974993643,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.0058381398707237,
+              "y": 1.180272822354433,
+              "z": -0.16545038453886599
+            },
+            "rotation": {
+              "x": -0.690250891973037,
+              "y": 0.47377411875112724,
+              "z": 0.3556036128595451
+            },
+            "thumbSrc": "assets/templates/d91b972a-3317-4d4e-a4f7-ebedac361404/cb9bb0a8-bf54-43d3-b312-b30a52f444d0.thumb.jpg",
+            "animations": [
+              {
+                "id": "af33e396-f1e0-494e-9461-82986d444b6a",
+                "amount": {
+                  "x": -0.16625436145476957,
+                  "y": 0.12338211098123314,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "direction": "reverse",
+                "durationMs": 3373.3595099232152
+              },
+              {
+                "id": "280c4c92-1f38-4973-a573-6763f5fb66c1",
+                "amount": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.10471975511965978
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "rotation",
+                "durationMs": 3373.3595099232152
+              }
+            ],
+            "layerOrder": 0,
+            "cornerRadius": 0
+          }
+        ],
+        "startMs": 6469.929874146757,
+        "duration": 3373.3595099232152,
+        "edgeFade": {
+          "top": 0.28,
+          "left": 0,
+          "right": 0.33,
+          "bottom": 0,
+          "enabled": true
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "edgeFade",
+          "depthOfField",
+          "bloom",
+          "chromaticAberration",
+          "filmGrain",
+          "vignette"
+        ],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 3.25,
+            "threshold": 0.83
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.22
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": true,
+            "intensity": 0.02
+          },
+          "atmosphere": {
+            "fog": 0.5,
+            "haze": 0.25,
+            "mist": 0.2,
+            "range": 1,
+            "start": 0,
+            "enabled": false,
+            "intensity": 1,
+            "mistHeight": 0.35
+          },
+          "colorGrade": {
+            "enabled": false,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 0.92
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0.83
+            },
+            "enabled": true,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 0.6,
+            "focalLength": 183,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 10,
+            "enabled": true
+          }
+        },
+        "effectAnimations": [
+          {
+            "id": "941efc95-0a97-4e57-bc7b-7a5b9a892b91",
+            "amount": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0.3
+            },
+            "easing": "ease-in-out",
+            "startMs": 399.6373272479214,
+            "property": "target",
+            "effectKey": "depthOfField",
+            "durationMs": 2408.0235696435184
+          }
+        ]
+      },
+      {
+        "id": "b7141d83-7437-4da9-97b0-85a0b1017ba1",
+        "name": "Shot 1",
+        "room": {
+          "enabled": false,
+          "ambience": 0,
+          "animations": []
+        },
+        "light": {
+          "pose": {
+            "position": {
+              "x": -14.888158889875525,
+              "y": 23.02084518504851,
+              "z": -0.2598737800843966
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "shadows": false,
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "a957a2b2-3b89-4df1-b159-b9f18e3db05c",
+            "src": "assets/templates/d91b972a-3317-4d4e-a4f7-ebedac361404/5469cae1-7005-4ad4-b269-dcf6d2cc97bf.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 3469.929874146756,
+            "scale": {
+              "x": 0.3873930163129319,
+              "y": 0.3873930163129319,
+              "z": 1.0490676537805645
+            },
+            "groupId": "ac3259f9-7394-4d37-999a-5f10942c9e61",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.751234456421308,
+              "y": -0.2550917665693521,
+              "z": 0.4422356292501207
+            },
+            "rotation": {
+              "x": -0.4705840984848435,
+              "y": -0.29138596655460214,
+              "z": -2.220446049250313e-16
+            },
+            "thumbSrc": "assets/templates/d91b972a-3317-4d4e-a4f7-ebedac361404/5469cae1-7005-4ad4-b269-dcf6d2cc97bf.thumb.jpg",
+            "animations": [],
+            "layerOrder": 0,
+            "cornerRadius": 0
+          },
+          {
+            "id": "71869892-638f-479f-a0e5-eb4e0f393ba0",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.2,
+              "color": "#3E73F8",
+              "family": "bricolage-grotesque",
+              "weight": 300,
+              "textAlign": "left",
+              "letterSpacing": 0
+            },
+            "inMs": 0,
+            "kind": "text",
+            "outMs": 3469.9298741467574,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "184",
+            "groupId": "ac3259f9-7394-4d37-999a-5f10942c9e61",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "linear",
+              "preset": "Typewriter",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "character",
+                "pacing": {
+                  "x1": 0.42,
+                  "x2": 1,
+                  "y1": 0,
+                  "y2": 1
+                },
+                "delayMs": 200
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 3450,
+              "typewriter": true,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.18765860569018522,
+            "position": {
+              "x": -2.2384282400088766,
+              "y": 0.6392801310200695,
+              "z": -0.003999999999999986
+            },
+            "rotation": {
+              "x": -0.4705840984848435,
+              "y": -0.29138596655460214,
+              "z": -2.220446049250313e-16
+            },
+            "boxHeight": 0.14716621173147845,
+            "animations": [],
+            "layerOrder": 1,
+            "motionBlur": 0,
+            "verticalAlign": "middle",
+            "inkCenteredFragments": true
+          },
+          {
+            "id": "54e0893e-7825-4b10-a602-006d58ef7745",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.2,
+              "color": "#33373F",
+              "family": "bricolage-grotesque",
+              "weight": 300,
+              "textAlign": "left",
+              "letterSpacing": 0
+            },
+            "inMs": 755.4414754402342,
+            "kind": "text",
+            "outMs": 3469.9298741467574,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "USD",
+            "groupId": "ac3259f9-7394-4d37-999a-5f10942c9e61",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Rack Focus",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "character",
+                "pacing": {
+                  "x1": 0.42,
+                  "x2": 1,
+                  "y1": 0,
+                  "y2": 1
+                },
+                "delayMs": 130
+              },
+              "blurFrom": 56,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.27,
+              "staggerMs": 0,
+              "durationMs": 571.8351062427298,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.2535189511044138,
+            "position": {
+              "x": -1.7222182930078693,
+              "y": 0.7112771046135711,
+              "z": 0.18317135891173822
+            },
+            "rotation": {
+              "x": -0.4705840984848435,
+              "y": -0.29138596655460214,
+              "z": -2.220446049250313e-16
+            },
+            "boxHeight": 0.14716621173147845,
+            "animations": [],
+            "layerOrder": 2,
+            "motionBlur": 0,
+            "verticalAlign": "middle",
+            "inkCenteredFragments": true
+          },
+          {
+            "id": "bc5c29c7-09f9-4639-a687-cfe9c086558e",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#3C74F5",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.10290080305708837,
+              "height": 0.1957885470599669
+            },
+            "outMs": 129.77506905502742,
+            "scale": {
+              "x": 0.08662914419179008,
+              "y": 1,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.0024354683510672743,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "ac3259f9-7394-4d37-999a-5f10942c9e61",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.336102045337163,
+              "y": 0.6257059259836872,
+              "z": -0.03648049241815951
+            },
+            "rotation": {
+              "x": -0.4705840984848435,
+              "y": -0.29138596655460214,
+              "z": -2.220446049250313e-16
+            },
+            "shapeType": "rectangle",
+            "layerOrder": 3,
+            "lockAspect": false,
+            "cornerRadius": 0
+          },
+          {
+            "id": "10000569-1b01-41ef-a2f8-78f5266a2643",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#3C74F5",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 129.77506905502742,
+            "kind": "shape",
+            "size": {
+              "width": 0.10290080305708837,
+              "height": 0.1957885470599669
+            },
+            "outMs": 405.0348346800274,
+            "scale": {
+              "x": 0.08662914419179008,
+              "y": 1,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.0024354683510672743,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "ac3259f9-7394-4d37-999a-5f10942c9e61",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.194107082714173,
+              "y": 0.6462351054971958,
+              "z": 0.024857462152013884
+            },
+            "rotation": {
+              "x": -0.4705840984848435,
+              "y": -0.29138596655460214,
+              "z": -2.220446049250313e-16
+            },
+            "shapeType": "rectangle",
+            "layerOrder": 4,
+            "lockAspect": false,
+            "cornerRadius": 0
+          },
+          {
+            "id": "189f53c0-fc99-45f1-be5e-44910b8ba050",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#3C74F5",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 405.0348346800274,
+            "kind": "shape",
+            "size": {
+              "width": 0.10290080305708837,
+              "height": 0.1957885470599669
+            },
+            "outMs": 3469.9298741467574,
+            "scale": {
+              "x": 0.08662914419179008,
+              "y": 1,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.0024354683510672743,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "ac3259f9-7394-4d37-999a-5f10942c9e61",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.030273129561115,
+              "y": 0.6717302305433519,
+              "z": 0.07301803475827784
+            },
+            "rotation": {
+              "x": -0.4705840984848435,
+              "y": -0.29138596655460214,
+              "z": -2.220446049250313e-16
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "cba11188-b0f6-44f4-a473-b0627e1a8fc6",
+                "amount": 0.07,
+                "easing": "ease-in-out",
+                "startMs": 405.0348346800274,
+                "property": "opacity",
+                "durationMs": 355.66740713702075
+              },
+              {
+                "id": "d7f392c4-32b3-4228-befd-4b0b7f0dff62",
+                "amount": 1,
+                "easing": "ease-in-out",
+                "startMs": 760.7022418170482,
+                "property": "opacity",
+                "durationMs": 326.4479109751544
+              },
+              {
+                "id": "73f11f1b-f060-4a9c-ba9d-e5547d1f9cf2",
+                "amount": 0.07,
+                "easing": "ease-in-out",
+                "startMs": 1087.1501527922026,
+                "property": "opacity",
+                "durationMs": 355.66740713702075
+              },
+              {
+                "id": "28464ca6-3f0c-4755-8389-c1311cc7be2a",
+                "amount": 1,
+                "easing": "ease-in-out",
+                "startMs": 1442.8175599292233,
+                "property": "opacity",
+                "durationMs": 326.4479109751544
+              },
+              {
+                "id": "8369b3c5-1533-449e-b4ce-9f83df12b206",
+                "amount": 0.07,
+                "easing": "ease-in-out",
+                "startMs": 1769.2654709043777,
+                "property": "opacity",
+                "durationMs": 355.66740713702075
+              },
+              {
+                "id": "a1bd2f79-b835-41e5-ae16-7a3e6ffa226b",
+                "amount": 1,
+                "easing": "ease-in-out",
+                "startMs": 2124.9328780413985,
+                "property": "opacity",
+                "durationMs": 326.4479109751544
+              },
+              {
+                "id": "507ba2df-0f61-4793-aad7-41ee1e632b87",
+                "amount": 0.07,
+                "easing": "ease-in-out",
+                "startMs": 2451.3807890165526,
+                "property": "opacity",
+                "durationMs": 355.66740713702075
+              },
+              {
+                "id": "99fb3478-1d31-4025-9d11-87585922f337",
+                "amount": 1,
+                "easing": "ease-in-out",
+                "startMs": 2807.0481961535734,
+                "property": "opacity",
+                "durationMs": 326.4479109751544
+              },
+              {
+                "id": "a90a2afb-75e9-4b04-ac73-effebc9714e7",
+                "amount": 0.09,
+                "easing": "ease-in-out",
+                "startMs": 3133.496107128728,
+                "property": "opacity",
+                "durationMs": 336.43376701802936
+              }
+            ],
+            "layerOrder": 5,
+            "lockAspect": false,
+            "cornerRadius": 0
+          }
+        ],
+        "groups": [
+          {
+            "id": "ac3259f9-7394-4d37-999a-5f10942c9e61",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "6275a0ec-22e6-42c0-8d3a-fbd9b260ae4b",
+                "amount": {
+                  "x": -0.08726646259971647,
+                  "y": -0.05235987755982989,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 3469.9298741467574
+              }
+            ],
+            "planeScale": true,
+            "frameCarried": true
+          }
+        ],
+        "lights": [
+          {
+            "id": "feb7cba3-6daf-4689-8e17-fd3af6d0300d",
+            "kind": "area",
+            "pose": {
+              "width": 4,
+              "height": 6,
+              "target": {
+                "x": -3.3714642817173646,
+                "y": 0.5494473518949351,
+                "z": 0
+              },
+              "position": {
+                "x": -7.71097523297807,
+                "y": 4,
+                "z": 5.290634178280047
+              },
+              "intensity": 1.2,
+              "temperature": 6500
+            },
+            "animations": []
+          }
+        ],
+        "startMs": 9843.289384069973,
+        "duration": 3469.9298741467574,
+        "edgeFade": {
+          "top": 0.19,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": true
+        },
+        "framings": [
+          {
+            "id": "8614424f-9cda-46e8-a58b-145fdf4cc0c4",
+            "zoom": 1.25,
+            "shake": 0.02,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "af0c1aa6-3e64-48c6-b0ce-f17b264de2e2",
+            "zoom": 1.1048092674278713,
+            "shake": 0.02,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "edgeFade",
+          "depthOfField",
+          "bloom",
+          "chromaticAberration",
+          "filmGrain",
+          "vignette"
+        ],
+        "framerBlocks": [
+          {
+            "id": "2399da4c-7728-4c83-9c26-1e3ec155ebf8",
+            "mode": "zoom",
+            "easing": "linear",
+            "startMs": 0,
+            "duration": 3469.9298741467574,
+            "toFramingId": "8614424f-9cda-46e8-a58b-145fdf4cc0c4",
+            "fromFramingId": "af0c1aa6-3e64-48c6-b0ce-f17b264de2e2"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 2.1,
+            "threshold": 0
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.49
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": true,
+            "intensity": 0.02
+          },
+          "atmosphere": {
+            "fog": 0.5,
+            "haze": 0.25,
+            "mist": 0.2,
+            "range": 1,
+            "start": 0,
+            "enabled": false,
+            "intensity": 1,
+            "mistHeight": 0.35
+          },
+          "colorGrade": {
+            "enabled": false,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 0.92
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": -0.09367990023957695
+            },
+            "enabled": true,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 0.6,
+            "focalLength": 159,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 10,
+            "enabled": true
+          }
+        },
+        "effectAnimations": []
+      },
+      {
+        "id": "88514d5a-d77e-42a6-9287-254504ee683e",
+        "name": "Shot 2",
+        "assets": [
+          {
+            "id": "f31e4c6e-7568-452c-baa5-6ef6baf60b8b",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.08,
+              "color": "#ffffff",
+              "family": "bricolage-grotesque",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 0,
+            "kind": "text",
+            "outMs": 3695.9204613058864,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "Fintech",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Slide",
+              "slideX": 0,
+              "slideY": 0.02,
+              "stagger": {
+                "mode": "character",
+                "delayMs": 75
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 500,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.1663948768663467,
+            "position": {
+              "x": -1.843680497245897,
+              "y": 0.6999999999999998,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.13115368869726318,
+            "animations": [],
+            "layerOrder": 0,
+            "motionBlur": 0,
+            "verticalAlign": "middle",
+            "inkCenteredFragments": true
+          },
+          {
+            "id": "350a2f3e-45b7-4bba-90d7-db51383c11b4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.08488504747823633,
+              "height": 0.08488504747823633
+            },
+            "outMs": 3695.9204613058864,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sides": 3,
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.0024354683510672743,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.1083660359673164,
+              "y": 0.7000000000000002,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "polygon",
+            "layerOrder": 1,
+            "lockAspect": false,
+            "cornerRadius": 0
+          }
+        ],
+        "startMs": 13313.21925821673,
+        "duration": 3695.9204613058864,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.45
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10.5,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

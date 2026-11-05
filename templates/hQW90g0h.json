@@ -1,0 +1,644 @@
+{
+  "id": "a0d022aa-0af4-4f8f-80c5-4c4e8b52adfc",
+  "slug": "hQW90g0h",
+  "name": "Counds flipping",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "product_app",
+  "aspectRatio": "3:4",
+  "fps": 30,
+  "durationMs": 17861,
+  "styles": [
+    "modern",
+    "clean"
+  ],
+  "tags": [],
+  "effortLevel": "quick",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 1,
+    "totalLayers": 7,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#0a0a0c"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 10.253109720512226
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 110.25
+    },
+    "shots": [
+      {
+        "id": "4e6a7dea-f531-4d50-89af-2671165d9815",
+        "name": "Shot 1",
+        "light": {
+          "pose": {
+            "color": "#e41616",
+            "ambience": 1,
+            "position": {
+              "x": 1,
+              "y": -6.5,
+              "z": -2
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "88bfb612-3e77-4d1a-82bd-8d1e2685d6a3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.555907915201827,
+              "height": 0.555907915201827
+            },
+            "depth": 0.03533333333333333,
+            "outMs": 17860.847844579566,
+            "scale": {
+              "x": 0.845385180349629,
+              "y": 0.845385180349629,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "53b564ef-c3d4-4016-b8bd-d544cc166a60",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "material": "glass",
+            "position": {
+              "x": -1.873103378175784,
+              "y": 0.7645532680042902,
+              "z": 2.381922628915348
+            },
+            "rotation": {
+              "x": -0.8561250158569297,
+              "y": 0.7383806238390005,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "animations": [
+              {
+                "id": "a08eec89-a6d9-434d-a071-416300a0f375",
+                "amount": {
+                  "x": 0,
+                  "y": 3.2812189937493397,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 3000
+              }
+            ],
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 0.03,
+            "glassDispersion": 0.36
+          },
+          {
+            "id": "f5510a3e-9d6f-4dae-8443-65551ccec371",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.555907915201827,
+              "height": 0.555907915201827
+            },
+            "depth": 0.03533333333333333,
+            "outMs": 17860.847844579566,
+            "scale": {
+              "x": 0.845385180349629,
+              "y": 0.845385180349629,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "53b564ef-c3d4-4016-b8bd-d544cc166a60",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "material": "glass",
+            "position": {
+              "x": -1.403040150961656,
+              "y": 0.9361304649218528,
+              "z": 2.5354262585307503
+            },
+            "rotation": {
+              "x": -0.7234036975338546,
+              "y": 0.694270079176214,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "animations": [
+              {
+                "id": "17cf8ec6-3b87-43bb-99d3-0e94acba985d",
+                "amount": {
+                  "x": 0,
+                  "y": 3.2812189937493397,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3000,
+                "property": "tilt",
+                "durationMs": 3000
+              }
+            ],
+            "layerOrder": 1,
+            "lockAspect": false,
+            "cornerRadius": 0.03
+          },
+          {
+            "id": "ca7ef7bf-39c3-4706-850c-46958d270fc9",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.555907915201827,
+              "height": 0.555907915201827
+            },
+            "depth": 0.03533333333333333,
+            "outMs": 17860.847844579566,
+            "scale": {
+              "x": 0.7713708290742759,
+              "y": 0.7713708290742759,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "53b564ef-c3d4-4016-b8bd-d544cc166a60",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "material": "glass",
+            "position": {
+              "x": -2.0873193888450166,
+              "y": 0.6626722191354047,
+              "z": 2.065137879648972
+            },
+            "rotation": {
+              "x": -0.7575791319827916,
+              "y": 0.9279316026244406,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "animations": [
+              {
+                "id": "5abc49cf-e643-4680-8abd-c17043293142",
+                "amount": {
+                  "x": 0,
+                  "y": 3.2812189937493397,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 9000,
+                "property": "tilt",
+                "durationMs": 3000
+              }
+            ],
+            "layerOrder": 2,
+            "lockAspect": false,
+            "cornerRadius": 0.03
+          },
+          {
+            "id": "56edaed9-25a5-4432-ae0d-171c68fbc547",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.555907915201827,
+              "height": 0.555907915201827
+            },
+            "depth": 0.03533333333333333,
+            "outMs": 17860.847844579566,
+            "scale": {
+              "x": 0.7713708290742759,
+              "y": 0.7713708290742759,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "53b564ef-c3d4-4016-b8bd-d544cc166a60",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "material": "glass",
+            "position": {
+              "x": -1.5928062860943073,
+              "y": 0.8591057017871208,
+              "z": 2.3554974959621453
+            },
+            "rotation": {
+              "x": -0.32483308606048544,
+              "y": 1.0146016056710743,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "animations": [
+              {
+                "id": "9166c9dd-c941-4751-b58f-5a7d4ec5563b",
+                "amount": {
+                  "x": 0,
+                  "y": 3.2812189937493397,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14860.847844579566,
+                "property": "tilt",
+                "durationMs": 3000
+              }
+            ],
+            "layerOrder": 3,
+            "lockAspect": false,
+            "cornerRadius": 0.03
+          },
+          {
+            "id": "7e260c0e-0715-41cb-bd41-554404226afe",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.555907915201827,
+              "height": 0.555907915201827
+            },
+            "depth": 0.03533333333333333,
+            "outMs": 17860.847844579566,
+            "scale": {
+              "x": 0.7713708290742759,
+              "y": 0.7713708290742759,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "53b564ef-c3d4-4016-b8bd-d544cc166a60",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "material": "glass",
+            "position": {
+              "x": -2.2769203332994064,
+              "y": 0.5638588697715397,
+              "z": 2.065137879648972
+            },
+            "rotation": {
+              "x": -0.7575791319827916,
+              "y": 0.9279316026244406,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "animations": [
+              {
+                "id": "ea7c4407-d7d1-4810-aba3-aaea31e64570",
+                "amount": {
+                  "x": 0,
+                  "y": 3.2812189937493397,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 6000,
+                "property": "tilt",
+                "durationMs": 3000
+              }
+            ],
+            "layerOrder": 4,
+            "lockAspect": false,
+            "cornerRadius": 0.03
+          },
+          {
+            "id": "cb3db347-777d-4ab6-a6af-e9818b444152",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.555907915201827,
+              "height": 0.555907915201827
+            },
+            "depth": 0.03533333333333333,
+            "outMs": 17860.847844579566,
+            "scale": {
+              "x": 0.7713708290742759,
+              "y": 0.7713708290742759,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "53b564ef-c3d4-4016-b8bd-d544cc166a60",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "material": "glass",
+            "position": {
+              "x": -2.445315805239952,
+              "y": 0.4586382559609502,
+              "z": 1.9324406140239712
+            },
+            "rotation": {
+              "x": -0.7575791319827916,
+              "y": 0.9279316026244406,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "animations": [
+              {
+                "id": "8e92d2ae-2a3d-4644-8b27-19991885e540",
+                "amount": {
+                  "x": 0,
+                  "y": 3.2812189937493397,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 11860.847844579566,
+                "property": "tilt",
+                "durationMs": 3000
+              }
+            ],
+            "layerOrder": 5,
+            "lockAspect": false,
+            "cornerRadius": 0.03
+          },
+          {
+            "id": "91b3ff74-688b-4e91-af01-3faabeb921c0",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.555907915201827,
+              "height": 0.555907915201827
+            },
+            "depth": 0.03533333333333333,
+            "outMs": 17860.847844579566,
+            "scale": {
+              "x": 0.7713708290742759,
+              "y": 0.7713708290742759,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "53b564ef-c3d4-4016-b8bd-d544cc166a60",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "material": "glass",
+            "position": {
+              "x": -2.6849722502813815,
+              "y": 0.34582641665356567,
+              "z": 1.8752775280864713
+            },
+            "rotation": {
+              "x": -0.7575791319827916,
+              "y": 0.9279316026244406,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "layerOrder": 6,
+            "lockAspect": false,
+            "cornerRadius": 0.03
+          }
+        ],
+        "groups": [
+          {
+            "id": "53b564ef-c3d4-4016-b8bd-d544cc166a60",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "6b83b439-de72-4f70-b9e1-e1c989cae4cf",
+                "amount": {
+                  "x": -0.12217304763960307,
+                  "y": -0.06981317007977318,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 17860.847844579566
+              }
+            ]
+          }
+        ],
+        "startMs": 0,
+        "duration": 17860.847844579566,
+        "edgeFade": {
+          "top": 0.2,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.3,
+          "enabled": true
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "bloom",
+          "vignette",
+          "edgeFade"
+        ],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 5,
+            "threshold": 0.29
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.86
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10.5,
+            "focalLength": 37.5,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

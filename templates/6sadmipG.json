@@ -1,0 +1,799 @@
+{
+  "id": "55f3b5ef-3c9a-4cad-8d19-d0c0ceca56e1",
+  "slug": "6sadmipG",
+  "name": "Blue lights",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "website_hero",
+  "aspectRatio": "9:16",
+  "fps": 30,
+  "durationMs": 6292,
+  "styles": [
+    "minimal",
+    "bold",
+    "gradient"
+  ],
+  "tags": [],
+  "effortLevel": "standard",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 3,
+    "totalLayers": 5,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#000102"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.649999999999998
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 28.125
+    },
+    "shots": [
+      {
+        "id": "ac804069-0299-45fa-b31a-b0698f139b2b",
+        "name": "Shot 1",
+        "assets": [
+          {
+            "id": "17f4d6bd-b727-4f6d-a603-ab8b7c79bf01",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#000000",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 1.37809362074908,
+              "height": 0.8385483891505824
+            },
+            "outMs": 2158.1011214738937,
+            "scale": {
+              "x": 1.5983176964629604,
+              "y": 1.5123289912892628,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.3418402798792597,
+              "y": 0.43476361389364926,
+              "z": 0.24839000360157143
+            },
+            "rotation": {
+              "x": -0.3679956208644758,
+              "y": 0.5885460742996612,
+              "z": -1.7016960206944713
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "6a329b70-e427-4bcb-b5eb-715794f49283",
+                "amount": 116,
+                "easing": "linear",
+                "startMs": 0,
+                "property": "glowAngle",
+                "durationMs": 2158.1011214738937
+              },
+              {
+                "id": "5e1b1557-a77d-4d21-b0ae-039f6660fea7",
+                "amount": {
+                  "x": -0.17453292519943295,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 2158.1011214738937
+              }
+            ],
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 0.43231919602646335,
+            "layerEffects": {
+              "glow": {
+                "blur": 0.08479999999999999,
+                "mode": "edge",
+                "angle": 125,
+                "color": "#13B900",
+                "sheen": 1,
+                "enabled": true,
+                "intensity": 0.6
+              },
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              }
+            },
+            "layerEffectsOrder": [
+              "glow"
+            ]
+          }
+        ],
+        "startMs": 0,
+        "duration": 2158.1011214738937,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.69,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "bloom",
+          "vignette"
+        ],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.45
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.23
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": -0.79
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 1.65,
+            "focalLength": 145.125,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 9,
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "c1ae4bdc-8731-4e90-aa89-abcb5057cf84",
+        "name": "Shot 1",
+        "assets": [
+          {
+            "id": "b82b79b1-c306-4a31-a6d4-834386a01add",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#000000",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 1.37809362074908,
+              "height": 0.8385483891505824
+            },
+            "outMs": 2180.7990755159994,
+            "scale": {
+              "x": 1.5983176964629604,
+              "y": 0.9009936498245013,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -0.8481014084718796,
+              "y": 0.5852668002684606,
+              "z": 1.6608916791070227
+            },
+            "rotation": {
+              "x": 0.334279970969271,
+              "y": 0.06590593283910029,
+              "z": 0.19359740649604673
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "aaab563f-062e-4681-a951-00825b749e1d",
+                "amount": 116,
+                "easing": "linear",
+                "startMs": 0,
+                "property": "glowAngle",
+                "durationMs": 2158.1011214738937
+              },
+              {
+                "id": "91a0cb69-2592-4cfe-988f-8933bea4566b",
+                "amount": {
+                  "x": 0,
+                  "y": -0.07537777777777777,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 2158.1011214738937
+              },
+              {
+                "id": "5b46276e-5e71-4585-9708-aedc14c01e55",
+                "amount": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.05235987755982989
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "rotation",
+                "durationMs": 2158.1011214738937
+              },
+              {
+                "id": "55210660-1fa4-4d26-8d6b-627fd02a5763",
+                "amount": {
+                  "x": -0.10471975511965978,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 2158.1011214738937
+              }
+            ],
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 0.43231919602646335,
+            "layerEffects": {
+              "glow": {
+                "blur": 0.08479999999999999,
+                "mode": "edge",
+                "angle": 125,
+                "color": "#13B900",
+                "sheen": 1,
+                "enabled": true,
+                "intensity": 0.6
+              },
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              }
+            },
+            "layerEffectsOrder": [
+              "glow"
+            ]
+          },
+          {
+            "id": "bbe8699d-5c0b-44ce-aef2-fcd256397a9d",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#000000",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 2.2003413040017876,
+              "height": 0.8385483891505824
+            },
+            "outMs": 2180.7990755159994,
+            "scale": {
+              "x": 1.5983176964629604,
+              "y": 4.354034727868071,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -0.8563185313213351,
+              "y": 1.9071125953037413,
+              "z": -0.17714179436111865
+            },
+            "rotation": {
+              "x": -1.0643193819087862,
+              "y": -0.05100598059925127,
+              "z": 0.292413751448437
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "b4c9ba76-51cd-448e-aff8-85fb4f794542",
+                "amount": 116,
+                "easing": "linear",
+                "startMs": 0,
+                "property": "glowAngle",
+                "durationMs": 2158.1011214738937
+              },
+              {
+                "id": "2a090b81-4ae5-4fad-8418-6c38c96b4063",
+                "amount": {
+                  "x": 0.03490658503988659,
+                  "y": 0.06981317007977318,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 2158.1011214738937
+              }
+            ],
+            "layerOrder": 1,
+            "lockAspect": false,
+            "cornerRadius": 0.13444749840775896,
+            "layerEffects": {
+              "glow": {
+                "blur": 0.08479999999999999,
+                "mode": "edge",
+                "angle": 318,
+                "color": "#13B900",
+                "sheen": 0.7,
+                "enabled": true,
+                "intensity": 0.5
+              },
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              }
+            },
+            "layerEffectsOrder": [
+              "glow"
+            ]
+          }
+        ],
+        "startMs": 4110.763780155527,
+        "duration": 2180.7990755159994,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.69,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "bloom",
+          "vignette"
+        ],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.45
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.23
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": -0.79
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 1.65,
+            "focalLength": 145.125,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 9,
+            "enabled": false
+          }
+        }
+      },
+      {
+        "id": "fa0cc364-a3e4-460a-b8b5-aeb01456a2bd",
+        "name": "Shot 1",
+        "assets": [
+          {
+            "id": "fcb72ed3-1178-4340-a115-cf12876e1bbc",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#000000",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 1.37809362074908,
+              "height": 0.8385483891505824
+            },
+            "outMs": 1949.4009332452633,
+            "scale": {
+              "x": 2.4516675671833275,
+              "y": 1.7727960656575037,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.826329073711168,
+              "y": 1.4979710433758067,
+              "z": -0.14508614832925645
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "426561e4-90e4-45ff-bed9-fe6ef89d1c89",
+                "amount": 156,
+                "easing": "linear",
+                "startMs": 0,
+                "property": "glowAngle",
+                "durationMs": 1949.4009332452633
+              },
+              {
+                "id": "752fac3f-f445-48c0-8ef5-e05b20d24e2a",
+                "amount": {
+                  "x": -0.17453292519943295,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 1949.4009332452633
+              }
+            ],
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 0.16545714166065645,
+            "layerEffects": {
+              "glow": {
+                "blur": 0.08479999999999999,
+                "mode": "edge",
+                "angle": 360,
+                "color": "#13B900",
+                "sheen": 1,
+                "enabled": true,
+                "intensity": 1.3
+              },
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              }
+            },
+            "layerEffectsOrder": [
+              "glow"
+            ]
+          },
+          {
+            "id": "ca0fce23-a33b-4301-8d5c-96500e6b0ac2",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#000000",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 1.37809362074908,
+              "height": 0.8385483891505824
+            },
+            "outMs": 1949.4009332452633,
+            "scale": {
+              "x": 2.4516675671833275,
+              "y": 1.7727960656575037,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.833498545895804,
+              "y": -0.12691327338335212,
+              "z": 0.1259247167919947
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "faf914cd-f693-4be9-ba59-cef22dd9d51c",
+                "amount": 220,
+                "easing": "linear",
+                "startMs": 0,
+                "property": "glowAngle",
+                "durationMs": 1949.4009332452633
+              },
+              {
+                "id": "b1145174-2871-4e41-be20-ade816d8c601",
+                "amount": {
+                  "x": 0.17453292519943295,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 1949.4009332452633
+              }
+            ],
+            "layerOrder": 1,
+            "lockAspect": false,
+            "cornerRadius": 0.16545714166065645,
+            "layerEffects": {
+              "glow": {
+                "blur": 0.08479999999999999,
+                "mode": "edge",
+                "angle": 125,
+                "color": "#13B900",
+                "sheen": 1,
+                "enabled": true,
+                "intensity": 2.1
+              },
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              }
+            },
+            "layerEffectsOrder": [
+              "glow"
+            ]
+          }
+        ],
+        "startMs": 2161.362846910263,
+        "duration": 1949.4009332452633,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.69,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "bloom",
+          "vignette"
+        ],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0.08
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.45
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.23
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": -0.79
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 1.65,
+            "focalLength": 145.125,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 9,
+            "enabled": false
+          }
+        }
+      }
+    ]
+  }
+}

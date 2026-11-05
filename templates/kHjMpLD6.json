@@ -1,0 +1,1265 @@
+{
+  "id": "a2d1800a-b6b4-4f2d-b113-e11fa1905760",
+  "slug": "kHjMpLD6",
+  "name": "Ai SaaS Image Recognition Template",
+  "brand": "Bali Bliss",
+  "description": "SaaS Image Recognition Showcase, all text and images can be modified.",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 60,
+  "durationMs": 6573,
+  "styles": [
+    "minimal",
+    "bold",
+    "dark",
+    "luxury"
+  ],
+  "tags": [
+    "saas",
+    "ai",
+    "chatbot",
+    "ui",
+    "uiux"
+  ],
+  "effortLevel": "standard",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 2,
+    "totalLayers": 18,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#0a0a0c"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "4da40a6a-f233-4a20-a0a9-4e3a796c5b31",
+        "name": "01 \u2014 Computer Vision Neural Scanner",
+        "startMs": 0,
+        "duration": 3286,
+        "durationMs": 3286,
+        "laneIndex": 0,
+        "background": {
+          "kind": "solid",
+          "color": "#181924"
+        },
+        "defaultCamera": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2.65
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "focalLength": 50
+        },
+        "framings": [
+          {
+            "id": "f416ea6a-cbca-4820-92c7-3268f1849367",
+            "zoom": 1.0,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "50b6913c-3e8b-45c7-9cae-20628dda5d32",
+            "zoom": 1.05,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0.04,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "framerBlocks": [
+          {
+            "id": "847b7808-5ee3-47d5-83a6-c2f4163d034c",
+            "mode": "dolly",
+            "easing": "ease-out-cubic",
+            "startMs": 0,
+            "duration": 3286,
+            "fromFramingId": "f416ea6a-cbca-4820-92c7-3268f1849367",
+            "toFramingId": "50b6913c-3e8b-45c7-9cae-20628dda5d32"
+          }
+        ],
+        "assets": [
+          {
+            "id": "bd3f24e5-96ef-43e1-b77d-2dd56a2c8800",
+            "kind": "image",
+            "name": "Vision Scanner HUD",
+            "src": "/storage/v1/object/public/assets/templates/9dc7b6fa-78d0-4beb-87f1-fd38d1d8d89d/63c6244c-b040-491c-8421-63f06701c7c7.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/9dc7b6fa-78d0-4beb-87f1-fd38d1d8d89d/63c6244c-b040-491c-8421-63f06701c7c7.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": 0,
+              "y": -0.22,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.62,
+              "y": 0.62,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3286,
+            "layerOrder": 0,
+            "frame": "macbook",
+            "frameColor": "#1d1d1f",
+            "frameGloss": 0.5,
+            "frameGlare": 1.0,
+            "frameLidAngle": 110.3,
+            "frameScreenGlow": 1.0,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "52bb5fc0-96b4-4cfe-9c66-b24e3bf8f610",
+            "kind": "image",
+            "name": "Object Bounding Box",
+            "src": "/storage/v1/object/public/assets/templates/9dc7b6fa-78d0-4beb-87f1-fd38d1d8d89d/f90f8120-7e52-4405-a9b2-a9ecec7d4d99.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/9dc7b6fa-78d0-4beb-87f1-fd38d1d8d89d/f90f8120-7e52-4405-a9b2-a9ecec7d4d99.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": -0.58,
+              "y": -0.18,
+              "z": -0.05
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": 0.25,
+              "z": 0.04
+            },
+            "scale": {
+              "x": 0.35,
+              "y": 0.35,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3286,
+            "layerOrder": 1,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "09c03fdd-eaa9-4e30-85ad-9ffd6c9ad5d8",
+            "kind": "image",
+            "name": "Class Confidence Meter",
+            "src": "/storage/v1/object/public/assets/templates/9dc7b6fa-78d0-4beb-87f1-fd38d1d8d89d/7100f977-3e54-4b7c-b43f-f71b9b9abec1.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/9dc7b6fa-78d0-4beb-87f1-fd38d1d8d89d/7100f977-3e54-4b7c-b43f-f71b9b9abec1.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": 0.58,
+              "y": -0.18,
+              "z": -0.05
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": -0.25,
+              "z": -0.04
+            },
+            "scale": {
+              "x": 0.35,
+              "y": 0.35,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3286,
+            "layerOrder": 2,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "6715a250-9002-401d-93cd-ed62cc428896",
+            "kind": "shape",
+            "name": "Badge Pill Backdrop",
+            "shapeType": "rectangle",
+            "position": {
+              "x": 0,
+              "y": 0.4,
+              "z": 0.15
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "size": {
+              "width": 0.34,
+              "height": 0.055
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#7c3aed",
+              "opacity": 0.95,
+              "enabled": true
+            },
+            "stroke": {
+              "color": "#c4b5fd",
+              "opacity": 0.85,
+              "width": 0.002,
+              "align": "inside",
+              "style": "solid",
+              "enabled": true
+            },
+            "cornerRadius": 0.028,
+            "lockAspect": false,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3286,
+            "layerOrder": 3,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "9075d2b9-e2d5-41c3-848e-bd6936e69c2f",
+            "kind": "text",
+            "name": "Badge Pill Label",
+            "content": "AI VISION ENGINE",
+            "position": {
+              "x": 0,
+              "y": 0.4,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.32,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3286,
+            "layerOrder": 4,
+            "font": {
+              "family": "inter",
+              "size": 0.016,
+              "weight": 700,
+              "color": "#ffffff",
+              "letterSpacing": 0.08,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 0,
+              "durationMs": 500,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.95,
+              "slideX": 0,
+              "slideY": 0.02,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "e4768af7-38ec-4f5a-a368-62bfd9cfbbdf",
+            "kind": "text",
+            "name": "Headline Title",
+            "content": "Precision Object Detection",
+            "position": {
+              "x": 0,
+              "y": 0.3,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.85,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3286,
+            "layerOrder": 5,
+            "font": {
+              "family": "inter",
+              "size": 0.046,
+              "weight": 800,
+              "color": "#ffffff",
+              "letterSpacing": -0.02,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 10,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.96,
+              "slideX": 0,
+              "slideY": 0.04,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "2f964acb-ff76-4533-9b98-a45fd177c746",
+            "kind": "text",
+            "name": "Subtitle Tagline",
+            "content": "Real-time edge recognition with 99.8% precision bounding boxes.",
+            "position": {
+              "x": 0,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.76,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3286,
+            "layerOrder": 6,
+            "font": {
+              "family": "inter",
+              "size": 0.022,
+              "weight": 400,
+              "color": "#9ca3af",
+              "letterSpacing": 0,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 8,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.98,
+              "slideX": 0,
+              "slideY": 0.03,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "8d6ef512-be09-40a2-b1e5-f2abe05e90fb",
+            "kind": "audio",
+            "name": "Sub-Bass Scanner Drone",
+            "src": "/media/audio/sound_08bca11a-6a09-47f7-8ea0-cb0f19ce7968.mp3",
+            "volume": 0.8,
+            "fadeInMs": 200,
+            "fadeOutMs": 500,
+            "inMs": 0,
+            "outMs": 3286,
+            "sourceDurationMs": 3286,
+            "sourceOffsetMs": 0,
+            "layerOrder": 7,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          },
+          {
+            "id": "c2f0d57b-3cd7-42cf-9245-26022a57def4",
+            "kind": "audio",
+            "name": "Target Acquired Ping",
+            "src": "/media/audio/sound_0367d5c4-31ef-43a1-b5ed-f60d77378200.wav",
+            "volume": 0.6,
+            "fadeInMs": 50,
+            "fadeOutMs": 200,
+            "inMs": 0,
+            "outMs": 3286,
+            "sourceDurationMs": 3286,
+            "sourceOffsetMs": 0,
+            "layerOrder": 8,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.65,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.35
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        },
+        "edgeFade": {
+          "enabled": false,
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "effectsOrder": [
+          "bloom",
+          "vignette"
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "light": {
+          "pose": {
+            "ambience": 1.4,
+            "position": {
+              "x": 0.0,
+              "y": 6.0,
+              "z": 6.0
+            },
+            "intensity": 2.8,
+            "temperature": 6500
+          },
+          "animations": []
+        }
+      },
+      {
+        "id": "bda1a5fb-5b00-426d-8bd3-99e8339d24bd",
+        "name": "02 \u2014 Instant Classification & Confidence",
+        "startMs": 3286,
+        "duration": 3287,
+        "durationMs": 3287,
+        "laneIndex": 0,
+        "background": {
+          "kind": "solid",
+          "color": "#181924"
+        },
+        "defaultCamera": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 2.65
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "focalLength": 50
+        },
+        "framings": [
+          {
+            "id": "a9f89f64-1dbc-4819-be09-a3d496b89c7b",
+            "zoom": 1.0,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "b4b7c99e-386e-4ced-af3f-e6af42308f22",
+            "zoom": 1.05,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0.04,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "framerBlocks": [
+          {
+            "id": "275f5407-ccf5-47b1-8a8f-365af57d3325",
+            "mode": "dolly",
+            "easing": "ease-out-cubic",
+            "startMs": 0,
+            "duration": 3287,
+            "fromFramingId": "a9f89f64-1dbc-4819-be09-a3d496b89c7b",
+            "toFramingId": "b4b7c99e-386e-4ced-af3f-e6af42308f22"
+          }
+        ],
+        "assets": [
+          {
+            "id": "052fd863-ff6f-4644-a821-8cfc2d3c4350",
+            "kind": "image",
+            "name": "Automated Inference Pipeline",
+            "src": "/storage/v1/object/public/assets/templates/9dc7b6fa-78d0-4beb-87f1-fd38d1d8d89d/bcff515e-fa42-4d7c-b664-0dc450e0d20e.thumb.jpg",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/9dc7b6fa-78d0-4beb-87f1-fd38d1d8d89d/bcff515e-fa42-4d7c-b664-0dc450e0d20e.thumb.jpg",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": 0,
+              "y": -0.22,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.62,
+              "y": 0.62,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3287,
+            "layerOrder": 0,
+            "frame": "macbook",
+            "frameColor": "#1d1d1f",
+            "frameGloss": 0.5,
+            "frameGlare": 1.0,
+            "frameLidAngle": 110.3,
+            "frameScreenGlow": 1.0,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "63528e32-522b-4dc7-8e7f-19200145c4fb",
+            "kind": "image",
+            "name": "Throughput Benchmark Card",
+            "src": "/storage/v1/object/public/assets/48b89e73-c462-44d1-851f-876b5683d97b/133bac78-f491-4dd2-a3d3-eb6b77ae0e23.png",
+            "thumbSrc": "/storage/v1/object/public/assets/48b89e73-c462-44d1-851f-876b5683d97b/133bac78-f491-4dd2-a3d3-eb6b77ae0e23.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": -0.58,
+              "y": -0.18,
+              "z": -0.05
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": 0.25,
+              "z": 0.04
+            },
+            "scale": {
+              "x": 0.35,
+              "y": 0.35,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3287,
+            "layerOrder": 1,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "1ecab821-4fd9-48b3-b79c-1e9a96e8d756",
+            "kind": "image",
+            "name": "Edge SDK Integration",
+            "src": "/storage/v1/object/public/assets/48b89e73-c462-44d1-851f-876b5683d97b/2ab3cfb1-af1b-45c5-b287-ec8fe8730e4a.png",
+            "thumbSrc": "/storage/v1/object/public/assets/48b89e73-c462-44d1-851f-876b5683d97b/2ab3cfb1-af1b-45c5-b287-ec8fe8730e4a.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": 0.58,
+              "y": -0.18,
+              "z": -0.05
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": -0.25,
+              "z": -0.04
+            },
+            "scale": {
+              "x": 0.35,
+              "y": 0.35,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3287,
+            "layerOrder": 2,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "6654301b-bf61-42ad-b649-f65bde513063",
+            "kind": "shape",
+            "name": "Badge Pill Backdrop",
+            "shapeType": "rectangle",
+            "position": {
+              "x": 0,
+              "y": 0.4,
+              "z": 0.15
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "size": {
+              "width": 0.34,
+              "height": 0.055
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#6d28d9",
+              "opacity": 0.95,
+              "enabled": true
+            },
+            "stroke": {
+              "color": "#ddd6fe",
+              "opacity": 0.85,
+              "width": 0.002,
+              "align": "inside",
+              "style": "solid",
+              "enabled": true
+            },
+            "cornerRadius": 0.028,
+            "lockAspect": false,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3287,
+            "layerOrder": 3,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "b5b50db9-e38d-416a-b726-ae292cfb206a",
+            "kind": "text",
+            "name": "Badge Pill Label",
+            "content": "SUB-10MS LATENCY",
+            "position": {
+              "x": 0,
+              "y": 0.4,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.32,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3287,
+            "layerOrder": 4,
+            "font": {
+              "family": "inter",
+              "size": 0.016,
+              "weight": 700,
+              "color": "#ffffff",
+              "letterSpacing": 0.08,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 0,
+              "durationMs": 500,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.95,
+              "slideX": 0,
+              "slideY": 0.02,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "2450b794-c956-4159-bf99-d11f303ab116",
+            "kind": "text",
+            "name": "Headline Title",
+            "content": "Automate Quality Inspection",
+            "position": {
+              "x": 0,
+              "y": 0.3,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.85,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3287,
+            "layerOrder": 5,
+            "font": {
+              "family": "inter",
+              "size": 0.046,
+              "weight": 800,
+              "color": "#ffffff",
+              "letterSpacing": -0.02,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 10,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.96,
+              "slideX": 0,
+              "slideY": 0.04,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "886c4011-8877-4a5c-bae7-a860aff4b8df",
+            "kind": "text",
+            "name": "Subtitle Tagline",
+            "content": "Deploy computer vision models to iOS, Android, and web with one click.",
+            "position": {
+              "x": 0,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.76,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 3287,
+            "layerOrder": 6,
+            "font": {
+              "family": "inter",
+              "size": 0.022,
+              "weight": 400,
+              "color": "#9ca3af",
+              "letterSpacing": 0,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 8,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.98,
+              "slideX": 0,
+              "slideY": 0.03,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "70e8e8a7-9c70-4579-96d2-8fb3c2132744",
+            "kind": "audio",
+            "name": "Synthesized Tech Outro",
+            "src": "/media/audio/sound_0256bd55-2cfc-42e5-af38-ae597d3f5cb7.wav",
+            "volume": 0.8,
+            "fadeInMs": 200,
+            "fadeOutMs": 500,
+            "inMs": 0,
+            "outMs": 3287,
+            "sourceDurationMs": 3287,
+            "sourceOffsetMs": 0,
+            "layerOrder": 7,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          },
+          {
+            "id": "3334c9e3-b035-4d27-8c2a-82c301e0c0f6",
+            "kind": "audio",
+            "name": "Confirmation Shutter",
+            "src": "/media/audio/sound_06725b2b-ba71-45a6-adb5-549322bfeb57.wav",
+            "volume": 0.6,
+            "fadeInMs": 50,
+            "fadeOutMs": 200,
+            "inMs": 0,
+            "outMs": 3287,
+            "sourceDurationMs": 3287,
+            "sourceOffsetMs": 0,
+            "layerOrder": 8,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.65,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.35
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        },
+        "edgeFade": {
+          "enabled": false,
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "effectsOrder": [
+          "bloom",
+          "vignette"
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "light": {
+          "pose": {
+            "ambience": 1.4,
+            "position": {
+              "x": 0.0,
+              "y": 6.0,
+              "z": 6.0
+            },
+            "intensity": 2.8,
+            "temperature": 6500
+          },
+          "animations": []
+        }
+      }
+    ]
+  }
+}

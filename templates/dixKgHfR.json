@@ -1,0 +1,1906 @@
+{
+  "id": "94fd4a83-96e1-42d0-8439-790bada09abd",
+  "slug": "dixKgHfR",
+  "name": "Dynamic App Promo",
+  "brand": "Bali Bliss",
+  "description": "Premium App promotion / trailer showcase.",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 60,
+  "durationMs": 30367,
+  "styles": [
+    "minimal",
+    "bold",
+    "dark",
+    "luxury"
+  ],
+  "tags": [
+    "app",
+    "premium",
+    "luxury",
+    "minimalistic",
+    "animation"
+  ],
+  "effortLevel": "standard",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 3,
+    "totalLayers": 27,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#181924"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "8e34ddee-d45c-4279-9040-78340a0a5cf9",
+        "name": "01 \u2014 Next-Gen App Experience",
+        "startMs": 0,
+        "duration": 10000,
+        "durationMs": 10000,
+        "laneIndex": 0,
+        "background": {
+          "kind": "solid",
+          "color": "#181924"
+        },
+        "defaultCamera": {
+          "position": {
+            "x": -1.9,
+            "y": 0.7,
+            "z": 2.65
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "focalLength": 50
+        },
+        "framings": [
+          {
+            "id": "c90aa674-4dbf-4390-b983-7c8b1b0b2f00",
+            "zoom": 1.0,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "ecea4eb0-43da-48c6-9696-50039799a424",
+            "zoom": 1.05,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0.04,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "framerBlocks": [
+          {
+            "id": "8d222444-f8cf-41f3-9678-0ee81882bbb9",
+            "mode": "dolly",
+            "easing": "ease-out-cubic",
+            "startMs": 0,
+            "duration": 10000,
+            "fromFramingId": "c90aa674-4dbf-4390-b983-7c8b1b0b2f00",
+            "toFramingId": "ecea4eb0-43da-48c6-9696-50039799a424"
+          }
+        ],
+        "assets": [
+          {
+            "id": "a8283b9d-8bc1-4b0f-9817-e910d54696a9",
+            "kind": "image",
+            "name": "Dynamic iPhone Mockup",
+            "src": "/media/thumbnails/thumb_94fd4a83-96e1-42d0-8439-790bada09abd.jpg",
+            "thumbSrc": "/media/thumbnails/thumb_94fd4a83-96e1-42d0-8439-790bada09abd.jpg",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": -1.9,
+              "y": 0.5399999999999999,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.72,
+              "y": 0.72,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 0,
+            "frame": "iphone",
+            "frameColor": "#1d1d1f",
+            "frameGloss": 0.5,
+            "frameGlare": 1.0,
+            "frameLidAngle": 110.3,
+            "frameScreenGlow": 1.0,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "22760ee1-6561-4369-8ee5-2dc58d101131",
+            "kind": "image",
+            "name": "Interactive Feed Card",
+            "src": "/storage/v1/object/public/assets/templates/ba63d4f2-eec1-447b-a726-8d8e18b19742/0b5fc403-471d-4d3f-8de6-9ff291cf7169.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/ba63d4f2-eec1-447b-a726-8d8e18b19742/0b5fc403-471d-4d3f-8de6-9ff291cf7169.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": -0.28,
+              "y": -0.36,
+              "z": 0.12
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": 0.15,
+              "z": -0.04
+            },
+            "scale": {
+              "x": 0.32,
+              "y": 0.32,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 1,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "0d91a18a-a862-420b-99e6-9d74c5a8d161",
+            "kind": "image",
+            "name": "Profile Highlights Widget",
+            "src": "/storage/v1/object/public/assets/templates/23c49eae-969d-402c-a1d9-ca0a2252f06d/a60ae212-769b-4e92-bbbe-381908a8e819.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/23c49eae-969d-402c-a1d9-ca0a2252f06d/a60ae212-769b-4e92-bbbe-381908a8e819.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": 0.28,
+              "y": -0.36,
+              "z": 0.12
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": -0.15,
+              "z": 0.04
+            },
+            "scale": {
+              "x": 0.32,
+              "y": 0.32,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 2,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "e4387feb-8113-45f7-9ac3-4c4461fb72cc",
+            "kind": "shape",
+            "name": "Badge Pill Backdrop",
+            "shapeType": "rectangle",
+            "position": {
+              "x": -1.9,
+              "y": 1.05,
+              "z": 0.15
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "size": {
+              "width": 0.34,
+              "height": 0.055
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#0284c7",
+              "opacity": 0.95,
+              "enabled": true
+            },
+            "stroke": {
+              "color": "#7dd3fc",
+              "opacity": 0.85,
+              "width": 0.002,
+              "align": "inside",
+              "style": "solid",
+              "enabled": true
+            },
+            "cornerRadius": 0.028,
+            "lockAspect": false,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 3,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "d18b2630-45d6-406f-8b50-5b7b47ec60f7",
+            "kind": "text",
+            "name": "Badge Pill Label",
+            "content": "MOBILE V3.0",
+            "position": {
+              "x": -1.9,
+              "y": 1.05,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.32,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 4,
+            "font": {
+              "family": "inter",
+              "size": 0.024,
+              "weight": 700,
+              "color": "#ffffff",
+              "letterSpacing": 0.08,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.95,
+              "slideX": 0,
+              "slideY": 0.02,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "7cb4bbb4-c240-4ca6-9c1d-c6563968e930",
+            "kind": "text",
+            "name": "Headline Title",
+            "content": "Engineered for Velocity",
+            "position": {
+              "x": -1.9,
+              "y": 0.95,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.88,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 5,
+            "font": {
+              "family": "inter",
+              "size": 0.075,
+              "weight": 800,
+              "color": "#ffffff",
+              "letterSpacing": -0.02,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 10,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.96,
+              "slideX": 0,
+              "slideY": 0.04,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "9defbd99-3643-4d44-bc08-48bd6f7ada79",
+            "kind": "text",
+            "name": "Subtitle Tagline",
+            "content": "Fluid spring dynamics, tactile haptics, and zero-latency interactions.",
+            "position": {
+              "x": -1.9,
+              "y": 0.85,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.82,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 6,
+            "font": {
+              "family": "inter",
+              "size": 0.038,
+              "weight": 400,
+              "color": "#9ca3af",
+              "letterSpacing": 0,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 8,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.98,
+              "slideX": 0,
+              "slideY": 0.03,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "b820c3ca-0faa-4b72-a1ab-44df38b7e95c",
+            "kind": "audio",
+            "name": "Upbeat Modern Tech Loop",
+            "src": "/media/audio/sound_02560f6f-864a-4693-a0ed-895b4a0da71a.mp3",
+            "volume": 0.8,
+            "fadeInMs": 200,
+            "fadeOutMs": 500,
+            "inMs": 0,
+            "outMs": 10000,
+            "sourceDurationMs": 10000,
+            "sourceOffsetMs": 0,
+            "layerOrder": 7,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none",
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          },
+          {
+            "id": "36e3af8e-7f36-4598-b86b-503a1fc77bdb",
+            "kind": "audio",
+            "name": "Dynamic Pop SFX",
+            "src": "/media/audio/sound_06725b2b-ba71-45a6-adb5-549322bfeb57.wav",
+            "volume": 0.6,
+            "fadeInMs": 50,
+            "fadeOutMs": 200,
+            "inMs": 0,
+            "outMs": 3500,
+            "sourceDurationMs": 3500,
+            "sourceOffsetMs": 0,
+            "layerOrder": 8,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none",
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.65,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.35
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        },
+        "edgeFade": {
+          "enabled": false,
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "effectsOrder": [
+          "bloom",
+          "vignette"
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "light": {
+          "pose": {
+            "ambience": 1.4,
+            "position": {
+              "x": -1.9,
+              "y": 6.0,
+              "z": 6.0
+            },
+            "intensity": 2.8,
+            "temperature": 6500
+          },
+          "animations": []
+        }
+      },
+      {
+        "id": "b83c6f1b-a968-417a-b409-3a4f59c0f7e4",
+        "name": "02 \u2014 Tactile Gestures & Live Feeds",
+        "startMs": 10000,
+        "duration": 10000,
+        "durationMs": 10000,
+        "laneIndex": 0,
+        "background": {
+          "kind": "solid",
+          "color": "#181924"
+        },
+        "defaultCamera": {
+          "position": {
+            "x": -1.9,
+            "y": 0.7,
+            "z": 2.65
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "focalLength": 50
+        },
+        "framings": [
+          {
+            "id": "877e41b7-2189-49d3-9606-11cae1d582ff",
+            "zoom": 1.0,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "e6047e86-cf29-44ec-a903-db5321d472a2",
+            "zoom": 1.05,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0.04,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "framerBlocks": [
+          {
+            "id": "8c159fb4-ef8f-4e90-a61e-c9741ca34c13",
+            "mode": "dolly",
+            "easing": "ease-out-cubic",
+            "startMs": 0,
+            "duration": 10000,
+            "fromFramingId": "877e41b7-2189-49d3-9606-11cae1d582ff",
+            "toFramingId": "e6047e86-cf29-44ec-a903-db5321d472a2"
+          }
+        ],
+        "assets": [
+          {
+            "id": "1e33754d-9ee6-4b9c-be14-6ae9887d96d0",
+            "kind": "image",
+            "name": "Live Activity Screen",
+            "src": "/storage/v1/object/public/assets/templates/23c49eae-969d-402c-a1d9-ca0a2252f06d/a5bb4c14-13a4-4e62-a129-05029043a4c1.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/23c49eae-969d-402c-a1d9-ca0a2252f06d/a5bb4c14-13a4-4e62-a129-05029043a4c1.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": -1.9,
+              "y": 0.52,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.72,
+              "y": 0.72,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 0,
+            "frame": "iphone",
+            "frameColor": "#1d1d1f",
+            "frameGloss": 0.5,
+            "frameGlare": 1.0,
+            "frameLidAngle": 110.3,
+            "frameScreenGlow": 1.0,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "0feb9189-81fc-4c86-9951-39a1a92b2b03",
+            "kind": "image",
+            "name": "Interactive Widget Deck",
+            "src": "/storage/v1/object/public/assets/templates/23c49eae-969d-402c-a1d9-ca0a2252f06d/f71f06b2-f418-4d98-b215-854cb9175c99.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/23c49eae-969d-402c-a1d9-ca0a2252f06d/f71f06b2-f418-4d98-b215-854cb9175c99.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": -0.28,
+              "y": -0.36,
+              "z": 0.12
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": 0.15,
+              "z": -0.04
+            },
+            "scale": {
+              "x": 0.32,
+              "y": 0.32,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 1,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "b67966e2-9a09-41b2-b82d-42422530826b",
+            "kind": "image",
+            "name": "Dynamic Notch Expansion",
+            "src": "/storage/v1/object/public/assets/templates/ba63d4f2-eec1-447b-a726-8d8e18b19742/0b5fc403-471d-4d3f-8de6-9ff291cf7169.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/ba63d4f2-eec1-447b-a726-8d8e18b19742/0b5fc403-471d-4d3f-8de6-9ff291cf7169.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": 0.28,
+              "y": -0.36,
+              "z": 0.12
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": -0.15,
+              "z": 0.04
+            },
+            "scale": {
+              "x": 0.32,
+              "y": 0.32,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 2,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "e5e2a673-65e5-49f6-b79a-dd630e4bc5f8",
+            "kind": "shape",
+            "name": "Badge Pill Backdrop",
+            "shapeType": "rectangle",
+            "position": {
+              "x": -1.9,
+              "y": 1.05,
+              "z": 0.15
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "size": {
+              "width": 0.34,
+              "height": 0.055
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#0369a1",
+              "opacity": 0.95,
+              "enabled": true
+            },
+            "stroke": {
+              "color": "#38bdf8",
+              "opacity": 0.85,
+              "width": 0.002,
+              "align": "inside",
+              "style": "solid",
+              "enabled": true
+            },
+            "cornerRadius": 0.028,
+            "lockAspect": false,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 3,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "9cd2dd5a-c50e-4f21-a76c-8e0384f3ad7f",
+            "kind": "text",
+            "name": "Badge Pill Label",
+            "content": "DYNAMIC ISLAND",
+            "position": {
+              "x": -1.9,
+              "y": 1.05,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.32,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 4,
+            "font": {
+              "family": "inter",
+              "size": 0.024,
+              "weight": 700,
+              "color": "#ffffff",
+              "letterSpacing": 0.08,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.95,
+              "slideX": 0,
+              "slideY": 0.02,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "d042cd6c-d5c1-46c9-91ee-cd490ed1b268",
+            "kind": "text",
+            "name": "Headline Title",
+            "content": "Live Activity Tracking",
+            "position": {
+              "x": -1.9,
+              "y": 0.95,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.88,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 5,
+            "font": {
+              "family": "inter",
+              "size": 0.075,
+              "weight": 800,
+              "color": "#ffffff",
+              "letterSpacing": -0.02,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 10,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.96,
+              "slideX": 0,
+              "slideY": 0.04,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "6a8b92c7-777c-4654-9df8-1935fefbbdcf",
+            "kind": "text",
+            "name": "Subtitle Tagline",
+            "content": "Stay updated in real-time right from your lock screen and home widgets.",
+            "position": {
+              "x": -1.9,
+              "y": 0.85,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.82,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10000,
+            "layerOrder": 6,
+            "font": {
+              "family": "inter",
+              "size": 0.038,
+              "weight": 400,
+              "color": "#9ca3af",
+              "letterSpacing": 0,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 8,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.98,
+              "slideX": 0,
+              "slideY": 0.03,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "60dd3854-6aeb-418a-8bcb-3486d786163e",
+            "kind": "audio",
+            "name": "Atmospheric Beat",
+            "src": "/media/audio/sound_03daddd5-2a39-4000-b3c1-3e6473d4b518.mp3",
+            "volume": 0.8,
+            "fadeInMs": 200,
+            "fadeOutMs": 500,
+            "inMs": 0,
+            "outMs": 10000,
+            "sourceDurationMs": 10000,
+            "sourceOffsetMs": 0,
+            "layerOrder": 7,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none",
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          },
+          {
+            "id": "4b30bd6d-aab6-46c0-b1cf-dc8da81a9993",
+            "kind": "audio",
+            "name": "Tactile Snap",
+            "src": "/media/audio/sound_9dfe932e-43f7-4f52-8c0e-9dff10d52ac7.wav",
+            "volume": 0.6,
+            "fadeInMs": 50,
+            "fadeOutMs": 200,
+            "inMs": 0,
+            "outMs": 3500,
+            "sourceDurationMs": 3500,
+            "sourceOffsetMs": 0,
+            "layerOrder": 8,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none",
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.65,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.35
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        },
+        "edgeFade": {
+          "enabled": false,
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "effectsOrder": [
+          "bloom",
+          "vignette"
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "light": {
+          "pose": {
+            "ambience": 1.4,
+            "position": {
+              "x": -1.9,
+              "y": 6.0,
+              "z": 6.0
+            },
+            "intensity": 2.8,
+            "temperature": 6500
+          },
+          "animations": []
+        }
+      },
+      {
+        "id": "3cd9cec7-2742-43cd-b6c6-e8bb522405b1",
+        "name": "03 \u2014 Download on the App Store",
+        "startMs": 20000,
+        "duration": 10367,
+        "durationMs": 10367,
+        "laneIndex": 0,
+        "background": {
+          "kind": "solid",
+          "color": "#181924"
+        },
+        "defaultCamera": {
+          "position": {
+            "x": -1.9,
+            "y": 0.7,
+            "z": 2.65
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "focalLength": 50
+        },
+        "framings": [
+          {
+            "id": "cd65ec31-0228-41c8-94b2-a352ab564e91",
+            "zoom": 1.0,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "34b8eb4b-e415-446d-9f0e-5711f88282a1",
+            "zoom": 1.05,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": 0,
+                "y": 0.04,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "framerBlocks": [
+          {
+            "id": "62f125a6-9479-4e3e-abcc-7ab67540ba93",
+            "mode": "dolly",
+            "easing": "ease-out-cubic",
+            "startMs": 0,
+            "duration": 10367,
+            "fromFramingId": "cd65ec31-0228-41c8-94b2-a352ab564e91",
+            "toFramingId": "34b8eb4b-e415-446d-9f0e-5711f88282a1"
+          }
+        ],
+        "assets": [
+          {
+            "id": "fdd8a46e-8f58-4125-adaf-fb8ab2f5fff7",
+            "kind": "image",
+            "name": "App Store CTA Screen",
+            "src": "/media/thumbnails/thumb_94fd4a83-96e1-42d0-8439-790bada09abd.jpg",
+            "thumbSrc": "/media/thumbnails/thumb_94fd4a83-96e1-42d0-8439-790bada09abd.jpg",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": -1.9,
+              "y": 0.52,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.72,
+              "y": 0.72,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10367,
+            "layerOrder": 0,
+            "frame": "iphone",
+            "frameColor": "#1d1d1f",
+            "frameGloss": 0.5,
+            "frameGlare": 1.0,
+            "frameLidAngle": 110.3,
+            "frameScreenGlow": 1.0,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "fc534e2d-0825-4be2-86a5-07fcdfeff833",
+            "kind": "image",
+            "name": "5-Star Rating Badge",
+            "src": "/storage/v1/object/public/assets/templates/23c49eae-969d-402c-a1d9-ca0a2252f06d/a60ae212-769b-4e92-bbbe-381908a8e819.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/23c49eae-969d-402c-a1d9-ca0a2252f06d/a60ae212-769b-4e92-bbbe-381908a8e819.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": -0.28,
+              "y": -0.36,
+              "z": 0.12
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": 0.15,
+              "z": -0.04
+            },
+            "scale": {
+              "x": 0.32,
+              "y": 0.32,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10367,
+            "layerOrder": 1,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "93670ca3-26be-4fd8-b1c2-ca9312d6e6ab",
+            "kind": "image",
+            "name": "Apple Editor Choice",
+            "src": "/storage/v1/object/public/assets/templates/ba63d4f2-eec1-447b-a726-8d8e18b19742/0b5fc403-471d-4d3f-8de6-9ff291cf7169.png",
+            "thumbSrc": "/storage/v1/object/public/assets/templates/ba63d4f2-eec1-447b-a726-8d8e18b19742/0b5fc403-471d-4d3f-8de6-9ff291cf7169.png",
+            "cornerRadius": 0.03,
+            "position": {
+              "x": 0.28,
+              "y": -0.36,
+              "z": 0.12
+            },
+            "rotation": {
+              "x": 0.04,
+              "y": -0.15,
+              "z": 0.04
+            },
+            "scale": {
+              "x": 0.32,
+              "y": 0.32,
+              "z": 1
+            },
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10367,
+            "layerOrder": 2,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "a3a62cc7-6fed-419a-92fc-e6951a028473",
+            "kind": "shape",
+            "name": "Badge Pill Backdrop",
+            "shapeType": "rectangle",
+            "position": {
+              "x": -1.9,
+              "y": 1.05,
+              "z": 0.15
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "size": {
+              "width": 0.34,
+              "height": 0.055
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#075985",
+              "opacity": 0.95,
+              "enabled": true
+            },
+            "stroke": {
+              "color": "#bae6fd",
+              "opacity": 0.85,
+              "width": 0.002,
+              "align": "inside",
+              "style": "solid",
+              "enabled": true
+            },
+            "cornerRadius": 0.028,
+            "lockAspect": false,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10367,
+            "layerOrder": 3,
+            "entrance": {
+              "type": "none",
+              "duration": 0,
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "type": "none",
+              "duration": 0,
+              "easing": "linear",
+              "distance": 1
+            }
+          },
+          {
+            "id": "baf0e219-ff54-408a-94e1-e904cc64cad7",
+            "kind": "text",
+            "name": "Badge Pill Label",
+            "content": "NOW AVAILABLE",
+            "position": {
+              "x": -1.9,
+              "y": 1.05,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.32,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10367,
+            "layerOrder": 4,
+            "font": {
+              "family": "inter",
+              "size": 0.024,
+              "weight": 700,
+              "color": "#ffffff",
+              "letterSpacing": 0.08,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.95,
+              "slideX": 0,
+              "slideY": 0.02,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "e135478f-5b2e-47a0-8c99-3aa37c3054bc",
+            "kind": "text",
+            "name": "Headline Title",
+            "content": "Available on iOS & Android",
+            "position": {
+              "x": -1.9,
+              "y": 0.95,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.88,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10367,
+            "layerOrder": 5,
+            "font": {
+              "family": "inter",
+              "size": 0.075,
+              "weight": 800,
+              "color": "#ffffff",
+              "letterSpacing": -0.02,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 10,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.96,
+              "slideX": 0,
+              "slideY": 0.04,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "621586c9-cc98-43d6-96a6-60e4ae431b36",
+            "kind": "text",
+            "name": "Subtitle Tagline",
+            "content": "Join over 2 million creators transforming their daily workflow.",
+            "position": {
+              "x": -1.9,
+              "y": 0.85,
+              "z": 0.2
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "maxWidth": 0.82,
+            "sizing": "auto",
+            "verticalAlign": "middle",
+            "motionBlur": 0,
+            "opacity": 1.0,
+            "inMs": 0,
+            "outMs": 10367,
+            "layerOrder": 6,
+            "font": {
+              "family": "inter",
+              "size": 0.038,
+              "weight": 400,
+              "color": "#9ca3af",
+              "letterSpacing": 0,
+              "textAlign": "center"
+            },
+            "entrance": {
+              "blurFrom": 8,
+              "durationMs": 0,
+              "easing": "ease-out-expo",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 0.98,
+              "slideX": 0,
+              "slideY": 0.03,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            },
+            "exit": {
+              "blurTo": 0,
+              "durationMs": 0,
+              "easing": "ease-out",
+              "fade": false,
+              "maskSoftness": 0.1,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleTo": 1,
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "delayMs": 0,
+                "mode": "none"
+              },
+              "staggerMs": 0
+            }
+          },
+          {
+            "id": "9431e823-45df-47c8-b631-db0458ca7e57",
+            "kind": "audio",
+            "name": "Harmonic Climax",
+            "src": "/media/audio/sound_0256bd55-2cfc-42e5-af38-ae597d3f5cb7.wav",
+            "volume": 0.8,
+            "fadeInMs": 200,
+            "fadeOutMs": 500,
+            "inMs": 0,
+            "outMs": 10367,
+            "sourceDurationMs": 10367,
+            "sourceOffsetMs": 0,
+            "layerOrder": 7,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none",
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          },
+          {
+            "id": "7b7b49a9-bbaa-4361-afe5-c49429c653de",
+            "kind": "audio",
+            "name": "Final Launch Chime",
+            "src": "/media/audio/sound_07622cd9-f850-4d60-a9f8-77cd36ffe70b.wav",
+            "volume": 0.6,
+            "fadeInMs": 50,
+            "fadeOutMs": 200,
+            "inMs": 0,
+            "outMs": 3500,
+            "sourceDurationMs": 3500,
+            "sourceOffsetMs": 0,
+            "layerOrder": 8,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "entrance": {
+              "delay": 0,
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none",
+              "fade": false,
+              "durationMs": 0
+            },
+            "exit": {
+              "distance": 1,
+              "duration": 0,
+              "easing": "linear",
+              "type": "none"
+            }
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.65,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.35
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        },
+        "edgeFade": {
+          "enabled": false,
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "effectsOrder": [
+          "bloom",
+          "vignette"
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "light": {
+          "pose": {
+            "ambience": 1.4,
+            "position": {
+              "x": -1.9,
+              "y": 6.0,
+              "z": 6.0
+            },
+            "intensity": 2.8,
+            "temperature": 6500
+          },
+          "animations": []
+        }
+      }
+    ]
+  }
+}

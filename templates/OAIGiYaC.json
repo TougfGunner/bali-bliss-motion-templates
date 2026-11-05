@@ -1,0 +1,1166 @@
+{
+  "id": "134fb73c-4b75-465b-b60f-e73bfbfebdfe",
+  "slug": "OAIGiYaC",
+  "name": "Raylight Template",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 30,
+  "durationMs": 4917,
+  "styles": [
+    "glassy"
+  ],
+  "tags": [],
+  "effortLevel": "deep",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 1,
+    "totalLayers": 9,
+    "entrancePresets": [
+      "Typewriter"
+    ],
+    "exitPresets": [
+      "Fade"
+    ]
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#ffffff"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "ee468638-4636-4185-8c81-f33c7062b10b",
+        "name": "Shot 1",
+        "assets": [
+          {
+            "id": "ee468638-4636-4185-8c81-f33c7062b10b-main-image",
+            "src": "assets/templates/134fb73c-4b75-465b-b60f-e73bfbfebdfe/f89099b2-8d41-4900-9337-f24e514b4313.mov",
+            "crop": {
+              "x": 0,
+              "y": 0.08818257064655145,
+              "width": 0.8517796964861724,
+              "height": 0.9118174293534486
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "white-clouds-flowing-across-blue-sky-2025-12-17-09-42-57-utc",
+            "outMs": 3208.639754919819,
+            "scale": {
+              "x": 0.6918492229161111,
+              "y": 0.6918492229161111,
+              "z": 1
+            },
+            "groupId": "f9d88c28-c88c-4584-9114-5c46f33136b4",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8801171121371425,
+              "y": 0.7736952024319926,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/134fb73c-4b75-465b-b60f-e73bfbfebdfe/f89099b2-8d41-4900-9337-f24e514b4313.thumb.jpg",
+            "trimEndMs": 10224.6075047546,
+            "animations": [
+              {
+                "id": "fce4dcf9-1475-49a1-8aaa-907fba1a645d",
+                "amount": {
+                  "x": 0.8302190674993333,
+                  "y": 0.8302190674993333,
+                  "z": 1
+                },
+                "easing": "ease-out",
+                "startMs": 0,
+                "property": "scale",
+                "durationMs": 951.5857985844066
+              }
+            ],
+            "layerOrder": 0,
+            "trimStartMs": 7015.967749834781,
+            "cornerRadius": 0,
+            "sourceDurationMs": 11933
+          },
+          {
+            "id": "64ce88c8-566e-4db5-8cca-11d1fa3125b2",
+            "exit": {
+              "fade": true,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.15,
+              "color": "#ffffff",
+              "family": "manrope",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 203.29992551517472,
+            "kind": "text",
+            "outMs": 3203.2999255151753,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "Create a",
+            "groupId": "ea4c02b6-906f-441e-98c6-4ec2cc32f833",
+            "opacity": 0.71,
+            "entrance": {
+              "fade": false,
+              "easing": "linear",
+              "preset": "Typewriter",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "character",
+                "delayMs": 97
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": true,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.694769501534751,
+            "position": {
+              "x": -1.900000000000001,
+              "y": 0.6999999999999987,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.3524379630417574,
+            "animations": [
+              {
+                "id": "5d9eafbd-59b3-4689-a8ae-1d8265be705a",
+                "amount": {
+                  "x": 0.8,
+                  "y": 0.8,
+                  "z": 1
+                },
+                "easing": "ease-out",
+                "startMs": 203.29992551517472,
+                "property": "scale",
+                "durationMs": 692.6834706548264
+              }
+            ],
+            "layerOrder": 1,
+            "motionBlur": 0,
+            "verticalAlign": "middle",
+            "inkCenteredFragments": true
+          },
+          {
+            "id": "b877ca96-4137-4dc2-acbe-4c870ad9e719",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": false,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.22366727196919273,
+              "height": 0
+            },
+            "outMs": 3000,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#FFFFFF",
+              "style": "solid",
+              "width": 0.016488888888888886,
+              "enabled": true,
+              "opacity": 1
+            },
+            "groupId": "3d59f651-80b4-4ede-a05f-09c886753c9b",
+            "opacity": 0.78,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.3130256761499846,
+              "y": 0.6999999999999995,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 1.5707963267948968
+            },
+            "segments": [
+              {
+                "inMs": 0,
+                "outMs": 915.2000000001863
+              },
+              {
+                "inMs": 915.2000000001863,
+                "outMs": 3000
+              }
+            ],
+            "shapeType": "line",
+            "animations": [
+              {
+                "id": "f2cfd5f8-4bde-44e1-b87d-d74fff8d6d9d",
+                "amount": {
+                  "x": 0.75,
+                  "y": 0.75,
+                  "z": 1
+                },
+                "easing": "ease-out",
+                "startMs": 0,
+                "property": "scale",
+                "durationMs": 915.2000000001863
+              },
+              {
+                "id": "86c10969-2cb1-4293-8603-c065d4ddd050",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 951.5857985844066,
+                "property": "opacity",
+                "durationMs": 136.9487767612079
+              }
+            ],
+            "layerOrder": 2,
+            "lockAspect": false,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "liquidGlass": {
+                "blur": 10,
+                "enabled": true,
+                "highlight": 0.6,
+                "dispersion": 0.4,
+                "refraction": 0.5
+              }
+            },
+            "layerEffectsOrder": [
+              "liquidGlass"
+            ]
+          },
+          {
+            "id": "4f86a9d0-efb9-4555-8996-3ce2c5dfc215",
+            "src": "assets/templates/134fb73c-4b75-465b-b60f-e73bfbfebdfe/4e3e93a3-6743-4d70-aba5-69f66206b2c6.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1537.2354375387088,
+            "kind": "image",
+            "name": "Codex Go\u0308rseli 7 Eki 2026 18_22_08",
+            "outMs": 4878.723857602758,
+            "scale": {
+              "x": 0.6731976055503616,
+              "y": 0.6731976055503616,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9000000000000037,
+              "y": 0.6999999999999962,
+              "z": -0.003
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/134fb73c-4b75-465b-b60f-e73bfbfebdfe/4e3e93a3-6743-4d70-aba5-69f66206b2c6.thumb.jpg",
+            "animations": [
+              {
+                "id": "1863a1c6-3fc8-4481-9e9c-ef0fa497e57b",
+                "amount": {
+                  "x": 0.6395377252728435,
+                  "y": 0.6395377252728435,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 1537.2354375387088,
+                "property": "scale",
+                "durationMs": 1609.3286315428206
+              },
+              {
+                "id": "477e1290-17a4-4278-9880-64049c26b922",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 1537.2354375387088,
+                "property": "layerBlur",
+                "durationMs": 1609.3286315428206
+              }
+            ],
+            "layerOrder": 3,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "layerBlur": {
+                "blur": 0.010497165480690367,
+                "mode": "uniform",
+                "angle": 180,
+                "enabled": true
+              }
+            },
+            "layerEffectsOrder": [
+              "layerBlur"
+            ]
+          },
+          {
+            "id": "cc424fc5-6020-43ed-9086-ce2e778c5a55",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 1537.2354375387088,
+            "kind": "shape",
+            "size": {
+              "width": 1.3036564598955114,
+              "height": 0.2495950293169773
+            },
+            "outMs": 4230.251232676256,
+            "scale": {
+              "x": 1.2037881142236235,
+              "y": 0.6343599234031693,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 0.3,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.982444444444446,
+              "y": 0.6208334581603357,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "661ab4dc-f141-4864-b9fe-2c0083e0ecae",
+                "amount": {
+                  "x": 0.08244444444444443,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 1537.2354375387088,
+                "property": "position",
+                "durationMs": 503.2618362246569,
+                "customEasing": {
+                  "x1": 0.03,
+                  "x2": 0.02,
+                  "y1": 0.07,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "40c70e77-3fe1-4ef1-9f5f-a2218424733e",
+                "amount": {
+                  "x": 1.0834093028012612,
+                  "y": 0.5709239310628521,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 1537.2354375387088,
+                "property": "scale",
+                "durationMs": 1609.3286315428206
+              }
+            ],
+            "layerOrder": 4,
+            "lockAspect": false,
+            "cornerRadius": 1,
+            "layerEffects": {
+              "glow": {
+                "rim": 1,
+                "blur": 0.0011777777777777776,
+                "mode": "fill",
+                "angle": 180,
+                "blend": "normal",
+                "color": "#ffffff",
+                "sheen": 0.1,
+                "enabled": false,
+                "intensity": 0.1,
+                "thickness": 0
+              },
+              "liquidGlass": {
+                "blur": 10,
+                "enabled": true,
+                "highlight": 0.6,
+                "dispersion": 0.4,
+                "refraction": 0.5
+              }
+            },
+            "layerEffectsOrder": [
+              "liquidGlass"
+            ]
+          },
+          {
+            "id": "1a2449c0-1d69-4203-9515-4bde1029d8a0",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 1537.2354375387088,
+            "kind": "shape",
+            "size": {
+              "width": 1.3036564598955114,
+              "height": 0.2495950293169773
+            },
+            "outMs": 4230.251232676257,
+            "scale": {
+              "x": 1.2349489687216226,
+              "y": 0.8270811277884857,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 0.1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9808534465803493,
+              "y": 0.6134663369510334,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "954bdaf0-549d-49f5-a439-c278c0fcf461",
+                "amount": {
+                  "x": 0.08244444444444443,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 1537.2354375387088,
+                "property": "position",
+                "durationMs": 503.2618362246569,
+                "customEasing": {
+                  "x1": 0.03,
+                  "x2": 0.02,
+                  "y1": 0.07,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "e91ea0b2-81c1-4de2-be6e-69b6e7c3b9f9",
+                "amount": {
+                  "x": 1.111454071849462,
+                  "y": 0.7443730150096362,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 1537.2354375387088,
+                "property": "scale",
+                "durationMs": 1609.3286315428206
+              }
+            ],
+            "layerOrder": 5,
+            "lockAspect": false,
+            "cornerRadius": 1,
+            "layerEffects": {
+              "glow": {
+                "rim": 1,
+                "blur": 0.0011777777777777776,
+                "mode": "fill",
+                "angle": 180,
+                "blend": "normal",
+                "color": "#ffffff",
+                "sheen": 0.1,
+                "enabled": false,
+                "intensity": 0.1,
+                "thickness": 0
+              },
+              "liquidGlass": {
+                "blur": 10,
+                "enabled": true,
+                "highlight": 0.6,
+                "dispersion": 0.4,
+                "refraction": 0.5
+              }
+            },
+            "layerEffectsOrder": [
+              "liquidGlass"
+            ]
+          },
+          {
+            "id": "903e5710-6a63-47ef-8a0b-f9b9f3dc5e63",
+            "src": "assets/templates/134fb73c-4b75-465b-b60f-e73bfbfebdfe/09955b20-49d9-4f4a-8875-9f118b50c757.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1537.2354375387088,
+            "kind": "image",
+            "name": "Codex Go\u0308rseli 7 Eki 2026 19_15_39",
+            "outMs": 4917.032250165219,
+            "scale": {
+              "x": 0.04971993456386923,
+              "y": 0.04971993456386923,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.2883097557857546,
+              "y": 0.6263531377573907,
+              "z": -0.006
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/134fb73c-4b75-465b-b60f-e73bfbfebdfe/09955b20-49d9-4f4a-8875-9f118b50c757.thumb.jpg",
+            "animations": [
+              {
+                "id": "92d47420-e318-4c5b-a37c-92e5602c0d49",
+                "amount": {
+                  "x": 0.08244444444444443,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 1537.2354375387088,
+                "property": "position",
+                "durationMs": 503.2618362246569,
+                "customEasing": {
+                  "x1": 0.03,
+                  "x2": 0.02,
+                  "y1": 0.07,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "fcacf195-d12d-4f0e-a110-9b09b73acc7b",
+                "amount": {
+                  "x": 0.04474794110748231,
+                  "y": 0.04474794110748231,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 1537.2354375387088,
+                "property": "scale",
+                "durationMs": 1609.3286315428206
+              },
+              {
+                "id": "ba3a2bd7-06ef-48b5-9a6b-7e366d66b04e",
+                "amount": {
+                  "x": -0.05888888888888888,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 2040.4972737633657,
+                "property": "position",
+                "durationMs": 1106.0667953181637
+              }
+            ],
+            "layerOrder": 6,
+            "cornerRadius": 0
+          },
+          {
+            "id": "8e3f8786-533b-4fd0-823a-ec98bcb54561",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.05,
+              "color": "#414040",
+              "family": "manrope",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 1537.2354375387088,
+            "kind": "text",
+            "outMs": 4381.567687703741,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "Create a",
+            "groupId": "20573398-6770-4b4b-941d-7e12288006c5",
+            "opacity": 0.8,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.2020753426622864,
+            "position": {
+              "x": -2.556993681136136,
+              "y": 0.6265476766387863,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.18263448048502218,
+            "animations": [
+              {
+                "id": "325130e1-6ffc-4c7c-96d8-ae4487991969",
+                "amount": {
+                  "x": 0.08244444444444443,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 1537.2354375387088,
+                "property": "position",
+                "durationMs": 503.2618362246569,
+                "customEasing": {
+                  "x1": 0.03,
+                  "x2": 0.02,
+                  "y1": 0.07,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "e72759e8-e119-4b6b-a5ff-e7175ff79c20",
+                "amount": {
+                  "x": 0.9,
+                  "y": 0.9,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 1537.2354375387088,
+                "property": "scale",
+                "durationMs": 1609.3286315428206
+              }
+            ],
+            "layerOrder": 7,
+            "motionBlur": 0,
+            "verticalAlign": "middle",
+            "inkCenteredFragments": true
+          },
+          {
+            "id": "09104cb6-a042-4709-8a4a-d1f6fff516ff",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.05,
+              "color": "#414040",
+              "family": "manrope",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 1595.7458009354627,
+            "kind": "text",
+            "outMs": 4381.567687703741,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "animation video for my startup",
+            "opacity": 0.8,
+            "entrance": {
+              "fade": false,
+              "easing": "linear",
+              "preset": "Typewriter",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "character",
+                "delayMs": 30
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": true,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.6138976761105495,
+            "position": {
+              "x": -1.9290673494980048,
+              "y": 0.626619416272895,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.18263448048502218,
+            "animations": [
+              {
+                "id": "78c337c7-e39f-4f22-9717-bf133dc169d0",
+                "amount": {
+                  "x": 0.047111111111111104,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 1595.7458009354627,
+                "property": "position",
+                "durationMs": 503.2618362246569,
+                "customEasing": {
+                  "x1": 0.03,
+                  "x2": 0.02,
+                  "y1": 0.07,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "662a710d-2254-4dd8-9ea6-414d25e1bfe2",
+                "amount": {
+                  "x": 0.9,
+                  "y": 0.9,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 1595.7458009354627,
+                "property": "scale",
+                "durationMs": 1609.3286315428206
+              }
+            ],
+            "layerOrder": 8,
+            "motionBlur": 0,
+            "verticalAlign": "middle",
+            "inkCenteredFragments": true
+          }
+        ],
+        "groups": [
+          {
+            "id": "ea4c02b6-906f-441e-98c6-4ec2cc32f833",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "dee324ac-cc43-41b8-acb3-a46230a3b23f",
+                "amount": {
+                  "x": 0.85,
+                  "y": 0.85,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 203.29992551517472,
+                "property": "scale",
+                "durationMs": 1837.197348248191
+              }
+            ],
+            "planeScale": true,
+            "frameCarried": true,
+            "parentGroupId": "20599e53-26ff-4680-b652-0df5e525ed7b"
+          },
+          {
+            "id": "3d59f651-80b4-4ede-a05f-09c886753c9b",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "e3d16ed0-9ca6-4a82-b946-0e2f1e453da6",
+                "amount": {
+                  "x": 0.75,
+                  "y": 0.75,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "scale",
+                "durationMs": 2040.4972737633657
+              },
+              {
+                "id": "6632f4be-2ca6-4da6-8857-c0e9ced3f722",
+                "amount": {
+                  "x": 0.17666666666666664,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 203.29992551517472
+              },
+              {
+                "id": "2c098513-c261-4d58-ab90-d1a83a13f3ad",
+                "amount": {
+                  "x": 0.09422222222222221,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 203.29992551517472,
+                "property": "position",
+                "durationMs": 100
+              },
+              {
+                "id": "acb1e9b4-b93a-422f-a980-1f00f57efb56",
+                "amount": {
+                  "x": 0.09422222222222221,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 303.2999255151747,
+                "property": "position",
+                "durationMs": 100
+              },
+              {
+                "id": "29fadde1-178f-4d71-b904-04ff60d094cb",
+                "amount": {
+                  "x": 0.09422222222222221,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 403.2999255151747,
+                "property": "position",
+                "durationMs": 100
+              },
+              {
+                "id": "cdca6aa9-709f-4a25-a3e8-f79d636d646b",
+                "amount": {
+                  "x": 0.09422222222222221,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 503.2999255151747,
+                "property": "position",
+                "durationMs": 100
+              },
+              {
+                "id": "fab12b51-ed7a-4f9b-a369-81b77f41c30f",
+                "amount": {
+                  "x": 0.09422222222222221,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 603.2999255151747,
+                "property": "position",
+                "durationMs": 100
+              },
+              {
+                "id": "60803dfa-5a4e-4379-96b5-7f9cb9e5138f",
+                "amount": {
+                  "x": 0.07066666666666666,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 764.9004683320444,
+                "property": "position",
+                "durationMs": 131.08292783795662
+              }
+            ],
+            "planeScale": true,
+            "frameCarried": true,
+            "parentGroupId": "56494be8-d675-4a43-a7b1-fc165780360a"
+          },
+          {
+            "id": "56494be8-d675-4a43-a7b1-fc165780360a",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "394decdf-79e6-4c35-b0f9-01cab22ac48a",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 3000
+              }
+            ],
+            "planeScale": true,
+            "frameCarried": true,
+            "parentGroupId": "20599e53-26ff-4680-b652-0df5e525ed7b"
+          },
+          {
+            "id": "20599e53-26ff-4680-b652-0df5e525ed7b",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "23dcdcb6-5974-4467-a51e-596ffc98b531",
+                "amount": {
+                  "x": 0.3533333333333333,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 764.9004683320444,
+                "property": "position",
+                "durationMs": 754.2052936069385,
+                "customEasing": {
+                  "x1": 0.98,
+                  "x2": 1,
+                  "y1": 0.01,
+                  "y2": 1.02
+                }
+              }
+            ],
+            "planeScale": true,
+            "frameCarried": true,
+            "parentGroupId": "f9d88c28-c88c-4584-9114-5c46f33136b4"
+          },
+          {
+            "id": "f9d88c28-c88c-4584-9114-5c46f33136b4",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "73276b5f-51c3-4b35-bfb6-24539ee21886",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 1475.5438301011704,
+                "property": "opacity",
+                "durationMs": 100
+              }
+            ],
+            "planeScale": true,
+            "frameCarried": true
+          },
+          {
+            "id": "20573398-6770-4b4b-941d-7e12288006c5",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "ee8071fd-aab0-4ab9-a370-856a1b04a062",
+                "amount": {
+                  "x": 0.05888888888888888,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 1786.5077809187037,
+                "property": "position",
+                "durationMs": 1416.7921445964716
+              }
+            ],
+            "planeScale": true,
+            "frameCarried": true
+          }
+        ],
+        "startMs": 0,
+        "duration": 4917.032250165219,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

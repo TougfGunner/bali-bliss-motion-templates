@@ -1,0 +1,2047 @@
+{
+  "id": "8281e7bc-7dfa-457b-a73b-f8243bf2a4eb",
+  "slug": "KztPYhar",
+  "name": "Social promo 8",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "product_app",
+  "aspectRatio": "9:16",
+  "fps": 30,
+  "durationMs": 42590,
+  "styles": [
+    "modern",
+    "clean"
+  ],
+  "tags": [],
+  "effortLevel": "standard",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 11,
+    "totalLayers": 16,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "glow": 1,
+      "kind": "shader",
+      "angle": 28,
+      "color": "#2E6BE6",
+      "focus": 1,
+      "shine": 0.1,
+      "speed": 1,
+      "waves": 1,
+      "colors": [
+        "#101B3B",
+        "#0099ff",
+        "#6024ab",
+        "#0b1435",
+        "#07070F"
+      ],
+      "preset": "meshGradient",
+      "backgroundColor": "#000102"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 1.5066120743055915
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 16.875
+    },
+    "shots": [
+      {
+        "id": "0da9da88-778a-48c2-b25f-bed9d2d667b8",
+        "name": "Shot 1",
+        "room": {
+          "ambience": 0.15,
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "0da9da88-778a-48c2-b25f-bed9d2d667b8-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/a0c623de-3d50-4616-ab37-eca2bf44d80e.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Capture Oct 1 at 9.35.12 PM",
+            "frame": "macbook",
+            "outMs": 2417.766844396603,
+            "scale": {
+              "x": 0.715120254984306,
+              "y": 0.715120254984306,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.369828822946774,
+              "y": 0.6698503096924167,
+              "z": -0.20846981423601862
+            },
+            "rotation": {
+              "x": 0.21736624110092181,
+              "y": -0.5626873546687556,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/a0c623de-3d50-4616-ab37-eca2bf44d80e.thumb.jpg",
+            "trimEndMs": 11190.930487643785,
+            "animations": [
+              {
+                "id": "ab922bf2-4b36-4975-830a-7f040aae0635",
+                "amount": {
+                  "x": -0.02455219676646149,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "position",
+                "direction": "forward",
+                "durationMs": 2417.766844396603
+              },
+              {
+                "id": "c16240dd-b1f3-4b52-bd7c-9f5ed10b6680",
+                "amount": {
+                  "x": 0,
+                  "y": 0.06981317007977318,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 2417.766844396603
+              }
+            ],
+            "frameGlare": 0.93,
+            "frameGloss": 0.67,
+            "layerOrder": 0,
+            "trimStartMs": 8773.163643247182,
+            "cornerRadius": 0,
+            "frameLidAngle": 94,
+            "frameScreenGlow": 2,
+            "sourceDurationMs": 14410
+          }
+        ],
+        "startMs": 0,
+        "duration": 2417.766844396603,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "76b6509f-7f41-4911-a879-2d0944a41f03",
+            "tilt": 0,
+            "zoom": 1.0315039201640823,
+            "orbit": 0,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9000000000000001,
+                "y": 0.7832275238763893,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "6ebda449-53c4-423a-8863-ddfeba1d8434",
+            "zoom": 1.1348266841971713,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.912397084146489,
+                "y": 0.844900084961977,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "motionBlur"
+        ],
+        "framerBlocks": [
+          {
+            "id": "e8a6ad53-c9d3-423d-8a64-1c5c274b3b4b",
+            "mode": "zoom",
+            "easing": "linear",
+            "startMs": 0,
+            "duration": 2417.766844396603,
+            "toFramingId": "76b6509f-7f41-4911-a879-2d0944a41f03",
+            "fromFramingId": "6ebda449-53c4-423a-8863-ddfeba1d8434"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.25
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": -0.74
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 1.3,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "3f33b844-9431-4758-ae24-547bac7bd951",
+        "name": "Shot 2",
+        "room": {
+          "ambience": 0,
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "3f33b844-9431-4758-ae24-547bac7bd951-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/1ac69c8e-8904-424b-bd5e-c6d68ef640b0.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Capture Oct 1 at 9.35.12 PM",
+            "frame": "macbook",
+            "outMs": 2061.8540308345196,
+            "scale": {
+              "x": 0.7098075058510562,
+              "y": 0.7098075058510562,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.3356422122047162,
+              "y": 0.7172158779933441,
+              "z": -0.19681736159985733
+            },
+            "rotation": {
+              "x": 0.09516875899596478,
+              "y": 0.5114192265865654,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/1ac69c8e-8904-424b-bd5e-c6d68ef640b0.thumb.jpg",
+            "trimEndMs": 3722.387464287943,
+            "autoCamera": {
+              "zoom": 2,
+              "style": "balanced"
+            },
+            "layerOrder": 0,
+            "trimStartMs": 1660.5334334534236,
+            "cornerRadius": 0,
+            "frameLidAngle": 94,
+            "sourceDurationMs": 9903
+          },
+          {
+            "id": "9a967814-d204-4b48-857e-505a8f5bf69f",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/1ac69c8e-8904-424b-bd5e-c6d68ef640b0.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 2061.8540308345196,
+            "kind": "video",
+            "name": "Capture Oct 1 at 9.35.12 PM",
+            "frame": "macbook",
+            "outMs": 3643.6759474635437,
+            "scale": {
+              "x": 0.7098075058510562,
+              "y": 0.7098075058510562,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.3356422122047162,
+              "y": 0.7172158779933441,
+              "z": -0.19681736159985733
+            },
+            "rotation": {
+              "x": 0.09516875899596478,
+              "y": 0.5114192265865654,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/1ac69c8e-8904-424b-bd5e-c6d68ef640b0.thumb.jpg",
+            "trimEndMs": 6427.11529200165,
+            "autoCamera": {
+              "zoom": 2,
+              "style": "balanced"
+            },
+            "layerOrder": 1,
+            "trimStartMs": 4845.2933753726265,
+            "cornerRadius": 0,
+            "frameLidAngle": 94,
+            "sourceDurationMs": 9903
+          }
+        ],
+        "startMs": 2417.766844396603,
+        "duration": 3643.6759474635437,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "f14d9a02-28b6-4e9c-84c2-633e7276411e",
+            "zoom": 1.2270984279969042,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7634634889354095,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "ec5742b2-ce6e-4de7-8f52-442041cf5976",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "motionBlur"
+        ],
+        "framerBlocks": [
+          {
+            "id": "10ecc5ef-46ed-4e38-a165-2ed86d4a4f70",
+            "mode": "zoom",
+            "easing": "linear",
+            "startMs": 0,
+            "duration": 3643.6759474635437,
+            "toFramingId": "f14d9a02-28b6-4e9c-84c2-633e7276411e",
+            "fromFramingId": "ec5742b2-ce6e-4de7-8f52-442041cf5976"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.25
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "877bcbd1-ee7e-4174-9382-c70aa47daee0",
+        "name": "Shot 3",
+        "assets": [
+          {
+            "id": "877bcbd1-ee7e-4174-9382-c70aa47daee0-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/11c59cfb-9a0c-45e1-9f46-70885c40dea8.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Capture Oct 1 at 10.26.28 PM",
+            "outMs": 3009.0009842151157,
+            "scale": {
+              "x": 0.27119017337500645,
+              "y": 0.27119017337500645,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/11c59cfb-9a0c-45e1-9f46-70885c40dea8.thumb.jpg",
+            "trimEndMs": 10216.560405472497,
+            "layerOrder": 0,
+            "trimStartMs": 7207.559421257381,
+            "cornerRadius": 0.04783446209262232,
+            "sourceDurationMs": 12385
+          }
+        ],
+        "startMs": 6061.442791860147,
+        "duration": 3009.0009842151157,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "7aeb901d-ef7b-48a6-ac79-048336fcd342",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "0eef7944-ffec-42fd-9c9e-6643e48a325a",
+            "zoom": 5.349235817472519,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -2.358016900880778,
+                "y": 0.95315655576359,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "motionBlur"
+        ],
+        "framerBlocks": [
+          {
+            "id": "d9c294f0-a9e7-477a-b038-9b465f583bb8",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 306.3890676110028,
+            "duration": 1000.0000000000001,
+            "toFramingId": "7aeb901d-ef7b-48a6-ac79-048336fcd342",
+            "fromFramingId": "0eef7944-ffec-42fd-9c9e-6643e48a325a"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.25
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "13cb1aea-3623-4ed8-aeee-ee258ae85b92",
+        "name": "Shot 4",
+        "assets": [
+          {
+            "id": "13cb1aea-3623-4ed8-aeee-ee258ae85b92-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/7811fcfb-623b-40eb-abfd-db71dc97cb32.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Screen Recording 2026-10-01 at 10.31.23\u202fPM",
+            "outMs": 6584.616665428971,
+            "scale": {
+              "x": 0.27119017337500645,
+              "y": 0.27119017337500645,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/7811fcfb-623b-40eb-abfd-db71dc97cb32.thumb.jpg",
+            "trimEndMs": 13056.956150201107,
+            "layerOrder": 0,
+            "trimStartMs": 6472.3394847721365,
+            "cornerRadius": 0.04841305646033161,
+            "sourceDurationMs": 27793
+          },
+          {
+            "id": "74ff6c3f-4bbc-43f4-a0ba-e7421bfd7504",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/7811fcfb-623b-40eb-abfd-db71dc97cb32.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 6584.616665428971,
+            "kind": "video",
+            "name": "Screen Recording 2026-10-01 at 10.31.23\u202fPM",
+            "outMs": 9558.934358451199,
+            "scale": {
+              "x": 0.27119017337500645,
+              "y": 0.27119017337500645,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/7811fcfb-623b-40eb-abfd-db71dc97cb32.thumb.jpg",
+            "trimEndMs": 17684.429035467743,
+            "layerOrder": 1,
+            "trimStartMs": 14710.111342445514,
+            "cornerRadius": 0.049667204383226075,
+            "sourceDurationMs": 27793
+          }
+        ],
+        "startMs": 9070.443776075263,
+        "duration": 9558.934358451199,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "4317281b-7bb1-45af-b006-dcc100e36dec",
+            "zoom": 2.55,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.5556886977828381,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "f3f0abfb-6d00-4f88-93d6-223e61f1c4f6",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "9972000f-4bbf-42cf-a63c-42beeed3ee5f",
+            "zoom": 2.55,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.7943733458659694,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "01970cd0-1ee6-41f5-8d7d-5ced30628669",
+            "zoom": 1.343604561640015,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.8063201110146614,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "db19118b-7329-44d1-a7b5-6563aa7805f5",
+            "zoom": 3.0756619242084784,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.8999999999999997,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "9c12a1bb-3cba-4f68-88e9-d2e925420b15",
+            "zoom": 1.3510728118353965,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.7867861956182165,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "cccdffb8-0b26-4446-beb2-77f08711c9d0",
+            "tilt": 16,
+            "zoom": 3.0550086816194404,
+            "orbit": 21,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.4994454460332027,
+                "y": 0.8450850080568316,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "motionBlur"
+        ],
+        "framerBlocks": [
+          {
+            "id": "6aefa4a4-2f5f-45c6-8a5b-f515c1330c6e",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 406.93044522998815,
+            "duration": 1000,
+            "toFramingId": "4317281b-7bb1-45af-b006-dcc100e36dec",
+            "fromFramingId": "f3f0abfb-6d00-4f88-93d6-223e61f1c4f6"
+          },
+          {
+            "id": "6d387e2d-0c02-405f-a0be-e91cbd5b1d6a",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 1933.6063010621194,
+            "duration": 1000,
+            "toFramingId": "9972000f-4bbf-42cf-a63c-42beeed3ee5f",
+            "fromFramingId": "4317281b-7bb1-45af-b006-dcc100e36dec"
+          },
+          {
+            "id": "8df488f6-f8d6-45db-9cfc-82beb3557842",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 3463.9410834994833,
+            "duration": 1000,
+            "toFramingId": "01970cd0-1ee6-41f5-8d7d-5ced30628669",
+            "fromFramingId": "9972000f-4bbf-42cf-a63c-42beeed3ee5f"
+          },
+          {
+            "id": "c718212a-ba94-4f60-bf99-3745b08cd510",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 5040.942307638573,
+            "duration": 1000,
+            "toFramingId": "db19118b-7329-44d1-a7b5-6563aa7805f5",
+            "fromFramingId": "01970cd0-1ee6-41f5-8d7d-5ced30628669"
+          },
+          {
+            "id": "1867dad7-93eb-4e2f-a22a-2bdda51a0b72",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 6220.160983707297,
+            "duration": 1000,
+            "toFramingId": "9c12a1bb-3cba-4f68-88e9-d2e925420b15",
+            "fromFramingId": "db19118b-7329-44d1-a7b5-6563aa7805f5"
+          },
+          {
+            "id": "91f22376-0948-4055-87b0-173222e16859",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 7849.471011608501,
+            "duration": 1000,
+            "toFramingId": "cccdffb8-0b26-4446-beb2-77f08711c9d0",
+            "fromFramingId": "9c12a1bb-3cba-4f68-88e9-d2e925420b15"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.25
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "a2df20e1-c362-4855-85d5-084d60072c88",
+        "name": "Shot 5",
+        "assets": [
+          {
+            "id": "a2df20e1-c362-4855-85d5-084d60072c88-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/d20f657d-f231-4424-a808-c5aeddc733b4.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Capture Oct 1 at 10.49.17 PM",
+            "outMs": 3935.2391473165335,
+            "scale": {
+              "x": 0.4345073921381371,
+              "y": 0.4345073921381371,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8758119487168505,
+              "y": 0.6999999999999993,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/d20f657d-f231-4424-a808-c5aeddc733b4.thumb.jpg",
+            "trimEndMs": 5539.84194049986,
+            "autoCamera": {
+              "zoom": 2,
+              "style": "balanced"
+            },
+            "layerOrder": 0,
+            "trimStartMs": 1604.6027931833269,
+            "cornerRadius": 0,
+            "sourceDurationMs": 32210
+          },
+          {
+            "id": "d3d80d37-a06c-4b8c-8094-0f96002d41f1",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/d20f657d-f231-4424-a808-c5aeddc733b4.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 3935.2391473165335,
+            "kind": "video",
+            "name": "Capture Oct 1 at 10.49.17 PM",
+            "outMs": 8382.867666552573,
+            "scale": {
+              "x": 0.4345073921381371,
+              "y": 0.4345073921381371,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8758119487168505,
+              "y": 0.6999999999999993,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/d20f657d-f231-4424-a808-c5aeddc733b4.thumb.jpg",
+            "trimEndMs": 15095.271850641358,
+            "autoCamera": {
+              "zoom": 2,
+              "style": "balanced"
+            },
+            "layerOrder": 1,
+            "trimStartMs": 10647.64333140532,
+            "cornerRadius": 0,
+            "sourceDurationMs": 32210
+          }
+        ],
+        "startMs": 18629.37813452646,
+        "duration": 8382.867666552575,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "7a259d3e-3070-4d79-9730-b1c0e13f40e5",
+            "tilt": 19,
+            "zoom": 2,
+            "orbit": 22,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.2162577861595456,
+                "y": 0.8535200788566908,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "f2b7ad3b-f5f7-4379-8fe9-dff62ac12f68",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "fff42c0b-2a18-45b9-b157-7eae742168f3",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "beba7a59-0c3a-49ed-9fb9-8e3dc7993c17",
+            "zoom": 1.3667504302775353,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "motionBlur"
+        ],
+        "framerBlocks": [
+          {
+            "id": "f8e6dafa-c84a-40f7-a52e-fe9d3ed37a64",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 1749.4523429932779,
+            "duration": 1000,
+            "toFramingId": "7a259d3e-3070-4d79-9730-b1c0e13f40e5",
+            "fromFramingId": "f2b7ad3b-f5f7-4379-8fe9-dff62ac12f68"
+          },
+          {
+            "id": "d7d0e946-e7dd-4186-9bca-5b7bbf6309a8",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 3823.668088594026,
+            "duration": 1000,
+            "toFramingId": "fff42c0b-2a18-45b9-b157-7eae742168f3",
+            "fromFramingId": "7a259d3e-3070-4d79-9730-b1c0e13f40e5"
+          },
+          {
+            "id": "3d17a30d-7dbb-4345-a2b7-acb05e9cd249",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 6258.969311289776,
+            "duration": 1000,
+            "toFramingId": "beba7a59-0c3a-49ed-9fb9-8e3dc7993c17",
+            "fromFramingId": "fff42c0b-2a18-45b9-b157-7eae742168f3"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.25
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "1978e8c0-e742-45eb-9395-3023229e7881",
+        "name": "Shot 6",
+        "assets": [
+          {
+            "id": "1978e8c0-e742-45eb-9395-3023229e7881-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/bb2dd22e-4c69-4802-8d50-f19f507fe5ad.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Capture Oct 1 at 11.02.06 PM",
+            "outMs": 4025.2664328501305,
+            "scale": {
+              "x": 0.4344064814247789,
+              "y": 0.4344064814247789,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8803974593765187,
+              "y": 0.7000000000000001,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/bb2dd22e-4c69-4802-8d50-f19f507fe5ad.thumb.jpg",
+            "trimEndMs": 5317.232768930484,
+            "autoCamera": {
+              "zoom": 2,
+              "style": "balanced"
+            },
+            "layerOrder": 0,
+            "trimStartMs": 1291.9663360803538,
+            "cornerRadius": 0,
+            "sourceDurationMs": 10973
+          },
+          {
+            "id": "f47bf7a3-45bc-46cf-b0f9-bde9568569e9",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/bb2dd22e-4c69-4802-8d50-f19f507fe5ad.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 4025.2664328501305,
+            "kind": "video",
+            "name": "Capture Oct 1 at 11.02.06 PM",
+            "outMs": 6177.650624625581,
+            "scale": {
+              "x": 0.4344064814247789,
+              "y": 0.4344064814247789,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8803974593765187,
+              "y": 0.7000000000000001,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/bb2dd22e-4c69-4802-8d50-f19f507fe5ad.thumb.jpg",
+            "trimEndMs": 8629.496793060793,
+            "autoCamera": {
+              "zoom": 2,
+              "style": "balanced"
+            },
+            "layerOrder": 1,
+            "trimStartMs": 6477.112601285341,
+            "cornerRadius": 0,
+            "sourceDurationMs": 10973
+          }
+        ],
+        "startMs": 27012.245801079036,
+        "duration": 6177.650624625581,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "b996e1f7-1c8a-41d5-aa0f-e55db2e63223",
+            "zoom": 1.6739969863959538,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "288531c6-30ba-413c-8632-b728ab96aee6",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "motionBlur"
+        ],
+        "framerBlocks": [
+          {
+            "id": "32a097da-0c54-46e2-ab04-1e932db1c60b",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 2942.492303600702,
+            "duration": 1000,
+            "toFramingId": "b996e1f7-1c8a-41d5-aa0f-e55db2e63223",
+            "fromFramingId": "288531c6-30ba-413c-8632-b728ab96aee6"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.25
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "fcec0455-56fa-4e78-af16-87809ddb7f52",
+        "name": "Shot 7",
+        "assets": [
+          {
+            "id": "fcec0455-56fa-4e78-af16-87809ddb7f52-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/ea399d9d-363a-45fc-84f1-48ea4f328ebe.mov",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Capture Oct 1 at 11.11.48 PM",
+            "outMs": 3547.83832876369,
+            "scale": {
+              "x": 0.5628365412714759,
+              "y": 0.5628365412714759,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/ea399d9d-363a-45fc-84f1-48ea4f328ebe.thumb.jpg",
+            "trimEndMs": 9556.026734342231,
+            "autoCamera": {
+              "zoom": 2,
+              "style": "balanced"
+            },
+            "layerOrder": 0,
+            "trimStartMs": 6008.188405578541,
+            "cornerRadius": 0,
+            "sourceDurationMs": 10935
+          }
+        ],
+        "startMs": 36041.7556003464,
+        "duration": 3547.83832876369,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "75c606d6-697b-450f-981c-66b96dcfd833",
+            "zoom": 2,
+            "orbit": -23,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -2.2591801339400357,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "4d09cf9d-da11-43ab-a3cd-eca9c7e02ede",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "e8487e33-90e8-4fc5-b1e2-6cb2c7a4a31a",
+            "zoom": 1.7988541010625323,
+            "orbit": 12,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.859586160792423,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "motionBlur"
+        ],
+        "framerBlocks": [
+          {
+            "id": "975e9bb9-0be3-4fc8-9e4a-854ccec7feb7",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 245.1965344164273,
+            "duration": 1000,
+            "toFramingId": "75c606d6-697b-450f-981c-66b96dcfd833",
+            "fromFramingId": "4d09cf9d-da11-43ab-a3cd-eca9c7e02ede"
+          },
+          {
+            "id": "98c22459-885e-4b42-bbe9-58a4a5bc741a",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 1706.6362392406081,
+            "duration": 1000,
+            "toFramingId": "e8487e33-90e8-4fc5-b1e2-6cb2c7a4a31a",
+            "fromFramingId": "75c606d6-697b-450f-981c-66b96dcfd833"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.25
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "8724345a-5963-47d4-ab89-f8d29defa065",
+        "name": "Shot 8",
+        "assets": [
+          {
+            "id": "33606111-c26c-427b-9e58-40c796bafdda",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.06,
+              "color": "#a1a1a1",
+              "family": "manrope",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 0,
+            "kind": "text",
+            "outMs": 3000,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "raylight.app",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.6928766028139078,
+            "position": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.12118968230008954,
+            "animations": [
+              {
+                "id": "002b4778-cc2d-441b-ab83-f62be8a06458",
+                "color": "#ffffff",
+                "width": 0.18,
+                "easing": "linear",
+                "startMs": 501.74332822771675,
+                "property": "shimmer",
+                "intensity": 3.2,
+                "durationMs": 1032.9357780957441
+              }
+            ],
+            "layerOrder": 0,
+            "motionBlur": 0,
+            "fillGradient": {
+              "angle": 252.54942858757602,
+              "stops": [
+                {
+                  "color": "#a1a1a1",
+                  "opacity": 1,
+                  "position": 0
+                },
+                {
+                  "color": "#666666",
+                  "opacity": 1,
+                  "position": 1
+                },
+                {
+                  "color": "#dcdcdc",
+                  "opacity": 1,
+                  "position": 0.5
+                }
+              ],
+              "handles": {
+                "end": {
+                  "x": 0.047120646853947436,
+                  "y": 1.0598868725405983
+                },
+                "start": {
+                  "x": 1.014941434402274,
+                  "y": -0.3207350183564707
+                },
+                "width": {
+                  "x": 0.7107063969644031,
+                  "y": -4.712716221466027
+                }
+              },
+              "gradientType": "linear"
+            },
+            "verticalAlign": "middle"
+          }
+        ],
+        "startMs": 39589.59392911009,
+        "duration": 3000,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "motionBlur",
+          "bloom"
+        ],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.25
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "39352f34-b6e5-4185-bd5e-45ed0fb7b573",
+        "name": "Sound",
+        "assets": [
+          {
+            "id": "50b64167-86ee-4487-abb0-cd1f43e7cf56",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/5623de7a-32a6-4d6b-90ab-ba81c6884426.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "I want some nice background music for this video. Keep it subtle. Nothing crazy ",
+            "outMs": 42589.59392911009,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 800,
+            "layerOrder": 0,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 55820.770833333336
+          },
+          {
+            "id": "1ce8c1fd-11ea-4501-a7cd-cf9a793b7859",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/b6a49388-dae8-4d70-a8ce-09f5c9296bb3.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "This secret website turns a boring screenshot into a $10,000 launch video. And i",
+            "outMs": 40158.76980767322,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "effects": {
+              "voice": {
+                "air": 0.45,
+                "body": 0.55,
+                "clean": 0.7,
+                "deEss": 0.6,
+                "amount": 1,
+                "density": 0.35,
+                "enabled": true,
+                "leveling": 0.65,
+                "presence": 0.55,
+                "character": "podcast",
+                "targetLufs": -16
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "segments": [
+              {
+                "inMs": 0,
+                "outMs": 5034.878922256764,
+                "offsetMs": 0,
+                "fadeOutMs": 71
+              },
+              {
+                "inMs": 5034.878922256764,
+                "outMs": 7391.132489909288,
+                "fadeInMs": 93,
+                "offsetMs": 5541.299811242305,
+                "fadeOutMs": 66
+              },
+              {
+                "inMs": 7443.986471100157,
+                "outMs": 11607.110492966594,
+                "fadeInMs": 72,
+                "offsetMs": 8393.016806065465,
+                "fadeOutMs": 49
+              },
+              {
+                "inMs": 11680.16296496319,
+                "outMs": 17149.880993700965,
+                "fadeInMs": 47,
+                "offsetMs": 13027.60630690828,
+                "fadeOutMs": 19
+              },
+              {
+                "inMs": 17294.73624406398,
+                "outMs": 18240.605476224893,
+                "fadeInMs": 46,
+                "offsetMs": 18497.32433564605,
+                "fadeOutMs": 33
+              },
+              {
+                "inMs": 18363.33837548019,
+                "outMs": 40158.76980767322,
+                "fadeInMs": 25,
+                "offsetMs": 19443.193567806964
+              }
+            ],
+            "fadeOutMs": 0,
+            "layerOrder": 1,
+            "effectsOrder": [
+              "voice"
+            ],
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 41238.625
+          }
+        ],
+        "startMs": 0,
+        "duration": 42589.59392911009,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "soundBed": true,
+        "laneIndex": 1,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.45
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10.5,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "fcf233da-9f77-4986-a28c-ad18ed8b014e",
+        "name": "Shot 9",
+        "assets": [
+          {
+            "id": "fcf233da-9f77-4986-a28c-ad18ed8b014e-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/559e04aa-d5e3-4eb8-8457-f261406d63ef.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "shot-1-1790951650757",
+            "outMs": 2851.8591746417806,
+            "scale": {
+              "x": 0.30132241486111877,
+              "y": 0.30132241486111877,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8999999999999995,
+              "y": 0.6999999999999995,
+              "z": 0
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/559e04aa-d5e3-4eb8-8457-f261406d63ef.thumb.jpg",
+            "trimEndMs": 2851.8591746417806,
+            "layerOrder": 0,
+            "trimStartMs": 0,
+            "cornerRadius": 0,
+            "sourceDurationMs": 3648
+          }
+        ],
+        "startMs": 33189.89642570462,
+        "duration": 2851.8591746417806,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "6cbe2035-9d8e-46fa-9a1f-cefbaac7ecfb",
+        "name": "Shot 10",
+        "assets": [
+          {
+            "id": "6cbe2035-9d8e-46fa-9a1f-cefbaac7ecfb-main-image",
+            "src": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/ba4d9510-2c58-44b4-acf2-a7baef5184f6.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "social-promo-8-frame-2.07s",
+            "outMs": 5000,
+            "scale": {
+              "x": 0.27119017337500645,
+              "y": 0.27119017337500645,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/8281e7bc-7dfa-457b-a73b-f8243bf2a4eb/ba4d9510-2c58-44b4-acf2-a7baef5184f6.thumb.jpg",
+            "layerOrder": 0,
+            "cornerRadius": 0
+          }
+        ],
+        "startMs": 0,
+        "duration": 33668.93503547233,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

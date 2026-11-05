@@ -1,0 +1,291 @@
+{
+  "id": "2b5bae9c-aa1d-4037-aacd-a9fcb562c6c1",
+  "slug": "PqUKC9Wh",
+  "name": "Bouncy liquid glass",
+  "brand": "Bali Bliss",
+  "description": "Simple example of some bouncy liquid glass animations and a red shader background",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 30,
+  "durationMs": 7307,
+  "styles": [
+    "minimal",
+    "dark",
+    "gradient"
+  ],
+  "tags": [],
+  "effortLevel": "quick",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 1,
+    "totalLayers": 1,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "glow": 1.85,
+      "kind": "shader",
+      "angle": 40,
+      "color": "#ef4444",
+      "focus": 0.8,
+      "shine": 0.5,
+      "speed": 3,
+      "waves": 0.75,
+      "preset": "undertones",
+      "backgroundColor": "#000000"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "2bad44d8-0908-4892-9110-e025d42a64b8",
+        "name": "Shot 1",
+        "assets": [
+          {
+            "id": "1343ca24-1129-47b3-b50f-447c999f264b",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#bfbfbf",
+              "enabled": true,
+              "opacity": 0
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.5661230966605393,
+              "height": 0.3885343412898084
+            },
+            "outMs": 7307.423189603365,
+            "scale": {
+              "x": 2.2003738369591215,
+              "y": 1.3974454709797817,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.00471111111111111,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.886885077742032,
+              "y": 0.6999999999999993,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "9ef066d6-b3e1-4817-b62d-e370158ccbae",
+                "amount": {
+                  "x": 0.33810882352941296,
+                  "y": 1.1102230246251565e-15,
+                  "z": 0
+                },
+                "easing": "spring-quick",
+                "spring": {
+                  "mass": 1,
+                  "damping": 16,
+                  "stiffness": 438
+                },
+                "startMs": 342.23680704502755,
+                "property": "position",
+                "durationMs": 2321.6351321457187
+              },
+              {
+                "id": "40b305c4-3531-4891-b1b8-532356625ba1",
+                "amount": {
+                  "width": 0.2467560495565202,
+                  "height": 0.38853434128980835
+                },
+                "easing": "spring-gentle",
+                "spring": {
+                  "mass": 1,
+                  "damping": 15,
+                  "stiffness": 249
+                },
+                "startMs": 342.23680704502755,
+                "property": "size",
+                "durationMs": 1386.6927039760635
+              },
+              {
+                "id": "6554b56e-9356-45dc-947a-1a2ea0992409",
+                "amount": {
+                  "x": -0.2744222222222222,
+                  "y": 0.2838444444444444,
+                  "z": 0
+                },
+                "easing": "spring-quick",
+                "spring": {
+                  "mass": 1,
+                  "damping": 16,
+                  "stiffness": 476
+                },
+                "startMs": 2663.871939190746,
+                "property": "position",
+                "durationMs": 2371.1187093585377
+              },
+              {
+                "id": "6f594aa5-fde0-4fbd-8494-957628692436",
+                "amount": {
+                  "width": 0.5084994513637618,
+                  "height": 0.8006672976688025
+                },
+                "easing": "spring-gentle",
+                "spring": {
+                  "mass": 1,
+                  "damping": 15,
+                  "stiffness": 250
+                },
+                "startMs": 2663.871939190746,
+                "property": "size",
+                "durationMs": 1552.427169826803
+              },
+              {
+                "id": "8a1d3038-21e9-450e-8439-70bf70a16510",
+                "amount": {
+                  "x": -0.4840666666666666,
+                  "y": -0.44991111111111104,
+                  "z": 0
+                },
+                "easing": "spring-quick",
+                "spring": {
+                  "mass": 1,
+                  "damping": 16,
+                  "stiffness": 490
+                },
+                "startMs": 5034.990648549284,
+                "property": "position",
+                "durationMs": 2272.4325410540814
+              },
+              {
+                "id": "4789014f-5620-4f2b-b1fc-ccfc3d384b11",
+                "amount": {
+                  "width": 0.934033202768173,
+                  "height": 0.1407488828533579
+                },
+                "easing": "spring-gentle",
+                "spring": {
+                  "mass": 1,
+                  "damping": 15,
+                  "stiffness": 134
+                },
+                "startMs": 5034.990648549284,
+                "property": "size",
+                "durationMs": 1165.9412242147164
+              }
+            ],
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 1,
+            "layerEffects": {
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": false,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              },
+              "liquidGlass": {
+                "blur": 10,
+                "enabled": true,
+                "highlight": 0.6,
+                "dispersion": 0.4,
+                "refraction": 0.5
+              },
+              "backdropBlur": {
+                "blur": 24,
+                "enabled": false
+              }
+            },
+            "layerEffectsOrder": [
+              "liquidGlass"
+            ]
+          }
+        ],
+        "startMs": 0,
+        "duration": 7307.423189603365,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.45
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10.5,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

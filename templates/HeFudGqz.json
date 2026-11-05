@@ -1,0 +1,4823 @@
+{
+  "id": "36f72287-bf45-4c79-81ba-ceab4d74400f",
+  "slug": "HeFudGqz",
+  "name": "Studdly App",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 30,
+  "durationMs": 33694,
+  "styles": [
+    "modern",
+    "clean"
+  ],
+  "tags": [
+    "awards"
+  ],
+  "effortLevel": "standard",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 19,
+    "totalLayers": 36,
+    "entrancePresets": [
+      "Word Flow"
+    ],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "kind": "gradient",
+      "angle": 90,
+      "stops": [
+        {
+          "color": "#0c0d0e",
+          "opacity": 1,
+          "position": 0
+        },
+        {
+          "color": "#121e3c",
+          "opacity": 1,
+          "position": 1
+        }
+      ],
+      "gradientType": "linear"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.6500000000000004
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "82bd0af2-f9cf-4269-bbe9-5b18b78f656f",
+        "name": "Shot 1",
+        "light": {
+          "pose": {
+            "position": {
+              "x": 5.345726411966002,
+              "y": 12.05038837805521,
+              "z": 4.712891794476187
+            },
+            "intensity": 2.5,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "c075a511-46b7-4a6a-b967-7beb696ae5a4",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ee898cca-58ab-4ea2-9981-870c73405a2d.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 1149.320155701304,
+            "scale": {
+              "x": 0.562003975826972,
+              "y": 0.562003975826972,
+              "z": 1.2767175572519085
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.7148444444444442,
+              "y": -0.7752764461012676,
+              "z": 0.03206017380959193
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": 0.106317575570216,
+              "y": 0.8307420616755881,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ee898cca-58ab-4ea2-9981-870c73405a2d.thumb.jpg",
+            "trimEndMs": 1149.320155701304,
+            "animations": [
+              {
+                "id": "14beed00-c3f6-466a-a075-7997ef47eed3",
+                "amount": {
+                  "x": -0.0025322763170201323,
+                  "y": -0.13377067401338327,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 1149.320155701304
+              }
+            ],
+            "layerOrder": 0,
+            "trimStartMs": 0,
+            "cornerRadius": 0,
+            "sourceDurationMs": 29440
+          },
+          {
+            "id": "e8442780-6ce6-44bf-b165-1511873dafe6",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ee898cca-58ab-4ea2-9981-870c73405a2d.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 1149.320155701304,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 2353.4582242897536,
+            "scale": {
+              "x": 0.562003975826972,
+              "y": 0.562003975826972,
+              "z": 1.2767175572519085
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.1576102055572566,
+              "y": 0.1253952277658697,
+              "z": -0.2850222222222222
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": 0.106317575570216,
+              "y": -1.265363707695889,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ee898cca-58ab-4ea2-9981-870c73405a2d.thumb.jpg",
+            "trimEndMs": 1204.1380685884496,
+            "animations": [
+              {
+                "id": "5eb82b9b-0795-4997-b8d0-7e8b93b781e9",
+                "amount": {
+                  "x": 0.08726646259971647,
+                  "y": 2.6179938779914944,
+                  "z": 0
+                },
+                "easing": "custom",
+                "startMs": 1149.320155701304,
+                "property": "tilt",
+                "durationMs": 1204.1380685884496,
+                "customEasing": {
+                  "x1": 0,
+                  "x2": 1,
+                  "y1": 0.52,
+                  "y2": 0.43
+                }
+              }
+            ],
+            "layerOrder": 1,
+            "trimStartMs": 0,
+            "cornerRadius": 0,
+            "sourceDurationMs": 29440
+          },
+          {
+            "id": "bab14401-1f32-412c-8883-8956b1aa411b",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ee898cca-58ab-4ea2-9981-870c73405a2d.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 2353.4582242897536,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 5109.988565749885,
+            "scale": {
+              "x": 0.562003975826972,
+              "y": 0.562003975826972,
+              "z": 1.2767175572519085
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.002355555555555556,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9504000000000006,
+              "y": 0,
+              "z": -0.2850222222222222
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": -0.8552113334772214,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ee898cca-58ab-4ea2-9981-870c73405a2d.thumb.jpg",
+            "trimEndMs": 5422.353051566659,
+            "animations": [
+              {
+                "id": "b02a58ae-0917-464f-8019-a8c4ee991b7a",
+                "amount": {
+                  "x": 0,
+                  "y": -1.7453292519943295,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 2353.4582242897536,
+                "property": "tilt",
+                "direction": "reverse",
+                "durationMs": 539.9853511727306
+              },
+              {
+                "id": "70a3c079-2eb0-4340-bf0e-0a8a856771af",
+                "amount": {
+                  "x": 0,
+                  "y": 0.37453333333333344,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2401.486571884246,
+                "property": "position",
+                "durationMs": 1217.7599096971103
+              },
+              {
+                "id": "26f898d3-127d-4ab6-b04b-96cb87a415e4",
+                "amount": {
+                  "x": 0,
+                  "y": 0.7420000000000002,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3956.525145729984,
+                "property": "position",
+                "durationMs": 723.0934278412647
+              }
+            ],
+            "layerOrder": 2,
+            "trimStartMs": 2665.8227101065268,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "backdropBlur": {
+                "blur": 100,
+                "enabled": false
+              }
+            },
+            "sourceDurationMs": 29440,
+            "layerEffectsOrder": []
+          },
+          {
+            "id": "4df643b8-ff79-43d3-8020-7d22035b3bad",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ee898cca-58ab-4ea2-9981-870c73405a2d.mp4",
+            "crop": {
+              "x": 0.06605188445076159,
+              "y": 0,
+              "width": 0.8637316936813418,
+              "height": 1
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 5104.837270739406,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 7215.199187259559,
+            "scale": {
+              "x": 0.1448666666666667,
+              "y": 0.1448666666666667,
+              "z": 1.2767175572519085
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.058755555555556,
+              "y": 0.6254000000000002,
+              "z": 0
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": 0.29670597283903605,
+              "y": -0.14835298641951802,
+              "z": 0.017453292519943295
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ee898cca-58ab-4ea2-9981-870c73405a2d.thumb.jpg",
+            "trimEndMs": 7779.431941726601,
+            "animations": [
+              {
+                "id": "3870bc13-1399-4ab2-860c-8a7180d254f8",
+                "amount": {
+                  "x": -0.12484444444444448,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5159.95724192188,
+                "property": "position",
+                "durationMs": 256.2273032095163
+              },
+              {
+                "id": "af92a988-9059-4689-90d2-f682eed8b9d7",
+                "amount": {
+                  "x": -0.7504915783575618,
+                  "y": -0.6981317007977318,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5391.7407030036275,
+                "property": "tilt",
+                "durationMs": 458.6353416679103
+              }
+            ],
+            "layerOrder": 3,
+            "trimStartMs": 5669.070025206448,
+            "cornerRadius": 0,
+            "sourceDurationMs": 29440
+          },
+          {
+            "id": "a11ee44e-a8a3-4352-967e-64cc646660e1",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/426cffa9-eabf-432c-b7a6-0d7f63aeb84c.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5398.638612547148,
+            "kind": "image",
+            "name": "Zrzut ekranu 2026-08-29 o 14.59.37",
+            "outMs": 7215.199187259559,
+            "scale": {
+              "x": 0.19333126016287525,
+              "y": 0.19333126016287525,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.5876444444444449,
+              "y": 0.5718469347949445,
+              "z": -1.262577777777778
+            },
+            "rotation": {
+              "x": -0.33161255787892263,
+              "y": -1.0035643198967394,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/426cffa9-eabf-432c-b7a6-0d7f63aeb84c.thumb.jpg",
+            "animations": [
+              {
+                "id": "5fb241ab-5ea3-4fe6-9297-3ac067b1872a",
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5398.638612547148,
+                "bundleId": "efa71b6f-0b97-418f-9af8-67e48169c078",
+                "property": "maskSweep",
+                "direction": "reverse",
+                "durationMs": 283.31315840845855,
+                "presetKind": "wipe",
+                "sweepDirection": "right"
+              }
+            ],
+            "layerOrder": 4,
+            "cornerRadius": 0.1
+          },
+          {
+            "id": "39c2ea9c-592a-4a78-a1f1-c0818fc5f791",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/89107707-8e29-4813-90cb-3d2c1a226465.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5697.601284968561,
+            "kind": "image",
+            "name": "Zrzut ekranu 2026-08-29 o 14.59.44",
+            "outMs": 7215.199187259559,
+            "scale": {
+              "x": 0.19531696167325296,
+              "y": 0.19531696167325296,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.4628000000000003,
+              "y": 0.5806444444444446,
+              "z": -1.262577777777778
+            },
+            "rotation": {
+              "x": -0.33161255787892263,
+              "y": -1.0122909661567112,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/89107707-8e29-4813-90cb-3d2c1a226465.thumb.jpg",
+            "animations": [],
+            "layerOrder": 5,
+            "cornerRadius": 0.1
+          },
+          {
+            "id": "99913adb-cdc6-492f-82a9-d5df083aa065",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/3c2b73d9-6a5b-4fb8-b575-d2e8a1b16a25.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5820.113234697864,
+            "kind": "image",
+            "name": "Zrzut ekranu 2026-08-29 o 14.59.44",
+            "outMs": 7215.199187259559,
+            "scale": {
+              "x": 0.19531696167325296,
+              "y": 0.19531696167325296,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.3544444444444448,
+              "y": 0.5641555555555557,
+              "z": -1.262577777777778
+            },
+            "rotation": {
+              "x": -0.33161255787892263,
+              "y": -1.0122909661567112,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/3c2b73d9-6a5b-4fb8-b575-d2e8a1b16a25.thumb.jpg",
+            "animations": [
+              {
+                "id": "a48dd82c-fa13-4ca3-b9fa-c8f66e997963",
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5820.113234697864,
+                "bundleId": "0114f9a5-6e10-4579-ad26-274d038e7bd0",
+                "property": "maskSweep",
+                "direction": "reverse",
+                "durationMs": 257.6528745357764,
+                "presetKind": "wipe",
+                "sweepDirection": "right"
+              }
+            ],
+            "layerOrder": 6,
+            "cornerRadius": 0.1
+          },
+          {
+            "id": "d0840c00-358d-475e-9c6e-c73a69b5efa7",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/bac0e28f-8edf-46ca-b7b1-46c22e9e0dac.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 7215.199187259559,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 9195.252647874679,
+            "scale": {
+              "x": 0.48848333333333344,
+              "y": 0.48848333333333344,
+              "z": 1.2767175572519085
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.002355555555555556,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9504000000000006,
+              "y": 1.2496222222222226,
+              "z": -0.08480000000000001
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": -0.8552113334772214,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/bac0e28f-8edf-46ca-b7b1-46c22e9e0dac.thumb.jpg",
+            "trimEndMs": 3203.968178585901,
+            "animations": [
+              {
+                "id": "d335f258-bce2-4cf7-96b3-07630bc6a56f",
+                "amount": {
+                  "x": -0.0588888888888889,
+                  "y": -1.0835555555555558,
+                  "z": 0.7078444444444446
+                },
+                "easing": "ease-in-out",
+                "startMs": 7215.199187259559,
+                "property": "position",
+                "durationMs": 1332.346924332267
+              }
+            ],
+            "layerOrder": 7,
+            "trimStartMs": 1223.9147179707816,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "backdropBlur": {
+                "blur": 100,
+                "enabled": false
+              }
+            },
+            "sourceDurationMs": 9280,
+            "layerEffectsOrder": []
+          }
+        ],
+        "startMs": 0,
+        "duration": 9371.288573445574,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.78,
+          "enabled": true
+        },
+        "framings": [
+          {
+            "id": "b918976f-04e6-4456-b88a-de652d41123a",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "9dce510f-e59b-49a3-8834-11871e942b0c",
+            "zoom": 1.0988770308185982,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -2.012982996399837,
+                "y": 0.6234160220647739,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "96662b98-4b72-4ba8-a621-3be0ffced263",
+            "zoom": 1.0462009962264085,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -2.012982996399837,
+                "y": 0.5717656883704137,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "8823898f-8977-4bb0-98e6-29f967781e67",
+            "zoom": 1.1148400952829796,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -2.012982996399837,
+                "y": 0.5717656883704137,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "fcf83a66-66aa-44e5-9f91-beb1e130363b",
+            "zoom": 1.2291600025550973,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -2.0129829963998374,
+                "y": 0.6523768390287353,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "depthOfField",
+          "bloom",
+          "vignette",
+          "colorGrade",
+          "chromaticAberration",
+          "edgeFade",
+          "motionBlur",
+          "filmGrain"
+        ],
+        "framerBlocks": [
+          {
+            "id": "849592b1-fe7b-4c41-bf86-c3b405cbb23a",
+            "mode": "dolly",
+            "easing": "linear",
+            "startMs": 0,
+            "duration": 2298.278228941507,
+            "toFramingId": "9dce510f-e59b-49a3-8834-11871e942b0c",
+            "fromFramingId": "b918976f-04e6-4456-b88a-de652d41123a"
+          },
+          {
+            "id": "f6160ba1-9833-4567-bb9b-1e316dc6c901",
+            "mode": "dollyzoom",
+            "easing": "linear",
+            "startMs": 2360.811085521851,
+            "duration": 2758.3730898638732,
+            "toFramingId": "96662b98-4b72-4ba8-a621-3be0ffced263",
+            "fromFramingId": "9dce510f-e59b-49a3-8834-11871e942b0c"
+          },
+          {
+            "id": "a8259f52-289e-451a-aeba-e69f75e4f3a8",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 5214.2913693940545,
+            "duration": 1909.2885629285965,
+            "toFramingId": "8823898f-8977-4bb0-98e6-29f967781e67",
+            "fromFramingId": "96662b98-4b72-4ba8-a621-3be0ffced263"
+          },
+          {
+            "id": "91b2d8f2-1b38-4644-b2bd-fb26f1eb6ca7",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 7495.765735655442,
+            "duration": 1000,
+            "toFramingId": "fcf83a66-66aa-44e5-9f91-beb1e130363b",
+            "fromFramingId": "8823898f-8977-4bb0-98e6-29f967781e67"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.98
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": true,
+            "intensity": 0.06
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.23
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0.81
+            },
+            "enabled": true,
+            "aperture": 2.1,
+            "bokehScale": 0,
+            "bokehShape": "portrait",
+            "focusRange": 0.4,
+            "focalLength": 62,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 13.5,
+            "enabled": true
+          }
+        },
+        "effectAnimations": [
+          {
+            "id": "17e7132b-27c2-4235-ab70-9a7a4e1f3315",
+            "amount": 22,
+            "easing": "linear",
+            "startMs": 1369.550103001241,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 460.69944375800924
+          },
+          {
+            "id": "74bec6f2-8128-4dc4-89dd-edc5a0e3d93f",
+            "amount": 0.7,
+            "easing": "ease-in-out",
+            "startMs": 1890.8089992329064,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 417.0503951330097
+          },
+          {
+            "id": "8d6d3faf-c909-4e24-9cf2-857b546d98f9",
+            "amount": 22,
+            "easing": "ease-in-out",
+            "startMs": 2307.859394365916,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 500
+          },
+          {
+            "id": "6f89562a-afb0-47b9-978d-c64ff4d82dd3",
+            "amount": 22,
+            "easing": "ease-in-out",
+            "startMs": 2942.943644999093,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 500
+          },
+          {
+            "id": "3a019ca1-1aff-44e2-b5b3-df527ffc60ff",
+            "amount": 0.7,
+            "easing": "linear",
+            "startMs": 3687.5657470477045,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 664.6681162377536
+          },
+          {
+            "id": "d8a4d38e-db2b-47a4-9574-e4a60ba6e4bc",
+            "amount": 22,
+            "easing": "ease-in-out",
+            "startMs": 4980.394038177613,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 500
+          }
+        ]
+      },
+      {
+        "id": "d30c29ab-ff93-48c1-8a16-d9f49ec38943",
+        "name": "Shot 2",
+        "assets": [
+          {
+            "id": "030a8268-7ae2-4955-98d9-20398b514b9e",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/6bf03bb3-ed20-4c30-b1c7-8742214ec4c5.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "blink n miss",
+            "outMs": 33584.386194840314,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "effects": {
+              "delay": {
+                "mix": 0,
+                "timeMs": 320,
+                "enabled": true,
+                "feedback": 0.35
+              },
+              "reverb": {
+                "mix": 0,
+                "preset": "room",
+                "enabled": true
+              },
+              "compressor": {
+                "ratio": 3,
+                "enabled": false,
+                "attackMs": 10,
+                "makeupDb": 3.5,
+                "releaseMs": 180,
+                "thresholdDb": -24
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 139,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 200,
+            "animations": [
+              {
+                "id": "13feda53-91a4-47a6-ab62-e9cd865b16a4",
+                "amount": 0.35,
+                "easing": "ease-in-out",
+                "startMs": 28174.59043306252,
+                "property": "reverbMix",
+                "direction": "forward",
+                "durationMs": 950.522951038889
+              },
+              {
+                "id": "c83f964f-421f-47a1-85f6-7a657735fb2f",
+                "amount": 1,
+                "easing": "ease-in-out",
+                "startMs": 32810.2873453495,
+                "property": "reverbMix",
+                "durationMs": 500
+              }
+            ],
+            "layerOrder": 0,
+            "effectsOrder": [
+              "reverb",
+              "delay"
+            ],
+            "sourceOffsetMs": 71.02514138918127,
+            "sourceDurationMs": 107416
+          }
+        ],
+        "startMs": 5.25,
+        "duration": 33584.386194840314,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 1,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "2c732b98-a248-4192-8fc3-e0627208c323",
+        "name": "Shot 3",
+        "light": {
+          "pose": {
+            "position": {
+              "x": 5.345726411966002,
+              "y": 12.05038837805521,
+              "z": 4.712891794476187
+            },
+            "intensity": 2.5,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "e8f06d3b-191e-4012-8d97-3e05b4e74ee1",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/78890582-4398-4026-8602-fb7eb009d12f.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 3190.6715845365106,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 5038.123059913174,
+            "scale": {
+              "x": 0.48848333333333344,
+              "y": 0.48848333333333344,
+              "z": 1.2767175572519085
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.002355555555555556,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9586444444444449,
+              "y": 0.6418888888888891,
+              "z": -4.876000000000001
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": -0.8552113334772214,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/78890582-4398-4026-8602-fb7eb009d12f.thumb.jpg",
+            "trimEndMs": 7585.5199565436105,
+            "animations": [
+              {
+                "id": "baebd805-3b0d-4ff5-9b56-f5b9497e2de3",
+                "amount": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 1.2767175572519085
+                },
+                "easing": "ease-in-out",
+                "startMs": 3190.6715845365106,
+                "property": "scale",
+                "direction": "reverse",
+                "durationMs": 912.6400343887071
+              },
+              {
+                "id": "36c6408d-1b62-43ea-aeb7-3afba00780b4",
+                "amount": {
+                  "x": -1.1868238913561442,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 4432.377376091521,
+                "property": "tilt",
+                "durationMs": 605.7456838216531
+              },
+              {
+                "id": "abbc7b09-c202-4241-a8d6-63183ee443ba",
+                "amount": {
+                  "x": 0,
+                  "y": -2.3002000000000007,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 4529.171198616217,
+                "property": "position",
+                "durationMs": 508.95186129695685
+              }
+            ],
+            "layerOrder": 0,
+            "trimStartMs": 5738.068481166947,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "backdropBlur": {
+                "blur": 100,
+                "enabled": false
+              }
+            },
+            "sourceDurationMs": 29824,
+            "layerEffectsOrder": []
+          },
+          {
+            "id": "d17bef8a-8ab5-4945-8214-2c688c3d1f77",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/846b4053-6411-4435-b0be-9b2fa0e44dd6.mp4",
+            "crop": {
+              "x": 0.12824108384378397,
+              "y": 0.4213847599820255,
+              "width": 0.733323095969213,
+              "height": 0.09148556461277013
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "video",
+            "name": "part2",
+            "outMs": 4447.52012964707,
+            "scale": {
+              "x": 0.8969973706058004,
+              "y": 0.8969973706058004,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -3.5922222222222233,
+              "y": 0.7025483368163025,
+              "z": 1.535535485572645
+            },
+            "rotation": {
+              "x": -0.16580627893946132,
+              "y": -0.16580627893946132,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/846b4053-6411-4435-b0be-9b2fa0e44dd6.thumb.jpg",
+            "trimEndMs": 7050.379525443251,
+            "animations": [
+              {
+                "id": "2e9bb708-5471-46a8-b9c5-3b512c87cc16",
+                "amount": {
+                  "x": 1.7254444444444448,
+                  "y": 0,
+                  "z": -4.999666666666668
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 619.2640485189781
+              },
+              {
+                "id": "f9c433bd-c1db-4f75-8ec9-61c9e3fc4867",
+                "amount": {
+                  "x": 0.2617993877991494,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 1173.852533221926
+              },
+              {
+                "id": "1521b706-7d41-49d2-92cb-2feb82676adc",
+                "amount": {
+                  "x": -0.04240000000000001,
+                  "y": -0.06595555555555557,
+                  "z": 0.0588888888888889
+                },
+                "easing": "ease-in-out",
+                "startMs": 1093.4847680371167,
+                "property": "position",
+                "durationMs": 500
+              },
+              {
+                "id": "121c8b5a-8fba-4a95-a318-036eb94f1e5c",
+                "amount": {
+                  "x": -0.5235987755982988,
+                  "y": 0.10471975511965978,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1173.852533221926,
+                "property": "tilt",
+                "durationMs": 905.0686576109333
+              },
+              {
+                "id": "7bd31b15-bf6f-4e9a-8a7b-a69ad61b9412",
+                "amount": {
+                  "x": 0.12217304763960307,
+                  "y": 0.2617993877991494,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2078.9211908328593,
+                "property": "tilt",
+                "durationMs": 848.2833317776249
+              },
+              {
+                "id": "f1bba6d3-7bb0-4919-b45f-bb423cffef22",
+                "amount": {
+                  "x": 1.2557963188481205,
+                  "y": 1.2557963188481205,
+                  "z": 1
+                },
+                "easing": "ease-out",
+                "startMs": 2427.204522610484,
+                "property": "scale",
+                "durationMs": 356.4239662373802
+              },
+              {
+                "id": "b9f8bb4f-70a6-4ff0-ab41-0c3c5c9014c1",
+                "amount": {
+                  "x": -0.04946666666666668,
+                  "y": 0.20022222222222227,
+                  "z": -1.501666666666667
+                },
+                "easing": "ease-in-out",
+                "startMs": 3748.741255210616,
+                "property": "position",
+                "durationMs": 500
+              },
+              {
+                "id": "7e035dc6-80f3-413e-9605-f8a545cb7e7f",
+                "amount": {
+                  "x": -0.7504915783575618,
+                  "y": -0.20943951023931956,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 3748.741255210616,
+                "property": "tilt",
+                "durationMs": 500
+              },
+              {
+                "id": "57224a06-a993-4fd4-87ae-3a78d8e6a5a6",
+                "amount": {
+                  "x": 0.4036488167726102,
+                  "y": 0.4036488167726102,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 3748.741255210616,
+                "property": "scale",
+                "durationMs": 500
+              },
+              {
+                "id": "bb2df890-2633-41a0-8b02-f8f4b2927fe5",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 4034.693797765209,
+                "property": "opacity",
+                "durationMs": 397.6835783263118
+              }
+            ],
+            "layerOrder": 1,
+            "trimStartMs": 2602.859395796181,
+            "cornerRadius": 0.43,
+            "sourceDurationMs": 29824
+          },
+          {
+            "id": "3022d9f3-c658-4caf-bcdf-4e39124cf35d",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/78890582-4398-4026-8602-fb7eb009d12f.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 5869.250883625346,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 9207.046567535997,
+            "scale": {
+              "x": 0.48848333333333344,
+              "y": 0.48848333333333344,
+              "z": 1.2767175572519085
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.002355555555555556,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9339111111111116,
+              "y": 2.2837111111111117,
+              "z": -1.3862444444444448
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": -0.9861110273767962,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/78890582-4398-4026-8602-fb7eb009d12f.thumb.jpg",
+            "trimEndMs": 11158.627524634776,
+            "animations": [
+              {
+                "id": "ac8997a1-8db6-4324-82fe-66f5eb325b3e",
+                "amount": {
+                  "x": 0.016488888888888893,
+                  "y": -1.4981333333333338,
+                  "z": 1.6571333333333338
+                },
+                "easing": "linear",
+                "startMs": 5869.250883625346,
+                "property": "position",
+                "durationMs": 1544.7161303206194
+              },
+              {
+                "id": "5f724fad-3ee7-4a9b-9fe2-758fcb8407e9",
+                "amount": {
+                  "x": 0.016488888888888893,
+                  "y": -0.3168222222222223,
+                  "z": -0.2579333333333334
+                },
+                "easing": "ease-out",
+                "startMs": 7413.967013945966,
+                "property": "position",
+                "durationMs": 961.9365742087984
+              },
+              {
+                "id": "4c5e1455-b8ba-4fd3-8d7c-3437f454622d",
+                "amount": {
+                  "x": 0.22689280275926285,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 7417.042657512357,
+                "property": "tilt",
+                "durationMs": 840.6694788102714
+              },
+              {
+                "id": "98085022-37ab-4de4-a47e-186534d39228",
+                "amount": {
+                  "x": 0.10835555555555558,
+                  "y": -0.7172666666666668,
+                  "z": 2.4992444444444453
+                },
+                "easing": "ease-in",
+                "startMs": 8707.046567535997,
+                "property": "position",
+                "durationMs": 500
+              },
+              {
+                "id": "1263d6c8-2ce7-42f7-92ab-8f591e873aad",
+                "amount": {
+                  "x": 1.9392788333333337,
+                  "y": 1.9392788333333337,
+                  "z": 1.2767175572519085
+                },
+                "easing": "ease-in",
+                "startMs": 8765.426614858965,
+                "property": "scale",
+                "durationMs": 441.6199526770324
+              }
+            ],
+            "layerOrder": 2,
+            "trimStartMs": 7820.831840724126,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "backdropBlur": {
+                "blur": 100,
+                "enabled": false
+              }
+            },
+            "sourceDurationMs": 29824,
+            "layerEffectsOrder": []
+          },
+          {
+            "id": "af0ef77c-1f7c-4122-ab91-d883cf355306",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/3d02534a-6d6d-4f40-925a-c513027ea4ee.png",
+            "crop": {
+              "x": 0,
+              "y": 0.47838312866897015,
+              "width": 1,
+              "height": 0.5210755573848684
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 4913.195343079896,
+            "kind": "image",
+            "name": "Frame 6",
+            "outMs": 6678.193530302002,
+            "scale": {
+              "x": 0.05542092453125315,
+              "y": 0.05542092453125315,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9080000000000004,
+              "y": 0.9758198369216142,
+              "z": 1.7187456296417114
+            },
+            "rotation": {
+              "x": -0.9424777960769379,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/3d02534a-6d6d-4f40-925a-c513027ea4ee.thumb.jpg",
+            "animations": [
+              {
+                "id": "57a8773d-614f-4a05-bcd2-7bc46e964cb8",
+                "amount": {
+                  "x": 0,
+                  "y": -0.4251777777777779,
+                  "z": 0.4758222222222223
+                },
+                "easing": "linear",
+                "startMs": 4913.195343079896,
+                "property": "position",
+                "durationMs": 1764.998187222106
+              }
+            ],
+            "layerOrder": 3,
+            "cornerRadius": 0
+          },
+          {
+            "id": "cd87be79-b595-42aa-b568-2d4dcb6cd0d2",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/3a1adeb3-fdc9-4ea3-8f71-531c1e0e60be.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 9269.342369339818,
+            "kind": "image",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 13256.11995243569,
+            "scale": {
+              "x": 0.15479216264357226,
+              "y": 0.15479216264357226,
+              "z": 1.2760117985137924
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.002355555555555556,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9586444444444449,
+              "y": 0.6418888888888891,
+              "z": -0.10011111111111114
+            },
+            "rotation": {
+              "x": 0.7155849933176751,
+              "y": 0.9599310885968813,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/3a1adeb3-fdc9-4ea3-8f71-531c1e0e60be.thumb.jpg",
+            "animations": [
+              {
+                "id": "d09ec1e1-11ec-444b-a33e-87c1a87beabf",
+                "amount": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 1.2767175572519085
+                },
+                "easing": "ease-out",
+                "startMs": 9269.342369339818,
+                "property": "scale",
+                "direction": "reverse",
+                "durationMs": 536.284048993437
+              },
+              {
+                "id": "bc59c4ce-529e-47d1-9866-dea296027f7c",
+                "amount": {
+                  "x": -0.3839724354387525,
+                  "y": -1.3439035240356338,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 9661.94716312132,
+                "property": "tilt",
+                "direction": "forward",
+                "durationMs": 578.1333096376948
+              },
+              {
+                "id": "bdcef4d5-c7fb-4498-9e82-fdd3a4d217e6",
+                "amount": {
+                  "x": 0.13962634015954636,
+                  "y": -0.13962634015954636,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10240.080472759015,
+                "property": "tilt",
+                "durationMs": 1048.6531265765043
+              },
+              {
+                "id": "40d05379-9c8a-42ef-806d-8d0f1addfe4b",
+                "amount": {
+                  "x": 0.06713333333333335,
+                  "y": -0.10011111111111114,
+                  "z": 1.2661111111111114
+                },
+                "easing": "ease-in-out",
+                "startMs": 10576.072669370538,
+                "property": "position",
+                "direction": "forward",
+                "durationMs": 712.6609299649808
+              },
+              {
+                "id": "f91ee11a-3fdf-48e4-8291-16df5335af4d",
+                "amount": {
+                  "x": 0.008244444444444447,
+                  "y": 0.08362222222222224,
+                  "z": 0.23320000000000005
+                },
+                "easing": "ease-out",
+                "startMs": 11288.73359933552,
+                "property": "position",
+                "durationMs": 500
+              },
+              {
+                "id": "ddb94082-0ff3-4c0e-a567-65f4db9b6cab",
+                "amount": {
+                  "x": -0.6981317007977318,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 11288.73359933552,
+                "property": "tilt",
+                "durationMs": 500
+              },
+              {
+                "id": "1385ae42-90d5-4afb-9760-f9ffca978b0a",
+                "amount": {
+                  "x": 0,
+                  "y": 0.4664000000000001,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 11788.73359933552,
+                "property": "position",
+                "durationMs": 500
+              },
+              {
+                "id": "cacbc52e-6fa7-4d4e-bed6-13923f3f37f7",
+                "amount": {
+                  "x": 0.2617993877991494,
+                  "y": 0.6981317007977318,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 12254.692150685572,
+                "property": "tilt",
+                "durationMs": 500
+              }
+            ],
+            "frameGloss": 0.5,
+            "layerOrder": 4,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "backdropBlur": {
+                "blur": 100,
+                "enabled": false
+              }
+            },
+            "layerEffectsOrder": []
+          },
+          {
+            "id": "03bb8ccd-e649-4fc4-8073-b768b766ac24",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#FFFFFF",
+              "enabled": false,
+              "opacity": 1
+            },
+            "icon": {
+              "name": "tap-08",
+              "prefix": "hugeicons"
+            },
+            "inMs": 12446.166631216702,
+            "kind": "path",
+            "size": {
+              "width": 0.23723480714565573,
+              "height": 0.28620000000000007
+            },
+            "outMs": 13256.11995243569,
+            "scale": {
+              "x": 0.25319499861496875,
+              "y": 0.25319499861496875,
+              "z": 1
+            },
+            "closed": false,
+            "stroke": {
+              "align": "center",
+              "color": "#ffffff",
+              "style": "solid",
+              "width": 0.02093736558906957,
+              "enabled": true,
+              "opacity": 1
+            },
+            "anchors": [
+              {
+                "x": -0.0589,
+                "y": -0.0273,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0589,
+                "y": 0.035,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0589,
+                "y": 0.035,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0589,
+                "y": 0.112,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0.0114
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0379,
+                "y": 0.1326,
+                "mirror": "angle",
+                "handleIn": {
+                  "x": -0.0114,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0.0114,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0174,
+                "y": 0.112,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0.0114
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0174,
+                "y": 0.0562,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0589,
+                "y": 0.035,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": -0.0184,
+                  "y": -0.0166
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0996,
+                "y": -0.008,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0.0027,
+                  "y": 0.0054
+                },
+                "handleOut": {
+                  "x": -0.0124,
+                  "y": -0.0188
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0969,
+                "y": -0.059,
+                "mirror": "none",
+                "handleIn": {
+                  "x": -0.0138,
+                  "y": 0.023
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0969,
+                "y": -0.059,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0.0088,
+                  "y": -0.0145
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0685,
+                "y": -0.1013,
+                "mirror": "none",
+                "handleIn": {
+                  "x": -0.0101,
+                  "y": 0.0137
+                },
+                "handleOut": {
+                  "x": 0.0094,
+                  "y": -0.0106
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0475,
+                "y": -0.1219,
+                "mirror": "none",
+                "handleIn": {
+                  "x": -0.0136,
+                  "y": 0.01
+                },
+                "handleOut": {
+                  "x": 0.0121,
+                  "y": -0.0084
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0486,
+                "y": -0.1303,
+                "mirror": "none",
+                "handleIn": {
+                  "x": -0.0589,
+                  "y": -0.0058
+                },
+                "handleOut": {
+                  "x": 0.048,
+                  "y": 0.0074
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.1078,
+                "y": -0.061,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0.0003,
+                  "y": -0.02
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.1078,
+                "y": -0.0116,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0.003,
+                  "y": 0.0411
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0625,
+                "y": 0.0354,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0.0312,
+                  "y": -0.004
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0174,
+                "y": 0.0562,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0174,
+                "y": 0.021,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": -0.0174,
+                "y": 0.0562,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0.0078,
+                  "y": 0.0127
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0241,
+                "y": 0.0398,
+                "mirror": "none",
+                "handleIn": {
+                  "x": -0.0055,
+                  "y": 0.0239
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0246,
+                "y": 0.021,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0246,
+                "y": 0.035,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0.0011
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0244,
+                "y": 0.0383,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0.0001,
+                  "y": -0.0011
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0241,
+                "y": 0.0398,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0242,
+                "y": 0.0395,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0244,
+                "y": 0.0383,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0241,
+                "y": 0.0398,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": -0.0005
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0244,
+                "y": 0.0383,
+                "mirror": "none",
+                "handleIn": {
+                  "x": -0.0001,
+                  "y": 0.0005
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0241,
+                "y": 0.0398,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": -0.002,
+                  "y": 0.0167
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0662,
+                "y": 0.0231,
+                "mirror": "none",
+                "handleIn": {
+                  "x": -0.0017,
+                  "y": 0.0294
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              },
+              {
+                "x": 0.0662,
+                "y": 0.0071,
+                "mirror": "none",
+                "handleIn": {
+                  "x": 0,
+                  "y": 0
+                },
+                "handleOut": {
+                  "x": 0,
+                  "y": 0
+                },
+                "cornerRadius": 0
+              }
+            ],
+            "opacity": 1,
+            "contours": [
+              {
+                "count": 2,
+                "start": 0,
+                "closed": false
+              },
+              {
+                "count": 5,
+                "start": 2,
+                "closed": false
+              },
+              {
+                "count": 10,
+                "start": 7,
+                "closed": false
+              },
+              {
+                "count": 2,
+                "start": 17,
+                "closed": false
+              },
+              {
+                "count": 2,
+                "start": 19,
+                "closed": false
+              },
+              {
+                "count": 3,
+                "start": 21,
+                "closed": false
+              },
+              {
+                "count": 3,
+                "start": 24,
+                "closed": false
+              },
+              {
+                "count": 2,
+                "start": 27,
+                "closed": false
+              },
+              {
+                "count": 3,
+                "start": 29,
+                "closed": false
+              }
+            ],
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8338000000000005,
+              "y": 0.7,
+              "z": 2.0882000000000005
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.3839724354387525
+            },
+            "animations": [
+              {
+                "id": "ead2bb55-1155-437c-a05d-746ad720c967",
+                "amount": {
+                  "x": 0.08362222222222224,
+                  "y": -0.0918666666666667,
+                  "z": -0.5665111111111113
+                },
+                "easing": "ease-out",
+                "startMs": 12446.166631216702,
+                "property": "position",
+                "durationMs": 500
+              }
+            ],
+            "layerOrder": 5
+          },
+          {
+            "id": "bc3fd957-93a0-415a-8be3-f95e60108402",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/78890582-4398-4026-8602-fb7eb009d12f.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 13256.11995243569,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 16854.982793930245,
+            "scale": {
+              "x": 0.6112666666666668,
+              "y": 0.6112666666666668,
+              "z": 1.2767175572519085
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.002355555555555556,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9586444444444449,
+              "y": 0.02473333333333334,
+              "z": 0.9587111111111113
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": -0.8552113334772214,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/78890582-4398-4026-8602-fb7eb009d12f.thumb.jpg",
+            "trimEndMs": 17592.36688027091,
+            "animations": [
+              {
+                "id": "069477f6-2b5b-4177-b057-ff17e4c22bd7",
+                "amount": {
+                  "x": 0.15707963267948966,
+                  "y": -0.29670597283903605,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 13327.474508242694,
+                "property": "tilt",
+                "direction": "forward",
+                "durationMs": 934.8048781949565
+              },
+              {
+                "id": "4ccdbe3a-8d9a-48dd-831f-1038a48e0f16",
+                "amount": {
+                  "x": 0.408688888888889,
+                  "y": 0.008244444444444447,
+                  "z": 0.8244444444444446
+                },
+                "easing": "ease-in-out",
+                "startMs": 13762.27938643765,
+                "property": "position",
+                "durationMs": 500
+              },
+              {
+                "id": "f7118594-4a43-45f9-9264-9dca7da33328",
+                "amount": {
+                  "x": 0.13962634015954636,
+                  "y": 0.5235987755982988,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14262.27938643765,
+                "property": "tilt",
+                "durationMs": 937.4296905958181
+              },
+              {
+                "id": "987cf67a-4848-41cb-a05f-b55b65596f1e",
+                "amount": {
+                  "x": -0.4334222222222223,
+                  "y": -0.6254000000000002,
+                  "z": -0.08362222222222224
+                },
+                "easing": "ease-in-out",
+                "startMs": 14644.94422798199,
+                "property": "position",
+                "durationMs": 535.5540071034411
+              },
+              {
+                "id": "08224fab-848e-4219-9a97-1e84da58a8e3",
+                "amount": {
+                  "x": 0,
+                  "y": -0.4363323129985824,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 15199.709077033469,
+                "property": "tilt",
+                "durationMs": 1179.5519562645732
+              },
+              {
+                "id": "d5fba873-b9f5-4931-99a0-9c57b5c0a6cc",
+                "amount": {
+                  "x": 0,
+                  "y": 2.0422666666666673,
+                  "z": -3.825422222222223
+                },
+                "easing": "ease-in-out",
+                "startMs": 15879.261033298042,
+                "property": "position",
+                "durationMs": 500
+              }
+            ],
+            "layerOrder": 6,
+            "trimStartMs": 13993.504038776357,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "backdropBlur": {
+                "blur": 100,
+                "enabled": false
+              }
+            },
+            "sourceDurationMs": 29824,
+            "layerEffectsOrder": []
+          },
+          {
+            "id": "3677181a-1b66-48d8-9bbe-5eb914eaa012",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/78890582-4398-4026-8602-fb7eb009d12f.mp4",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 16854.982793930245,
+            "kind": "video",
+            "name": "Pasted image",
+            "frame": "iphone",
+            "outMs": 18953.144336306046,
+            "scale": {
+              "x": 0.6112666666666668,
+              "y": 0.6112666666666668,
+              "z": 1.2767175572519085
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.002355555555555556,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9586444444444449,
+              "y": 1.2084000000000004,
+              "z": -0.5830000000000002
+            },
+            "proxySrc": "local://assets/placeholder",
+            "rotation": {
+              "x": -0.8552113334772214,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/78890582-4398-4026-8602-fb7eb009d12f.thumb.jpg",
+            "trimEndMs": 24005.1215243417,
+            "animations": [
+              {
+                "id": "498a27d9-96cf-4ba5-8aed-fcf14b15903d",
+                "amount": {
+                  "x": 1.2225333333333337,
+                  "y": 1.2225333333333337,
+                  "z": 1.2767175572519085
+                },
+                "easing": "ease-out",
+                "startMs": 16860.482467463564,
+                "property": "scale",
+                "direction": "reverse",
+                "durationMs": 1600.6761098485913
+              },
+              {
+                "id": "b6dc2a5d-ec65-4f13-a3b0-cda95c4301b0",
+                "amount": {
+                  "x": -0.03490658503988659,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 16860.482467463564,
+                "property": "tilt",
+                "durationMs": 2092.6618688424824
+              }
+            ],
+            "layerOrder": 7,
+            "trimStartMs": 21906.959981965898,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "backdropBlur": {
+                "blur": 100,
+                "enabled": false
+              }
+            },
+            "sourceDurationMs": 29824,
+            "layerEffectsOrder": []
+          }
+        ],
+        "startMs": 9371.288573445574,
+        "duration": 18953.144336306046,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.78,
+          "enabled": true
+        },
+        "framings": [
+          {
+            "id": "1c06f3ac-6a8c-474a-9a03-8fa4a46df954",
+            "zoom": 1,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "a8963deb-ce0a-4df2-8420-97bc27ebb0c1",
+            "zoom": 1.2053128071472716,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7443908911268667,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "1211c8f8-4319-4ddc-90a2-ccf352bbad85",
+            "zoom": 1.0776062100875683,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7443908911268667,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "7c59618d-7be9-40d9-97cb-8be93a4a8502",
+            "zoom": 1.212991489704781,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.735342044245483,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "9bfba2a5-84a1-46b6-918c-607173bedcdb",
+            "zoom": 1.0131205739903917,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "cd0715e1-231d-4aae-91ff-47e4e40ac5cd",
+            "zoom": 1.1253663061971564,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.6629628372093023,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "0a4cdebb-24b3-4f1c-ba19-cb4c63455576",
+            "zoom": 0.9582580658526778,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.6629628372093023,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "depthOfField",
+          "bloom",
+          "vignette",
+          "colorGrade",
+          "chromaticAberration",
+          "edgeFade",
+          "motionBlur",
+          "filmGrain"
+        ],
+        "framerBlocks": [
+          {
+            "id": "6f0683e8-9558-4c07-aa71-c6d67e532d76",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 0,
+            "duration": 7034.639931182754,
+            "toFramingId": "a8963deb-ce0a-4df2-8420-97bc27ebb0c1",
+            "fromFramingId": "1c06f3ac-6a8c-474a-9a03-8fa4a46df954"
+          },
+          {
+            "id": "079f96b3-4a79-4a88-8905-7eab1c7d7d71",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 7044.333965834703,
+            "duration": 2292.7791138866214,
+            "toFramingId": "1211c8f8-4319-4ddc-90a2-ccf352bbad85",
+            "fromFramingId": "a8963deb-ce0a-4df2-8420-97bc27ebb0c1"
+          },
+          {
+            "id": "5971d44a-77aa-42e2-92a7-ccc7145320df",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 9337.113079721325,
+            "duration": 3192.0434319467277,
+            "toFramingId": "7c59618d-7be9-40d9-97cb-8be93a4a8502",
+            "fromFramingId": "1211c8f8-4319-4ddc-90a2-ccf352bbad85"
+          },
+          {
+            "id": "00603765-589e-44b1-955b-bf44b324c0ff",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 12544.062663652468,
+            "duration": 1000,
+            "toFramingId": "9bfba2a5-84a1-46b6-918c-607173bedcdb",
+            "fromFramingId": "7c59618d-7be9-40d9-97cb-8be93a4a8502"
+          },
+          {
+            "id": "32fe82e2-0d48-44ef-9265-3c2c587ecb42",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 13550.321075494656,
+            "duration": 2694.8584408659262,
+            "toFramingId": "cd0715e1-231d-4aae-91ff-47e4e40ac5cd",
+            "fromFramingId": "9bfba2a5-84a1-46b6-918c-607173bedcdb"
+          },
+          {
+            "id": "cd182e97-c032-4923-82fb-c1e7e7eefd33",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 16245.179516360582,
+            "duration": 1000,
+            "toFramingId": "0a4cdebb-24b3-4f1c-ba19-cb4c63455576",
+            "fromFramingId": "cd0715e1-231d-4aae-91ff-47e4e40ac5cd"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.98
+          },
+          "filmGrain": {
+            "size": 1.5,
+            "enabled": true,
+            "intensity": 0.06
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.23
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": 0.81
+            },
+            "enabled": true,
+            "aperture": 2.1,
+            "bokehScale": 0,
+            "bokehShape": "portrait",
+            "focusRange": 0.4,
+            "focalLength": 62,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "offset": 13.5,
+            "enabled": true
+          }
+        },
+        "effectAnimations": [
+          {
+            "id": "17e7132b-27c2-4235-ab70-9a7a4e1f3315",
+            "amount": 22,
+            "easing": "linear",
+            "startMs": 0,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 619.2640485189781
+          },
+          {
+            "id": "65b3b221-5e79-4c57-ab80-94a85f22d930",
+            "amount": 0.7,
+            "easing": "ease-in-out",
+            "startMs": 5205.291544143287,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 500
+          },
+          {
+            "id": "ceaa0a9b-1abb-4ff7-81ef-fda6d2623e4b",
+            "amount": 10,
+            "easing": "ease-in-out",
+            "startMs": 6084.6449176563965,
+            "property": "aperture",
+            "effectKey": "depthOfField",
+            "durationMs": 500
+          }
+        ]
+      },
+      {
+        "id": "43cc0295-d863-4390-81d8-40443737c7d4",
+        "name": "Shot 4",
+        "assets": [
+          {
+            "id": "fec3196c-79ed-49d7-8599-ddd8d5a6ffd8",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#000000",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 2.2413312209302343,
+              "height": 1.1891237790697682
+            },
+            "outMs": 5369.832668653598,
+            "scale": {
+              "x": 1.857355222860026,
+              "y": 1.9480035516347483,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555556,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8838782471333992,
+              "y": 0.6754232009043928,
+              "z": -1.9668888888888894
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 0
+          },
+          {
+            "id": "61f69940-3e50-43c4-8a10-874757aad5ce",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.08,
+              "color": "#ffffff",
+              "family": "figtree",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 0,
+            "kind": "text",
+            "outMs": 2835.1499679575477,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "Przysz\u0142o\u015b\u0107 nauki z AI jest tutaj.",
+            "opacity": 0.82,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 1.4564444062091353,
+            "position": {
+              "x": -1.9000950388493862,
+              "y": 0.7026761771457154,
+              "z": -1.2248888888888891
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 1.4706299156577352,
+            "animations": [],
+            "layerOrder": 1,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "00a8d159-723f-49e1-89f2-0723776df76c",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/08017d97-2638-43e2-95af-e9f35a8cdb5f.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 2835.1499679575477,
+            "kind": "image",
+            "name": "logotype_new_white",
+            "outMs": 5369.832668653598,
+            "scale": {
+              "x": 0.10629444444444447,
+              "y": 0.10629444444444447,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9,
+              "y": 0.7,
+              "z": -0.003
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/08017d97-2638-43e2-95af-e9f35a8cdb5f.thumb.jpg",
+            "layerOrder": 2,
+            "cornerRadius": 0
+          },
+          {
+            "id": "8e0ac900-1242-4b86-9147-e013627fc939",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/0c6fbd8b-aeb7-43ff-bdcb-d17db6e51803.png",
+            "crop": {
+              "x": 0.1644136728994367,
+              "y": 0.27729316063755494,
+              "width": 0.6680108527992141,
+              "height": 0.4070192410981517
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 4326.006613151034,
+            "kind": "image",
+            "name": "Download_on_appstore",
+            "outMs": 5369.832668653598,
+            "scale": {
+              "x": 0.09917503543900201,
+              "y": 0.09917503543900201,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#393939",
+              "style": "solid",
+              "width": 0.000588888888888889,
+              "enabled": true,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9009514563040888,
+              "y": 0.15664444444444448,
+              "z": -0.004
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/0c6fbd8b-aeb7-43ff-bdcb-d17db6e51803.thumb.jpg",
+            "animations": [
+              {
+                "id": "65dc583f-64ff-4dbc-8a49-380ee903b0ea",
+                "amount": {
+                  "x": 0,
+                  "y": -0.17548888888888894,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 4326.006613151034,
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 500
+              }
+            ],
+            "layerOrder": 3,
+            "cornerRadius": 0.45
+          },
+          {
+            "id": "15beb6dc-f1db-406c-a6c6-cc5b26708044",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/81bdece9-11d4-4b81-8902-dc732d0dec32.png",
+            "crop": {
+              "x": 0.11969574742340025,
+              "y": 0.277796212830908,
+              "width": 0.703874104640374,
+              "height": 0.403033670299538
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 4057.2442860877736,
+            "kind": "image",
+            "name": "Get_it_on_google_play",
+            "outMs": 5369.832668653598,
+            "scale": {
+              "x": 0.09412194533544989,
+              "y": 0.09412194533544989,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#393939",
+              "style": "solid",
+              "width": 0.000588888888888889,
+              "enabled": true,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9009514563040888,
+              "y": 0.27699626805345123,
+              "z": -0.005
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/81bdece9-11d4-4b81-8902-dc732d0dec32.thumb.jpg",
+            "animations": [
+              {
+                "id": "ac44f9f0-4c85-4747-9cef-aa1afd8444b0",
+                "amount": {
+                  "x": 0,
+                  "y": -0.30857777777777784,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 4057.2442860877736,
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 500
+              }
+            ],
+            "layerOrder": 4,
+            "cornerRadius": 0.45
+          },
+          {
+            "id": "664fc138-74b1-4c81-81d6-c52105f9862c",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/3abb7c8f-abe8-4804-9df1-6eb93f1c0b6a.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 4326.006613151034,
+            "kind": "image",
+            "name": "StuddlyLogo",
+            "outMs": 5369.832668653598,
+            "scale": {
+              "x": 0.040927777777777785,
+              "y": 0.040927777777777785,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#242424",
+              "style": "solid",
+              "width": 0.000588888888888889,
+              "enabled": true,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9,
+              "y": 0.8750888888888891,
+              "z": -0.005
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/3abb7c8f-abe8-4804-9df1-6eb93f1c0b6a.thumb.jpg",
+            "animations": [
+              {
+                "id": "29250c3b-4c63-4708-a677-0c7fec0a1383",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 4326.006613151034,
+                "bundleId": "bf46e662-c6dd-45fa-9bdb-3ed85aeb5c1f",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 243.3377145263139,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 5,
+            "cornerRadius": 0.46,
+            "layerEffects": {
+              "liquidGlass": {
+                "blur": 90,
+                "enabled": true,
+                "highlight": 0.89,
+                "dispersion": 0.89,
+                "refraction": 1
+              }
+            },
+            "layerEffectsOrder": [
+              "liquidGlass"
+            ]
+          },
+          {
+            "id": "66f6bdc2-68b3-4a12-8ad9-86b33a4e1055",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.04,
+              "color": "#ffffff",
+              "family": "figtree",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 4090.8982817226497,
+            "kind": "text",
+            "outMs": 5369.832668653598,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "edited by keewinek",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Word Flow",
+              "slideX": 0,
+              "slideY": 0.06,
+              "stagger": {
+                "mode": "word",
+                "delayMs": 80
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 1.4564444062091353,
+            "position": {
+              "x": -1.9000950388493862,
+              "y": 1.5028444444444449,
+              "z": -1.2248888888888891
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 1.4706299156577352,
+            "animations": [],
+            "layerOrder": 6,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          }
+        ],
+        "startMs": 28324.43290975162,
+        "duration": 5369.832668653598,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.45
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10.5,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "ab127bcc-16ee-401f-b4f9-c1a35feef1d3",
+        "name": "Shot 5",
+        "assets": [
+          {
+            "id": "e277e6fa-ac88-465c-8a88-882eba220748",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/e6481b51-8ad6-4cf2-bb6c-eb31465dacce.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "alexis_gaming_cam-woosh-long-cartoon-370386",
+            "outMs": 2400,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.18484375,
+            "effects": {
+              "eq": {
+                "bands": [
+                  {
+                    "q": 0.71,
+                    "type": "lowshelf",
+                    "freqHz": 45,
+                    "gainDb": -3.2
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 800,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 2160,
+                    "gainDb": 1.6
+                  },
+                  {
+                    "q": 0.71,
+                    "type": "highshelf",
+                    "freqHz": 1053,
+                    "gainDb": -24
+                  }
+                ],
+                "enabled": true
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 505,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 452,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "eq"
+            ],
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2400
+          }
+        ],
+        "startMs": 1629.2792978269035,
+        "duration": 18170.720702173097,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 4,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "a7f21b6b-e292-4311-baef-54f7cd22e220",
+        "name": "Shot 6",
+        "assets": [
+          {
+            "id": "68a9aa30-0cd8-4766-9132-a33d64e2a21c",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/cc811db7-477a-4548-a92a-1656e51f8c48.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "makoto-ae-swoosh-5-359829",
+            "outMs": 1110.7401712228693,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.28284375,
+            "effects": {
+              "eq": {
+                "bands": [
+                  {
+                    "q": 0.71,
+                    "type": "lowshelf",
+                    "freqHz": 120,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 800,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 3200,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 0.71,
+                    "type": "highshelf",
+                    "freqHz": 2966,
+                    "gainDb": -24
+                  }
+                ],
+                "enabled": true
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "eq"
+            ],
+            "sourceOffsetMs": 353.2598287771307,
+            "sourceDurationMs": 1464
+          }
+        ],
+        "startMs": 1119.39037464146,
+        "duration": 17868.18413689386,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 6,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "f0726bc0-5a68-42ce-bb8c-323132fbf4d2",
+        "name": "Shot 7",
+        "assets": [
+          {
+            "id": "658b851e-3bf4-4abf-bfa8-1601ffc2bdd3",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/ff51957d-6610-418e-b377-58ba5d72bdd8.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "floraphonic-rotate-movement-whoosh-3-185337",
+            "outMs": 336.7187879764524,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.75,
+            "effects": {
+              "eq": {
+                "bands": [
+                  {
+                    "q": 0.71,
+                    "type": "lowshelf",
+                    "freqHz": 120,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 800,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 3200,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 0.71,
+                    "type": "highshelf",
+                    "freqHz": 968,
+                    "gainDb": -24
+                  }
+                ],
+                "enabled": true
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "eq"
+            ],
+            "sourceOffsetMs": 1671.4642905226647,
+            "sourceDurationMs": 2544
+          }
+        ],
+        "startMs": 5596.3170531645355,
+        "duration": 14651.048974162115,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 5,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "4d321452-f02b-42a1-9953-4afaf50f8ecb",
+        "name": "Shot 8",
+        "assets": [
+          {
+            "id": "0a477845-167c-43cb-a52c-62468ba8e21d",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/a3377dee-12a6-4dca-acd3-6b9c8c0c1b44.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "freesound_community-iphone-camera-capture-6448",
+            "outMs": 624,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.7,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 624
+          }
+        ],
+        "startMs": 6418.977775458078,
+        "duration": 18400.922557009057,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 7,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "df73fa63-b991-435e-a64b-3075e55fdd24",
+        "name": "Shot 9",
+        "assets": [
+          {
+            "id": "64901f61-a74a-4f2b-84e3-f5dc40afa91f",
+            "pan": -0.61,
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/9d157d22-94b8-4ad8-98c5-4df7d1e622ff.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "alexis_gaming_cam-woosh-ding-ding-baton-370398",
+            "outMs": 780.0149424550582,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "effects": {
+              "eq": {
+                "bands": [
+                  {
+                    "q": 0.71,
+                    "type": "lowshelf",
+                    "freqHz": 120,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 800,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 2161,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 0.71,
+                    "type": "highshelf",
+                    "freqHz": 784,
+                    "gainDb": -24
+                  }
+                ],
+                "enabled": true
+              },
+              "filter": {
+                "enabled": false,
+                "lowpassHz": 20000,
+                "highpassHz": 20
+              },
+              "reverb": {
+                "mix": 0.3,
+                "preset": "hall",
+                "enabled": true
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 114,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 342,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "eq",
+              "reverb"
+            ],
+            "sourceOffsetMs": 611.1384988180889,
+            "sourceDurationMs": 5088
+          }
+        ],
+        "startMs": 9600,
+        "duration": 780.0149424550582,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 3,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "e26a51e3-3769-41c5-920d-02074861e615",
+        "name": "Shot 10",
+        "assets": [
+          {
+            "id": "e5390465-6fbe-4fe6-9136-0550a18f4e8b",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/a248cef6-c367-43b9-b243-93b78430cb4d.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "stereogenicstudio-swish-swoosh-woosh-sfx-15-357181",
+            "outMs": 2123.0351697397964,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.5,
+            "effects": {
+              "eq": {
+                "bands": [
+                  {
+                    "q": 0.71,
+                    "type": "lowshelf",
+                    "freqHz": 120,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 1195,
+                    "gainDb": 9.8
+                  },
+                  {
+                    "q": 0.38,
+                    "type": "peaking",
+                    "freqHz": 2844,
+                    "gainDb": -9.8
+                  },
+                  {
+                    "q": 0.71,
+                    "type": "highshelf",
+                    "freqHz": 8012,
+                    "gainDb": -22.4
+                  }
+                ],
+                "enabled": true
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 159,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 188,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "eq"
+            ],
+            "sourceOffsetMs": 288.60035516619246,
+            "sourceDurationMs": 6048
+          }
+        ],
+        "startMs": 18039.686176426436,
+        "duration": 2123.0351697397964,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "31544823-92fa-4627-8d73-a105a5b62045",
+        "name": "Shot 11",
+        "assets": [
+          {
+            "id": "33081b16-197f-40ae-91da-3028ddf5404f",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/8fd1979b-6336-4536-a465-4cb47d3eac38.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "freesound_community-screen-tap-38717",
+            "outMs": 1080,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "effects": {
+              "compressor": {
+                "ratio": 3,
+                "enabled": true,
+                "attackMs": 10,
+                "makeupDb": 8,
+                "releaseMs": 180,
+                "thresholdDb": -24
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "compressor"
+            ],
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1080
+          }
+        ],
+        "startMs": 22006.53833302596,
+        "duration": 1080,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "7633a89d-25f6-443f-82a4-10aa5babe395",
+        "name": "Shot 12",
+        "assets": [],
+        "startMs": 22250.379281517686,
+        "duration": 1032,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 3,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "cd084cec-90bd-49a2-bf8e-9ec1b3355837",
+        "name": "Shot 13",
+        "assets": [
+          {
+            "id": "3093d3dc-e485-4272-b07c-eaca12282a39",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/a125e7ae-e488-4ff0-8270-8069eb57480c.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "StuddlyCorrect",
+            "outMs": 1069,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "effects": {
+              "eq": {
+                "bands": [
+                  {
+                    "q": 0.71,
+                    "type": "lowshelf",
+                    "freqHz": 120,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 800,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 3200,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 0.71,
+                    "type": "highshelf",
+                    "freqHz": 9000,
+                    "gainDb": 0
+                  }
+                ],
+                "enabled": false
+              },
+              "delay": {
+                "mix": 0.3,
+                "timeMs": 320,
+                "enabled": false,
+                "feedback": 0.35
+              },
+              "filter": {
+                "enabled": false,
+                "lowpassHz": 20000,
+                "highpassHz": 20
+              },
+              "compressor": {
+                "ratio": 3,
+                "enabled": true,
+                "attackMs": 10,
+                "makeupDb": 20,
+                "releaseMs": 180,
+                "thresholdDb": -24
+              },
+              "distortion": {
+                "mix": 1,
+                "drive": 0.35,
+                "style": "tape",
+                "enabled": true
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "compressor",
+              "distortion"
+            ],
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1069
+          }
+        ],
+        "startMs": 27885.72180853767,
+        "duration": 1069,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "792eac6e-eded-41bd-bcb5-2c33ab33035a",
+        "name": "Shot 14",
+        "assets": [],
+        "startMs": 3735.4173835001448,
+        "duration": 500,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "5971a7d9-19ea-4699-a727-deba6cba9b19",
+        "name": "Shot 15",
+        "assets": [],
+        "startMs": 4918.649744590482,
+        "duration": 500,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "6dd96425-df22-4a17-a340-d42855511dad",
+        "name": "Shot 16",
+        "assets": [
+          {
+            "id": "69ee1f7f-4a33-486c-8c0a-a3c6499596a0",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/d2fb7a05-4bb3-4bbf-8058-318609f41584.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "freesound_community-screen-tap-38717",
+            "outMs": 1080,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.38084375,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1080
+          }
+        ],
+        "startMs": 3545.2463860109624,
+        "duration": 1080,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 3,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "3e9bb6f9-9d91-4983-8a86-fc60127482ed",
+        "name": "Shot 17",
+        "assets": [
+          {
+            "id": "b055cc36-ab68-4a8a-bd5b-4c6f700d6899",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/1baee4cd-fbdf-4912-892d-7b55bb5174a2.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "freesound_community-screen-tap-38717",
+            "outMs": 1080,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.56,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1080
+          }
+        ],
+        "startMs": 4542.508782303907,
+        "duration": 1080,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 7,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "4c0e966d-7cab-48cf-bb4b-9df06a9d6603",
+        "name": "Shot 18",
+        "assets": [
+          {
+            "id": "e786ee4f-631f-4429-90ea-9148477ee962",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/567606a0-81c3-41c2-bcfc-dfd9a871a19e.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "biww-whoosh-fly-by-sound-effect-561945",
+            "outMs": 1829,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "effects": {
+              "eq": {
+                "bands": [
+                  {
+                    "q": 0.71,
+                    "type": "lowshelf",
+                    "freqHz": 120,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 0.5,
+                    "type": "peaking",
+                    "freqHz": 351,
+                    "gainDb": -13.4
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 3200,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 0.71,
+                    "type": "highshelf",
+                    "freqHz": 767,
+                    "gainDb": -24
+                  }
+                ],
+                "enabled": true
+              },
+              "reverb": {
+                "mix": 0.7,
+                "preset": "hall",
+                "enabled": true
+              },
+              "compressor": {
+                "ratio": 3,
+                "enabled": true,
+                "attackMs": 10,
+                "makeupDb": 4,
+                "releaseMs": 180,
+                "thresholdDb": -24
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "eq",
+              "reverb",
+              "compressor"
+            ],
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1829
+          }
+        ],
+        "startMs": 7437.793457756323,
+        "duration": 1829,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "4f039e9c-8bd5-4432-9123-ae4d95c12571",
+        "name": "Shot 19",
+        "assets": [
+          {
+            "id": "31172d08-2743-48f1-9cbf-33f1fb3f1266",
+            "src": "assets/templates/36f72287-bf45-4c79-81ba-ceab4d74400f/5659646e-d29c-42d3-a6fa-70903f3b6a05.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "floraphonic-rotate-movement-whoosh-3-185337",
+            "outMs": 218.3488455517836,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "effects": {
+              "eq": {
+                "bands": [
+                  {
+                    "q": 0.71,
+                    "type": "lowshelf",
+                    "freqHz": 120,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 800,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 1,
+                    "type": "peaking",
+                    "freqHz": 3200,
+                    "gainDb": 0
+                  },
+                  {
+                    "q": 0.71,
+                    "type": "highshelf",
+                    "freqHz": 235,
+                    "gainDb": -24
+                  }
+                ],
+                "enabled": true
+              }
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "effectsOrder": [
+              "eq"
+            ],
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2544
+          }
+        ],
+        "startMs": 13975.605924257643,
+        "duration": 500,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

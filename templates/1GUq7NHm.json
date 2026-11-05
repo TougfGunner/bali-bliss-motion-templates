@@ -1,0 +1,1182 @@
+{
+  "id": "16107d05-f1f1-40f1-b50e-0c57a93c424d",
+  "slug": "1GUq7NHm",
+  "name": "Ant-man",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "product_app",
+  "aspectRatio": "9:16",
+  "fps": 30,
+  "durationMs": 10616,
+  "styles": [
+    "bold",
+    "dark",
+    "cinematic"
+  ],
+  "tags": [],
+  "effortLevel": "quick",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 2,
+    "totalLayers": 19,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#000000"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 1.0931877926491718
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 11.8125
+    },
+    "shots": [
+      {
+        "id": "4b591c3a-5066-43c4-b9fc-8ebc5d7ccb1c",
+        "name": "Shot 1",
+        "room": {
+          "enabled": false,
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "2f986874-d22f-44c6-98f1-c8a7aad63dcf",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/434dd90b-a5f9-403e-83ee-9925b3d8a696.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "Screenshot 2026-10-14 at 2.35.18\u202fPM",
+            "frame": "macbook",
+            "outMs": 10616.181477036602,
+            "scale": {
+              "x": 0.30018159393257265,
+              "y": 0.30018159393257265,
+              "z": 0.999539870159945
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.666719068069985,
+              "y": 0.6871466125223367,
+              "z": -0.03415897819108077
+            },
+            "rotation": {
+              "x": -0.04625589406145467,
+              "y": 1.5846090520281448,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/434dd90b-a5f9-403e-83ee-9925b3d8a696.thumb.jpg",
+            "frameDesk": true,
+            "animations": [
+              {
+                "id": "f7a70c71-c41f-4700-92ae-98e8226681b6",
+                "amount": {
+                  "x": 0.20943951023931956,
+                  "y": -2.234021442552742,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 10061.637475569667,
+                "customEasing": {
+                  "x1": 0.85,
+                  "x2": 0.66,
+                  "y1": -0.01,
+                  "y2": 0.99
+                }
+              },
+              {
+                "id": "87527b1b-1fff-447c-8bb7-de5d6eaf7267",
+                "amount": 1,
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "property": "frameLidAngle",
+                "direction": "reverse",
+                "durationMs": 4741.5575342983575,
+                "customEasing": {
+                  "x1": 0.74,
+                  "x2": 0.25,
+                  "y1": -0.01,
+                  "y2": 0.99
+                }
+              }
+            ],
+            "frameColor": "#7e7e7e",
+            "frameGlare": 0.41,
+            "frameGloss": 0.5,
+            "layerOrder": 0,
+            "frameScreen": {
+              "fit": "fit",
+              "radius": 0.03,
+              "padding": 0.12,
+              "wallpaper": {
+                "src": "local://assets/placeholder"
+              }
+            },
+            "cornerRadius": 0,
+            "frameLidAngle": 102,
+            "frameDeskFinish": "charcoal",
+            "frameScreenGlow": 1.48,
+            "frameDeskPropSettings": {
+              "mouse": {
+                "hidden": true
+              },
+              "plant": {
+                "color": "#bfdbee"
+              },
+              "keyboard": {
+                "hidden": true
+              },
+              "notebook": {
+                "color": "#565656"
+              }
+            }
+          }
+        ],
+        "lights": [
+          {
+            "id": "f2e15a9b-97d6-476f-bcb1-4a8ac07c1718",
+            "kind": "spot",
+            "pose": {
+              "angle": 38,
+              "target": {
+                "x": -1.5417001666883692,
+                "y": 0.48449894773971935,
+                "z": 0
+              },
+              "position": {
+                "x": 0,
+                "y": 7.567557564976495,
+                "z": 1.0679543224513685e-23
+              },
+              "softness": 0.75,
+              "intensity": 1.2,
+              "temperature": 6500
+            },
+            "shadows": true,
+            "animations": []
+          }
+        ],
+        "startMs": 0,
+        "duration": 10616.181477036602,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "b5cc1aee-0038-49ac-a480-36d344055a77",
+            "zoom": 8.188502681193793,
+            "shake": 0.6,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.7659300354535021,
+                "y": 0.4977003990895813,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "e06f8e9b-e60d-4df5-bec1-49aab985a52f",
+            "zoom": 0.5,
+            "shake": 0.37,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.507625451674184,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "713f0c8c-af26-4d03-965f-3d34b6b083ec",
+            "zoom": 0.7844894558084768,
+            "shake": 0.53,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.6649971510339447,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "colorGrade",
+          "chromaticAberration",
+          "motionBlur",
+          "bloom",
+          "vignette",
+          "fisheye"
+        ],
+        "framerBlocks": [
+          {
+            "id": "61d693ee-7e5b-43d4-85ea-a789c199d67a",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 0,
+            "duration": 5287.812006254444,
+            "toFramingId": "b5cc1aee-0038-49ac-a480-36d344055a77",
+            "fromFramingId": "e06f8e9b-e60d-4df5-bec1-49aab985a52f"
+          },
+          {
+            "id": "bf3182b4-e9d4-4da5-a67b-4cbd34bffaad",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 5296.984504056525,
+            "duration": 4764.652971513142,
+            "toFramingId": "713f0c8c-af26-4d03-965f-3d34b6b083ec",
+            "customEasing": {
+              "x1": 0.62,
+              "x2": 0.1,
+              "y1": 0.01,
+              "y2": 1
+            },
+            "fromFramingId": "b5cc1aee-0038-49ac-a480-36d344055a77"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": true,
+            "intensity": 0.3,
+            "threshold": 0.69
+          },
+          "fisheye": {
+            "enabled": true,
+            "intensity": 0.79
+          },
+          "vignette": {
+            "enabled": true,
+            "intensity": 0.78
+          },
+          "colorGrade": {
+            "enabled": true,
+            "contrast": 1,
+            "exposure": 0,
+            "saturation": 1.38
+          },
+          "motionBlur": {
+            "enabled": true,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "model": "physical",
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 5,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "sceneScale": 116.30306603773586,
+            "focalLength": 28.125,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          },
+          "chromaticAberration": {
+            "mode": "linear",
+            "angle": -33,
+            "offset": 28,
+            "enabled": false,
+            "falloff": 1,
+            "softness": 0.6
+          }
+        }
+      },
+      {
+        "id": "08130518-a639-4ca0-ac5a-29afe3403fc8",
+        "name": "Sound",
+        "assets": [
+          {
+            "id": "3b64829e-039f-4a8e-9fc5-afb20f73ebab",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/d13c72d8-50aa-4817-b0d0-22d1bc6483d9.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1926.6558955286353,
+            "kind": "audio",
+            "name": "ESM_VCSFX_Cinematic_FX_whoosh_one_shot_strong_wind_howl_gust_blow_short_reverb_04",
+            "outMs": 9171.218768856703,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.740105617455896,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "segments": [
+              {
+                "inMs": 1926.6558955286353,
+                "outMs": 4154.6975621953015,
+                "offsetMs": 0
+              },
+              {
+                "inMs": 6943.177102190036,
+                "outMs": 9171.218768856703,
+                "offsetMs": 0
+              }
+            ],
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2228.0416666666665
+          },
+          {
+            "id": "da4b14cf-c314-4d40-ba34-e49d51cde4fb",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/9285082a-c0b5-428d-a440-0fd3ddd226f0.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "KSHMR_sok5_fx_wind_strong",
+            "outMs": 8411.729166666668,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.18416318477251625,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 458,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 1,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 8411.729166666668
+          },
+          {
+            "id": "9ac7fc98-b194-49ce-a764-955472baff5d",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/6dd7b103-4601-49e5-ba34-58a8ae3ef664.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1355.8510348471482,
+            "kind": "audio",
+            "name": "KSHMR_sok5_fx_wind_big_gust",
+            "outMs": 6284.892701513815,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 2,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 4929.041666666667
+          },
+          {
+            "id": "b33f0d54-199b-4d73-82f2-6c7f59934926",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/6dd7b103-4601-49e5-ba34-58a8ae3ef664.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 3830.3146656438184,
+            "kind": "audio",
+            "name": "KSHMR_sok5_fx_wind_big_gust",
+            "outMs": 6911.651393491199,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.2464330808080808,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 493,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 1658,
+            "layerOrder": 3,
+            "sourceOffsetMs": 199.56444572600958,
+            "sourceDurationMs": 4929.041666666667
+          },
+          {
+            "id": "a7b6975d-b234-478b-834b-60d735a399f9",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/ac16ed7e-407e-427b-9174-def469ed307e.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "GhostWindSwell_S08HO.125",
+            "outMs": 6362.666666666667,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 4,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 6362.666666666667
+          },
+          {
+            "id": "ce6f5a55-5340-4741-b761-3552547be643",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/84e1154f-2b43-4a30-9f3c-695d26ea289d.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1991.3708157769727,
+            "kind": "audio",
+            "name": "PaperMovement_S08OF.315",
+            "outMs": 3383.3708157769724,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 2.308254076086956,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 5,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1392
+          },
+          {
+            "id": "f54f4503-be6b-429d-84f7-77d8bfcceeee",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/e281875e-ea94-4c92-a4e0-3ba4220ed9d3.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 426.1928716222016,
+            "kind": "audio",
+            "name": "ESM_Horror_Game_Vocal_Creature_Giant_Bat_Flutter_Fly_Flap_Wings_Hiss_Vocal_1",
+            "outMs": 3457.784839653049,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.07306389870435807,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 1351,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 1102,
+            "layerOrder": 7,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3956.1875
+          },
+          {
+            "id": "9b80f504-659c-4288-ad8d-7f4f992c0181",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/84e1154f-2b43-4a30-9f3c-695d26ea289d.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6698.341140490168,
+            "kind": "audio",
+            "name": "PaperMovement_S08OF.315",
+            "outMs": 8090.341140490168,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.8817910777385158,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 6,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1392
+          },
+          {
+            "id": "24a68376-a5a2-47ae-b972-6f8850ba572e",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/6847d6f5-9901-4c00-93df-1c4d796a1e27.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6698.341140490168,
+            "kind": "audio",
+            "name": "PaperTearSlowRip_SFXB.3131",
+            "outMs": 7884.027538542755,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.0958296525323911,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 300,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 200,
+            "layerOrder": 8,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1392
+          },
+          {
+            "id": "92d39e69-a133-4ded-8eb0-05e45b8cd3b3",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/07dff446-8cd2-46bb-af52-7a121299bf1a.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1699.035049982986,
+            "kind": "audio",
+            "name": "ESM_PG_fx_foley_cloth_flag_shake_flap_fabric_03",
+            "outMs": 3199.035049982986,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1.594302120141343,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 9,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2999.833333333333
+          },
+          {
+            "id": "6651e5e3-d924-41a3-9c05-cfe4dcdc8ac8",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/d7763fd6-4516-4603-9b66-b5deec99b568.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 3743.4025640423047,
+            "kind": "audio",
+            "name": "ESM_MU_FX_foley_cloth_whoosh_flags_thick_fabric_rubbing_billowing_flapping_clean_03_bm",
+            "outMs": 7575.735897375638,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 10,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3832.333333333333
+          },
+          {
+            "id": "3a745745-10b7-417e-9adf-bed1b4e84370",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/15b3e641-3b1e-4bff-aa54-6462516dbf8a.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6360.23170666512,
+            "kind": "audio",
+            "name": "ESM_PG_fx_foley_cloth_flag_shake_flap_fabric",
+            "outMs": 8818.286345082213,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.941953769140165,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 983,
+            "layerOrder": 11,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 4116.291666666666
+          },
+          {
+            "id": "87e25041-4af5-44af-a8b4-5378f0a62f02",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/98718deb-38b9-45c5-8548-d95c02645605.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6048.363923951042,
+            "kind": "audio",
+            "name": "ESM_EMWI_FX_whoosh_wind_air_jet_rippling_thrash_flutter_cloth_05",
+            "outMs": 9113.447257284375,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.13396464646464645,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 12,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3065.0833333333335
+          },
+          {
+            "id": "570c4cfe-a5e3-497d-94dd-2eb7df0356e3",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/e294452e-2343-4bfb-936f-44c1efbc81fd.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "High_Altitude_Canyon_Wind",
+            "outMs": 10613.426638851635,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.2389835858585858,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 13,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 20480
+          },
+          {
+            "id": "cffcc12b-a787-4c5c-bfde-13ce35b2f65b",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/90fa7d52-b3e1-46b9-b425-553b34c9f256.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6640.195741674627,
+            "kind": "audio",
+            "name": "OS_ELY_Reverse_Impact",
+            "outMs": 10196.170081969129,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.22013888888888897,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 14,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 7304.333333333333
+          },
+          {
+            "id": "943c162f-49f4-44a1-8ae7-175abe200fc4",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/2c05184f-d712-4fdc-b60a-849cc7643d3c.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 2189.94156193495,
+            "kind": "audio",
+            "name": "SPLC-3629_FX_Oneshot_Subwoofer_Bass_Drop",
+            "outMs": 6662.850665513712,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 2.971022727272728,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 15,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 8058.666666666667
+          },
+          {
+            "id": "77d226f2-ee27-4a56-a29b-37ba6c1d8ad0",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/b0f341aa-7d53-422a-9aa5-81e774d98b55.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "FF_ET_boom_earshot",
+            "outMs": 10613.426638851635,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 16,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 10859.5625
+          },
+          {
+            "id": "75abcd83-b249-4ae2-907d-7e1410cd2878",
+            "src": "assets/templates/16107d05-f1f1-40f1-b50e-0c57a93c424d/4966abd5-abbb-44dc-9b90-ce1dca3b2156.wav",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "ESM_Ocean_Game_Loop_Ambience_Deep_Pulsating_C#",
+            "outMs": 10616.181477036602,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "segments": [
+              {
+                "inMs": 0,
+                "outMs": 2443.0668248874154,
+                "offsetMs": 0
+              },
+              {
+                "inMs": 3567.349245112322,
+                "outMs": 10616.181477036602,
+                "fadeInMs": 836,
+                "offsetMs": 3013.6317958772115
+              }
+            ],
+            "fadeOutMs": 1061,
+            "layerOrder": 17,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 34437.145833333336
+          }
+        ],
+        "startMs": 0,
+        "duration": 10616.181477036602,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "soundBed": true,
+        "laneIndex": 1,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.45
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "model": "physical",
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10.5,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

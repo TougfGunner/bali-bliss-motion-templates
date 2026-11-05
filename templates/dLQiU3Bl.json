@@ -1,0 +1,1289 @@
+{
+  "id": "d75eb313-5b73-495d-b2dd-92033a272e3a",
+  "slug": "dLQiU3Bl",
+  "name": "Phone animation",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 30,
+  "durationMs": 6236,
+  "styles": [
+    "modern",
+    "clean"
+  ],
+  "tags": [],
+  "effortLevel": "deep",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 1,
+    "totalLayers": 8,
+    "entrancePresets": [],
+    "exitPresets": []
+  },
+  "composition": {
+    "background": {
+      "kind": "solid",
+      "color": "#ffffff"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "33e9066f-dd86-4fe2-95f4-ce5f86281e1f",
+        "name": "Shot 1",
+        "light": {
+          "pose": {
+            "ambience": 1,
+            "position": {
+              "x": 5.345726411966002,
+              "y": 12.05038837805521,
+              "z": 4.712891794476187
+            },
+            "intensity": 2.6,
+            "temperature": 6500
+          },
+          "animations": []
+        },
+        "assets": [
+          {
+            "id": "33e9066f-dd86-4fe2-95f4-ce5f86281e1f-main-image",
+            "src": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/2cebff54-2d7a-42ee-853e-a74083548662.jpg",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "image",
+            "name": "WhatsApp Image 2026-09-10 at 11.01.52",
+            "frame": "iphone",
+            "outMs": 1171.0450413717736,
+            "scale": {
+              "x": 0.05992023582207954,
+              "y": 0.05220537393068598,
+              "z": 1
+            },
+            "groupId": "5ab7f415-2062-4fc3-82e3-c1b4945695c9",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.899999999999988,
+              "y": -0.10135942074142618,
+              "z": 0
+            },
+            "rotation": {
+              "x": -0.06824260647824518,
+              "y": -3.6529541158246723,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/2cebff54-2d7a-42ee-853e-a74083548662.thumb.jpg",
+            "animations": [
+              {
+                "id": "e0eb9f20-35f1-485c-bdc8-4f2cd8483d86",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "bundleId": "04ee79eb-a940-4a17-9739-6a090fe17c2e",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 319.22982448689095,
+                "presetKind": "fade"
+              }
+            ],
+            "frameColor": "silver",
+            "frameGloss": 0.45,
+            "layerOrder": 0,
+            "cornerRadius": 0
+          },
+          {
+            "id": "5ff3beff-ef26-4b83-ad1c-9b9a6aec7121",
+            "src": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/2cebff54-2d7a-42ee-853e-a74083548662.jpg",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "inMs": 775.0331213804088,
+            "kind": "image",
+            "name": "WhatsApp Image 2026-09-10 at 11.01.52",
+            "frame": "iphone",
+            "outMs": 6235.543133523322,
+            "scale": {
+              "x": 0.21354777412168305,
+              "y": 0.18605302945053104,
+              "z": 1
+            },
+            "groupId": "09f0f5e4-1ef5-48c1-b896-232271ef62c9",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 0,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8979312516470854,
+              "y": -0.19072484495300274,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/2cebff54-2d7a-42ee-853e-a74083548662.thumb.jpg",
+            "animations": [
+              {
+                "id": "92564721-0b96-439d-9399-0ece100105db",
+                "amount": {
+                  "x": 0,
+                  "y": 0.21199999999999997,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 775.0331213804088,
+                "property": "position",
+                "durationMs": 785.9717394444615
+              }
+            ],
+            "frameColor": "silver",
+            "frameGloss": 0.45,
+            "layerOrder": 1,
+            "cornerRadius": 0
+          },
+          {
+            "id": "3edad1a6-5116-4b32-b7e2-50a27d229530",
+            "src": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/d0f0416b-008e-4d84-affd-522646e68d8a.png",
+            "crop": {
+              "x": 0.011230605041492134,
+              "y": 0.056006098117668,
+              "width": 0.9765887808559418,
+              "height": 0.8883081276250601
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 775.0331213804088,
+            "kind": "image",
+            "name": "musteri-gelen-arama-referans-transparan",
+            "outMs": 6235.543133523322,
+            "scale": {
+              "x": 0.2057242519087256,
+              "y": 0.2057242519087256,
+              "z": 1
+            },
+            "groupId": "c97e0aa8-fa42-40d0-9e02-0521eb1e4b23",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9000000000000006,
+              "y": 0.49219077074218376,
+              "z": 0.11777777777777776
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/d0f0416b-008e-4d84-affd-522646e68d8a.thumb.jpg",
+            "animations": [
+              {
+                "id": "148a0e47-2b82-45db-9b6f-6bf209eb1ab1",
+                "amount": {
+                  "x": 0,
+                  "y": 0.21199999999999997,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 775.0331213804088,
+                "property": "position",
+                "durationMs": 785.9717394444615
+              }
+            ],
+            "layerOrder": 2,
+            "cornerRadius": 1,
+            "layerEffects": {
+              "glow": {
+                "rim": 1,
+                "blur": 0.07537777777777777,
+                "mode": "edge",
+                "angle": 135,
+                "blend": "normal",
+                "color": "#4d7cff",
+                "sheen": 0.5,
+                "enabled": false,
+                "intensity": 1.6,
+                "thickness": 0
+              },
+              "layerBlur": {
+                "blur": 0.011450062565305393,
+                "enabled": false
+              },
+              "dropShadow": {
+                "blur": 0.03768888888888888,
+                "color": "#000000",
+                "enabled": true,
+                "offsetX": 0,
+                "offsetY": -0.014133333333333331,
+                "opacity": 0.4
+              },
+              "liquidGlass": {
+                "blur": 10,
+                "enabled": false,
+                "highlight": 0.6,
+                "dispersion": 0.4,
+                "refraction": 0.5
+              },
+              "backdropBlur": {
+                "blur": 24,
+                "enabled": true
+              }
+            },
+            "layerEffectsOrder": [
+              "backdropBlur",
+              "dropShadow"
+            ]
+          },
+          {
+            "id": "05d8fddb-3d7f-40a9-92c0-c64825358137",
+            "src": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/2823c68d-d3a4-42b6-8803-66de1a8c99f3.png",
+            "crop": {
+              "x": 0.011903396626203695,
+              "y": 0.05866846800569896,
+              "width": 0.9770979779875891,
+              "height": 0.8804058092937762
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1462.9580505133877,
+            "kind": "image",
+            "name": "musteri-cevapsiz-cagri-transparan",
+            "outMs": 5233.578296420652,
+            "scale": {
+              "x": 0.16322628757261304,
+              "y": 0.16322628757261304,
+              "z": 1
+            },
+            "groupId": "c0738574-1c02-4174-8570-ecc69799f3eb",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9007583968455448,
+              "y": 0.24111846690801775,
+              "z": 0.11777777777777776
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/2823c68d-d3a4-42b6-8803-66de1a8c99f3.thumb.jpg",
+            "animations": [
+              {
+                "id": "efc3a764-93f6-4ee8-b3b3-1f7ccef666f9",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 248.48809045863118
+                },
+                "easing": "ease-out",
+                "startMs": 1711.4461409720188,
+                "bundleId": "adb0a02b-bdf5-4cfb-88b0-a25a236a76f5",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 339.42978482903345,
+                "presetKind": "fade"
+              },
+              {
+                "id": "ca695e9f-4ef8-4f5f-88a9-548e00ae1371",
+                "amount": {
+                  "x": 0.2203554882230276,
+                  "y": 0.2203554882230276,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 1711.4461409720188,
+                "property": "scale",
+                "durationMs": 433.90716310454036,
+                "customEasing": {
+                  "x1": 0.97,
+                  "x2": 0.61,
+                  "y1": 0.01,
+                  "y2": 1
+                }
+              }
+            ],
+            "layerOrder": 3,
+            "cornerRadius": 1
+          },
+          {
+            "id": "189d550a-3b66-4d68-a8dc-42ee1186700f",
+            "src": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/3e172ec2-3cd5-4bdf-bb50-f7581ae7967e.png",
+            "crop": {
+              "x": 0.011903396626203695,
+              "y": 0.05866846800569896,
+              "width": 0.9770979779875891,
+              "height": 0.8804058092937762
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1462.9580505133877,
+            "kind": "image",
+            "name": "musteri-cevapsiz-cagri-transparan",
+            "outMs": 5448.595081194537,
+            "scale": {
+              "x": 0.16322628757261304,
+              "y": 0.16322628757261304,
+              "z": 1
+            },
+            "groupId": "2b660f38-03b0-4ef2-b70f-4dcc34abb7c8",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.900884213292768,
+              "y": 0.10747825020111647,
+              "z": 0.11777777777777776
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/3e172ec2-3cd5-4bdf-bb50-f7581ae7967e.thumb.jpg",
+            "animations": [
+              {
+                "id": "22b87af1-10a4-4321-bc78-e67e44c0f6c4",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 400.26432740358155
+                },
+                "easing": "ease-out",
+                "startMs": 1863.2223779169692,
+                "bundleId": "adb0a02b-bdf5-4cfb-88b0-a25a236a76f5",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 315.1516437911873,
+                "presetKind": "fade"
+              },
+              {
+                "id": "708a77b7-3ccb-4162-9266-b809740f8ffa",
+                "amount": {
+                  "x": 0.2203554882230276,
+                  "y": 0.2203554882230276,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 1872.3589985703275,
+                "property": "scale",
+                "durationMs": 306.0150231378293,
+                "customEasing": {
+                  "x1": 0.97,
+                  "x2": 0.61,
+                  "y1": 0.01,
+                  "y2": 1
+                }
+              }
+            ],
+            "layerOrder": 4,
+            "cornerRadius": 1
+          },
+          {
+            "id": "809110d2-18d5-4276-ba0d-ee2bc1c8c68b",
+            "src": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/5da71784-b08d-4cd9-ac9d-dadb6152eb92.png",
+            "crop": {
+              "x": 0.011903396626203695,
+              "y": 0.05866846800569896,
+              "width": 0.9770979779875891,
+              "height": 0.8804058092937762
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1462.9580505133877,
+            "kind": "image",
+            "name": "musteri-cevapsiz-cagri-transparan",
+            "outMs": 5448.595081194537,
+            "scale": {
+              "x": 0.16322628757261304,
+              "y": 0.16322628757261304,
+              "z": 1
+            },
+            "groupId": "dbb20946-c869-40e5-9690-ea6c63927157",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8973954236195203,
+              "y": -0.02609908466707228,
+              "z": 0.11777777777777776
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/5da71784-b08d-4cd9-ac9d-dadb6152eb92.thumb.jpg",
+            "animations": [
+              {
+                "id": "806bab2f-b608-40dc-8708-b5f3a43879fb",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 409.4009480569398
+                },
+                "easing": "ease-out",
+                "startMs": 1872.3589985703275,
+                "bundleId": "adb0a02b-bdf5-4cfb-88b0-a25a236a76f5",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 306.0150231378293,
+                "presetKind": "fade"
+              },
+              {
+                "id": "16afd0f6-2ef4-4459-ae0d-fc4f5998b81e",
+                "amount": {
+                  "x": 0.2203554882230276,
+                  "y": 0.2203554882230276,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 1912.0785392832474,
+                "property": "scale",
+                "durationMs": 339.42978482903345
+              }
+            ],
+            "layerOrder": 5,
+            "cornerRadius": 1
+          },
+          {
+            "id": "b4eff972-5309-484b-85fa-cd9f88887834",
+            "src": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/6e85b246-4a76-45e5-a118-4b8ad5844268.png",
+            "crop": {
+              "x": 0.011903396626203695,
+              "y": 0.05866846800569896,
+              "width": 0.9770979779875891,
+              "height": 0.8804058092937762
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1462.9580505133877,
+            "kind": "image",
+            "name": "musteri-cevapsiz-cagri-transparan",
+            "outMs": 5448.595081194537,
+            "scale": {
+              "x": 0.16322628757261304,
+              "y": 0.16322628757261304,
+              "z": 1
+            },
+            "groupId": "d90029d3-5752-4a23-b01c-2421f6610dca",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9011358461872123,
+              "y": -0.159613520682845,
+              "z": 0.11777777777777776
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/6e85b246-4a76-45e5-a118-4b8ad5844268.thumb.jpg",
+            "animations": [
+              {
+                "id": "f44e1f07-56e9-48a4-9630-4629733da4e9",
+                "amount": {
+                  "x": 0.2203554882230276,
+                  "y": 0.2203554882230276,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 2099.6052524654788,
+                "property": "scale",
+                "durationMs": 323.10526744460685
+              },
+              {
+                "id": "b46df3e7-1d25-4873-b954-f103bff97f32",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 662.5350522736403
+                },
+                "easing": "ease-out",
+                "startMs": 2125.493102787028,
+                "bundleId": "adb0a02b-bdf5-4cfb-88b0-a25a236a76f5",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 323.10526744460685,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 6,
+            "cornerRadius": 1
+          },
+          {
+            "id": "f544d5be-4f4f-4660-ad86-eb2a9a534c0e",
+            "src": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/22f917bc-e056-4849-8995-40210bc557f5.png",
+            "crop": {
+              "x": 0.011903396626203695,
+              "y": 0.05866846800569896,
+              "width": 0.9770979779875891,
+              "height": 0.8804058092937762
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1462.9580505133877,
+            "kind": "image",
+            "name": "musteri-cevapsiz-cagri-transparan",
+            "outMs": 5448.595081194537,
+            "scale": {
+              "x": 0.16322628757261304,
+              "y": 0.16322628757261304,
+              "z": 1
+            },
+            "groupId": "83ed70bb-a1c4-4c6d-a763-9a2123ad54c0",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8976499170507952,
+              "y": -0.3977440943769243,
+              "z": 0.11777777777777776
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/d75eb313-5b73-495d-b2dd-92033a272e3a/22f917bc-e056-4849-8995-40210bc557f5.thumb.jpg",
+            "animations": [
+              {
+                "id": "40159689-3318-431a-b092-772e5ee4c706",
+                "amount": {
+                  "x": 0.2203554882230276,
+                  "y": 0.2203554882230276,
+                  "z": 1
+                },
+                "easing": "ease-out",
+                "startMs": 2464.9228876160614,
+                "property": "scale",
+                "durationMs": 277.3572158335264
+              },
+              {
+                "id": "088079a7-3c5b-4417-8918-922f9df1884a",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 1001.9648371026738
+                },
+                "easing": "ease-out",
+                "startMs": 2464.9228876160614,
+                "bundleId": "adb0a02b-bdf5-4cfb-88b0-a25a236a76f5",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 277.3572158335264,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 7,
+            "cornerRadius": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "5ab7f415-2062-4fc3-82e3-c1b4945695c9",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "73a68d72-25eb-4fa5-909d-2e0215ab3389",
+                "amount": {
+                  "x": 4.0957709323758644e-19,
+                  "y": 0.8244444444444443,
+                  "z": -0.008049962790941027
+                },
+                "easing": "ease-out",
+                "startMs": 0,
+                "property": "position",
+                "durationMs": 1171.0450413717736
+              },
+              {
+                "id": "73ad5c07-5f36-4e9f-bc5d-135ee9e3718c",
+                "amount": {
+                  "x": 0,
+                  "y": 3.6651914291880923,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 0,
+                "property": "tilt",
+                "durationMs": 935.5134841856604
+              },
+              {
+                "id": "e8464f32-d3bd-45e0-8eda-6607fd0e7ea2",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 675.0331213804088,
+                "property": "opacity",
+                "durationMs": 100
+              }
+            ]
+          },
+          {
+            "id": "09f0f5e4-1ef5-48c1-b896-232271ef62c9",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "55d3a565-f621-45ef-858f-f50ecf587e01",
+                "amount": {
+                  "x": 0,
+                  "y": 0.09422222222222221,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 1206.7565194010717,
+                "property": "position",
+                "durationMs": 1369.8370161241444
+              }
+            ],
+            "parentGroupId": "9a829f7b-3533-49de-ab54-3111c24f1c5a"
+          },
+          {
+            "id": "c97e0aa8-fa42-40d0-9e02-0521eb1e4b23",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "723cd2f6-c3d6-45e4-94d9-6aca7f7a4599",
+                "amount": {
+                  "x": 0,
+                  "y": 0.05,
+                  "z": 0
+                },
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-out",
+                "startMs": 775.0331213804088,
+                "bundleId": "3be7ac68-3efe-4e91-89a8-ffdd494abff9",
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "slide",
+                "customEasing": {
+                  "x1": 0.33,
+                  "x2": 0.54,
+                  "y1": 1,
+                  "y2": 1
+                }
+              }
+            ],
+            "parentGroupId": "b092dd77-809a-42b5-92d8-e85e88ec27c1"
+          },
+          {
+            "id": "b092dd77-809a-42b5-92d8-e85e88ec27c1",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "3e9b4ec7-44e5-4300-ac78-deddbed205f9",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 865.470770037191,
+                "bundleId": "76f23b24-8257-4aff-b6e8-546e191575a4",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              },
+              {
+                "id": "91cd3566-fb04-49f2-869b-e6bf7b82edfe",
+                "amount": {
+                  "x": 0,
+                  "y": 0.09422222222222221,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 1206.7565194010717,
+                "property": "position",
+                "durationMs": 1369.8370161241444
+              }
+            ],
+            "parentGroupId": "e1469eef-6a82-4b3c-9504-1eec8c55c8dd"
+          },
+          {
+            "id": "9a829f7b-3533-49de-ab54-3111c24f1c5a",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "51e6d4f1-b368-4a43-a667-9b59e34ef339",
+                "amount": {
+                  "x": 0,
+                  "y": 0.9422222222222221,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1561.0048608248703,
+                "property": "position",
+                "durationMs": 1042.5055627226002,
+                "customEasing": {
+                  "x1": 0.65,
+                  "x2": 0.35,
+                  "y1": 0.01,
+                  "y2": 1
+                }
+              }
+            ],
+            "parentGroupId": "98c8cea1-dd32-42df-bd77-952e1ae2bcae"
+          },
+          {
+            "id": "e1469eef-6a82-4b3c-9504-1eec8c55c8dd",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "6e274a45-07ce-4f9d-9b27-fa3566e8775a",
+                "amount": {
+                  "x": 0,
+                  "y": 0.9422222222222221,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1561.0048608248703,
+                "property": "position",
+                "durationMs": 1042.5055627226002,
+                "customEasing": {
+                  "x1": 0.65,
+                  "x2": 0.35,
+                  "y1": -0.01,
+                  "y2": 1
+                }
+              }
+            ],
+            "parentGroupId": "6e275b06-6ad3-4ddb-9b48-a72fe649dee1"
+          },
+          {
+            "id": "98c8cea1-dd32-42df-bd77-952e1ae2bcae",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "87dcc4e5-2f8d-43e8-b6e2-6f66bf5288e1",
+                "amount": {
+                  "x": 0,
+                  "y": 0.17077777777777775,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 2464.9228876160614,
+                "property": "position",
+                "durationMs": 3770.62024590726
+              }
+            ],
+            "parentGroupId": "f1378371-e461-44f5-93ef-706d35bef1bc"
+          },
+          {
+            "id": "6e275b06-6ad3-4ddb-9b48-a72fe649dee1",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "bb6cb7d8-293e-45d5-a00c-fdac05b401a2",
+                "amount": {
+                  "x": 0,
+                  "y": 0.17077777777777775,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 2464.9228876160614,
+                "property": "position",
+                "durationMs": 3770.62024590726
+              }
+            ],
+            "parentGroupId": "f1378371-e461-44f5-93ef-706d35bef1bc"
+          },
+          {
+            "id": "c0738574-1c02-4174-8570-ecc69799f3eb",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "92cdc1d2-aa9f-46d0-b09f-63cc4398fa67",
+                "amount": {
+                  "x": 0,
+                  "y": 0.17077777777777775,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 1462.9580505133877,
+                "property": "position",
+                "durationMs": 3770.62024590726
+              },
+              {
+                "id": "10f19c49-d272-4dac-b15c-f8f7ee00373b",
+                "amount": {
+                  "x": 0.8,
+                  "y": 0.8,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 2042.6371562367262,
+                "property": "scale",
+                "durationMs": 422.2857313793352,
+                "customEasing": {
+                  "x1": 0.37,
+                  "x2": 0.01,
+                  "y1": 0,
+                  "y2": 1
+                }
+              }
+            ],
+            "parentGroupId": "292275ed-2c39-478a-b048-9b0afa1f4036"
+          },
+          {
+            "id": "292275ed-2c39-478a-b048-9b0afa1f4036",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "812affd0-5228-4a18-a8d4-6d5d748ab8a4",
+                "amount": {
+                  "x": 0,
+                  "y": 0.9422222222222221,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1561.0048608248703,
+                "property": "position",
+                "durationMs": 1042.5055627226002,
+                "customEasing": {
+                  "x1": 0.65,
+                  "x2": 0.35,
+                  "y1": 0.01,
+                  "y2": 1
+                }
+              }
+            ],
+            "parentGroupId": "f1378371-e461-44f5-93ef-706d35bef1bc"
+          },
+          {
+            "id": "2b660f38-03b0-4ef2-b70f-4dcc34abb7c8",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "d70974ec-747d-471a-b029-2f7f0feb4b7a",
+                "amount": {
+                  "x": 0,
+                  "y": 0.9422222222222221,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1561.0048608248703,
+                "property": "position",
+                "durationMs": 1042.5055627226002,
+                "customEasing": {
+                  "x1": 0.65,
+                  "x2": 0.35,
+                  "y1": 0.01,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "254b850a-d4e9-4a20-b43b-88e1256acc21",
+                "amount": {
+                  "x": 0.8,
+                  "y": 0.8,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 2125.493102787028,
+                "property": "scale",
+                "durationMs": 251.1218046377935,
+                "customEasing": {
+                  "x1": 0.37,
+                  "x2": 0.01,
+                  "y1": 0,
+                  "y2": 1
+                }
+              }
+            ],
+            "parentGroupId": "229df8ba-2181-4ee1-8525-46dcb63824db"
+          },
+          {
+            "id": "229df8ba-2181-4ee1-8525-46dcb63824db",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "c661fa06-ecfd-46f7-bca4-5a2cede1c48f",
+                "amount": {
+                  "x": 0,
+                  "y": 0.17077777777777775,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 1462.9580505133918,
+                "property": "position",
+                "durationMs": 3770.62024590726
+              }
+            ],
+            "parentGroupId": "f1378371-e461-44f5-93ef-706d35bef1bc"
+          },
+          {
+            "id": "dbb20946-c869-40e5-9690-ea6c63927157",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "a4cc6c4a-d4c5-4613-a9ea-57c7ac3b53a3",
+                "amount": {
+                  "x": 0,
+                  "y": 0.9422222222222221,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1561.0048608248703,
+                "property": "position",
+                "durationMs": 1042.5055627226002,
+                "customEasing": {
+                  "x1": 0.65,
+                  "x2": 0.35,
+                  "y1": 0.01,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "4f8adaa1-7549-4a7e-90ba-1c21cb01ddac",
+                "amount": {
+                  "x": 0.8,
+                  "y": 0.8,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 2145.353304076559,
+                "property": "scale",
+                "durationMs": 277.3572158335264
+              }
+            ],
+            "parentGroupId": "6f204a5a-d159-4140-ba41-f898ce07c766"
+          },
+          {
+            "id": "6f204a5a-d159-4140-ba41-f898ce07c766",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "b8685528-3c33-467b-b4df-a4f4d4bbbd13",
+                "amount": {
+                  "x": 0,
+                  "y": 0.17077777777777775,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 1462.9580505133877,
+                "property": "position",
+                "durationMs": 3770.62024590726
+              }
+            ],
+            "parentGroupId": "f1378371-e461-44f5-93ef-706d35bef1bc"
+          },
+          {
+            "id": "d90029d3-5752-4a23-b01c-2421f6610dca",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "a3536027-dcf5-4ae7-8f3f-d8e7f67da661",
+                "amount": {
+                  "x": 0,
+                  "y": 0.9422222222222221,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1561.0048608248703,
+                "property": "position",
+                "durationMs": 1042.5055627226002,
+                "customEasing": {
+                  "x1": 0.65,
+                  "x2": 0.35,
+                  "y1": 0.01,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "1e7a4d78-b4bf-4843-9b06-86e4adb0aebc",
+                "amount": {
+                  "x": 0.8,
+                  "y": 0.8,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 2274.816093930591,
+                "property": "scale",
+                "durationMs": 277.3572158335264
+              }
+            ],
+            "parentGroupId": "7bc510ba-fd65-4262-95dc-025a9f065f55"
+          },
+          {
+            "id": "7bc510ba-fd65-4262-95dc-025a9f065f55",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "af020b5f-1a88-4fed-96e5-5c445d942e7b",
+                "amount": {
+                  "x": 0,
+                  "y": 0.17077777777777775,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 1462.9580505133877,
+                "property": "position",
+                "durationMs": 3770.62024590726
+              }
+            ],
+            "parentGroupId": "f1378371-e461-44f5-93ef-706d35bef1bc"
+          },
+          {
+            "id": "83ed70bb-a1c4-4c6d-a763-9a2123ad54c0",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "9532d481-1dae-4ba6-aca9-6a5fefe65ad0",
+                "amount": {
+                  "x": 0,
+                  "y": 0.9422222222222221,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1561.0048608248703,
+                "property": "position",
+                "durationMs": 1042.5055627226002,
+                "customEasing": {
+                  "x1": 0.98,
+                  "x2": 0.35,
+                  "y1": 0,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "317f8adb-caeb-40b5-968c-7e49d7219e93",
+                "amount": {
+                  "x": 0.8,
+                  "y": 0.8,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 2679.9593692458147,
+                "property": "scale",
+                "durationMs": 220.70302959064702
+              }
+            ],
+            "parentGroupId": "fef92ba5-d56b-46e5-ab32-29ce40f9508b"
+          },
+          {
+            "id": "fef92ba5-d56b-46e5-ab32-29ce40f9508b",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "bf80835c-c4bf-499f-b787-be34808d8e00",
+                "amount": {
+                  "x": 0,
+                  "y": 0.17077777777777775,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 1509.846746365327,
+                "property": "position",
+                "durationMs": 3770.62024590726
+              }
+            ],
+            "parentGroupId": "f1378371-e461-44f5-93ef-706d35bef1bc"
+          },
+          {
+            "id": "f1378371-e461-44f5-93ef-706d35bef1bc",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "4565eb97-4bac-4220-806f-97584c74cece",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 3837.990024458205,
+                "property": "opacity",
+                "durationMs": 100
+              }
+            ]
+          }
+        ],
+        "startMs": 0,
+        "duration": 6235.543133523322,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.38,
+          "enabled": true
+        },
+        "framings": [
+          {
+            "id": "47f9c0e3-b8a7-48d3-b44c-5445e690dd95",
+            "zoom": 1.0057162360074752,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "eccab2c4-64fb-49fd-98be-3d9d3d1a912b",
+            "zoom": 1.4354741254539132,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [
+          "edgeFade"
+        ],
+        "framerBlocks": [
+          {
+            "id": "2ac04c67-130c-4608-a612-aa9488fc3276",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 3371.291975905521,
+            "duration": 760.5223909579126,
+            "toFramingId": "47f9c0e3-b8a7-48d3-b44c-5445e690dd95",
+            "customEasing": {
+              "x1": 1,
+              "x2": 0.35,
+              "y1": 0,
+              "y2": 1
+            },
+            "fromFramingId": "eccab2c4-64fb-49fd-98be-3d9d3d1a912b"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}

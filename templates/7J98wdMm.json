@@ -1,0 +1,5090 @@
+{
+  "id": "59b71b7a-316d-4458-a194-bacfd1c5786d",
+  "slug": "7J98wdMm",
+  "name": "Introducing video--updated",
+  "brand": "Bali Bliss",
+  "description": "",
+  "category": "product_app",
+  "aspectRatio": "16:9",
+  "fps": 30,
+  "durationMs": 18840,
+  "styles": [
+    "modern",
+    "clean"
+  ],
+  "tags": [],
+  "effortLevel": "deep",
+  "license": "Bali Bliss Open Motion Template",
+  "isUnlocked": true,
+  "isFree": true,
+  "metrics": {
+    "totalShots": 3,
+    "totalLayers": 57,
+    "entrancePresets": [
+      "Fade",
+      "Wipe"
+    ],
+    "exitPresets": [
+      "Wipe"
+    ]
+  },
+  "composition": {
+    "background": {
+      "kind": "gradient",
+      "angle": 270,
+      "stops": [
+        {
+          "color": "#DCEAFF",
+          "opacity": 1,
+          "position": 1
+        },
+        {
+          "color": "#F7FAFF",
+          "opacity": 1,
+          "position": 0.78
+        },
+        {
+          "color": "#F8FBFF",
+          "opacity": 1,
+          "position": 0.25
+        },
+        {
+          "color": "#E8F2FF",
+          "opacity": 1,
+          "position": 0
+        },
+        {
+          "color": "#FFFFFF",
+          "opacity": 1,
+          "position": 0.52
+        }
+      ],
+      "gradientType": "linear"
+    },
+    "defaultCamera": {
+      "position": {
+        "x": -1.9,
+        "y": 0.7,
+        "z": 2.65
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "focalLength": 50
+    },
+    "shots": [
+      {
+        "id": "166e9643-500e-4511-a84c-c60e0f8080a0",
+        "name": "Shot 1",
+        "assets": [
+          {
+            "id": "f4ef0a91-3030-4ae9-8a4b-77fa1fcef2ba",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in-out",
+              "preset": "Wipe",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 100
+              },
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 924.6365179769766,
+              "maskSoftness": 0.1,
+              "maskDirection": "left"
+            },
+            "font": {
+              "size": 0.1,
+              "color": "#111827",
+              "family": "manrope",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 371.2671505463859,
+            "kind": "text",
+            "outMs": 2361.661798228197,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "Some calls",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-in-out",
+              "preset": "Wipe",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 120
+              },
+              "blurFrom": 0,
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 1065.7581297048343,
+              "typewriter": false,
+              "maskSoftness": 0.1,
+              "maskDirection": "left"
+            },
+            "maxWidth": 0.4637240442634588,
+            "position": {
+              "x": -2.1355555555555554,
+              "y": 0.7000000000000001,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "aa00b014-15cf-447a-8bcf-edc887c0d9f9",
+                "amount": {
+                  "x": 0.23555555555555552,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 371.2671505463859,
+                "property": "position",
+                "durationMs": 989.4740453180059
+              }
+            ],
+            "layerOrder": 4,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "161dab7f-6d2f-4581-96ed-db20e78731dd",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 0,
+            "kind": "shape",
+            "size": {
+              "width": 0.023555555555555552,
+              "height": 0.17666666666666664
+            },
+            "outMs": 5734.922360461295,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.0011777777777777776,
+              "enabled": true,
+              "opacity": 0.5
+            },
+            "groupId": "5e36e20f-5878-432f-ae52-c13af97802cf",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9000000000000001,
+              "y": 0.7,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "be2ca6a2-881d-4333-92be-8824168f9c33",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 0,
+                "bundleId": "17e5b314-345e-440c-b1ea-2a4ccb29c78c",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              },
+              {
+                "id": "f7db4a73-1560-4639-81b9-f01e976398d4",
+                "amount": {
+                  "x": -0.3533333333333333,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 500.00000000000017,
+                "property": "position",
+                "durationMs": 1034.673340109543,
+                "customEasing": {
+                  "x1": 0.38,
+                  "x2": 0,
+                  "y1": 0.01,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "f50799a0-27dd-41cb-8ebd-4cd662e83dc7",
+                "amount": {
+                  "x": 0.7066666666666666,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 1534.6733401095432,
+                "property": "position",
+                "durationMs": 920.4228813530467,
+                "customEasing": {
+                  "x1": 0.65,
+                  "x2": 0.18,
+                  "y1": 0,
+                  "y2": 0.98
+                }
+              },
+              {
+                "id": "fe911345-fa5c-4e1c-b8c7-59b7bddad85a",
+                "amount": {
+                  "width": 0.18844444444444441,
+                  "height": 0.18844444444444441
+                },
+                "easing": "ease-in-out",
+                "startMs": 1870.2993847752573,
+                "property": "size",
+                "durationMs": 689.3573617247489,
+                "customEasing": {
+                  "x1": 0.65,
+                  "x2": 0.13,
+                  "y1": 0,
+                  "y2": 0.99
+                }
+              },
+              {
+                "id": "c8c8a79d-6f52-45b8-8688-c4e0b26038d8",
+                "amount": {
+                  "width": 1.472222222222222,
+                  "height": 0.16488888888888886
+                },
+                "easing": "ease-in-out",
+                "startMs": 2813.4260103989936,
+                "property": "size",
+                "durationMs": 2381.428172149047
+              },
+              {
+                "id": "1ce4341d-64b8-4a9c-9d8e-e72333557a98",
+                "amount": {
+                  "x": -0.9422222222222221,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2813.4260103989936,
+                "property": "position",
+                "durationMs": 2083.022939070015
+              }
+            ],
+            "layerOrder": 3,
+            "lockAspect": false,
+            "cornerRadius": 0.6,
+            "layerEffects": {
+              "dropShadow": {
+                "blur": 0,
+                "color": "#0067ff",
+                "enabled": true,
+                "offsetX": 0,
+                "offsetY": 0,
+                "opacity": 0.3
+              },
+              "liquidGlass": {
+                "blur": 20,
+                "enabled": false,
+                "highlight": 0.16,
+                "dispersion": 0.94,
+                "refraction": 0.16
+              }
+            },
+            "layerEffectsOrder": [
+              "dropShadow"
+            ]
+          },
+          {
+            "id": "0d60765e-a6c4-4f22-adc1-21deccc11574",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/d55c0797-673b-48ab-afd0-9d63700ee534.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 306.69335379306494,
+            "kind": "audio",
+            "name": "ElevenLabs_2026-08-17T08_32_31_Milo - Calm, Soothing and Meditative_pvc_sp86_s64_sb100_se30_b_m2",
+            "outMs": 2709.693353793065,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 5,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2403
+          },
+          {
+            "id": "94eada6a-2a85-467d-b0a6-5e3717d4a033",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/f71ce463-1b26-49f9-a2e3-244c819337d7.mp4",
+            "crop": {
+              "x": 0.3628410798707849,
+              "y": 0.3471578215981915,
+              "width": 0.2729682253581483,
+              "height": 0.29237704030307493
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 2421.7534656695084,
+            "kind": "video",
+            "name": "gloseva-audio-bars-white-background",
+            "outMs": 5765.753465669508,
+            "scale": {
+              "x": 0.1291551098268007,
+              "y": 0.1291551098268007,
+              "z": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.464206060768841,
+              "y": 0.6927811382833811,
+              "z": -0.003
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/f71ce463-1b26-49f9-a2e3-244c819337d7.thumb.jpg",
+            "trimEndMs": 3343.9999999999995,
+            "animations": [
+              {
+                "id": "cfe7f0b8-08db-4a10-b56a-aded5b01a988",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2421.7534656695084,
+                "bundleId": "4f41354b-77b1-4876-bc5f-0948f102969a",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 189.84214106487798,
+                "presetKind": "fade"
+              },
+              {
+                "id": "3864f4fc-399e-418b-ac75-cb9de144dc1b",
+                "amount": {
+                  "x": -1.2366666666666666,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2688.1777116943654,
+                "property": "position",
+                "durationMs": 2757.333198253766
+              }
+            ],
+            "layerOrder": 6,
+            "trimStartMs": 0,
+            "cornerRadius": 0,
+            "sourceDurationMs": 7000
+          },
+          {
+            "id": "e78c936a-7921-4445-9a8b-d2e89127336c",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.05,
+              "color": "#111827",
+              "family": "manrope",
+              "weight": 600,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 2935.204716362458,
+            "kind": "text",
+            "outMs": 5765.753465669508,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "I need to reschedule my appointment to Thrusday",
+            "groupId": "e7049251-325e-44e2-ab7c-cbfb1c08b300",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-in-out",
+              "preset": "Wipe",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 120
+              },
+              "blurFrom": 0,
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 2771.469297027079,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.8023805191529283,
+            "position": {
+              "x": -0.7180583031414797,
+              "y": 0.6927410474717778,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.07134776790601421,
+            "animations": [],
+            "layerOrder": 7,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "cf4dc31a-fcd7-4a9c-a1fe-d12c3d114702",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 4928.874606435333,
+            "kind": "shape",
+            "size": {
+              "width": 0.7041241499505055,
+              "height": 0.34981170708702614
+            },
+            "outMs": 7964.5351169248115,
+            "scale": {
+              "x": 1.503080410721431,
+              "y": 0.9496984771755281,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#000000",
+              "style": "solid",
+              "width": 0.0011777777777777776,
+              "enabled": true,
+              "opacity": 1
+            },
+            "groupId": "c86bbecc-4b76-4099-9841-5af856408d3f",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.034215288030514,
+              "y": 0.7107312816232139,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [],
+            "layerOrder": 8,
+            "lockAspect": false,
+            "cornerRadius": 0.4
+          },
+          {
+            "id": "6acb9b27-ca85-4039-a6e8-ef272397be3c",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.1,
+              "color": "#111827",
+              "family": "manrope",
+              "weight": 400,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 4928.874606435333,
+            "kind": "text",
+            "outMs": 7964.5351169248115,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "Thursday",
+            "groupId": "a2c35126-2b2e-4db4-b2ab-ff723dbaa626",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-in-out",
+              "preset": "Wipe",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 120
+              },
+              "blurFrom": 0,
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 908.913431005256,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.3595648941732085,
+            "position": {
+              "x": -2.082877670826422,
+              "y": 0.7177915926501505,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.316415851573328,
+            "animations": [],
+            "layerOrder": 9,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "5aba8e2c-83c1-43c5-bd8a-206205201b3e",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/5062dceb-054c-4aa1-bd7f-03a8a2312953.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 4928.874606435333,
+            "kind": "image",
+            "name": "ChatGPT Image 17 Ag\u0306u 2026 18_51_05",
+            "outMs": 8392.39515935617,
+            "scale": {
+              "x": 0.07921083937819326,
+              "y": 0.07921083937819326,
+              "z": 1
+            },
+            "groupId": "17a78414-fbfc-451e-9677-9d85a71191c1",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.3001791420315276,
+              "y": 0.710771930417241,
+              "z": -0.008
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/5062dceb-054c-4aa1-bd7f-03a8a2312953.thumb.jpg",
+            "layerOrder": 10,
+            "cornerRadius": 0
+          },
+          {
+            "id": "64f2092c-1a21-4950-b3fc-af47ac7588fe",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/e04c1efe-b14b-48dd-8ebe-23f897587c3d.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5765.753465669508,
+            "kind": "audio",
+            "name": "ElevenLabs_2026-08-17T16_08_38_Milo - Calm, Soothing and Meditative_pvc_sp86_s64_sb100_se30_b_m2",
+            "outMs": 7149.753465669507,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 11,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1384
+          },
+          {
+            "id": "22ede016-9d69-4fe5-a256-4f9ded29a094",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/8ebeec99-13f7-42ae-8027-6127a1ce8122.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 2421.7534656695084,
+            "kind": "audio",
+            "name": "gloseva-phone-call-effect",
+            "outMs": 5582.753465669508,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 12,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3161
+          },
+          {
+            "id": "3492c398-f534-4b7b-b358-587583d106b2",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/5a966500-e1a1-4616-b52e-6afbcd53f0ff.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6837.28729981954,
+            "kind": "audio",
+            "name": "A_clean,_soft_digita_#1-1786998830914",
+            "outMs": 18839.864603835016,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "hidden": true,
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 13,
+            "sourceOffsetMs": 6837.287299819541,
+            "sourceDurationMs": 11600
+          },
+          {
+            "id": "8121a388-3d5f-44d0-b3f4-4e4b91b4e3d5",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/c26271c1-be81-4c2c-bdad-38c965a223c1.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 2709.693353793065,
+            "kind": "audio",
+            "name": "A_clean,_soft_digita_#4-1786998990970",
+            "outMs": 7706.869649837832,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 14,
+            "sourceOffsetMs": 511.13151155336664,
+            "sourceDurationMs": 6080
+          },
+          {
+            "id": "76c65a5c-3ae4-4475-94ce-c450184bda3d",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/5f73d200-b4e4-4358-add3-67d17b185f2a.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "A_clean,_minimal_dig_#1-1787050360304",
+            "outMs": 3942.078837666998,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 15,
+            "sourceOffsetMs": 1097.3384018773543,
+            "sourceDurationMs": 5080
+          },
+          {
+            "id": "52047aeb-768d-4463-9206-777b498dc102",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/886ba20d-96c8-4a49-8874-3e928868b3be.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5865.139853841184,
+            "kind": "audio",
+            "name": "A_clean,_minimal_dig_#1-1787050431895",
+            "outMs": 7706.869649837832,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 600,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 16,
+            "sourceOffsetMs": 1303.3754951330302,
+            "sourceDurationMs": 5080
+          },
+          {
+            "id": "3034c273-999c-42e0-960e-a9d4bfde746d",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/0efe5f4c-35d2-444d-9f6a-09d46d00dc46.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 152.0030938024372,
+            "kind": "audio",
+            "name": "A_clean,_minimal_dig_#4-1787054578189",
+            "outMs": 4487.734707889209,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 17,
+            "sourceOffsetMs": 744.2683859132284,
+            "sourceDurationMs": 5080
+          },
+          {
+            "id": "196d415a-c275-400f-9c7d-5fa4ca910921",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in-out",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 100
+              },
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1,
+              "maskDirection": "right"
+            },
+            "font": {
+              "size": 0.1,
+              "color": "#111827",
+              "family": "manrope",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 1558.7361441362011,
+            "kind": "text",
+            "outMs": 4996.50157788886,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "Can't wait",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-in-out",
+              "preset": "Wipe",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 120
+              },
+              "blurFrom": 0,
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 1065.7581297048343,
+              "typewriter": false,
+              "maskSoftness": 0.1,
+              "maskDirection": "right"
+            },
+            "maxWidth": 0.4637240442634588,
+            "position": {
+              "x": -1.9081146312431048,
+              "y": 0.7046862048079953,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "45c8c8b3-a027-4609-a1d2-6acec29d7a93",
+                "amount": {
+                  "x": -0.8244444444444443,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2559.656746500006,
+                "property": "position",
+                "durationMs": 2436.844831388854
+              }
+            ],
+            "layerOrder": 18,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "82b89c8f-0ac6-4ef6-94c5-48939ba398ef",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/cd8977e2-c3c2-485f-ae2d-3bf1f127386d.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 4066.8625699124946,
+            "kind": "audio",
+            "name": "Deep_bass_\u201cdoom\u201d_or_-1787058634745",
+            "outMs": 7066.862569912495,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.4,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 19,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3000
+          },
+          {
+            "id": "26491f29-a523-4181-82ed-d5b535de4aba",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/04b083c6-f8af-491c-8e7a-09bbd11015d7.mp4",
+            "crop": {
+              "x": 0.11042011769119908,
+              "y": 0.11290476021367968,
+              "width": 0.7766425721930799,
+              "height": 0.7751778266012246
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6441.839665763581,
+            "kind": "video",
+            "name": "gloseva-orb-speaking-final",
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 0.10425145517634521,
+              "y": 0.10425145517634521,
+              "z": 1
+            },
+            "groupId": "8fc9beae-c1d8-438a-bc5a-e5712510e78b",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.081304709626499,
+              "y": 0.7073372910270924,
+              "z": -0.017
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/04b083c6-f8af-491c-8e7a-09bbd11015d7.thumb.jpg",
+            "trimEndMs": 6159.422846416211,
+            "animations": [
+              {
+                "id": "807ef324-7a4f-4297-b41e-e21c53dbc14c",
+                "amount": {
+                  "x": 0.3533333333333333,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 6441.839665763581,
+                "property": "position",
+                "durationMs": 994.496192932389
+              },
+              {
+                "id": "bfedec3a-a4a4-4c83-abec-ac7152e49f6c",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 6441.839665763581,
+                "bundleId": "f24cca79-1f1f-4367-9858-f5d86a3f5c14",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              },
+              {
+                "id": "bee18771-3136-4be6-8384-007f8ee107d2",
+                "amount": {
+                  "x": 0.6242222222222221,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 8949.68898612494,
+                "property": "position",
+                "durationMs": 1706.3311225971865,
+                "customEasing": {
+                  "x1": 0.88,
+                  "x2": 0.35,
+                  "y1": 0,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "e52e990c-a18a-4e88-9862-1217b8e6d725",
+                "amount": {
+                  "x": 0.026062863794086302,
+                  "y": 0.026062863794086302,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 8949.68898612494,
+                "property": "scale",
+                "durationMs": 1294.7139361437003
+              },
+              {
+                "id": "13f76d83-245a-4b4c-bac8-64fc91c0ac41",
+                "amount": 0.5,
+                "easing": "ease-in-out",
+                "startMs": 8949.68898612494,
+                "property": "opacity",
+                "durationMs": 1525.5927789158086
+              },
+              {
+                "id": "1c00b1cf-67d1-4c31-b409-06855b1f758b",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10989.538278603844,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 21,
+            "trimStartMs": 0,
+            "cornerRadius": 1,
+            "layerEffects": {
+              "dropShadow": {
+                "blur": 0.25109336332082594,
+                "color": "#85888c",
+                "enabled": false,
+                "offsetX": 0.05648735433886859,
+                "offsetY": 0.05648735433886859,
+                "opacity": 0.4
+              }
+            },
+            "sourceDurationMs": 7082,
+            "layerEffectsOrder": []
+          },
+          {
+            "id": "bd756fb2-c761-4e82-bd6e-c78f4e102dcc",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 0
+            },
+            "inMs": 6441.839665763581,
+            "kind": "shape",
+            "size": {
+              "width": 0.3072618286453852,
+              "height": 0.3352153406443097
+            },
+            "outMs": 18839.864603835016,
+            "scale": {
+              "x": 2.373450317905012,
+              "y": 1.5604164103825815,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -2.055082075586779,
+              "y": 0.5915329255158314,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "animations": [
+              {
+                "id": "871eb254-2f03-4ba8-bd09-713c17fd1c90",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 6441.839665763581,
+                "bundleId": "9f87af84-848b-4ef9-bfc6-0f915739a852",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 1294.9392180874802,
+                "presetKind": "fade"
+              },
+              {
+                "id": "70cfc33e-8c15-4e64-b96b-5c0b1f518968",
+                "amount": {
+                  "x": 0.47111111111111104,
+                  "y": -0.11777777777777776,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 9216.102637045506,
+                "property": "position",
+                "durationMs": 1688.1178998449213
+              },
+              {
+                "id": "e94173b1-c9de-45b6-b164-f22db50a38f0",
+                "amount": {
+                  "x": -0.23555555555555552,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 11984.487748195825,
+                "property": "position",
+                "durationMs": 1696.8856767192847
+              }
+            ],
+            "layerOrder": 0,
+            "lockAspect": false,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "dropShadow": {
+                "blur": 0.09422222222222221,
+                "color": "#0073ff",
+                "enabled": true,
+                "offsetX": 0.11777777777777776,
+                "offsetY": 0.11777777777777776,
+                "opacity": 0.15
+              }
+            },
+            "layerEffectsOrder": [
+              "dropShadow"
+            ]
+          },
+          {
+            "id": "aea1134c-c375-4593-bb15-d2954253a3ab",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": true,
+              "opacity": 0
+            },
+            "inMs": 6441.839665763581,
+            "kind": "shape",
+            "size": {
+              "width": 0.3072618286453852,
+              "height": 0.3352153406443097
+            },
+            "outMs": 18839.864603835016,
+            "scale": {
+              "x": 1.7738789999033708,
+              "y": 1.0595294828502149,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.8521152205802622,
+              "y": 0.5118070998935778,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "ellipse",
+            "animations": [
+              {
+                "id": "4dd80ff7-4915-437e-9baf-66b74ea1dfd4",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 6441.839665763581,
+                "bundleId": "d2284d31-5606-41d2-ba37-352f0bc46689",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 1294.9392180874802,
+                "presetKind": "fade"
+              },
+              {
+                "id": "3046c1f4-cac5-4561-af88-61367e21c5b1",
+                "amount": {
+                  "x": 0.47111111111111104,
+                  "y": 0.23555555555555552,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 9216.102637045506,
+                "property": "position",
+                "durationMs": 1688.1178998449213
+              },
+              {
+                "id": "035164c0-58fa-444e-b337-b07a81d3c7c6",
+                "amount": {
+                  "x": -0.23555555555555552,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 11924.582810062255,
+                "property": "position",
+                "durationMs": 1696.8856767192847
+              }
+            ],
+            "layerOrder": 1,
+            "lockAspect": false,
+            "cornerRadius": 0,
+            "layerEffects": {
+              "dropShadow": {
+                "blur": 0.09422222222222221,
+                "color": "#0073ff",
+                "enabled": true,
+                "offsetX": 0.11777777777777776,
+                "offsetY": 0.11777777777777776,
+                "opacity": 0.15
+              }
+            },
+            "layerEffectsOrder": [
+              "dropShadow"
+            ]
+          },
+          {
+            "id": "a5e204f2-fb92-41b7-a94b-0ae9f2789021",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 0.73
+            },
+            "inMs": 6933.85359913303,
+            "kind": "shape",
+            "size": {
+              "width": 0.11777777777777776,
+              "height": 0.05638118639433487
+            },
+            "outMs": 11518.145456799648,
+            "scale": {
+              "x": 0.6626400127027423,
+              "y": 1.0901060792850612,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#575757",
+              "style": "solid",
+              "width": 0.0005888888888888888,
+              "enabled": true,
+              "opacity": 0.5
+            },
+            "groupId": "8fc9beae-c1d8-438a-bc5a-e5712510e78b",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.4866837965767956,
+              "y": 0.7052998235704675,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "6c5b3f00-c650-45d5-9606-d5e80073cf96",
+                "amount": {
+                  "x": 0.025,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-out",
+                "startMs": 6933.85359913303,
+                "bundleId": "2838dec1-56be-4ecc-884a-e1de2e8c8b31",
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 802.9252847180314,
+                "presetKind": "slide",
+                "customEasing": {
+                  "x1": 0.33,
+                  "x2": 0.52,
+                  "y1": 1,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "9515db85-e12b-45d5-8267-ee91879459df",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 6933.85359913303,
+                "bundleId": "fbfc4457-7671-4a0b-bbd6-cb0b952f3005",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              },
+              {
+                "id": "5f23bdf4-5b00-41ae-bf4f-d6f645d32085",
+                "amount": {
+                  "width": 0.6931868352770124,
+                  "height": 0.056182096043910876
+                },
+                "easing": "ease-in-out",
+                "startMs": 7261.232300530438,
+                "property": "size",
+                "durationMs": 1429.3457466506616
+              },
+              {
+                "id": "bf3ea7bf-848d-4b62-9d48-3a4893708d92",
+                "anchor": {
+                  "edge": "asset-out",
+                  "offsetMs": -2827.5674096185485
+                },
+                "easing": "ease-in-out",
+                "startMs": 8690.5780471811,
+                "bundleId": "50b52482-e518-457e-92c1-44194289966d",
+                "property": "maskSweep",
+                "durationMs": 1965.4420615410272,
+                "presetKind": "wipe",
+                "sweepDirection": "left"
+              }
+            ],
+            "layerOrder": 22,
+            "lockAspect": false,
+            "cornerRadius": 0.65
+          },
+          {
+            "id": "c948fa71-4b0d-45eb-bf7a-52669d338440",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in-out",
+              "preset": "Wipe",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 100
+              },
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 1770.6795566942772,
+              "maskSoftness": 0.1,
+              "maskDirection": "left"
+            },
+            "font": {
+              "size": 0.015,
+              "color": "#0078ff",
+              "family": "manrope",
+              "weight": 600,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 6933.85359913303,
+            "kind": "text",
+            "outMs": 9957.977622284749,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "Done",
+            "groupId": "8fc9beae-c1d8-438a-bc5a-e5712510e78b",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.09189845863959767,
+            "position": {
+              "x": -1.487546735876504,
+              "y": 0.7052998235704675,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.13,
+            "animations": [
+              {
+                "id": "d0809eb0-568a-4db9-9663-9b676b45532d",
+                "amount": {
+                  "x": 0.025,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 6933.85359913303,
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 802.9252847180314,
+                "customEasing": {
+                  "x1": 0.33,
+                  "x2": 0.52,
+                  "y1": 1,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "148eba74-084e-4ee3-9c34-557572a8e704",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 6933.85359913303,
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500
+              }
+            ],
+            "layerOrder": 23,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "69c9bde5-a81b-4dd2-95b1-e2686c2898f4",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/fcc2280b-8bce-4785-98be-8383455b5862.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 6933.85359913303,
+            "kind": "audio",
+            "name": "ElevenLabs_2026-08-18T19_36_19_Laura - a top narration voice_pvc_sp97_s35_sb75_v3",
+            "outMs": 9624.85359913303,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 20,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2691
+          },
+          {
+            "id": "11a0854a-066a-4f1f-965e-e17568a6f4df",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in-out",
+              "preset": "Wipe",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 100
+              },
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 1110.7555867671508,
+              "maskSoftness": 0.1,
+              "maskDirection": "left"
+            },
+            "font": {
+              "size": 0.015,
+              "color": "#020202",
+              "family": "manrope",
+              "weight": 600,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 7261.232300530438,
+            "kind": "text",
+            "outMs": 10273.786965275078,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "-- I've moved your appointmet to Thursday",
+            "groupId": "8fc9beae-c1d8-438a-bc5a-e5712510e78b",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-in-out",
+              "preset": "Wipe",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "line",
+                "delayMs": 120
+              },
+              "blurFrom": 0,
+              "maskSweep": true,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 1901.7990779774896,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.19342970701989248,
+            "position": {
+              "x": -1.2726069425635187,
+              "y": 0.7052935170423676,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.13500373802770177,
+            "animations": [
+              {
+                "id": "3dd91559-5ab1-46d7-bb41-ca29e529b5d4",
+                "amount": {
+                  "x": 0.025,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 7261.232300530438,
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 844.7118717752646,
+                "customEasing": {
+                  "x1": 0.33,
+                  "x2": 0.52,
+                  "y1": 1,
+                  "y2": 1
+                }
+              },
+              {
+                "id": "8e2d7dfa-4763-4e5e-8d02-23fde429ff0b",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 7261.232300530438,
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 655.1337006850872
+              },
+              {
+                "id": "814307ab-1371-4307-a19b-f82ebf35eb34",
+                "color": "#ffffff",
+                "width": 0.18,
+                "easing": "linear",
+                "startMs": 7261.232300530438,
+                "property": "shimmer",
+                "intensity": 1.4,
+                "durationMs": 2769.4915916095642
+              }
+            ],
+            "layerOrder": 24,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "8a22d8aa-625c-4709-b4b0-fd62fcafcb7d",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 0.6
+            },
+            "inMs": 9899.722053517884,
+            "kind": "shape",
+            "size": {
+              "width": 0.377816729159256,
+              "height": 0.3368241772335609
+            },
+            "outMs": 13486.755140359033,
+            "scale": {
+              "x": 2.0243351066899913,
+              "y": 2.5889635049819004,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#D9D9D9",
+              "style": "solid",
+              "width": 0.002355555555555555,
+              "enabled": false,
+              "opacity": 1
+            },
+            "groupId": "376433a7-f5f2-4039-884e-a327c932b146",
+            "opacity": 0.6,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.6255889241729702,
+              "y": 0.36618017960118526,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "55661346-1ce4-4932-9ffc-78cb59e16a43",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 9899.722053517884,
+                "bundleId": "f462a70f-4aa2-4fc9-9492-13d0ce7db21c",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 628.481089803523,
+                "presetKind": "fade"
+              },
+              {
+                "id": "4748e58b-d800-431b-a026-92f74963f0dc",
+                "amount": {
+                  "x": -0.05,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-out",
+                "startMs": 9899.722053517884,
+                "bundleId": "a0b19a9b-526a-4a3c-86e7-775f9e29dbf0",
+                "property": "position",
+                "direction": "reverse",
+                "durationMs": 1090.787371265169,
+                "presetKind": "slide"
+              },
+              {
+                "id": "5dabb169-ef29-44b8-af0b-742e3ff0cbee",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1076.0763309325484
+              },
+              {
+                "id": "04de9cec-7ca2-4def-9f8a-4e7401185b03",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-out",
+                  "offsetMs": -1628.3934210175885
+                },
+                "easing": "ease-in-out",
+                "startMs": 11858.361719341445,
+                "bundleId": "7b2280c3-dd24-4685-a870-17ef4ff6ab22",
+                "property": "opacity",
+                "durationMs": 1628.3934210175885,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 2,
+            "lockAspect": false,
+            "cornerRadius": 0.1
+          },
+          {
+            "id": "0913f332-ad86-4ba6-ac59-632fc40a7f69",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.02,
+              "color": "#004cff",
+              "family": "manrope",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 10259.09494377186,
+            "kind": "text",
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "ACTIVITY",
+            "groupId": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.08797442617909497,
+            "position": {
+              "x": -1.8976517159198318,
+              "y": 0.7376513307470368,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "b36dd2e5-7810-4a08-9a78-4703a5c04201",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10259.09494377186,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "893d470d-c4cf-42d0-90db-1166477d3e9f",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 25,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "ea333e9f-4ef5-4480-a667-ee6f8f804add",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.016,
+              "color": "#004cff",
+              "family": "manrope",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 10259.09494377186,
+            "kind": "text",
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "01",
+            "groupId": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.08797442617909497,
+            "position": {
+              "x": -1.940008697046453,
+              "y": 0.6264548075570826,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "b99a60bc-9f2c-4e17-b096-95654b05e115",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10259.09494377186,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "7ef8e0a8-0b76-45b9-966a-94f727635b3e",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 26,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "6a698cd9-b94b-47b3-926a-4913c24c7bdb",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.02,
+              "color": "#4f4f4f",
+              "family": "manrope",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 10273.786965275078,
+            "kind": "text",
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "Answered",
+            "groupId": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.08797442617909497,
+            "position": {
+              "x": -1.8912177294632497,
+              "y": 0.5903385182761051,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "ebd9bfde-937f-420d-9f79-4c6c9b67da25",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10273.786965275078,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "a438fea2-9ef1-448c-90f7-3533479fb4ed",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 27,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "4b508c62-a9e6-4806-94af-e73c2956c3af",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.013999999999999999,
+              "color": "#a19e9e",
+              "family": "manrope",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 10273.786965275078,
+            "kind": "text",
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "Call handled",
+            "groupId": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "opacity": 0.7,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.08797442617909497,
+            "position": {
+              "x": -1.8973675381272503,
+              "y": 0.5575811558183708,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "0154f9bc-5e8d-410b-ac7a-411726032f43",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10273.786965275078,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "cbcdfb9b-cd5b-4222-976f-bc8bfa741105",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 28,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "16212131-94d9-417d-8640-bcdbf7ec855c",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/97b319ff-c299-4552-a2e3-3524b4d63fd9.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 10259.09494377186,
+            "kind": "image",
+            "name": "gloseva-call-icon-transparent",
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 0.025736464777878467,
+              "y": 0.025736464777878467,
+              "z": 1
+            },
+            "groupId": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9180253229926956,
+              "y": 0.48807710603794313,
+              "z": -0.029
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/97b319ff-c299-4552-a2e3-3524b4d63fd9.thumb.jpg",
+            "animations": [
+              {
+                "id": "166390e8-4b2e-4838-a780-4e49622b434a",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10259.09494377186,
+                "bundleId": "f248d86d-e99c-4314-8257-7d7d69e34f41",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 645.1255931185678,
+                "presetKind": "fade"
+              },
+              {
+                "id": "df648f27-34bd-4a4b-8e78-4b5f77194426",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10273.786965275078,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "0b9b61bf-ae98-40f9-9be6-9b956d61be35",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 29,
+            "cornerRadius": 0
+          },
+          {
+            "id": "8a94ca32-68d9-4ba3-84e4-a0bedc96e6a5",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/99c5b2c5-6f44-4f5f-95a0-1c4eb59787e7.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 10259.09494377186,
+            "kind": "image",
+            "name": "gloseva-waveform-transparent",
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 0.0580657697851307,
+              "y": 0.0580657697851307,
+              "z": 1
+            },
+            "groupId": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.7298701685162485,
+              "y": 0.4880771060379432,
+              "z": -0.03
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/99c5b2c5-6f44-4f5f-95a0-1c4eb59787e7.thumb.jpg",
+            "animations": [
+              {
+                "id": "ca675f2d-c2e1-4b5a-97d1-3248d28e733e",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10259.09494377186,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "98174576-f66c-4f16-81a8-cc79864e56ce",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 10259.09494377186,
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "cdad1b8b-fa05-4dee-b1eb-b831c2181055",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 30,
+            "cornerRadius": 0
+          },
+          {
+            "id": "37fa6709-944d-4f1f-9dcc-f36f48e49bf2",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/c71d927f-f69c-4f9a-a6d8-1e626679e4d4.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 10259.09494377186,
+            "kind": "image",
+            "name": "gloseva-waveform-transparent",
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 0.03348834089365816,
+              "y": 0.03348834089365816,
+              "z": 1
+            },
+            "groupId": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.3964001581003673,
+              "y": 0.4749629334492042,
+              "z": -0.03
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/c71d927f-f69c-4f9a-a6d8-1e626679e4d4.thumb.jpg",
+            "animations": [
+              {
+                "id": "63a0d10e-54a3-43cf-b537-558c9701bf8f",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10259.09494377186,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "a6efb79f-ff48-4188-ac47-1a8c31e2f9d7",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 10259.09494377186,
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "9dff30ef-3351-4a62-8e96-b343e1b250ac",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 31,
+            "cornerRadius": 0
+          },
+          {
+            "id": "28ca69c6-d8f1-474e-93f6-7bf0750d2be6",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#D9D9D9",
+              "enabled": false,
+              "opacity": 1
+            },
+            "inMs": 10259.09494377186,
+            "kind": "shape",
+            "size": {
+              "width": 0.5888888888888888,
+              "height": 0
+            },
+            "outMs": 12601.262512179792,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#8d8989",
+              "style": "solid",
+              "width": 0.0005888888888888888,
+              "enabled": true,
+              "opacity": 0.52
+            },
+            "groupId": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "opacity": 0.5,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.6243345540269476,
+              "y": 0.42316170132279224,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "line",
+            "animations": [
+              {
+                "id": "3c73b14c-8447-4141-98c0-36138f30401c",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10259.09494377186,
+                "bundleId": "aed6e0f5-c8d0-4da2-a80a-8dabbe39ac2d",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 715.7513133287666,
+                "presetKind": "fade"
+              },
+              {
+                "id": "06883773-8f67-4ba1-9fbe-839bf2a7fe55",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 32,
+            "lockAspect": false,
+            "cornerRadius": 0
+          },
+          {
+            "id": "2638c39e-dd21-4b28-8a99-c79db60edb8c",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.016,
+              "color": "#004cff",
+              "family": "manrope",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 10273.786965275078,
+            "kind": "text",
+            "outMs": 17268.351793935737,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "02",
+            "groupId": "07807016-d580-48f9-a1ec-a2843af798b7",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.08797442617909497,
+            "position": {
+              "x": -1.9384069029927922,
+              "y": 0.4235439690784617,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "f556d4ab-3620-4e6d-ab54-7c7c0aee8d8b",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10273.786965275078,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "4c5f7a23-3223-40c3-9b5a-ded0bede798b",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10974.846257100626,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 33,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "3ff5de23-2b25-4708-ae62-9d61dae8662b",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.03,
+              "color": "#4f4f4f",
+              "family": "manrope",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 10259.09494377186,
+            "kind": "text",
+            "outMs": 14610.222209243402,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "Scheduled",
+            "groupId": "07807016-d580-48f9-a1ec-a2843af798b7",
+            "opacity": 1,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.08797442617909497,
+            "position": {
+              "x": -1.7419786931168801,
+              "y": 0.3779449524737814,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "c532a206-4b8b-4959-b164-0e8268915b38",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10259.09494377186,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "33b8f7c5-b294-48d0-b94c-9cd647a19da3",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10974.846257100626,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 34,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "35d8f7ea-eff1-4526-b9c8-592f0c199eed",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/67ca4a83-c29f-45c2-941a-44b61f8f2dda.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 10244.40292226864,
+            "kind": "image",
+            "name": "gloseva-call-icon-transparent",
+            "outMs": 14610.222209243402,
+            "scale": {
+              "x": 0.025736464777878467,
+              "y": 0.025736464777878467,
+              "z": 1
+            },
+            "groupId": "07807016-d580-48f9-a1ec-a2843af798b7",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.9132107676013839,
+              "y": 0.3497776672444774,
+              "z": -0.029
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/67ca4a83-c29f-45c2-941a-44b61f8f2dda.thumb.jpg",
+            "animations": [
+              {
+                "id": "7e52979c-919c-4ebf-9670-53092dc0780a",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10244.40292226864,
+                "bundleId": "f248d86d-e99c-4314-8257-7d7d69e34f41",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 645.1255931185678,
+                "presetKind": "fade"
+              },
+              {
+                "id": "61dcfb5a-9dbe-49a7-bdd3-fad89b71ce3f",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10273.786965275078,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "b975e59d-41df-42bf-b589-41020287c9fe",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 35,
+            "cornerRadius": 0
+          },
+          {
+            "id": "ebf1ed9a-1749-477d-9960-a85042d9dc41",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.013999999999999999,
+              "color": "#a19e9e",
+              "family": "manrope",
+              "weight": 700,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 10244.40292226864,
+            "kind": "text",
+            "outMs": 14595.530187740183,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "fixed",
+            "content": "Appointment booked for Thursday",
+            "groupId": "07807016-d580-48f9-a1ec-a2843af798b7",
+            "opacity": 0.7,
+            "entrance": {
+              "fade": true,
+              "easing": "ease-out",
+              "preset": "Fade",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 600,
+              "typewriter": false,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.13075568886645364,
+            "position": {
+              "x": -1.691843866834638,
+              "y": 0.3399959911180405,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "boxHeight": 0.0305082533645651,
+            "animations": [
+              {
+                "id": "522a2aa2-6c95-42e6-9396-4d4900e18c17",
+                "amount": {
+                  "x": 0.02944444444444444,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 10244.40292226864,
+                "property": "position",
+                "durationMs": 645.1255931185678
+              },
+              {
+                "id": "009e9964-b28f-4df1-b3d2-cd49ec3ad8ef",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10990.509424783053,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 36,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "5d66762e-55db-4ea4-870b-b9635067d7ac",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fill": {
+              "type": "solid",
+              "color": "#ffffff",
+              "enabled": true,
+              "opacity": 1
+            },
+            "inMs": 10273.786965275078,
+            "kind": "shape",
+            "size": {
+              "width": 0.16960284803968428,
+              "height": 0.05363691056098402
+            },
+            "outMs": 16653.086245116076,
+            "scale": {
+              "x": 0.6871196962563964,
+              "y": 0.622318949416682,
+              "z": 1
+            },
+            "stroke": {
+              "align": "inside",
+              "color": "#bab8b8",
+              "style": "solid",
+              "width": 0.0005888888888888888,
+              "enabled": true,
+              "opacity": 1
+            },
+            "groupId": "62245d27-1fad-4c07-9a12-319a3df1f7f5",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.3733325218339647,
+              "y": 0.3429460455356189,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "shapeType": "rectangle",
+            "animations": [
+              {
+                "id": "bbe18059-be57-4009-902f-cbce26910eea",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10273.786965275078,
+                "bundleId": "d1aba13d-1c06-48d2-90e3-0f097a3cbfc1",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 500,
+                "presetKind": "fade"
+              },
+              {
+                "id": "ce0287d7-a2ba-4876-9eb3-71429c81944e",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10974.846257100626,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 37,
+            "lockAspect": false,
+            "cornerRadius": 1
+          },
+          {
+            "id": "38594de1-364e-4e65-bba2-11efb872e227",
+            "exit": {
+              "fade": false,
+              "blurTo": 0,
+              "easing": "ease-in",
+              "slideX": 0,
+              "slideY": 0,
+              "scaleTo": 1,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "font": {
+              "size": 0.012,
+              "color": "#004cff",
+              "family": "manrope",
+              "weight": 500,
+              "textAlign": "center",
+              "letterSpacing": 0
+            },
+            "inMs": 10244.40292226864,
+            "kind": "text",
+            "outMs": 15922.62425849758,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "sizing": "auto",
+            "content": "Confirmed",
+            "groupId": "62245d27-1fad-4c07-9a12-319a3df1f7f5",
+            "opacity": 1,
+            "entrance": {
+              "fade": false,
+              "easing": "ease-out",
+              "slideX": 0,
+              "slideY": 0,
+              "stagger": {
+                "mode": "none",
+                "delayMs": 0
+              },
+              "blurFrom": 0,
+              "maskSweep": false,
+              "maskWidth": 0.3,
+              "scaleFrom": 1,
+              "staggerMs": 0,
+              "durationMs": 0,
+              "maskSoftness": 0.1
+            },
+            "maxWidth": 0.11024431658585966,
+            "position": {
+              "x": -1.3733414694780077,
+              "y": 0.34377315482305976,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "animations": [
+              {
+                "id": "abc8458c-d551-42f1-ab8d-915a0bf7beb6",
+                "amount": {
+                  "x": 0,
+                  "y": 0.3533333333333333,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 10974.846257100626,
+                "property": "position",
+                "durationMs": 1009.641491095199
+              }
+            ],
+            "layerOrder": 38,
+            "motionBlur": 0,
+            "verticalAlign": "middle"
+          },
+          {
+            "id": "8547d2f3-ca0b-40a1-bdbf-03b4c36e1f09",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/3f36d0e5-1396-4d5e-a3b4-f3359ee3613c.png",
+            "crop": {
+              "x": 0.4282637049426209,
+              "y": 0,
+              "width": 0.4543528430692022,
+              "height": 1
+            },
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 12601.262512179792,
+            "kind": "image",
+            "name": "ince-siyah-cizgi-transparan",
+            "outMs": 14465.740927944173,
+            "scale": {
+              "x": 0.25016517355958684,
+              "y": 0.25016517355958684,
+              "z": 1
+            },
+            "opacity": 0.5,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.1907861873845487,
+              "y": 0.6927544130236805,
+              "z": -0.039
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/3f36d0e5-1396-4d5e-a3b4-f3359ee3613c.thumb.jpg",
+            "animations": [
+              {
+                "id": "2b49b62d-bc14-4f84-a94e-d949c6044c93",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 12601.262512179792,
+                "bundleId": "f1f029e8-f984-4b37-a081-6ca3d1ef3408",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 885.4926281792414,
+                "presetKind": "fade"
+              },
+              {
+                "id": "19bbd924-b2ee-48fb-b23b-64b5dc6a6961",
+                "amount": {
+                  "x": -0.5535555555555555,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 12601.262512179792,
+                "property": "position",
+                "durationMs": 1425.8907570577467
+              },
+              {
+                "id": "4be3bd88-e36f-4188-add6-ce57836aee57",
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 12601.262512179792,
+                "bundleId": "69f19c80-723b-4c8e-a78f-9b8f028e299c",
+                "property": "maskSweep",
+                "direction": "reverse",
+                "durationMs": 1351.462463064001,
+                "presetKind": "wipe",
+                "sweepDirection": "right"
+              },
+              {
+                "id": "92937db3-773b-4f79-a2df-1e19dcaa6ac9",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-out",
+                  "offsetMs": -500
+                },
+                "easing": "ease-in-out",
+                "startMs": 13965.740927944173,
+                "bundleId": "1fc08380-0a8f-4b79-aea2-b8181ad60cf9",
+                "property": "opacity",
+                "durationMs": 500,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 39,
+            "cornerRadius": 0
+          },
+          {
+            "id": "c0ee2bf3-3e7a-43cf-a89b-28d98fd44ce4",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/1ea7c6a7-62c6-4c72-9565-4d189a98b085.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 13267.279756971737,
+            "kind": "image",
+            "name": "ChatGPT Image 20 Ag\u0306u 2026 22_51_18",
+            "outMs": 17449.691101960987,
+            "scale": {
+              "x": 0.06528481110645128,
+              "y": 0.06528481110645128,
+              "z": 1
+            },
+            "groupId": "f046dcc5-0a78-48bd-9449-e57b2f30fd77",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.3802562961531384,
+              "y": 0.6926778326789034,
+              "z": -0.04
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/1ea7c6a7-62c6-4c72-9565-4d189a98b085.thumb.jpg",
+            "animations": [
+              {
+                "id": "c2701714-0bdf-435f-954c-ed3d6cbfaffb",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 13267.279756971737,
+                "bundleId": "75184bec-862e-49e9-a469-73aa1980fccf",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 799.9355519910641,
+                "presetKind": "fade"
+              }
+            ],
+            "layerOrder": 40,
+            "cornerRadius": 0
+          },
+          {
+            "id": "99c41002-a448-4b03-9d79-8b4f9ceb0448",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/b950c745-6e13-4c83-b4e2-1721c0f0e33c.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 14173.572368247922,
+            "kind": "image",
+            "name": "spasibo-transparent",
+            "outMs": 17040.286579359956,
+            "scale": {
+              "x": 0.04937920315182906,
+              "y": 0.041690238514972194,
+              "z": 1
+            },
+            "groupId": "1566e814-a75d-4a87-9f83-37e2900d3947",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.150928267636579,
+              "y": 0.7791913577570957,
+              "z": -0.041
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/b950c745-6e13-4c83-b4e2-1721c0f0e33c.thumb.jpg",
+            "animations": [
+              {
+                "id": "194f91f8-a035-4fb2-bc47-5821c79a3ca7",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14173.572368247922,
+                "bundleId": "13d8dc01-a3b1-40c2-a663-15cf99b6307b",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 752.7100214671373,
+                "presetKind": "fade"
+              },
+              {
+                "id": "b383e029-da27-4097-89c4-ec3cbad35638",
+                "path": {
+                  "control": {
+                    "x": -0.09645381819172583,
+                    "y": 0.07013754019613638,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": -0.2632013053945732,
+                  "y": 0.07398940912322849,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 15407.75918926058,
+                "property": "position",
+                "durationMs": 912.2446677295138
+              }
+            ],
+            "layerOrder": 41,
+            "cornerRadius": 0
+          },
+          {
+            "id": "a788242f-d00c-4e2b-ae71-4b5c4bc8a9ab",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/bfced8eb-38ef-42b4-bf59-24b63c400dea.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 14173.572368247922,
+            "kind": "image",
+            "name": "gracias-transparent",
+            "outMs": 17040.286579359956,
+            "scale": {
+              "x": 0.052052065091234195,
+              "y": 0.052052065091234195,
+              "z": 1
+            },
+            "groupId": "ffcf9147-8b17-41a1-93d2-9033bfb904ce",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.5937562026582834,
+              "y": 0.5915329255158316,
+              "z": -0.042
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/bfced8eb-38ef-42b4-bf59-24b63c400dea.thumb.jpg",
+            "animations": [
+              {
+                "id": "f6aef302-26ce-4b02-9b0b-38686682f155",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14173.572368247922,
+                "bundleId": "738b8e11-bf2b-4e24-bf78-5b471c428441",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 752.7100214671373,
+                "presetKind": "fade"
+              },
+              {
+                "id": "30a7df02-65ec-4a28-8e1c-68ea8b20f111",
+                "path": {
+                  "control": {
+                    "x": 0.11635956393125313,
+                    "y": -0.06289998871692781,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": 0.26611443550838176,
+                  "y": -0.057254984591253444,
+                  "z": 0
+                },
+                "easing": "ease-in",
+                "startMs": 15407.75918926058,
+                "property": "position",
+                "durationMs": 912.2446677295138
+              }
+            ],
+            "layerOrder": 42,
+            "cornerRadius": 0
+          },
+          {
+            "id": "894b7415-812f-4926-9078-ed66f22a5d08",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/25117096-d665-4c70-b5b6-04c48edd7a0d.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 14173.572368247922,
+            "kind": "image",
+            "name": "merci-transparent",
+            "outMs": 17040.286579359956,
+            "scale": {
+              "x": 0.0749367336229835,
+              "y": 0.0749367336229835,
+              "z": 1
+            },
+            "groupId": "03805b4e-b7ac-4484-9ede-4d79e57f3eb7",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.2496866739402361,
+              "y": 0.5761170539011728,
+              "z": -0.043000000000000003
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/25117096-d665-4c70-b5b6-04c48edd7a0d.thumb.jpg",
+            "animations": [
+              {
+                "id": "af1eabd4-5447-4c23-ba02-eac629ba78c9",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14173.572368247922,
+                "bundleId": "a01102ae-96d5-4e3f-b194-b40e83c8c932",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 752.7100214671373,
+                "presetKind": "fade"
+              },
+              {
+                "id": "5ddf28c0-5753-41a1-8c8f-50f61f3a29a2",
+                "path": {
+                  "control": {
+                    "x": 0.15758993158771428,
+                    "y": 0.09974024854357177,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": 0.2719837024967512,
+                  "y": 0.21121106701788928,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 15407.75918926058,
+                "property": "position",
+                "durationMs": 1094.6197124899118
+              }
+            ],
+            "layerOrder": 43,
+            "cornerRadius": 0
+          },
+          {
+            "id": "82a4ff52-cdd4-457b-8abb-fc87fd83f812",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/7da4707b-5b59-439b-bd12-1bd37965cefe.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 14173.572368247922,
+            "kind": "image",
+            "name": "danke-transparent",
+            "outMs": 17040.286579359956,
+            "scale": {
+              "x": 0.07493673362298325,
+              "y": 0.07493673362298325,
+              "z": 1
+            },
+            "groupId": "e6c2a1ab-cd23-430a-a7ee-de1d051ff884",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.522874926250333,
+              "y": 0.8451626986818865,
+              "z": -0.044
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/7da4707b-5b59-439b-bd12-1bd37965cefe.thumb.jpg",
+            "animations": [
+              {
+                "id": "3e407366-7cbf-4585-a1fb-9461acadcc5e",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14173.572368247922,
+                "bundleId": "8e845600-29a7-488d-9542-1a241d186f9d",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 752.7100214671373,
+                "presetKind": "fade"
+              },
+              {
+                "id": "db0979f1-ee82-4128-9d13-981335d9e19f",
+                "amount": {
+                  "x": -0.24147293730080066,
+                  "y": -0.30286369631896626,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 15407.75918926058,
+                "property": "position",
+                "durationMs": 1094.6197124899118
+              }
+            ],
+            "layerOrder": 44,
+            "cornerRadius": 0
+          },
+          {
+            "id": "25aa8a4b-1682-438a-9a25-30b35626638b",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/7882cc79-1bc5-461a-8a50-ff60c6f2a255.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 14173.572368247922,
+            "kind": "image",
+            "name": "grazie-transparent",
+            "outMs": 17040.286579359956,
+            "scale": {
+              "x": 0.06174622887141176,
+              "y": 0.06174622887141176,
+              "z": 1
+            },
+            "groupId": "81fb60a0-aa17-4d36-8e3b-ba990fbbd9ce",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.606377710773425,
+              "y": 0.73488716882147,
+              "z": -0.045
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/7882cc79-1bc5-461a-8a50-ff60c6f2a255.thumb.jpg",
+            "animations": [
+              {
+                "id": "b49f41cc-712f-4be2-8a06-fd00d0ba6f26",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14173.572368247922,
+                "bundleId": "7ee69d48-a3c7-43b0-b911-77698498c788",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 752.7100214671373,
+                "presetKind": "fade"
+              },
+              {
+                "id": "999332ca-bfb2-4e36-bab0-6d189d73ffe4",
+                "path": {
+                  "control": {
+                    "x": -0.021391158803543586,
+                    "y": -0.12537589491584789,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": 0.005745916072886104,
+                  "y": -0.2439208660060564,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 15407.75918926058,
+                "property": "position",
+                "durationMs": 1094.6197124899118
+              }
+            ],
+            "layerOrder": 45,
+            "cornerRadius": 0
+          },
+          {
+            "id": "9e904f9f-cbec-40bd-8b9b-169dc41e42ed",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/70e95440-ae3e-4eef-9c96-a3a3acba9747.png",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 14173.572368247922,
+            "kind": "image",
+            "name": "ChatGPT Image 20 Ag\u0306u 2026 23_41_51",
+            "outMs": 17040.286579359956,
+            "scale": {
+              "x": 0.0531395694273007,
+              "y": 0.0531395694273007,
+              "z": 1
+            },
+            "groupId": "771a0fb4-5da0-4e89-ab43-d4730fef18d0",
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "position": {
+              "x": -1.1231232210822908,
+              "y": 0.6760314258332756,
+              "z": -0.046
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "thumbSrc": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/70e95440-ae3e-4eef-9c96-a3a3acba9747.thumb.jpg",
+            "animations": [
+              {
+                "id": "fd3704fe-958f-468a-a730-eb3e43025bbb",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-in",
+                  "offsetMs": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 14173.572368247922,
+                "bundleId": "b22475e6-1281-4b30-bdc4-b20884e9e53d",
+                "property": "opacity",
+                "direction": "reverse",
+                "durationMs": 752.7100214671373,
+                "presetKind": "fade"
+              },
+              {
+                "id": "c570f096-4ad9-4105-ad46-fe65f36e7d2e",
+                "path": {
+                  "control": {
+                    "x": 0.052692537434824605,
+                    "y": 0.11289142974839317,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": 0.008653179441127534,
+                  "y": 0.2374238459277197,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 15407.75918926058,
+                "property": "position",
+                "durationMs": 1094.6197124899118
+              }
+            ],
+            "layerOrder": 46,
+            "cornerRadius": 0
+          },
+          {
+            "id": "64d8402a-69b1-40a7-9b8a-2da91e465a7f",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/8e5a40ce-8483-4107-a0b7-ca126c8d47a8.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 9624.85359913303,
+            "kind": "audio",
+            "name": "ElevenLabs_2026-08-21T12_53_22_Milo - Calm, Soothing and Meditative_pvc_s50_m2",
+            "outMs": 15057.85359913303,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 47,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 5433
+          },
+          {
+            "id": "c36636b7-f9d3-4f08-8bd5-ca9a7f0dd166",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/5a92863f-bd9a-40bf-aec9-6a7d3e3b8871.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 15633.351225997567,
+            "kind": "audio",
+            "name": "ElevenLabs_2026-08-21T12_55_15_Milo - Calm, Soothing and Meditative_pvc_s50_m2",
+            "outMs": 17618.35122599757,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 1,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 48,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 1985
+          },
+          {
+            "id": "cdf57e8c-8fef-4251-80c8-a9061e4d0a36",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/e65fd231-1d1c-4132-9b7a-d0f8a4344e4c.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 7066.862569912495,
+            "kind": "audio",
+            "name": "A_clean,_soft_digita_#2-1787317123525",
+            "outMs": 9066.862569912495,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.3,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 49,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2000
+          }
+        ],
+        "groups": [
+          {
+            "id": "e7049251-325e-44e2-ab7c-cbfb1c08b300",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "fc72ce7e-256b-434c-9710-677e443841be",
+                "amount": {
+                  "x": -0.11777777777777776,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 5092.937605146033,
+                "property": "position",
+                "durationMs": 2603.801925533141
+              }
+            ],
+            "parentGroupId": "b87ed42e-71f5-4121-bdea-40c7dc947d07"
+          },
+          {
+            "id": "5e36e20f-5878-432f-ae52-c13af97802cf",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "5332b341-67ed-4ba4-86a8-757e83aea32c",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 4896.448949469009,
+                "property": "opacity",
+                "durationMs": 100
+              },
+              {
+                "id": "307daeaf-d226-4c8a-94c4-479d3ee57f58",
+                "amount": {
+                  "x": -0.11777777777777776,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 5016.174998642922,
+                "property": "position",
+                "durationMs": 2785.9700536988985
+              }
+            ]
+          },
+          {
+            "id": "b87ed42e-71f5-4121-bdea-40c7dc947d07",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "ee212e21-d915-4ac7-a262-53a43bbae35f",
+                "amount": {
+                  "x": -1.2955555555555553,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 2920.9338740252097,
+                "property": "position",
+                "durationMs": 2763.697921125833
+              },
+              {
+                "id": "968da11b-34f1-4f3c-8727-a1a136d8e5ff",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 4878.859200786861,
+                "property": "opacity",
+                "durationMs": 100
+              }
+            ]
+          },
+          {
+            "id": "c86bbecc-4b76-4099-9841-5af856408d3f",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "aff30ae0-717e-4772-90a2-93e52729641b",
+                "amount": {
+                  "x": -0.8833333333333332,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5918.830974800372,
+                "property": "position",
+                "durationMs": 929.5745569201272
+              },
+              {
+                "id": "55e2d6eb-ce10-45ce-8d74-e8749aa89185",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 6436.474923980076,
+                "property": "opacity",
+                "durationMs": 138.69904082889025
+              }
+            ],
+            "parentGroupId": "0aec804a-5d18-43f8-9886-000ccea07a8b"
+          },
+          {
+            "id": "a2c35126-2b2e-4db4-b2ab-ff723dbaa626",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "adfcf6dd-e18a-417e-95fa-7756039cf406",
+                "amount": {
+                  "x": -0.8833333333333332,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5918.830974800372,
+                "property": "position",
+                "durationMs": 929.5745569201272
+              },
+              {
+                "id": "cde3a4cb-df8c-4b2e-9a9e-ccb4b0a203a6",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 6436.474923980076,
+                "property": "opacity",
+                "durationMs": 138.69904082889025
+              }
+            ],
+            "parentGroupId": "0aec804a-5d18-43f8-9886-000ccea07a8b"
+          },
+          {
+            "id": "17a78414-fbfc-451e-9677-9d85a71191c1",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "1e078ffe-652b-4ff9-8bb1-977ca0a7140b",
+                "amount": {
+                  "x": 0.9422222222222221,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 5412.929390613233,
+                "property": "position",
+                "durationMs": 1584.7004621444912,
+                "customEasing": {
+                  "x1": 1,
+                  "x2": 0.35,
+                  "y1": -0.29,
+                  "y2": 1
+                }
+              }
+            ],
+            "parentGroupId": "0aec804a-5d18-43f8-9886-000ccea07a8b"
+          },
+          {
+            "id": "0aec804a-5d18-43f8-9886-000ccea07a8b",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "28dd93aa-0230-4935-ac3b-be35e294263d",
+                "amount": {
+                  "x": 0.8,
+                  "y": 0.8,
+                  "z": 1
+                },
+                "easing": "ease-out",
+                "startMs": 4951.857793127826,
+                "property": "scale",
+                "durationMs": 2389.5139745922597,
+                "customEasing": {
+                  "x1": 0.16,
+                  "x2": 0.48,
+                  "y1": 1.01,
+                  "y2": 0.99
+                }
+              }
+            ]
+          },
+          {
+            "id": "8fc9beae-c1d8-438a-bc5a-e5712510e78b",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "32a13212-9270-4e2e-b2fb-13aea9a0436c",
+                "amount": {
+                  "x": -0.23555555555555552,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 6997.629852757725,
+                "property": "position",
+                "durationMs": 2596.193454763191
+              }
+            ],
+            "parentGroupId": "09d93d01-fb77-488e-b781-7a1b324a68f0"
+          },
+          {
+            "id": "09d93d01-fb77-488e-b781-7a1b324a68f0",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "e691b8d9-9358-4458-9c56-6bc42087bde2",
+                "amount": {
+                  "x": 0,
+                  "y": 0.11777777777777776,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 9593.823307520915,
+                "property": "position",
+                "durationMs": 5097.719202723152
+              },
+              {
+                "id": "5aee0520-5416-48eb-8c96-dd12957475ca",
+                "amount": {
+                  "x": 0.6,
+                  "y": 0.6,
+                  "z": 1
+                },
+                "easing": "ease-in-out",
+                "startMs": 11344.558020940827,
+                "property": "scale",
+                "durationMs": 1625.8575842198534
+              },
+              {
+                "id": "77c45f0d-e362-4311-ba86-cef8944f0b45",
+                "amount": 0,
+                "anchor": {
+                  "edge": "asset-out",
+                  "offsetMs": -1437.989845289795
+                },
+                "easing": "ease-in-out",
+                "startMs": 11695.798394414316,
+                "bundleId": "5643cbce-d0ac-4d24-b8a7-5a2f63b73d92",
+                "property": "opacity",
+                "durationMs": 1437.989845289795,
+                "presetKind": "fade"
+              }
+            ]
+          },
+          {
+            "id": "07807016-d580-48f9-a1ec-a2843af798b7",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "3446d5ee-879d-4633-ad7d-cfcdea11acfa",
+                "amount": {
+                  "x": -0.47111111111111104,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 12534.089814027026,
+                "property": "position",
+                "durationMs": 1425.8907570577467
+              }
+            ]
+          },
+          {
+            "id": "376433a7-f5f2-4039-884e-a327c932b146",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "6697e38e-19bb-46c2-89cf-c856bd08d1cf",
+                "amount": {
+                  "x": 0,
+                  "y": 0.11777777777777776,
+                  "z": 0
+                },
+                "easing": "linear",
+                "startMs": 9899.722053517884,
+                "property": "position",
+                "durationMs": 3587.0330868411493
+              }
+            ]
+          },
+          {
+            "id": "62245d27-1fad-4c07-9a12-319a3df1f7f5",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "4dae6545-3299-4f4c-9d43-fd362dde713d",
+                "amount": {
+                  "x": -0.47111111111111104,
+                  "y": 0,
+                  "z": 0
+                },
+                "easing": "ease-in-out",
+                "startMs": 12384.748303891964,
+                "property": "position",
+                "durationMs": 1580.992624052209
+              }
+            ]
+          },
+          {
+            "id": "f046dcc5-0a78-48bd-9449-e57b2f30fd77",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "ef282242-aef9-4c82-b540-8f8f69b3b4dc",
+                "amount": {
+                  "x": 1.3,
+                  "y": 1.3,
+                  "z": 1
+                },
+                "easing": "ease-out",
+                "startMs": 13268.855251224888,
+                "property": "scale",
+                "durationMs": 790.226783304026
+              },
+              {
+                "id": "c13c1a5e-eaaa-4cd4-9eed-1209cab9fbae",
+                "amount": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "easing": "ease-out",
+                "startMs": 14059.082034528914,
+                "property": "scale",
+                "durationMs": 668.5729587863534
+              }
+            ],
+            "parentGroupId": "ba641679-109f-40f0-8505-c6422f89d522"
+          },
+          {
+            "id": "ba641679-109f-40f0-8505-c6422f89d522",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "57e2aa3c-a52b-4efe-ae2f-3bfc9bda5127",
+                "amount": {
+                  "x": 0.9,
+                  "y": 0.9,
+                  "z": 1
+                },
+                "easing": "linear",
+                "startMs": 13965.740927944173,
+                "property": "scale",
+                "durationMs": 1813.4325135681393
+              }
+            ],
+            "parentGroupId": "a6aefe7c-2267-45c6-860d-ec9213a34e03"
+          },
+          {
+            "id": "1566e814-a75d-4a87-9f83-37e2900d3947",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "965c27d6-dee3-4dfd-b0af-16e8a12f0036",
+                "path": {
+                  "control": {
+                    "x": -0.022223264930828712,
+                    "y": 0.07006769846000793,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": -0.11895555555555554,
+                  "y": 0.07066666666666666,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 14245.22929229136,
+                "property": "position",
+                "durationMs": 2559.9414458404626
+              }
+            ],
+            "parentGroupId": "a6aefe7c-2267-45c6-860d-ec9213a34e03"
+          },
+          {
+            "id": "ffcf9147-8b17-41a1-93d2-9033bfb904ce",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "ecf6a2c4-70a7-4539-a773-096794cd14b7",
+                "path": {
+                  "control": {
+                    "x": -0.022223264930828712,
+                    "y": 0.07006769846000793,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": 0.12955555555555553,
+                  "y": -0.08244444444444443,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 14245.22929229136,
+                "property": "position",
+                "durationMs": 2559.9414458404626
+              }
+            ],
+            "parentGroupId": "a6aefe7c-2267-45c6-860d-ec9213a34e03"
+          },
+          {
+            "id": "03805b4e-b7ac-4484-9ede-4d79e57f3eb7",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "618ebe81-6e92-449d-a0e7-7353e89e8b04",
+                "path": {
+                  "control": {
+                    "x": -0.022223264930828712,
+                    "y": 0.07006769846000793,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": 0.09539999999999998,
+                  "y": 0.05888888888888888,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 14245.22929229136,
+                "property": "position",
+                "durationMs": 2559.9414458404626
+              }
+            ],
+            "parentGroupId": "a6aefe7c-2267-45c6-860d-ec9213a34e03"
+          },
+          {
+            "id": "e6c2a1ab-cd23-430a-a7ee-de1d051ff884",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "53b91b82-ad6e-4eda-8982-58087b786713",
+                "path": {
+                  "control": {
+                    "x": -0.022223264930828712,
+                    "y": 0.07006769846000793,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": -0.09539999999999998,
+                  "y": -0.05888888888888888,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 14245.22929229136,
+                "property": "position",
+                "durationMs": 2559.9414458404626
+              }
+            ],
+            "parentGroupId": "a6aefe7c-2267-45c6-860d-ec9213a34e03"
+          },
+          {
+            "id": "81fb60a0-aa17-4d36-8e3b-ba990fbbd9ce",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "dc44a99a-4f47-4752-b666-944c1c665f7f",
+                "path": {
+                  "control": {
+                    "x": -0.022223264930828712,
+                    "y": 0.07006769846000793,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": -0.047111111111111104,
+                  "y": -0.05888888888888888,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 14245.22929229136,
+                "property": "position",
+                "durationMs": 2559.9414458404626
+              }
+            ],
+            "parentGroupId": "a6aefe7c-2267-45c6-860d-ec9213a34e03"
+          },
+          {
+            "id": "771a0fb4-5da0-4e89-ab43-d4730fef18d0",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "4f268397-855b-4882-84b7-4986763cde7f",
+                "path": {
+                  "control": {
+                    "x": -0.022223264930828712,
+                    "y": 0.07006769846000793,
+                    "z": 0
+                  }
+                },
+                "amount": {
+                  "x": 0.047111111111111104,
+                  "y": 0.05888888888888888,
+                  "z": 0
+                },
+                "easing": "ease-out",
+                "startMs": 14245.22929229136,
+                "property": "position",
+                "durationMs": 2621.601317282364
+              }
+            ],
+            "parentGroupId": "a6aefe7c-2267-45c6-860d-ec9213a34e03"
+          },
+          {
+            "id": "a6aefe7c-2267-45c6-860d-ec9213a34e03",
+            "name": "Group",
+            "animations": [
+              {
+                "id": "1480b5b7-3945-4c57-be81-06be47ac266b",
+                "amount": 0,
+                "easing": "ease-in-out",
+                "startMs": 15964.09218508696,
+                "property": "opacity",
+                "durationMs": 258.37397081821473
+              }
+            ]
+          }
+        ],
+        "startMs": 0,
+        "duration": 18839.864603835016,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0.53,
+          "enabled": false
+        },
+        "framings": [
+          {
+            "id": "287c3933-49ab-4670-adbe-3877be0e2e8e",
+            "zoom": 2.0338562428986897,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "eaedbbe5-eff3-4e96-acb9-10844bc1ad13",
+            "zoom": 0.9977452412373908,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.9,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "80a3a245-661c-4d7f-bcbb-36f4457491e3",
+            "zoom": 1.7947256222581547,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.5611029657629225,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          },
+          {
+            "id": "c78830bd-36a6-4356-9bb6-cb7e8e35d4cb",
+            "zoom": 3.2683375557894156,
+            "anchor": {
+              "kind": "world",
+              "world": {
+                "x": -1.3802562961531382,
+                "y": 0.7,
+                "z": 0
+              }
+            }
+          }
+        ],
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [
+          {
+            "id": "59fcd61e-8387-44a9-9eb3-f0e769a44300",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 0,
+            "duration": 948.0903385529878,
+            "toFramingId": "eaedbbe5-eff3-4e96-acb9-10844bc1ad13",
+            "fromFramingId": "287c3933-49ab-4670-adbe-3877be0e2e8e"
+          },
+          {
+            "id": "9bb3094b-d980-43c9-ab90-9e1838fe6dcf",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 1285.1883027361664,
+            "duration": 1589.9254275332369,
+            "toFramingId": "80a3a245-661c-4d7f-bcbb-36f4457491e3",
+            "fromFramingId": "eaedbbe5-eff3-4e96-acb9-10844bc1ad13"
+          },
+          {
+            "id": "6e665e1f-1f05-4be6-995d-688b322455b3",
+            "mode": "dolly",
+            "easing": "ease-in-out",
+            "startMs": 11777.774938041139,
+            "duration": 1620.5786137775794,
+            "toFramingId": "c78830bd-36a6-4356-9bb6-cb7e8e35d4cb",
+            "fromFramingId": "80a3a245-661c-4d7f-bcbb-36f4457491e3"
+          }
+        ],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 0.55,
+            "threshold": 0.85
+          },
+          "ghost": {
+            "blur": 3,
+            "offset": 6,
+            "enabled": false,
+            "opacity": 0
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0.2
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 32,
+            "shutterAngle": 50
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 5,
+            "bokehShape": "spherical",
+            "focusRange": 10.5,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "e4d5b6d2-7484-4fe3-9e7a-52be0e7b0e0b",
+        "name": "Shot 2",
+        "assets": [
+          {
+            "id": "1f2393c7-cbf5-47eb-9798-d44ead12d636",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/99edda77-a4cc-46bb-b14e-922027a2d039.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "DSGNRise-Elegant_riser_sound,-Elevenlabs",
+            "outMs": 2000,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.5,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2000
+          }
+        ],
+        "startMs": 6479.548603982321,
+        "duration": 2000,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 1,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      },
+      {
+        "id": "0efbe14a-b7e3-4647-ad5a-27c3ec453cd0",
+        "name": "Shot 3",
+        "assets": [
+          {
+            "id": "f3abf6a8-8a4b-442b-97c1-fd5133ba35a6",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/87205198-37ad-487a-9e79-e19e28c200ee.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "WHSH-Deep_cinematic_low-e-Elevenlabs (1)",
+            "outMs": 2550,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.5,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 0,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 2550
+          },
+          {
+            "id": "65275401-0f4d-4c75-9f3e-01e864a8b220",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/feb005ed-449f-4bfb-9138-93b1897cf41d.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 1803.1788305717694,
+            "kind": "audio",
+            "name": "UIMvmt-Soft,_subtle_UI_text-Elevenlabs",
+            "outMs": 2659.9692405440883,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.5,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 1,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3480
+          },
+          {
+            "id": "489eb4f2-fb1c-43e1-a82f-ab196546a8ff",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/9e5bcb81-fb0e-4ac3-b353-6e949d914348.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 2728.456983399834,
+            "kind": "audio",
+            "name": "UIMisc-Clean_digital_swoosh-Elevenlabs",
+            "outMs": 4101.223860371955,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.6,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 2,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3000
+          },
+          {
+            "id": "0392315a-cae6-4593-88a7-3104a4f15324",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/e9004dd5-1fda-437a-865d-cdce9fe1b7f0.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 3596.19938059976,
+            "kind": "audio",
+            "name": "UIMvmt-Soft,_elegant_\u2018whoos-Elevenlabs",
+            "outMs": 6295.13845267099,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.4,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 1000,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 3,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 4000
+          },
+          {
+            "id": "71d7135c-b169-4ec5-9c28-30374e70d2c3",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/a4a366d8-3eaf-4611-8ac1-48410eea8c7b.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 5507.378308839392,
+            "kind": "audio",
+            "name": "UIMisc-Clean_digital_swoosh-Elevenlabs",
+            "outMs": 8507.378308839392,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.5,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 4,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3000
+          },
+          {
+            "id": "30f67f41-9d50-420e-9ab8-135a1db585eb",
+            "src": "assets/templates/59b71b7a-316d-4458-a194-bacfd1c5786d/4f47bdae-1dcd-45b7-8c66-9d1029e867dc.mp3",
+            "exit": {
+              "type": "none",
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "inMs": 0,
+            "kind": "audio",
+            "name": "DSGNBass-Deep_bass_\u201cdoom\u201d_or_-Elevenlabs",
+            "outMs": 3000,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "volume": 0.5,
+            "opacity": 1,
+            "entrance": {
+              "type": "none",
+              "delay": 0,
+              "easing": "linear",
+              "distance": 1,
+              "duration": 0
+            },
+            "fadeInMs": 0,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fadeOutMs": 0,
+            "layerOrder": 5,
+            "sourceOffsetMs": 0,
+            "sourceDurationMs": 3000
+          }
+        ],
+        "startMs": 8091.673481877729,
+        "duration": 10582.56661892081,
+        "edgeFade": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "enabled": false
+        },
+        "framings": [],
+        "laneIndex": 2,
+        "transition": {
+          "type": "cut",
+          "easing": "linear",
+          "duration": 0
+        },
+        "effectsOrder": [],
+        "framerBlocks": [],
+        "postProcessing": {
+          "bloom": {
+            "enabled": false,
+            "intensity": 1,
+            "threshold": 0.85
+          },
+          "vignette": {
+            "enabled": false,
+            "intensity": 0
+          },
+          "motionBlur": {
+            "enabled": false,
+            "samples": 16,
+            "shutterAngle": 180
+          },
+          "depthOfField": {
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "enabled": false,
+            "aperture": 2.8,
+            "bokehScale": 0,
+            "bokehShape": "spherical",
+            "focusRange": 10,
+            "focalLength": 50,
+            "highlightIntensity": 0,
+            "highlightThreshold": 0.7
+          }
+        }
+      }
+    ]
+  }
+}
