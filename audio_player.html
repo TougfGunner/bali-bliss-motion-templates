@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bali Bliss — Editorial Audio Suite</title>
+  <title>Bali Bliss — Editorial Audio & Reel Soundtracks</title>
   <style>
     :root {
       --bg: #0c0d0e;
@@ -31,12 +31,12 @@
     }
 
     .container {
-      max-width: 860px;
+      max-width: 880px;
       margin: 0 auto;
     }
 
     header {
-      margin-bottom: 48px;
+      margin-bottom: 40px;
     }
 
     .brand-kicker {
@@ -66,20 +66,20 @@
       letter-spacing: 1.5px;
       color: var(--text-dim);
       margin: 40px 0 16px 0;
-      font-weight: 500;
+      font-weight: 600;
     }
 
     .track-grid {
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 10px;
     }
 
     .track-card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 12px;
-      padding: 16px 20px;
+      padding: 14px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -104,7 +104,7 @@
       font-size: 15px;
       font-weight: 500;
       color: var(--highlight);
-      margin-bottom: 4px;
+      margin-bottom: 3px;
     }
 
     .track-meta {
@@ -122,8 +122,8 @@
       background: #1e2226;
       border: 1px solid #333940;
       color: var(--text-main);
-      width: 44px;
-      height: 44px;
+      width: 42px;
+      height: 42px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -139,8 +139,8 @@
     }
 
     .play-btn svg {
-      width: 16px;
-      height: 16px;
+      width: 15px;
+      height: 15px;
       fill: currentColor;
     }
 
@@ -159,7 +159,7 @@
       left: 50%;
       transform: translateX(-50%);
       width: calc(100% - 48px);
-      max-width: 860px;
+      max-width: 880px;
       background: rgba(20, 22, 24, 0.95);
       backdrop-filter: blur(12px);
       border: 1px solid #2e343b;
@@ -168,7 +168,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      box-shadow: 0 16px 32px rgba(0,0,0,0.4);
+      box-shadow: 0 16px 32px rgba(0,0,0,0.5);
       display: none;
     }
 
@@ -189,115 +189,212 @@
   <div class="container">
     <header>
       <div class="brand-kicker">Bali Bliss Weddings</div>
-      <h1>Editorial Audio Suite</h1>
-      <p class="subtitle">Bespoke tactile sound design & ambient music beds for vertical reels.</p>
+      <h1>Editorial Soundtracks & Audio Suite</h1>
+      <p class="subtitle">Extracted Instagram wedding reel soundtracks, tactile SFX, and ambient music beds.</p>
     </header>
 
-    <div class="section-title">Editorial Soundscapes & Music Beds</div>
+    <!-- 1. Extracted Instagram Reel Tracks -->
+    <div class="section-title">1. Extracted Instagram Wedding Reel Soundtracks</div>
     <div class="track-grid">
-      <div class="track-card" id="card-6">
+      <div class="track-card" id="card-ig-1">
+        <div class="track-info">
+          <div class="track-name">Cinnamon Girl (Aesthetic Wedding Reel Audio)</div>
+          <div class="track-meta">Lana Del Rey viral romantic slow-fade audio used across top luxury destination wedding reels</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">14.4s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_cinnamon_girl_14s.m4a', 'Cinnamon Girl (Wedding Reel)', 'card-ig-1')">
+            <svg id="icon-card-ig-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-ig-2">
+        <div class="track-info">
+          <div class="track-name">Magazine Pages (Editorial Wedding Spread Flip)</div>
+          <div class="track-meta">Rhythmic acoustic beat mapped to editorial page turns and Caroline & Hayes photo reveals</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">11.7s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_magazine_pages.m4a', 'Magazine Pages', 'card-ig-2')">
+            <svg id="icon-card-ig-2" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-ig-3">
+        <div class="track-info">
+          <div class="track-name">Sunset Vows (Golden Hour Cliffside Soundtrack)</div>
+          <div class="track-meta">Warm emotional chords timed for sunset horizon ceremony moments and vow cuts</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">13.0s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_sunset_vows_13s.m4a', 'Sunset Vows', 'card-ig-3')">
+            <svg id="icon-card-ig-3" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-ig-4">
+        <div class="track-info">
+          <div class="track-name">Beat Swipe (Rapid Photo Cut Reel)</div>
+          <div class="track-meta">Tight rhythmic transient track engineered for 40ms beat-accurate swipe transitions</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">7.5s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_beat_swipe.m4a', 'Beat Swipe', 'card-ig-4')">
+            <svg id="icon-card-ig-4" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-ig-5">
+        <div class="track-info">
+          <div class="track-name">Flash & Pulse (High-Contrast Portrait Rhythm)</div>
+          <div class="track-meta">Dynamic pulse audio mapped to bright white flash episodes and camera shutter strikes</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">7.4s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_flash_pulse.m4a', 'Flash & Pulse', 'card-ig-5')">
+            <svg id="icon-card-ig-5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-ig-6">
+        <div class="track-info">
+          <div class="track-name">Indian Wedding Dhol Celebration</div>
+          <div class="track-meta">Vibrant cultural wedding rhythm for Tirtha Bali and Sangeet evening reels</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">9.4s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_dhol_celebration.m4a', 'Indian Dhol Celebration', 'card-ig-6')">
+            <svg id="icon-card-ig-6" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="track-card" id="card-ig-7">
+        <div class="track-info">
+          <div class="track-name">Deep Force Cello (Cinematic Luxury Vows)</div>
+          <div class="track-meta">Rich resonant solo cello progression in room reverb for high-end editorial moments</div>
+        </div>
+        <div class="track-controls">
+          <span class="badge">8.5s</span>
+          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_deep_cello.wav', 'Deep Force Cello', 'card-ig-7')">
+            <svg id="icon-card-ig-7" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Ambient Wedding Music Beds -->
+    <div class="section-title">2. Ambient Wedding Music Beds</div>
+    <div class="track-grid">
+      <div class="track-card" id="card-m-1">
         <div class="track-info">
           <div class="track-name">Uluwatu Sunset Horizon (Felt Piano & Cello)</div>
           <div class="track-meta">D Major 9th felt piano with warm cello drone and room resonance — 68 BPM</div>
         </div>
         <div class="track-controls">
           <span class="badge">10.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/uluwatu_sunset_piano.wav', 'Uluwatu Sunset Horizon', 'card-6')">
-            <svg id="icon-card-6" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <button class="play-btn" onclick="togglePlay('media/audio/uluwatu_sunset_piano.wav', 'Uluwatu Sunset Horizon', 'card-m-1')">
+            <svg id="icon-card-m-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
       </div>
 
-      <div class="track-card" id="card-7">
+      <div class="track-card" id="card-m-2">
         <div class="track-info">
           <div class="track-name">Ubud Sanctuary Reverie (Organic Bamboo Marimba)</div>
           <div class="track-meta">Acoustic mallet strikes, Balinese harmonics, and jungle canopy pad — 62 BPM</div>
         </div>
         <div class="track-controls">
           <span class="badge">8.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/ubud_sanctuary_marimba.wav', 'Ubud Sanctuary Reverie', 'card-7')">
-            <svg id="icon-card-7" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <button class="play-btn" onclick="togglePlay('media/audio/ubud_sanctuary_marimba.wav', 'Ubud Sanctuary Reverie', 'card-m-2')">
+            <svg id="icon-card-m-2" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
       </div>
 
-      <div class="track-card" id="card-8">
+      <div class="track-card" id="card-m-3">
         <div class="track-info">
           <div class="track-name">Ceremony String Swell (Cinematic Wedding Strings)</div>
           <div class="track-meta">Lush ensemble crescendo resolving into warm D Major for vow reveals — 72 BPM</div>
         </div>
         <div class="track-controls">
           <span class="badge">9.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/ceremony_string_swell.wav', 'Ceremony String Swell', 'card-8')">
-            <svg id="icon-card-8" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <button class="play-btn" onclick="togglePlay('media/audio/ceremony_string_swell.wav', 'Ceremony String Swell', 'card-m-3')">
+            <svg id="icon-card-m-3" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
       </div>
     </div>
 
-    <div class="section-title">Tactile Editorial Transition SFX</div>
+    <!-- 3. Tactile Editorial SFX -->
+    <div class="section-title">3. Tactile Editorial Transition SFX</div>
     <div class="track-grid">
-      <div class="track-card" id="card-1">
+      <div class="track-card" id="card-s-1">
         <div class="track-info">
           <div class="track-name">35mm Contax Film Shutter & Advance</div>
           <div class="track-meta">Crisp mechanical camera click & ratchet advance for photography reveals</div>
         </div>
         <div class="track-controls">
           <span class="badge">0.45s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/film_shutter_snap.wav', '35mm Film Shutter Snap', 'card-1')">
-            <svg id="icon-card-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <button class="play-btn" onclick="togglePlay('media/audio/film_shutter_snap.wav', '35mm Film Shutter Snap', 'card-s-1')">
+            <svg id="icon-card-s-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
       </div>
 
-      <div class="track-card" id="card-2">
+      <div class="track-card" id="card-s-2">
         <div class="track-info">
           <div class="track-name">Linen Art-Paper Page Flutter</div>
           <div class="track-meta">Heavy textured art paper turn for magazine spread flips and itinerary cards</div>
         </div>
         <div class="track-controls">
           <span class="badge">0.75s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/linen_page_flutter.wav', 'Linen Page Flutter', 'card-2')">
-            <svg id="icon-card-2" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <button class="play-btn" onclick="togglePlay('media/audio/linen_page_flutter.wav', 'Linen Page Flutter', 'card-s-2')">
+            <svg id="icon-card-s-2" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
       </div>
 
-      <div class="track-card" id="card-3">
+      <div class="track-card" id="card-s-3">
         <div class="track-info">
           <div class="track-name">Velvet 55Hz Sub Pulse</div>
           <div class="track-meta">Warm low-frequency weight for smooth cinematic cuts without aggressive whooshes</div>
         </div>
         <div class="track-controls">
           <span class="badge">1.8s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/velvet_sub_pulse.wav', 'Velvet Sub Pulse', 'card-3')">
-            <svg id="icon-card-3" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <button class="play-btn" onclick="togglePlay('media/audio/velvet_sub_pulse.wav', 'Velvet Sub Pulse', 'card-s-3')">
+            <svg id="icon-card-s-3" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
       </div>
 
-      <div class="track-card" id="card-4">
+      <div class="track-card" id="card-s-4">
         <div class="track-info">
           <div class="track-name">Crystal Champagne Harmonic Ring</div>
           <div class="track-meta">Resonant 1864Hz chime with long delicate ring for toast and vow cuts</div>
         </div>
         <div class="track-controls">
           <span class="badge">2.8s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/crystal_champagne_ring.wav', 'Crystal Champagne Ring', 'card-4')">
-            <svg id="icon-card-4" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <button class="play-btn" onclick="togglePlay('media/audio/crystal_champagne_ring.wav', 'Crystal Champagne Ring', 'card-s-4')">
+            <svg id="icon-card-s-4" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
       </div>
 
-      <div class="track-card" id="card-5">
+      <div class="track-card" id="card-s-5">
         <div class="track-info">
           <div class="track-name">Uluwatu Ocean Dusk Swell</div>
           <div class="track-meta">Atmospheric coastal surf and ocean breeze for cliffside venue scene changes</div>
         </div>
         <div class="track-controls">
           <span class="badge">4.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/ocean_dusk_swell.wav', 'Ocean Dusk Swell', 'card-5')">
-            <svg id="icon-card-5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <button class="play-btn" onclick="togglePlay('media/audio/ocean_dusk_swell.wav', 'Ocean Dusk Swell', 'card-s-5')">
+            <svg id="icon-card-s-5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </button>
         </div>
       </div>
