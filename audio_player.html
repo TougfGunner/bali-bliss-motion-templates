@@ -3,43 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bali Bliss — Editorial Audio & Reel Soundtracks</title>
+  <title>Bali Bliss — Editorial Audio Suite</title>
   <style>
     :root {
-      --bg: #0c0d0e;
-      --card-bg: #141618;
-      --card-border: #23272b;
+      --bg: #0b0c0e;
+      --card-bg: #131518;
+      --card-border: #1f2328;
+      --card-hover: #292e35;
       --text-main: #f0f2f5;
-      --text-dim: #8b929a;
+      --text-dim: #7d8590;
       --accent: #d4af37;
-      --accent-glow: rgba(212, 175, 55, 0.15);
-      --highlight: #ffffff;
+      --accent-dim: rgba(212, 175, 55, 0.12);
+      --accent-glow: rgba(212, 175, 55, 0.25);
+      --badge-bg: #1c2024;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       background-color: var(--bg);
       color: var(--text-main);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      padding: 48px 24px;
+      padding: 48px 24px 140px 24px;
       line-height: 1.5;
     }
 
     .container {
-      max-width: 880px;
+      max-width: 900px;
       margin: 0 auto;
     }
 
     header {
-      margin-bottom: 40px;
+      margin-bottom: 32px;
     }
 
-    .brand-kicker {
+    .kicker {
       font-size: 11px;
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -60,127 +58,315 @@
       font-size: 15px;
     }
 
-    .section-title {
+    .stats-bar {
+      display: flex;
+      gap: 24px;
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid var(--card-border);
       font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
       color: var(--text-dim);
-      margin: 40px 0 16px 0;
+    }
+
+    .stats-bar span {
+      color: var(--text-main);
       font-weight: 600;
     }
 
+    /* Filter & Search Bar */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-dim);
+      padding: 7px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      border-color: var(--text-dim);
+      color: var(--text-main);
+    }
+
+    .tab-btn.active {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .search-input {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 7px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      min-width: 220px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+    }
+
+    /* Track List */
     .track-grid {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
 
     .track-card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-radius: 12px;
-      padding: 14px 20px;
+      border-radius: 10px;
+      padding: 12px 18px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       transition: border-color 0.2s ease, background 0.2s ease;
+      cursor: pointer;
     }
 
     .track-card:hover {
-      border-color: #383e46;
+      border-color: var(--card-hover);
+      background: #16191d;
     }
 
     .track-card.active {
       border-color: var(--accent);
-      background: var(--accent-glow);
+      background: var(--accent-dim);
     }
 
-    .track-info {
-      flex: 1;
-      margin-right: 20px;
-    }
-
-    .track-name {
-      font-size: 15px;
-      font-weight: 500;
-      color: var(--highlight);
-      margin-bottom: 3px;
-    }
-
-    .track-meta {
-      font-size: 13px;
-      color: var(--text-dim);
-    }
-
-    .track-controls {
+    .track-left {
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 14px;
+      flex: 1;
+      min-width: 0;
     }
 
     .play-btn {
-      background: #1e2226;
-      border: 1px solid #333940;
-      color: var(--text-main);
-      width: 42px;
-      height: 42px;
+      width: 38px;
+      height: 38px;
       border-radius: 50%;
+      background: #1d2126;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
-      transition: all 0.15s ease;
+      flex-shrink: 0;
+      transition: all 0.2s ease;
     }
 
-    .play-btn:hover {
-      background: var(--accent);
+    .track-card:hover .play-btn {
       border-color: var(--accent);
-      color: #000;
+      color: var(--accent);
     }
 
-    .play-btn svg {
-      width: 15px;
-      height: 15px;
-      fill: currentColor;
+    .track-card.active .play-btn {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+
+    .track-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .track-title {
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .track-desc {
+      font-size: 12px;
+      color: var(--text-dim);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .track-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-shrink: 0;
+      margin-left: 16px;
     }
 
     .badge {
       font-size: 11px;
       padding: 3px 8px;
-      border-radius: 4px;
-      background: #202428;
+      border-radius: 12px;
+      background: var(--badge-bg);
       color: var(--text-dim);
-      font-family: monospace;
+      font-weight: 500;
     }
 
-    .now-playing-bar {
+    .duration {
+      font-size: 13px;
+      color: var(--text-dim);
+      font-variant-numeric: tabular-nums;
+      min-width: 42px;
+      text-align: right;
+    }
+
+    /* Equalizer wave icon */
+    .eq-wave {
+      display: none;
+      align-items: flex-end;
+      gap: 2px;
+      height: 14px;
+      width: 14px;
+    }
+
+    .track-card.active.playing .eq-wave {
+      display: flex;
+    }
+
+    .eq-bar {
+      width: 2px;
+      background: var(--accent);
+      border-radius: 1px;
+      animation: eq 0.8s ease-in-out infinite alternate;
+    }
+
+    .eq-bar:nth-child(1) { height: 40%; animation-delay: 0.1s; }
+    .eq-bar:nth-child(2) { height: 90%; animation-delay: 0.3s; }
+    .eq-bar:nth-child(3) { height: 60%; animation-delay: 0.2s; }
+
+    @keyframes eq {
+      0% { height: 20%; }
+      100% { height: 100%; }
+    }
+
+    /* Persistent Bottom Player */
+    .player-dock {
       position: fixed;
-      bottom: 24px;
+      bottom: 20px;
       left: 50%;
       transform: translateX(-50%);
-      width: calc(100% - 48px);
+      width: calc(100% - 40px);
       max-width: 880px;
-      background: rgba(20, 22, 24, 0.95);
-      backdrop-filter: blur(12px);
-      border: 1px solid #2e343b;
+      background: rgba(19, 21, 24, 0.94);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--card-border);
       border-radius: 16px;
-      padding: 14px 24px;
+      padding: 14px 22px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      box-shadow: 0 16px 32px rgba(0,0,0,0.5);
-      display: none;
+      gap: 20px;
+      z-index: 100;
     }
 
-    .now-playing-info {
+    .dock-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 200px;
+      flex: 1;
+    }
+
+    .dock-play {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #000;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .dock-meta h3 {
       font-size: 14px;
-      color: var(--highlight);
+      font-weight: 500;
+      margin-bottom: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 240px;
     }
 
-    .now-playing-status {
+    .dock-meta p {
       font-size: 12px;
-      color: var(--accent);
-      font-family: monospace;
+      color: var(--text-dim);
+    }
+
+    .dock-center {
+      flex: 2;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .progress-bar-container {
+      flex: 1;
+      height: 4px;
+      background: #2a2e34;
+      border-radius: 2px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 2px;
+      width: 0%;
+      transition: width 0.1s linear;
+    }
+
+    .time-stamp {
+      font-size: 11px;
+      color: var(--text-dim);
+      font-variant-numeric: tabular-nums;
+      min-width: 36px;
+    }
+
+    .dock-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    .vol-slider {
+      width: 80px;
+      accent-color: var(--accent);
+      cursor: pointer;
     }
   </style>
 </head>
@@ -188,277 +374,222 @@
 
   <div class="container">
     <header>
-      <div class="brand-kicker">Bali Bliss Weddings</div>
-      <h1>Editorial Soundtracks & Audio Suite</h1>
-      <p class="subtitle">Extracted Instagram wedding reel soundtracks, tactile SFX, and ambient music beds.</p>
+      <div class="kicker">Bali Bliss Weddings</div>
+      <h1>Editorial Audio Suite</h1>
+      <p class="subtitle">Curated wedding soundtracks, Instagram reel cuts, editorial cello movements, and sound cues</p>
+      <div class="stats-bar">
+        <div>Total Audio Tracks: <span id="total-count">39</span></div>
+        <div>Continuous Soundtracks: <span>5</span></div>
+        <div>Editorial Stems: <span>19</span></div>
+        <div>Instagram Reels & Drops: <span>7</span></div>
+        <div>Sound Effects: <span>8</span></div>
+      </div>
     </header>
 
-    <!-- 1. Extracted Instagram Reel Tracks -->
-    <div class="section-title">1. Extracted Instagram Wedding Reel Soundtracks</div>
-    <div class="track-grid">
-      <div class="track-card" id="card-ig-1">
-        <div class="track-info">
-          <div class="track-name">Cinnamon Girl (Aesthetic Wedding Reel Audio)</div>
-          <div class="track-meta">Lana Del Rey viral romantic slow-fade audio used across top luxury destination wedding reels</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">14.4s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_cinnamon_girl_14s.m4a', 'Cinnamon Girl (Wedding Reel)', 'card-ig-1')">
-            <svg id="icon-card-ig-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
+    <div class="controls">
+      <div class="tabs">
+        <button class="tab-btn active" data-cat="all">All (39)</button>
+        <button class="tab-btn" data-cat="Soundtracks">Soundtracks (5)</button>
+        <button class="tab-btn" data-cat="Editorial Stems">Editorial Stems (19)</button>
+        <button class="tab-btn" data-cat="Instagram Reels">Instagram Reels (7)</button>
+        <button class="tab-btn" data-cat="Sound Effects">Sound Effects (8)</button>
       </div>
-
-      <div class="track-card" id="card-ig-2">
-        <div class="track-info">
-          <div class="track-name">Magazine Pages (Editorial Wedding Spread Flip)</div>
-          <div class="track-meta">Rhythmic acoustic beat mapped to editorial page turns and Caroline & Hayes photo reveals</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">11.7s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_magazine_pages.m4a', 'Magazine Pages', 'card-ig-2')">
-            <svg id="icon-card-ig-2" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-ig-3">
-        <div class="track-info">
-          <div class="track-name">Sunset Vows (Golden Hour Cliffside Soundtrack)</div>
-          <div class="track-meta">Warm emotional chords timed for sunset horizon ceremony moments and vow cuts</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">13.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_sunset_vows_13s.m4a', 'Sunset Vows', 'card-ig-3')">
-            <svg id="icon-card-ig-3" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-ig-4">
-        <div class="track-info">
-          <div class="track-name">Beat Swipe (Rapid Photo Cut Reel)</div>
-          <div class="track-meta">Tight rhythmic transient track engineered for 40ms beat-accurate swipe transitions</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">7.5s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_beat_swipe.m4a', 'Beat Swipe', 'card-ig-4')">
-            <svg id="icon-card-ig-4" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-ig-5">
-        <div class="track-info">
-          <div class="track-name">Flash & Pulse (High-Contrast Portrait Rhythm)</div>
-          <div class="track-meta">Dynamic pulse audio mapped to bright white flash episodes and camera shutter strikes</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">7.4s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_flash_pulse.m4a', 'Flash & Pulse', 'card-ig-5')">
-            <svg id="icon-card-ig-5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-ig-6">
-        <div class="track-info">
-          <div class="track-name">Indian Wedding Dhol Celebration</div>
-          <div class="track-meta">Vibrant cultural wedding rhythm for Tirtha Bali and Sangeet evening reels</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">9.4s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_dhol_celebration.m4a', 'Indian Dhol Celebration', 'card-ig-6')">
-            <svg id="icon-card-ig-6" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-ig-7">
-        <div class="track-info">
-          <div class="track-name">Deep Force Cello (Cinematic Luxury Vows)</div>
-          <div class="track-meta">Rich resonant solo cello progression in room reverb for high-end editorial moments</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">8.5s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/bali_bliss_editorial_deep_cello.wav', 'Deep Force Cello', 'card-ig-7')">
-            <svg id="icon-card-ig-7" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
+      <input type="text" class="search-input" id="search-box" placeholder="Filter audio by name or category...">
     </div>
 
-    <!-- 2. Ambient Wedding Music Beds -->
-    <div class="section-title">2. Ambient Wedding Music Beds</div>
-    <div class="track-grid">
-      <div class="track-card" id="card-m-1">
-        <div class="track-info">
-          <div class="track-name">Uluwatu Sunset Horizon (Felt Piano & Cello)</div>
-          <div class="track-meta">D Major 9th felt piano with warm cello drone and room resonance — 68 BPM</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">10.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/uluwatu_sunset_piano.wav', 'Uluwatu Sunset Horizon', 'card-m-1')">
-            <svg id="icon-card-m-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-m-2">
-        <div class="track-info">
-          <div class="track-name">Ubud Sanctuary Reverie (Organic Bamboo Marimba)</div>
-          <div class="track-meta">Acoustic mallet strikes, Balinese harmonics, and jungle canopy pad — 62 BPM</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">8.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/ubud_sanctuary_marimba.wav', 'Ubud Sanctuary Reverie', 'card-m-2')">
-            <svg id="icon-card-m-2" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-m-3">
-        <div class="track-info">
-          <div class="track-name">Ceremony String Swell (Cinematic Wedding Strings)</div>
-          <div class="track-meta">Lush ensemble crescendo resolving into warm D Major for vow reveals — 72 BPM</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">9.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/ceremony_string_swell.wav', 'Ceremony String Swell', 'card-m-3')">
-            <svg id="icon-card-m-3" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- 3. Tactile Editorial SFX -->
-    <div class="section-title">3. Tactile Editorial Transition SFX</div>
-    <div class="track-grid">
-      <div class="track-card" id="card-s-1">
-        <div class="track-info">
-          <div class="track-name">35mm Contax Film Shutter & Advance</div>
-          <div class="track-meta">Crisp mechanical camera click & ratchet advance for photography reveals</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">0.45s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/film_shutter_snap.wav', '35mm Film Shutter Snap', 'card-s-1')">
-            <svg id="icon-card-s-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-s-2">
-        <div class="track-info">
-          <div class="track-name">Linen Art-Paper Page Flutter</div>
-          <div class="track-meta">Heavy textured art paper turn for magazine spread flips and itinerary cards</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">0.75s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/linen_page_flutter.wav', 'Linen Page Flutter', 'card-s-2')">
-            <svg id="icon-card-s-2" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-s-3">
-        <div class="track-info">
-          <div class="track-name">Velvet 55Hz Sub Pulse</div>
-          <div class="track-meta">Warm low-frequency weight for smooth cinematic cuts without aggressive whooshes</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">1.8s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/velvet_sub_pulse.wav', 'Velvet Sub Pulse', 'card-s-3')">
-            <svg id="icon-card-s-3" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-s-4">
-        <div class="track-info">
-          <div class="track-name">Crystal Champagne Harmonic Ring</div>
-          <div class="track-meta">Resonant 1864Hz chime with long delicate ring for toast and vow cuts</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">2.8s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/crystal_champagne_ring.wav', 'Crystal Champagne Ring', 'card-s-4')">
-            <svg id="icon-card-s-4" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
-
-      <div class="track-card" id="card-s-5">
-        <div class="track-info">
-          <div class="track-name">Uluwatu Ocean Dusk Swell</div>
-          <div class="track-meta">Atmospheric coastal surf and ocean breeze for cliffside venue scene changes</div>
-        </div>
-        <div class="track-controls">
-          <span class="badge">4.0s</span>
-          <button class="play-btn" onclick="togglePlay('media/audio/ocean_dusk_swell.wav', 'Ocean Dusk Swell', 'card-s-5')">
-            <svg id="icon-card-s-5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-        </div>
-      </div>
+    <div class="track-grid" id="track-list">
+      <!-- Tracks populated via JS -->
     </div>
   </div>
 
-  <div class="now-playing-bar" id="player-bar">
-    <div class="now-playing-info" id="now-title">Playing Track</div>
-    <div class="now-playing-status" id="now-status">PLAYING</div>
+  <!-- Persistent Dock Player -->
+  <div class="player-dock" id="player-dock">
+    <div class="dock-left">
+      <button class="dock-play" id="dock-play-btn">
+        <svg id="dock-play-icon" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+      <div class="dock-meta">
+        <h3 id="dock-title">Select a track</h3>
+        <p id="dock-category">Ready</p>
+      </div>
+    </div>
+    <div class="dock-center">
+      <span class="time-stamp" id="dock-cur-time">0:00</span>
+      <div class="progress-bar-container" id="dock-prog-wrap">
+        <div class="progress-fill" id="dock-prog-fill"></div>
+      </div>
+      <span class="time-stamp" id="dock-dur-time">0:00</span>
+    </div>
+    <div class="dock-right">
+      <svg width="14" height="14" fill="var(--text-dim)" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+      <input type="range" class="vol-slider" id="vol-slider" min="0" max="1" step="0.05" value="0.9">
+    </div>
   </div>
+
+  <audio id="global-audio" preload="auto"></audio>
 
   <script>
-    let currentAudio = null;
-    let currentCardId = null;
+    const TRACKS = [{"filename": "bali_bliss_editorial_beat_swipe.m4a", "title": "Beat Swipe", "category": "Editorial Stems", "description": "9.1s quick cinematic beat transition", "duration_sec": 9.1, "size_kb": 108.9, "path": "media/audio/bali_bliss_editorial_beat_swipe.m4a"}, {"filename": "bali_bliss_editorial_camera_flash_7s.m4a", "title": "Camera Flash Staccato", "category": "Editorial Stems", "description": "7.4s sharp shutter flash cue", "duration_sec": 7.4, "size_kb": 89.5, "path": "media/audio/bali_bliss_editorial_camera_flash_7s.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_2.m4a", "title": "Cello Movement II", "category": "Editorial Stems", "description": "22.8s deep atmospheric cello swell", "duration_sec": 22.8, "size_kb": 706.2, "path": "media/audio/bali_bliss_editorial_cello_movement_2.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_3.m4a", "title": "Cello Movement III", "category": "Editorial Stems", "description": "18.2s slow-bowed low frequency cello", "duration_sec": 18.2, "size_kb": 575.8, "path": "media/audio/bali_bliss_editorial_cello_movement_3.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_4.m4a", "title": "Cello Movement IV", "category": "Editorial Stems", "description": "13.6s rich resonant cello bassline", "duration_sec": 13.6, "size_kb": 425.9, "path": "media/audio/bali_bliss_editorial_cello_movement_4.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_5.m4a", "title": "Cello Movement V", "category": "Editorial Stems", "description": "18.4s cinematic solo cello sustain", "duration_sec": 18.4, "size_kb": 566.3, "path": "media/audio/bali_bliss_editorial_cello_movement_5.m4a"}, {"filename": "bali_bliss_editorial_cinnamon_girl_14s.m4a", "title": "Cinnamon Girl Edit", "category": "Editorial Stems", "description": "14.4s Lana Del Rey wedding edit", "duration_sec": 14.4, "size_kb": 172.8, "path": "media/audio/bali_bliss_editorial_cinnamon_girl_14s.m4a"}, {"filename": "bali_bliss_editorial_deep_cello.wav", "title": "Deep Cello Suite", "category": "Editorial Stems", "description": "16.1s harmonic solo cello motif", "duration_sec": 16.1, "size_kb": 2773.6, "path": "media/audio/bali_bliss_editorial_deep_cello.wav"}, {"filename": "bali_bliss_editorial_dhol_celebration.m4a", "title": "Dhol Celebration", "category": "Editorial Stems", "description": "9.4s festive live Indian dhol rhythm", "duration_sec": 9.4, "size_kb": 112.3, "path": "media/audio/bali_bliss_editorial_dhol_celebration.m4a"}, {"filename": "bali_bliss_editorial_r1_master.m4a", "title": "Editorial Master 1", "category": "Editorial Stems", "description": "7.9s high-impact ceremony opener", "duration_sec": 7.9, "size_kb": 249.6, "path": "media/audio/bali_bliss_editorial_r1_master.m4a"}, {"filename": "bali_bliss_editorial_r2_master.m4a", "title": "Editorial Master 2", "category": "Editorial Stems", "description": "7.4s modern bridal lookbook beat", "duration_sec": 7.4, "size_kb": 200.9, "path": "media/audio/bali_bliss_editorial_r2_master.m4a"}, {"filename": "bali_bliss_editorial_r3_master.m4a", "title": "Editorial Master 3", "category": "Editorial Stems", "description": "9.4s grand reception entrance cue", "duration_sec": 9.4, "size_kb": 295.6, "path": "media/audio/bali_bliss_editorial_r3_master.m4a"}, {"filename": "bali_bliss_editorial_r4_master.m4a", "title": "Editorial Master 4", "category": "Editorial Stems", "description": "7.5s sunset vows highlight bed", "duration_sec": 7.5, "size_kb": 236.6, "path": "media/audio/bali_bliss_editorial_r4_master.m4a"}, {"filename": "bali_bliss_editorial_swipe_cue_7s.m4a", "title": "Editorial Swipe Cue", "category": "Editorial Stems", "description": "7.4s rhythmic swipe transition", "duration_sec": 7.4, "size_kb": 88.6, "path": "media/audio/bali_bliss_editorial_swipe_cue_7s.m4a"}, {"filename": "bali_bliss_editorial_film_pulse.m4a", "title": "Film Pulse", "category": "Editorial Stems", "description": "7.5s 35mm motion reel heartbeat", "duration_sec": 7.5, "size_kb": 90.4, "path": "media/audio/bali_bliss_editorial_film_pulse.m4a"}, {"filename": "bali_bliss_editorial_flash_pulse.m4a", "title": "Flash Pulse", "category": "Editorial Stems", "description": "11.3s runway camera flash pulse", "duration_sec": 11.3, "size_kb": 136.0, "path": "media/audio/bali_bliss_editorial_flash_pulse.m4a"}, {"filename": "bali_bliss_editorial_kigo_reverie_11s.mp3", "title": "Kigo Reverie", "category": "Editorial Stems", "description": "11.1s minimal ambient synth texture", "duration_sec": 11.1, "size_kb": 435.9, "path": "media/audio/bali_bliss_editorial_kigo_reverie_11s.mp3"}, {"filename": "bali_bliss_editorial_magazine_flip_12s.mp3", "title": "Magazine Flip Track", "category": "Editorial Stems", "description": "11.8s rhythmic magazine swipe cue", "duration_sec": 11.8, "size_kb": 462.4, "path": "media/audio/bali_bliss_editorial_magazine_flip_12s.mp3"}, {"filename": "bali_bliss_editorial_magazine_pages.m4a", "title": "Magazine Pages", "category": "Editorial Stems", "description": "11.1s crisp editorial paper flip beat", "duration_sec": 11.8, "size_kb": 144.3, "path": "media/audio/bali_bliss_editorial_magazine_pages.m4a"}, {"filename": "bali_bliss_editorial_sunset_vows_13s.m4a", "title": "Sunset Vows", "category": "Editorial Stems", "description": "12.5s golden hour orchestral strings", "duration_sec": 12.5, "size_kb": 149.4, "path": "media/audio/bali_bliss_editorial_sunset_vows_13s.m4a"}, {"filename": "bali_bliss_editorial_drop_anthem_11s.m4a", "title": "Bliss Drop Anthem", "category": "Instagram Reels", "description": "11.6s high-energy campaign drop audio", "duration_sec": 11.6, "size_kb": 273.1, "path": "media/audio/bali_bliss_editorial_drop_anthem_11s.m4a"}, {"filename": "bali_bliss_editorial_ceremony_reel_10s.m4a", "title": "Ceremony Reel", "category": "Instagram Reels", "description": "10.1s intimate vows live ambience", "duration_sec": 10.1, "size_kb": 212.0, "path": "media/audio/bali_bliss_editorial_ceremony_reel_10s.m4a"}, {"filename": "bali_bliss_editorial_phone_reel_01.m4a", "title": "Instagram Reel 01", "category": "Instagram Reels", "description": "20.0s bridal gown showcase audio", "duration_sec": 20.0, "size_kb": 632.7, "path": "media/audio/bali_bliss_editorial_phone_reel_01.m4a"}, {"filename": "bali_bliss_editorial_phone_reel_02.m4a", "title": "Instagram Reel 02", "category": "Instagram Reels", "description": "11.1s Netta BenShabu couture audio", "duration_sec": 11.1, "size_kb": 376.1, "path": "media/audio/bali_bliss_editorial_phone_reel_02.m4a"}, {"filename": "bali_bliss_editorial_phone_reel_03.m4a", "title": "Instagram Reel 03", "category": "Instagram Reels", "description": "11.5s luxury veil movement audio", "duration_sec": 11.5, "size_kb": 410.8, "path": "media/audio/bali_bliss_editorial_phone_reel_03.m4a"}, {"filename": "bali_bliss_editorial_phone_reel_04.m4a", "title": "Instagram Reel 04", "category": "Instagram Reels", "description": "11.8s cliffside sunset ceremony audio", "duration_sec": 11.8, "size_kb": 485.7, "path": "media/audio/bali_bliss_editorial_phone_reel_04.m4a"}, {"filename": "bali_bliss_editorial_phone_reel_05.m4a", "title": "Instagram Reel 05", "category": "Instagram Reels", "description": "12.0s table design & florals audio", "duration_sec": 12.0, "size_kb": 437.1, "path": "media/audio/bali_bliss_editorial_phone_reel_05.m4a"}, {"filename": "film_shutter_snap.wav", "title": "35mm Shutter Snap", "category": "Sound Effects", "description": "0.5s mechanical Leica M6 click", "duration_sec": 0.5, "size_kb": 77.6, "path": "media/audio/film_shutter_snap.wav"}, {"filename": "ceremony_string_swell.wav", "title": "Ceremony String Swell", "category": "Sound Effects", "description": "9.0s warm analog string chamber", "duration_sec": 9.0, "size_kb": 1550.4, "path": "media/audio/ceremony_string_swell.wav"}, {"filename": "crystal_champagne_ring.wav", "title": "Crystal Champagne Ring", "category": "Sound Effects", "description": "2.8s pure resonant glass toast", "duration_sec": 2.8, "size_kb": 482.4, "path": "media/audio/crystal_champagne_ring.wav"}, {"filename": "linen_page_flutter.wav", "title": "Linen Page Flutter", "category": "Sound Effects", "description": "0.8s tactile cotton paper turn", "duration_sec": 0.8, "size_kb": 129.2, "path": "media/audio/linen_page_flutter.wav"}, {"filename": "ocean_dusk_swell.wav", "title": "Ocean Dusk Swell", "category": "Sound Effects", "description": "4.0s Uluwatu cliff tide swell", "duration_sec": 4.0, "size_kb": 689.1, "path": "media/audio/ocean_dusk_swell.wav"}, {"filename": "ubud_sanctuary_marimba.wav", "title": "Ubud Sanctuary Marimba", "category": "Sound Effects", "description": "8.0s acoustic bamboo marimba motif", "duration_sec": 8.0, "size_kb": 1378.2, "path": "media/audio/ubud_sanctuary_marimba.wav"}, {"filename": "velvet_sub_pulse.wav", "title": "Velvet Sub Pulse", "category": "Sound Effects", "description": "1.8s 55Hz warm cinematic bass drop", "duration_sec": 1.8, "size_kb": 310.1, "path": "media/audio/velvet_sub_pulse.wav"}, {"filename": "bali_bliss_editorial_acoustic_romance_32s.mp3", "title": "Acoustic Romance", "category": "Soundtracks", "description": "32.0s acoustic guitar & romantic strings", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_acoustic_romance_32s.mp3"}, {"filename": "bali_bliss_editorial_f_minor_soundtrack_78s.m4a", "title": "Bali F-Minor Soundtrack", "category": "Soundtracks", "description": "78.0s cinematic Bali luxury theme", "duration_sec": 78.0, "size_kb": 2423.1, "path": "media/audio/bali_bliss_editorial_f_minor_soundtrack_78s.m4a"}, {"filename": "bali_bliss_editorial_golden_hour_piano_32s.mp3", "title": "Golden Hour Piano", "category": "Soundtracks", "description": "32.0s warm grand piano sunset ballad", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_golden_hour_piano_32s.mp3"}, {"filename": "bali_bliss_editorial_runway_crescendo_32s.mp3", "title": "Runway Crescendo", "category": "Soundtracks", "description": "32.0s bridal fashion runway build-up", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_runway_crescendo_32s.mp3"}, {"filename": "uluwatu_sunset_piano.wav", "title": "Uluwatu Sunset Piano", "category": "Soundtracks", "description": "10.0s peaceful cliffside piano reverie", "duration_sec": 10.0, "size_kb": 1722.7, "path": "media/audio/uluwatu_sunset_piano.wav"}];
+    let currentTrackIndex = -1;
+    let isPlaying = false;
+    let activeFilter = "all";
+    let searchQuery = "";
 
-    const playIcon = '<path d="M8 5v14l11-7z"/>';
-    const pauseIcon = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+    const audio = document.getElementById("global-audio");
+    const trackListEl = document.getElementById("track-list");
+    const dockPlayBtn = document.getElementById("dock-play-btn");
+    const dockPlayIcon = document.getElementById("dock-play-icon");
+    const dockTitle = document.getElementById("dock-title");
+    const dockCategory = document.getElementById("dock-category");
+    const dockCurTime = document.getElementById("dock-cur-time");
+    const dockDurTime = document.getElementById("dock-dur-time");
+    const dockProgWrap = document.getElementById("dock-prog-wrap");
+    const dockProgFill = document.getElementById("dock-prog-fill");
+    const volSlider = document.getElementById("vol-slider");
+    const searchBox = document.getElementById("search-box");
+    const tabBtns = document.querySelectorAll(".tab-btn");
 
-    function togglePlay(src, title, cardId) {
-      const playerBar = document.getElementById('player-bar');
-      const nowTitle = document.getElementById('now-title');
-      const nowStatus = document.getElementById('now-status');
-
-      if (currentAudio && currentCardId === cardId) {
-        if (!currentAudio.paused) {
-          currentAudio.pause();
-          document.getElementById('icon-' + cardId).innerHTML = playIcon;
-          document.getElementById(cardId).classList.remove('active');
-          nowStatus.textContent = 'PAUSED';
-          return;
-        } else {
-          currentAudio.play();
-          document.getElementById('icon-' + cardId).innerHTML = pauseIcon;
-          document.getElementById(cardId).classList.add('active');
-          nowStatus.textContent = 'PLAYING';
-          return;
-        }
-      }
-
-      if (currentAudio) {
-        currentAudio.pause();
-        if (currentCardId) {
-          document.getElementById('icon-' + currentCardId).innerHTML = playIcon;
-          document.getElementById(currentCardId).classList.remove('active');
-        }
-      }
-
-      currentAudio = new Audio(src);
-      currentCardId = cardId;
-      document.getElementById('icon-' + cardId).innerHTML = pauseIcon;
-      document.getElementById(cardId).classList.add('active');
-
-      nowTitle.textContent = title;
-      nowStatus.textContent = 'PLAYING';
-      playerBar.style.display = 'flex';
-
-      currentAudio.play().catch(e => console.error("Playback error:", e));
-
-      currentAudio.onended = () => {
-        document.getElementById('icon-' + cardId).innerHTML = playIcon;
-        document.getElementById(cardId).classList.remove('active');
-        playerBar.style.display = 'none';
-      };
+    function formatTime(secs) {
+      if (!secs || isNaN(secs)) return "0:00";
+      const m = Math.floor(secs / 60);
+      const s = Math.floor(secs % 60);
+      return m + ":" + (s < 10 ? "0" : "") + s;
     }
+
+    function renderTracks() {
+      trackListEl.innerHTML = "";
+      const filtered = TRACKS.filter((t, idx) => {
+        const matchesCat = activeFilter === "all" || t.category === activeFilter;
+        const matchesSearch = !searchQuery || t.title.toLowerCase().includes(searchQuery) || (t.description && t.description.toLowerCase().includes(searchQuery));
+        return matchesCat && matchesSearch;
+      });
+
+      filtered.forEach((t) => {
+        const originalIndex = TRACKS.indexOf(t);
+        const isActive = originalIndex === currentTrackIndex;
+        const isThisPlaying = isActive && isPlaying;
+
+        const card = document.createElement("div");
+        card.className = "track-card" + (isActive ? " active" : "") + (isThisPlaying ? " playing" : "");
+        card.onclick = () => playTrack(originalIndex);
+
+        card.innerHTML = `
+          <div class="track-left">
+            <button class="play-btn" onclick="event.stopPropagation(); playTrack(${originalIndex});">
+              ${isThisPlaying ? 
+                `<svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>` : 
+                `<svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>`}
+            </button>
+            <div class="track-info">
+              <div class="track-title">${t.title}</div>
+              <div class="track-desc">${t.description || ""}</div>
+            </div>
+          </div>
+          <div class="track-right">
+            <div class="eq-wave">
+              <div class="eq-bar"></div><div class="eq-bar"></div><div class="eq-bar"></div>
+            </div>
+            <span class="badge">${t.category}</span>
+            <span class="duration">${formatTime(t.duration_sec)}</span>
+          </div>
+        `;
+        trackListEl.appendChild(card);
+      });
+    }
+
+    function playTrack(idx) {
+      if (currentTrackIndex === idx) {
+        if (isPlaying) {
+          audio.pause();
+        } else {
+          audio.play();
+        }
+        return;
+      }
+
+      currentTrackIndex = idx;
+      const t = TRACKS[idx];
+      audio.src = t.path;
+      dockTitle.textContent = t.title;
+      dockCategory.textContent = t.category + " · " + (t.description || "");
+      dockDurTime.textContent = formatTime(t.duration_sec);
+      audio.play().catch(e => console.log("Autoplay blocked:", e));
+      renderTracks();
+    }
+
+    audio.onplay = () => {
+      isPlaying = true;
+      dockPlayIcon.innerHTML = `<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>`;
+      renderTracks();
+    };
+
+    audio.onpause = () => {
+      isPlaying = false;
+      dockPlayIcon.innerHTML = `<path d="M8 5v14l11-7z"/>`;
+      renderTracks();
+    };
+
+    audio.ontimeupdate = () => {
+      dockCurTime.textContent = formatTime(audio.currentTime);
+      const pct = (audio.currentTime / audio.duration) * 100 || 0;
+      dockProgFill.style.width = pct + "%";
+    };
+
+    audio.onended = () => {
+      // Play next in tracklist
+      if (currentTrackIndex < TRACKS.length - 1) {
+        playTrack(currentTrackIndex + 1);
+      } else {
+        isPlaying = false;
+        dockPlayIcon.innerHTML = `<path d="M8 5v14l11-7z"/>`;
+        renderTracks();
+      }
+    };
+
+    dockPlayBtn.onclick = () => {
+      if (currentTrackIndex === -1) {
+        playTrack(0);
+      } else {
+        if (isPlaying) audio.pause();
+        else audio.play();
+      }
+    };
+
+    dockProgWrap.onclick = (e) => {
+      const rect = dockProgWrap.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const ratio = clickX / rect.width;
+      audio.currentTime = ratio * audio.duration;
+    };
+
+    volSlider.oninput = () => {
+      audio.volume = volSlider.value;
+    };
+
+    tabBtns.forEach(btn => {
+      btn.onclick = () => {
+        tabBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        activeFilter = btn.dataset.cat;
+        renderTracks();
+      };
+    });
+
+    searchBox.oninput = (e) => {
+      searchQuery = e.target.value.toLowerCase().trim();
+      renderTracks();
+    };
+
+    // Spacebar to pause/play
+    window.addEventListener("keydown", (e) => {
+      if (e.target.tagName === "INPUT") return;
+      if (e.code === "Space") {
+        e.preventDefault();
+        dockPlayBtn.click();
+      }
+    });
+
+    renderTracks();
   </script>
 </body>
 </html>
