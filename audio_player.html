@@ -6,96 +6,118 @@
   <title>Bali Bliss — Editorial Audio Suite</title>
   <style>
     :root {
-      --bg: #0b0c0e;
+      --bg: #0a0b0d;
       --card-bg: #131518;
       --card-border: #1f2328;
-      --card-hover: #292e35;
+      --card-hover: #2d333b;
+      --accent: #c5a880;
+      --accent-dim: rgba(197, 168, 128, 0.15);
       --text-main: #f0f2f5;
-      --text-dim: #7d8590;
-      --accent: #d4af37;
-      --accent-dim: rgba(212, 175, 55, 0.12);
-      --accent-glow: rgba(212, 175, 55, 0.25);
-      --badge-bg: #1c2024;
+      --text-dim: #8b929a;
+      --badge-bg: #1a1e24;
+      --danger: #ff6b6b;
+      --danger-dim: rgba(255, 107, 107, 0.12);
+      --danger-border: rgba(255, 107, 107, 0.3);
+      --success: #4ade80;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     body {
-      background-color: var(--bg);
+      background: var(--bg);
       color: var(--text-main);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      padding: 48px 24px 140px 24px;
-      line-height: 1.5;
+      padding-bottom: 120px;
+      -webkit-font-smoothing: antialiased;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1040px;
       margin: 0 auto;
+      padding: 40px 24px;
     }
 
+    /* Header */
     header {
       margin-bottom: 32px;
     }
 
     .kicker {
       font-size: 11px;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
-      letter-spacing: 2px;
       color: var(--accent);
       margin-bottom: 8px;
       font-weight: 600;
     }
 
     h1 {
-      font-size: 32px;
-      font-weight: 400;
-      letter-spacing: -0.5px;
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
       margin-bottom: 8px;
     }
 
     .subtitle {
       color: var(--text-dim);
-      font-size: 15px;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 20px;
     }
 
     .stats-bar {
       display: flex;
-      gap: 24px;
-      margin-top: 20px;
-      padding-top: 16px;
-      border-top: 1px solid var(--card-border);
-      font-size: 13px;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 12px 18px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      font-size: 12px;
       color: var(--text-dim);
     }
 
     .stats-bar span {
       color: var(--text-main);
       font-weight: 600;
+      margin-left: 4px;
+    }
+
+    .stat-badge-active {
+      color: var(--success) !important;
+    }
+
+    .stat-badge-deleted {
+      color: var(--danger) !important;
     }
 
     /* Filter & Search Bar */
     .controls {
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
       align-items: center;
       justify-content: space-between;
+      gap: 12px;
       margin-bottom: 24px;
     }
 
     .tabs {
       display: flex;
-      gap: 6px;
       flex-wrap: wrap;
+      gap: 8px;
     }
 
     .tab-btn {
-      background: var(--card-bg);
+      background: transparent;
       border: 1px solid var(--card-border);
       color: var(--text-dim);
-      padding: 7px 14px;
+      padding: 6px 14px;
       border-radius: 20px;
-      font-size: 13px;
+      font-size: 12px;
       cursor: pointer;
       transition: all 0.2s ease;
     }
@@ -110,6 +132,12 @@
       border-color: var(--accent);
       color: var(--accent);
       font-weight: 600;
+    }
+
+    .tab-btn.tab-deleted.active {
+      background: var(--danger-dim);
+      border-color: var(--danger);
+      color: var(--danger);
     }
 
     .search-input {
@@ -128,7 +156,7 @@
       border-color: var(--accent);
     }
 
-    /* Track List */
+    /* Track List Grid */
     .track-grid {
       display: flex;
       flex-direction: column;
@@ -143,7 +171,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      transition: border-color 0.2s ease, background 0.2s ease;
+      transition: border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
       cursor: pointer;
     }
 
@@ -155,6 +183,23 @@
     .track-card.active {
       border-color: var(--accent);
       background: var(--accent-dim);
+    }
+
+    /* Marked deleted card styling */
+    .track-card.is-deleted {
+      opacity: 0.42;
+      border-color: var(--danger-border);
+      background: rgba(255, 107, 107, 0.03);
+    }
+
+    .track-card.is-deleted:hover {
+      opacity: 0.85;
+      border-color: var(--danger);
+    }
+
+    .track-card.is-deleted .track-title {
+      text-decoration: line-through;
+      color: var(--text-dim);
     }
 
     .track-left {
@@ -192,14 +237,14 @@
     }
 
     .track-info {
-      flex: 1;
       min-width: 0;
+      flex: 1;
     }
 
     .track-title {
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 500;
-      margin-bottom: 2px;
+      margin-bottom: 3px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -216,7 +261,7 @@
     .track-right {
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 14px;
       flex-shrink: 0;
       margin-left: 16px;
     }
@@ -230,12 +275,50 @@
       font-weight: 500;
     }
 
+    .badge-deleted {
+      background: var(--danger-dim);
+      color: var(--danger);
+      border: 1px solid var(--danger-border);
+    }
+
     .duration {
       font-size: 13px;
       color: var(--text-dim);
       font-variant-numeric: tabular-nums;
-      min-width: 42px;
+      min-width: 38px;
       text-align: right;
+    }
+
+    /* Action button: delete / restore */
+    .action-btn {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--text-dim);
+      padding: 5px 9px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .action-btn:hover {
+      border-color: var(--danger);
+      color: var(--danger);
+      background: var(--danger-dim);
+    }
+
+    .action-btn.btn-restore {
+      border-color: var(--accent-dim);
+      color: var(--accent);
+      background: var(--accent-dim);
+    }
+
+    .action-btn.btn-restore:hover {
+      border-color: var(--accent);
+      background: rgba(197, 168, 128, 0.25);
     }
 
     /* Equalizer wave icon */
@@ -270,30 +353,25 @@
     /* Persistent Bottom Player */
     .player-dock {
       position: fixed;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: calc(100% - 40px);
-      max-width: 880px;
-      background: rgba(19, 21, 24, 0.94);
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 72px;
+      background: rgba(19, 21, 24, 0.95);
       backdrop-filter: blur(16px);
-      border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 14px 22px;
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+      border-top: 1px solid var(--card-border);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 20px;
-      z-index: 100;
+      padding: 0 28px;
+      z-index: 1000;
     }
 
     .dock-left {
       display: flex;
       align-items: center;
       gap: 14px;
-      min-width: 200px;
-      flex: 1;
+      width: 280px;
     }
 
     .dock-play {
@@ -301,32 +379,41 @@
       height: 44px;
       border-radius: 50%;
       background: var(--accent);
-      color: #000;
       border: none;
+      color: #000;
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
       flex-shrink: 0;
+      transition: transform 0.15s ease;
+    }
+
+    .dock-play:hover {
+      transform: scale(1.05);
     }
 
     .dock-meta h3 {
       font-size: 14px;
-      font-weight: 500;
-      margin-bottom: 2px;
+      font-weight: 600;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      max-width: 240px;
+      max-width: 210px;
     }
 
     .dock-meta p {
-      font-size: 12px;
+      font-size: 11px;
       color: var(--text-dim);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 210px;
     }
 
     .dock-center {
-      flex: 2;
+      flex: 1;
+      max-width: 520px;
       display: flex;
       align-items: center;
       gap: 12px;
@@ -335,18 +422,17 @@
     .progress-bar-container {
       flex: 1;
       height: 4px;
-      background: #2a2e34;
+      background: #252a31;
       border-radius: 2px;
       cursor: pointer;
       position: relative;
     }
 
     .progress-fill {
+      width: 0%;
       height: 100%;
       background: var(--accent);
       border-radius: 2px;
-      width: 0%;
-      transition: width 0.1s linear;
     }
 
     .time-stamp {
@@ -368,6 +454,34 @@
       accent-color: var(--accent);
       cursor: pointer;
     }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      top: 24px;
+      right: 24px;
+      background: #1d2126;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transform: translateY(-20px);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.25s ease;
+      z-index: 2000;
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
   </style>
 </head>
 <body>
@@ -378,26 +492,25 @@
       <h1>Editorial Audio Suite</h1>
       <p class="subtitle">Curated wedding soundtracks, Instagram reel cuts, editorial cello movements, and sound cues</p>
       <div class="stats-bar">
-        <div>Total Audio Tracks: <span id="total-count">37</span></div>
-        <div>Continuous Soundtracks: <span>13</span></div>
-        <div>Editorial Stems: <span>14</span></div>
-        <div>Instagram Reels: <span>3</span></div>
-        <div>Sound Effects: <span>7</span></div>
-      </div>
-        <div>Continuous Soundtracks: <span>13</span></div>
-        <div>Editorial Stems: <span>21</span></div>
-        <div>Instagram Reels & Drops: <span>10</span></div>
-        <div>Sound Effects: <span>7</span></div>
+        <div>Total: <span id="stat-total">37</span></div>
+        <div>Active: <span id="stat-active" class="stat-badge-active">37</span></div>
+        <div>Marked Deleted: <span id="stat-deleted" class="stat-badge-deleted">0</span></div>
+        <div>Soundtracks: <span id="stat-soundtracks">13</span></div>
+        <div>Editorial Stems: <span id="stat-stems">14</span></div>
+        <div>Instagram Reels: <span id="stat-reels">3</span></div>
+        <div>Sound Effects: <span id="stat-sfx">7</span></div>
       </div>
     </header>
 
     <div class="controls">
-      <div class="tabs">
-        <button class="tab-btn active" data-cat="all">All (37)</button>
+      <div class="tabs" id="filter-tabs">
+        <button class="tab-btn active" data-cat="all">All (<span id="tab-all-count">37</span>)</button>
+        <button class="tab-btn" data-cat="active">Active (<span id="tab-active-count">37</span>)</button>
         <button class="tab-btn" data-cat="Soundtracks">Soundtracks (13)</button>
         <button class="tab-btn" data-cat="Editorial Stems">Editorial Stems (14)</button>
         <button class="tab-btn" data-cat="Instagram Reels">Instagram Reels (3)</button>
         <button class="tab-btn" data-cat="Sound Effects">Sound Effects (7)</button>
+        <button class="tab-btn tab-deleted" data-cat="deleted">Marked Deleted (<span id="tab-deleted-count">0</span>)</button>
       </div>
       <input type="text" class="search-input" id="search-box" placeholder="Filter audio by name or category...">
     </div>
@@ -431,10 +544,11 @@
     </div>
   </div>
 
+  <div class="toast" id="toast-el">Track status updated</div>
   <audio id="global-audio" preload="auto"></audio>
 
   <script>
-    const TRACKS = [{"filename": "bali_bliss_editorial_acoustic_romance_32s.mp3", "title": "Acoustic Romance", "category": "Soundtracks", "description": "32.0s acoustic guitar & romantic strings", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_acoustic_romance_32s.mp3"}, {"filename": "bali_bliss_editorial_beat_swipe.m4a", "title": "Beat Swipe", "category": "Editorial Stems", "description": "9.1s clean rhythmic swipe transition", "duration_sec": 9.1, "size_kb": 108.9, "path": "media/audio/bali_bliss_editorial_beat_swipe.m4a"}, {"filename": "bali_bliss_editorial_beloved_romance_32s.mp3", "title": "Beloved Romance Ballad", "category": "Soundtracks", "description": "32.0s vintage romantic bridal ballad", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_beloved_romance_32s.mp3"}, {"filename": "bali_bliss_editorial_cello_cue_20s.mp3", "title": "Cello Atmosphere Cue", "category": "Editorial Stems", "description": "20.0s atmospheric cello scene transition", "duration_sec": 20.0, "size_kb": 783.8, "path": "media/audio/bali_bliss_editorial_cello_cue_20s.mp3"}, {"filename": "bali_bliss_editorial_cello_master_full_182s.mp3", "title": "Solitary Cello Suite", "category": "Soundtracks", "description": "182.2s full 3-minute solo cello symphony", "duration_sec": 182.2, "size_kb": 3695.3, "path": "media/audio/bali_bliss_editorial_cello_master_full_182s.mp3"}, {"filename": "bali_bliss_editorial_cello_movement_2.m4a", "title": "Cello Bowed Swell", "category": "Editorial Stems", "description": "22.8s deep atmospheric cello swell", "duration_sec": 22.8, "size_kb": 706.2, "path": "media/audio/bali_bliss_editorial_cello_movement_2.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_3.m4a", "title": "Cello Low Resonance", "category": "Editorial Stems", "description": "18.2s slow-bowed low frequency cello", "duration_sec": 18.2, "size_kb": 575.8, "path": "media/audio/bali_bliss_editorial_cello_movement_3.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_4.m4a", "title": "Cello Resonant Cadence", "category": "Editorial Stems", "description": "13.6s rich resonant cello bassline", "duration_sec": 13.6, "size_kb": 425.9, "path": "media/audio/bali_bliss_editorial_cello_movement_4.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_5.m4a", "title": "Cello Sustained Bow", "category": "Editorial Stems", "description": "18.4s cinematic solo cello sustain", "duration_sec": 18.4, "size_kb": 566.3, "path": "media/audio/bali_bliss_editorial_cello_movement_5.m4a"}, {"filename": "bali_bliss_editorial_deep_cello.wav", "title": "Deep Cello Suite", "category": "Editorial Stems", "description": "16.1s harmonic solo cello motif", "duration_sec": 16.1, "size_kb": 2773.6, "path": "media/audio/bali_bliss_editorial_deep_cello.wav"}, {"filename": "bali_bliss_editorial_dhol_celebration.m4a", "title": "Celebration Pulse", "category": "Editorial Stems", "description": "9.4s festive live Indian dhol rhythm", "duration_sec": 9.4, "size_kb": 112.3, "path": "media/audio/bali_bliss_editorial_dhol_celebration.m4a"}, {"filename": "bali_bliss_editorial_dream_dress_7s.m4a", "title": "Couture Dress Reveal", "category": "Instagram Reels", "description": "6.8s couture gown reveal staccato cue", "duration_sec": 6.8, "size_kb": 59.5, "path": "media/audio/bali_bliss_editorial_dream_dress_7s.m4a"}, {"filename": "bali_bliss_editorial_elysian_strings_32s.mp3", "title": "Elysian Chamber Strings", "category": "Soundtracks", "description": "32.0s lush acoustic chamber string arrangement", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_elysian_strings_32s.mp3"}, {"filename": "bali_bliss_editorial_f_minor_soundtrack_78s.m4a", "title": "Bali F-Minor Soundtrack", "category": "Soundtracks", "description": "78.0s cinematic Bali luxury theme", "duration_sec": 78.0, "size_kb": 2423.1, "path": "media/audio/bali_bliss_editorial_f_minor_soundtrack_78s.m4a"}, {"filename": "bali_bliss_editorial_film_pulse.m4a", "title": "Film Rhythm Pulse", "category": "Editorial Stems", "description": "7.5s 35mm motion reel heartbeat", "duration_sec": 7.5, "size_kb": 90.4, "path": "media/audio/bali_bliss_editorial_film_pulse.m4a"}, {"filename": "bali_bliss_editorial_flash_pulse.m4a", "title": "Flash Rhythm Pulse", "category": "Editorial Stems", "description": "11.3s runway camera flash pulse", "duration_sec": 11.3, "size_kb": 136.0, "path": "media/audio/bali_bliss_editorial_flash_pulse.m4a"}, {"filename": "bali_bliss_editorial_french_riviera_jazz_32s.mp3", "title": "French Riviera Jazz", "category": "Soundtracks", "description": "32.0s chic cocktail hour jazz groove", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_french_riviera_jazz_32s.mp3"}, {"filename": "bali_bliss_editorial_golden_hour_piano_32s.mp3", "title": "Golden Hour Piano", "category": "Soundtracks", "description": "32.0s warm grand piano sunset ballad", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_golden_hour_piano_32s.mp3"}, {"filename": "bali_bliss_editorial_golden_reverie_14s.m4a", "title": "Golden Reverie Accent", "category": "Editorial Stems", "description": "14.4s golden hour romantic acoustic swell", "duration_sec": 14.4, "size_kb": 172.8, "path": "media/audio/bali_bliss_editorial_golden_reverie_14s.m4a"}, {"filename": "bali_bliss_editorial_golden_sunset_groove_32s.mp3", "title": "Golden Sunset Groove", "category": "Soundtracks", "description": "32.0s warm coastal guitar sunset groove", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_golden_sunset_groove_32s.mp3"}, {"filename": "bali_bliss_editorial_kigo_reverie_11s.mp3", "title": "Kigo Reverie Cue", "category": "Editorial Stems", "description": "11.1s minimal ambient synth texture", "duration_sec": 11.1, "size_kb": 435.9, "path": "media/audio/bali_bliss_editorial_kigo_reverie_11s.mp3"}, {"filename": "bali_bliss_editorial_lumina_piano_32s.mp3", "title": "Lumina Grand Piano", "category": "Soundtracks", "description": "32.0s neoclassical grand piano bridal processional", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_lumina_piano_32s.mp3"}, {"filename": "bali_bliss_editorial_magazine_pages.m4a", "title": "Magazine Turn Cue", "category": "Editorial Stems", "description": "11.8s crisp editorial paper flip beat", "duration_sec": 11.8, "size_kb": 144.3, "path": "media/audio/bali_bliss_editorial_magazine_pages.m4a"}, {"filename": "bali_bliss_editorial_rakai_bali_vows_26s.m4a", "title": "Uluwatu Ocean Vows", "category": "Instagram Reels", "description": "26.1s authentic Bali cliffside prewedding acoustic guitar & strings", "duration_sec": 26.1, "size_kb": 196.7, "path": "media/audio/bali_bliss_editorial_rakai_bali_vows_26s.m4a"}, {"filename": "bali_bliss_editorial_romance_sculptee_14s.m4a", "title": "Sculpted Romance Runway", "category": "Instagram Reels", "description": "13.8s modern bridal runway theme", "duration_sec": 13.8, "size_kb": 119.9, "path": "media/audio/bali_bliss_editorial_romance_sculptee_14s.m4a"}, {"filename": "bali_bliss_editorial_runway_crescendo_32s.mp3", "title": "Runway Crescendo", "category": "Soundtracks", "description": "32.0s bridal fashion runway build-up", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_runway_crescendo_32s.mp3"}, {"filename": "bali_bliss_editorial_sunset_chill_32s.mp3", "title": "Bali Sunset Chill", "category": "Soundtracks", "description": "32.0s golden hour lo-fi acoustic sunset bed", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_sunset_chill_32s.mp3"}, {"filename": "bali_bliss_editorial_sunset_vows_13s.m4a", "title": "Sunset Vows Accent", "category": "Editorial Stems", "description": "12.5s golden hour orchestral strings", "duration_sec": 12.5, "size_kb": 149.4, "path": "media/audio/bali_bliss_editorial_sunset_vows_13s.m4a"}, {"filename": "bali_bliss_editorial_ubud_rainforest_32s.mp3", "title": "Ubud Rainforest Ambient", "category": "Soundtracks", "description": "32.0s morning tropical birds & river ambience", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_ubud_rainforest_32s.mp3"}, {"filename": "ceremony_string_swell.wav", "title": "Ceremony String Swell", "category": "Sound Effects", "description": "9.0s warm analog string chamber", "duration_sec": 9.0, "size_kb": 1550.4, "path": "media/audio/ceremony_string_swell.wav"}, {"filename": "crystal_champagne_ring.wav", "title": "Crystal Champagne Ring", "category": "Sound Effects", "description": "2.8s pure resonant glass toast", "duration_sec": 2.8, "size_kb": 482.4, "path": "media/audio/crystal_champagne_ring.wav"}, {"filename": "film_shutter_snap.wav", "title": "Film Shutter Snap", "category": "Sound Effects", "description": "0.5s mechanical 35mm shutter click", "duration_sec": 0.5, "size_kb": 77.6, "path": "media/audio/film_shutter_snap.wav"}, {"filename": "linen_page_flutter.wav", "title": "Linen Page Flutter", "category": "Sound Effects", "description": "0.8s tactile cotton paper turn", "duration_sec": 0.8, "size_kb": 129.2, "path": "media/audio/linen_page_flutter.wav"}, {"filename": "ocean_dusk_swell.wav", "title": "Ocean Dusk Swell", "category": "Sound Effects", "description": "4.0s Uluwatu cliff tide swell", "duration_sec": 4.0, "size_kb": 689.1, "path": "media/audio/ocean_dusk_swell.wav"}, {"filename": "ubud_sanctuary_marimba.wav", "title": "Ubud Sanctuary Marimba", "category": "Sound Effects", "description": "8.0s acoustic bamboo marimba motif", "duration_sec": 8.0, "size_kb": 1378.2, "path": "media/audio/ubud_sanctuary_marimba.wav"}, {"filename": "uluwatu_sunset_piano.wav", "title": "Uluwatu Sunset Piano", "category": "Soundtracks", "description": "10.0s peaceful cliffside piano reverie", "duration_sec": 10.0, "size_kb": 1722.7, "path": "media/audio/uluwatu_sunset_piano.wav"}, {"filename": "velvet_sub_pulse.wav", "title": "Velvet Sub Pulse", "category": "Sound Effects", "description": "1.8s 55Hz warm cinematic bass drop", "duration_sec": 1.8, "size_kb": 310.1, "path": "media/audio/velvet_sub_pulse.wav"}];
+    const TRACKS = [{"filename": "bali_bliss_editorial_acoustic_romance_32s.mp3", "title": "Acoustic Romance", "category": "Soundtracks", "description": "32.0s acoustic guitar & romantic strings", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_acoustic_romance_32s.mp3"}, {"filename": "bali_bliss_editorial_beat_swipe.m4a", "title": "Beat Swipe", "category": "Editorial Stems", "description": "9.1s clean rhythmic swipe transition", "duration_sec": 9.1, "size_kb": 108.9, "path": "media/audio/bali_bliss_editorial_beat_swipe.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_beloved_romance_32s.mp3", "title": "Beloved Romance Ballad", "category": "Soundtracks", "description": "32.0s vintage romantic bridal ballad", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_beloved_romance_32s.mp3"}, {"filename": "bali_bliss_editorial_cello_cue_20s.mp3", "title": "Cello Atmosphere Cue", "category": "Editorial Stems", "description": "20.0s atmospheric cello scene transition", "duration_sec": 20.0, "size_kb": 783.8, "path": "media/audio/bali_bliss_editorial_cello_cue_20s.mp3"}, {"filename": "bali_bliss_editorial_cello_master_full_182s.mp3", "title": "Solitary Cello Suite", "category": "Soundtracks", "description": "182.2s full 3-minute solo cello symphony", "duration_sec": 182.2, "size_kb": 3695.3, "path": "media/audio/bali_bliss_editorial_cello_master_full_182s.mp3"}, {"filename": "bali_bliss_editorial_cello_movement_2.m4a", "title": "Cello Bowed Swell", "category": "Editorial Stems", "description": "22.8s deep atmospheric cello swell", "duration_sec": 22.8, "size_kb": 706.2, "path": "media/audio/bali_bliss_editorial_cello_movement_2.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_3.m4a", "title": "Cello Low Resonance", "category": "Editorial Stems", "description": "18.2s slow-bowed low frequency cello", "duration_sec": 18.2, "size_kb": 575.8, "path": "media/audio/bali_bliss_editorial_cello_movement_3.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_4.m4a", "title": "Cello Resonant Cadence", "category": "Editorial Stems", "description": "13.6s rich resonant cello bassline", "duration_sec": 13.6, "size_kb": 425.9, "path": "media/audio/bali_bliss_editorial_cello_movement_4.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_5.m4a", "title": "Cello Sustained Bow", "category": "Editorial Stems", "description": "18.4s cinematic solo cello sustain", "duration_sec": 18.4, "size_kb": 566.3, "path": "media/audio/bali_bliss_editorial_cello_movement_5.m4a"}, {"filename": "bali_bliss_editorial_deep_cello.wav", "title": "Deep Cello Suite", "category": "Editorial Stems", "description": "16.1s harmonic solo cello motif", "duration_sec": 16.1, "size_kb": 2773.6, "path": "media/audio/bali_bliss_editorial_deep_cello.wav"}, {"filename": "bali_bliss_editorial_dhol_celebration.m4a", "title": "Celebration Pulse", "category": "Editorial Stems", "description": "9.4s festive live Indian dhol rhythm", "duration_sec": 9.4, "size_kb": 112.3, "path": "media/audio/bali_bliss_editorial_dhol_celebration.m4a"}, {"filename": "bali_bliss_editorial_dream_dress_7s.m4a", "title": "Couture Dress Reveal", "category": "Instagram Reels", "description": "6.8s couture gown reveal staccato cue", "duration_sec": 6.8, "size_kb": 59.5, "path": "media/audio/bali_bliss_editorial_dream_dress_7s.m4a"}, {"filename": "bali_bliss_editorial_elysian_strings_32s.mp3", "title": "Elysian Chamber Strings", "category": "Soundtracks", "description": "32.0s lush acoustic chamber string arrangement", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_elysian_strings_32s.mp3"}, {"filename": "bali_bliss_editorial_f_minor_soundtrack_78s.m4a", "title": "Bali F-Minor Soundtrack", "category": "Soundtracks", "description": "78.0s cinematic Bali luxury theme", "duration_sec": 78.0, "size_kb": 2423.1, "path": "media/audio/bali_bliss_editorial_f_minor_soundtrack_78s.m4a"}, {"filename": "bali_bliss_editorial_film_pulse.m4a", "title": "Film Rhythm Pulse", "category": "Editorial Stems", "description": "7.5s 35mm motion reel heartbeat", "duration_sec": 7.5, "size_kb": 90.4, "path": "media/audio/bali_bliss_editorial_film_pulse.m4a"}, {"filename": "bali_bliss_editorial_flash_pulse.m4a", "title": "Flash Rhythm Pulse", "category": "Editorial Stems", "description": "11.3s runway camera flash pulse", "duration_sec": 11.3, "size_kb": 136.0, "path": "media/audio/bali_bliss_editorial_flash_pulse.m4a"}, {"filename": "bali_bliss_editorial_french_riviera_jazz_32s.mp3", "title": "French Riviera Jazz", "category": "Soundtracks", "description": "32.0s chic cocktail hour jazz groove", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_french_riviera_jazz_32s.mp3"}, {"filename": "bali_bliss_editorial_golden_hour_piano_32s.mp3", "title": "Golden Hour Piano", "category": "Soundtracks", "description": "32.0s warm grand piano sunset ballad", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_golden_hour_piano_32s.mp3"}, {"filename": "bali_bliss_editorial_golden_reverie_14s.m4a", "title": "Golden Reverie Accent", "category": "Editorial Stems", "description": "14.4s golden hour romantic acoustic swell", "duration_sec": 14.4, "size_kb": 172.8, "path": "media/audio/bali_bliss_editorial_golden_reverie_14s.m4a"}, {"filename": "bali_bliss_editorial_golden_sunset_groove_32s.mp3", "title": "Golden Sunset Groove", "category": "Soundtracks", "description": "32.0s warm coastal guitar sunset groove", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_golden_sunset_groove_32s.mp3"}, {"filename": "bali_bliss_editorial_kigo_reverie_11s.mp3", "title": "Kigo Reverie Cue", "category": "Editorial Stems", "description": "11.1s minimal ambient synth texture", "duration_sec": 11.1, "size_kb": 435.9, "path": "media/audio/bali_bliss_editorial_kigo_reverie_11s.mp3"}, {"filename": "bali_bliss_editorial_lumina_piano_32s.mp3", "title": "Lumina Grand Piano", "category": "Soundtracks", "description": "32.0s neoclassical grand piano bridal processional", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_lumina_piano_32s.mp3"}, {"filename": "bali_bliss_editorial_magazine_pages.m4a", "title": "Magazine Turn Cue", "category": "Editorial Stems", "description": "11.8s crisp editorial paper flip beat", "duration_sec": 11.8, "size_kb": 144.3, "path": "media/audio/bali_bliss_editorial_magazine_pages.m4a"}, {"filename": "bali_bliss_editorial_rakai_bali_vows_26s.m4a", "title": "Uluwatu Ocean Vows", "category": "Instagram Reels", "description": "26.1s authentic Bali cliffside prewedding acoustic guitar & strings", "duration_sec": 26.1, "size_kb": 196.7, "path": "media/audio/bali_bliss_editorial_rakai_bali_vows_26s.m4a"}, {"filename": "bali_bliss_editorial_romance_sculptee_14s.m4a", "title": "Sculpted Romance Runway", "category": "Instagram Reels", "description": "13.8s modern bridal runway theme", "duration_sec": 13.8, "size_kb": 119.9, "path": "media/audio/bali_bliss_editorial_romance_sculptee_14s.m4a"}, {"filename": "bali_bliss_editorial_runway_crescendo_32s.mp3", "title": "Runway Crescendo", "category": "Soundtracks", "description": "32.0s bridal fashion runway build-up", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_runway_crescendo_32s.mp3"}, {"filename": "bali_bliss_editorial_sunset_chill_32s.mp3", "title": "Bali Sunset Chill", "category": "Soundtracks", "description": "32.0s golden hour lo-fi acoustic sunset bed", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_sunset_chill_32s.mp3"}, {"filename": "bali_bliss_editorial_sunset_vows_13s.m4a", "title": "Sunset Vows Accent", "category": "Editorial Stems", "description": "12.5s golden hour orchestral strings", "duration_sec": 12.5, "size_kb": 149.4, "path": "media/audio/bali_bliss_editorial_sunset_vows_13s.m4a"}, {"filename": "bali_bliss_editorial_ubud_rainforest_32s.mp3", "title": "Ubud Rainforest Ambient", "category": "Soundtracks", "description": "32.0s morning tropical birds & river ambience", "duration_sec": 32.0, "size_kb": 1001.7, "path": "media/audio/bali_bliss_editorial_ubud_rainforest_32s.mp3"}, {"filename": "ceremony_string_swell.wav", "title": "Ceremony String Swell", "category": "Sound Effects", "description": "9.0s warm analog string chamber", "duration_sec": 9.0, "size_kb": 1550.4, "path": "media/audio/ceremony_string_swell.wav"}, {"filename": "crystal_champagne_ring.wav", "title": "Crystal Champagne Ring", "category": "Sound Effects", "description": "2.8s pure resonant glass toast", "duration_sec": 2.8, "size_kb": 482.4, "path": "media/audio/crystal_champagne_ring.wav"}, {"filename": "film_shutter_snap.wav", "title": "Film Shutter Snap", "category": "Sound Effects", "description": "0.5s mechanical 35mm shutter click", "duration_sec": 0.5, "size_kb": 77.6, "path": "media/audio/film_shutter_snap.wav"}, {"filename": "linen_page_flutter.wav", "title": "Linen Page Flutter", "category": "Sound Effects", "description": "0.8s tactile cotton paper turn", "duration_sec": 0.8, "size_kb": 129.2, "path": "media/audio/linen_page_flutter.wav"}, {"filename": "ocean_dusk_swell.wav", "title": "Ocean Dusk Swell", "category": "Sound Effects", "description": "4.0s Uluwatu cliff tide swell", "duration_sec": 4.0, "size_kb": 689.1, "path": "media/audio/ocean_dusk_swell.wav"}, {"filename": "ubud_sanctuary_marimba.wav", "title": "Ubud Sanctuary Marimba", "category": "Sound Effects", "description": "8.0s acoustic bamboo marimba motif", "duration_sec": 8.0, "size_kb": 1378.2, "path": "media/audio/ubud_sanctuary_marimba.wav"}, {"filename": "uluwatu_sunset_piano.wav", "title": "Uluwatu Sunset Piano", "category": "Soundtracks", "description": "10.0s peaceful cliffside piano reverie", "duration_sec": 10.0, "size_kb": 1722.7, "path": "media/audio/uluwatu_sunset_piano.wav"}, {"filename": "velvet_sub_pulse.wav", "title": "Velvet Sub Pulse", "category": "Sound Effects", "description": "1.8s 55Hz warm cinematic bass drop", "duration_sec": 1.8, "size_kb": 310.1, "path": "media/audio/velvet_sub_pulse.wav"}];
     let currentTrackIndex = -1;
     let isPlaying = false;
     let activeFilter = "all";
@@ -453,6 +567,81 @@
     const volSlider = document.getElementById("vol-slider");
     const searchBox = document.getElementById("search-box");
     const tabBtns = document.querySelectorAll(".tab-btn");
+    const toastEl = document.getElementById("toast-el");
+
+    // Load deleted state from localStorage or initial json
+    function getDeletedSet() {
+      try {
+        const stored = localStorage.getItem("bali_bliss_deleted_tracks");
+        return stored ? new Set(JSON.parse(stored)) : new Set();
+      } catch (e) {
+        return new Set();
+      }
+    }
+
+    function saveDeletedSet(set) {
+      try {
+        localStorage.setItem("bali_bliss_deleted_tracks", JSON.stringify(Array.from(set)));
+      } catch (e) {}
+    }
+
+    // Initialize deleted status on TRACKS
+    const initialDeletedSet = getDeletedSet();
+    TRACKS.forEach(t => {
+      if (initialDeletedSet.has(t.filename) || t.deleted) {
+        t.deleted = true;
+        initialDeletedSet.add(t.filename);
+      } else {
+        t.deleted = false;
+      }
+    });
+    saveDeletedSet(initialDeletedSet);
+
+    function showToast(msg) {
+      toastEl.textContent = msg;
+      toastEl.classList.add("show");
+      setTimeout(() => {
+        toastEl.classList.remove("show");
+      }, 2400);
+    }
+
+    function updateStats() {
+      const deletedCount = TRACKS.filter(t => t.deleted).length;
+      const activeCount = TRACKS.length - deletedCount;
+
+      document.getElementById("stat-total").textContent = TRACKS.length;
+      document.getElementById("stat-active").textContent = activeCount;
+      document.getElementById("stat-deleted").textContent = deletedCount;
+      document.getElementById("tab-all-count").textContent = TRACKS.length;
+      document.getElementById("tab-active-count").textContent = activeCount;
+      document.getElementById("tab-deleted-count").textContent = deletedCount;
+    }
+
+    function toggleDeleteTrack(filename) {
+      const t = TRACKS.find(tr => tr.filename === filename);
+      if (!t) return;
+
+      t.deleted = !t.deleted;
+      const deletedSet = getDeletedSet();
+      if (t.deleted) {
+        deletedSet.add(filename);
+        showToast('Marked "' + t.title + '" as deleted');
+      } else {
+        deletedSet.delete(filename);
+        showToast('Restored "' + t.title + '"');
+      }
+      saveDeletedSet(deletedSet);
+
+      // Persist to server backend
+      fetch("/api/mark-deleted", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filename: filename, deleted: t.deleted })
+      }).catch(err => console.log("Local server sync:", err));
+
+      updateStats();
+      renderTracks();
+    }
 
     function formatTime(secs) {
       if (!secs || isNaN(secs)) return "0:00";
@@ -463,27 +652,44 @@
 
     function renderTracks() {
       trackListEl.innerHTML = "";
-      const filtered = TRACKS.filter((t, idx) => {
-        const matchesCat = activeFilter === "all" || t.category === activeFilter;
+      const filtered = TRACKS.filter((t) => {
+        let matchesCat = true;
+        if (activeFilter === "all") matchesCat = true;
+        else if (activeFilter === "active") matchesCat = !t.deleted;
+        else if (activeFilter === "deleted") matchesCat = !!t.deleted;
+        else matchesCat = t.category === activeFilter;
+
         const matchesSearch = !searchQuery || t.title.toLowerCase().includes(searchQuery) || (t.description && t.description.toLowerCase().includes(searchQuery));
         return matchesCat && matchesSearch;
       });
+
+      if (filtered.length === 0) {
+        const empty = document.createElement("div");
+        empty.style.padding = "32px";
+        empty.style.textAlign = "center";
+        empty.style.color = "var(--text-dim)";
+        empty.style.fontSize = "13px";
+        empty.textContent = activeFilter === "deleted" ? "No tracks marked as deleted." : "No audio tracks match your query.";
+        trackListEl.appendChild(empty);
+        return;
+      }
 
       filtered.forEach((t) => {
         const originalIndex = TRACKS.indexOf(t);
         const isActive = originalIndex === currentTrackIndex;
         const isThisPlaying = isActive && isPlaying;
+        const isDeleted = !!t.deleted;
 
         const card = document.createElement("div");
-        card.className = "track-card" + (isActive ? " active" : "") + (isThisPlaying ? " playing" : "");
+        card.className = "track-card" + (isActive ? " active" : "") + (isThisPlaying ? " playing" : "") + (isDeleted ? " is-deleted" : "");
         card.onclick = () => playTrack(originalIndex);
 
         card.innerHTML = `
           <div class="track-left">
-            <button class="play-btn" onclick="event.stopPropagation(); playTrack(${originalIndex});">
+            <button class="play-btn" onclick="event.stopPropagation(); playTrack(${originalIndex});" title="Play cue">
               ${isThisPlaying ? 
-                `<svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>` : 
-                `<svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>`}
+                '<svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>' : 
+                '<svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>'}
             </button>
             <div class="track-info">
               <div class="track-title">${t.title}</div>
@@ -494,8 +700,15 @@
             <div class="eq-wave">
               <div class="eq-bar"></div><div class="eq-bar"></div><div class="eq-bar"></div>
             </div>
-            <span class="badge">${t.category}</span>
+            ${isDeleted ? '<span class="badge badge-deleted">Marked Deleted</span>' : '<span class="badge">' + t.category + '</span>'}
             <span class="duration">${formatTime(t.duration_sec)}</span>
+            <button class="action-btn ${isDeleted ? "btn-restore" : ""}" 
+                    title="${isDeleted ? "Restore track" : "Mark as deleted"}" 
+                    onclick="event.stopPropagation(); toggleDeleteTrack('${t.filename}');">
+              ${isDeleted ? 
+                '<svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"/></svg><span>Restore</span>' : 
+                '<svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>'}
+            </button>
           </div>
         `;
         trackListEl.appendChild(card);
@@ -524,13 +737,13 @@
 
     audio.onplay = () => {
       isPlaying = true;
-      dockPlayIcon.innerHTML = `<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>`;
+      dockPlayIcon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
       renderTracks();
     };
 
     audio.onpause = () => {
       isPlaying = false;
-      dockPlayIcon.innerHTML = `<path d="M8 5v14l11-7z"/>`;
+      dockPlayIcon.innerHTML = '<path d="M8 5v14l11-7z"/>';
       renderTracks();
     };
 
@@ -541,19 +754,23 @@
     };
 
     audio.onended = () => {
-      // Play next in tracklist
-      if (currentTrackIndex < TRACKS.length - 1) {
-        playTrack(currentTrackIndex + 1);
+      let nextIdx = currentTrackIndex + 1;
+      while (nextIdx < TRACKS.length && TRACKS[nextIdx].deleted) {
+        nextIdx++;
+      }
+      if (nextIdx < TRACKS.length) {
+        playTrack(nextIdx);
       } else {
         isPlaying = false;
-        dockPlayIcon.innerHTML = `<path d="M8 5v14l11-7z"/>`;
+        dockPlayIcon.innerHTML = '<path d="M8 5v14l11-7z"/>';
         renderTracks();
       }
     };
 
     dockPlayBtn.onclick = () => {
       if (currentTrackIndex === -1) {
-        playTrack(0);
+        const firstActive = TRACKS.findIndex(t => !t.deleted);
+        playTrack(firstActive !== -1 ? firstActive : 0);
       } else {
         if (isPlaying) audio.pause();
         else audio.play();
@@ -585,7 +802,6 @@
       renderTracks();
     };
 
-    // Spacebar to pause/play
     window.addEventListener("keydown", (e) => {
       if (e.target.tagName === "INPUT") return;
       if (e.code === "Space") {
@@ -594,6 +810,7 @@
       }
     });
 
+    updateStats();
     renderTracks();
   </script>
 </body>
