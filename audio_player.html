@@ -490,23 +490,23 @@
     <header>
       <div class="kicker">Bali Bliss Weddings</div>
       <h1>Editorial Audio Suite</h1>
-      <p class="subtitle">Audition and curate wedding soundtracks, Instagram reel cuts, and solo cello movements</p>
+      <p class="subtitle">Bespoke luxury wedding soundtracks, Instagram reel cuts, and solo cello suite movements</p>
       <div class="stats-bar">
-        <div>Total: <span id="stat-total">16</span></div>
-        <div>Active: <span id="stat-active" class="stat-badge-active">16</span></div>
+        <div>Total: <span id="stat-total">11</span></div>
+        <div>Active: <span id="stat-active" class="stat-badge-active">11</span></div>
         <div>Marked Deleted: <span id="stat-deleted" class="stat-badge-deleted">0</span></div>
-        <div>Soundtracks: <span id="stat-soundtracks">2</span></div>
-        <div>Editorial Stems: <span id="stat-stems">12</span></div>
+        <div>Soundtracks: <span id="stat-soundtracks">1</span></div>
+        <div>Editorial Stems: <span id="stat-stems">8</span></div>
         <div>Instagram Reels: <span id="stat-reels">2</span></div>
       </div>
     </header>
 
     <div class="controls">
       <div class="tabs" id="filter-tabs">
-        <button class="tab-btn active" data-cat="all">All (<span id="tab-all-count">16</span>)</button>
-        <button class="tab-btn" data-cat="active">Active (<span id="tab-active-count">16</span>)</button>
-        <button class="tab-btn" data-cat="Soundtracks">Soundtracks (2)</button>
-        <button class="tab-btn" data-cat="Editorial Stems">Editorial Stems (12)</button>
+        <button class="tab-btn active" data-cat="all">All (<span id="tab-all-count">11</span>)</button>
+        <button class="tab-btn" data-cat="active">Active (<span id="tab-active-count">11</span>)</button>
+        <button class="tab-btn" data-cat="Soundtracks">Soundtracks (1)</button>
+        <button class="tab-btn" data-cat="Editorial Stems">Editorial Stems (8)</button>
         <button class="tab-btn" data-cat="Instagram Reels">Instagram Reels (2)</button>
         <button class="tab-btn tab-deleted" data-cat="deleted">Marked Deleted (<span id="tab-deleted-count">0</span>)</button>
       </div>
@@ -546,7 +546,7 @@
   <audio id="global-audio" preload="auto"></audio>
 
   <script>
-    const TRACKS = [{"filename": "bali_bliss_editorial_beat_swipe.m4a", "title": "Beat Swipe", "category": "Editorial Stems", "description": "9.1s clean rhythmic swipe transition", "duration_sec": 9.1, "size_kb": 108.9, "path": "media/audio/bali_bliss_editorial_beat_swipe.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_cello_cue_20s.mp3", "title": "Cello Atmosphere Cue", "category": "Editorial Stems", "description": "20.0s atmospheric cello scene transition", "duration_sec": 20.0, "size_kb": 783.8, "path": "media/audio/bali_bliss_editorial_cello_cue_20s.mp3"}, {"filename": "bali_bliss_editorial_cello_master_full_182s.mp3", "title": "Solitary Cello Suite", "category": "Soundtracks", "description": "182.2s full 3-minute solo cello symphony", "duration_sec": 182.2, "size_kb": 3695.3, "path": "media/audio/bali_bliss_editorial_cello_master_full_182s.mp3"}, {"filename": "bali_bliss_editorial_cello_movement_2.m4a", "title": "Cello Bowed Swell", "category": "Editorial Stems", "description": "22.8s deep atmospheric cello swell", "duration_sec": 22.8, "size_kb": 706.2, "path": "media/audio/bali_bliss_editorial_cello_movement_2.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_3.m4a", "title": "Cello Low Resonance", "category": "Editorial Stems", "description": "18.2s slow-bowed low frequency cello", "duration_sec": 18.2, "size_kb": 575.8, "path": "media/audio/bali_bliss_editorial_cello_movement_3.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_4.m4a", "title": "Cello Resonant Cadence", "category": "Editorial Stems", "description": "13.6s rich resonant cello bassline", "duration_sec": 13.6, "size_kb": 425.9, "path": "media/audio/bali_bliss_editorial_cello_movement_4.m4a"}, {"filename": "bali_bliss_editorial_cello_movement_5.m4a", "title": "Cello Sustained Bow", "category": "Editorial Stems", "description": "18.4s cinematic solo cello sustain", "duration_sec": 18.4, "size_kb": 566.3, "path": "media/audio/bali_bliss_editorial_cello_movement_5.m4a"}, {"filename": "bali_bliss_editorial_deep_cello.wav", "title": "Deep Cello Suite", "category": "Editorial Stems", "description": "16.1s harmonic solo cello motif", "duration_sec": 16.1, "size_kb": 2773.6, "path": "media/audio/bali_bliss_editorial_deep_cello.wav"}, {"filename": "bali_bliss_editorial_dhol_celebration.m4a", "title": "Celebration Pulse", "category": "Editorial Stems", "description": "9.4s festive live Indian dhol rhythm", "duration_sec": 9.4, "size_kb": 112.3, "path": "media/audio/bali_bliss_editorial_dhol_celebration.m4a"}, {"filename": "bali_bliss_editorial_dream_dress_7s.m4a", "title": "Couture Dress Reveal", "category": "Instagram Reels", "description": "6.8s couture gown reveal staccato cue", "duration_sec": 6.8, "size_kb": 59.5, "path": "media/audio/bali_bliss_editorial_dream_dress_7s.m4a"}, {"filename": "bali_bliss_editorial_f_minor_soundtrack_78s.m4a", "title": "Bali F-Minor Soundtrack", "category": "Soundtracks", "description": "78.0s cinematic Bali luxury theme", "duration_sec": 78.0, "size_kb": 2423.1, "path": "media/audio/bali_bliss_editorial_f_minor_soundtrack_78s.m4a"}, {"filename": "bali_bliss_editorial_flash_pulse.m4a", "title": "Flash Rhythm Pulse", "category": "Editorial Stems", "description": "11.3s runway camera flash pulse", "duration_sec": 11.3, "size_kb": 136.0, "path": "media/audio/bali_bliss_editorial_flash_pulse.m4a"}, {"filename": "bali_bliss_editorial_golden_reverie_14s.m4a", "title": "Golden Reverie Accent", "category": "Editorial Stems", "description": "14.4s golden hour romantic acoustic swell", "duration_sec": 14.4, "size_kb": 172.8, "path": "media/audio/bali_bliss_editorial_golden_reverie_14s.m4a"}, {"filename": "bali_bliss_editorial_kigo_reverie_11s.mp3", "title": "Kigo Reverie Cue", "category": "Editorial Stems", "description": "11.1s minimal ambient synth texture", "duration_sec": 11.1, "size_kb": 435.9, "path": "media/audio/bali_bliss_editorial_kigo_reverie_11s.mp3"}, {"filename": "bali_bliss_editorial_rakai_bali_vows_26s.m4a", "title": "Uluwatu Ocean Vows", "category": "Instagram Reels", "description": "26.1s authentic Bali cliffside prewedding acoustic guitar & strings", "duration_sec": 26.1, "size_kb": 196.7, "path": "media/audio/bali_bliss_editorial_rakai_bali_vows_26s.m4a"}, {"filename": "bali_bliss_editorial_sunset_vows_13s.m4a", "title": "Sunset Vows Accent", "category": "Editorial Stems", "description": "12.5s golden hour orchestral strings", "duration_sec": 12.5, "size_kb": 149.4, "path": "media/audio/bali_bliss_editorial_sunset_vows_13s.m4a"}];
+    const TRACKS = [{"filename": "bali_bliss_editorial_beat_swipe.m4a", "title": "Beat Swipe", "category": "Editorial Stems", "description": "9.1s clean rhythmic swipe transition", "duration_sec": 9.1, "size_kb": 108.9, "path": "media/audio/bali_bliss_editorial_beat_swipe.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_cello_cue_20s.mp3", "title": "Cello Atmosphere Cue", "category": "Editorial Stems", "description": "20.0s atmospheric cello scene transition", "duration_sec": 20.0, "size_kb": 783.8, "path": "media/audio/bali_bliss_editorial_cello_cue_20s.mp3", "deleted": false}, {"filename": "bali_bliss_editorial_cello_master_full_182s.mp3", "title": "Solitary Cello Suite", "category": "Soundtracks", "description": "182.2s full 3-minute solo cello symphony", "duration_sec": 182.2, "size_kb": 3695.3, "path": "media/audio/bali_bliss_editorial_cello_master_full_182s.mp3", "deleted": false}, {"filename": "bali_bliss_editorial_cello_movement_2.m4a", "title": "Cello Bowed Swell", "category": "Editorial Stems", "description": "22.8s deep atmospheric cello swell", "duration_sec": 22.8, "size_kb": 706.2, "path": "media/audio/bali_bliss_editorial_cello_movement_2.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_cello_movement_4.m4a", "title": "Cello Resonant Cadence", "category": "Editorial Stems", "description": "13.6s rich resonant cello bassline", "duration_sec": 13.6, "size_kb": 425.9, "path": "media/audio/bali_bliss_editorial_cello_movement_4.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_cello_movement_5.m4a", "title": "Cello Sustained Bow", "category": "Editorial Stems", "description": "18.4s cinematic solo cello sustain", "duration_sec": 18.4, "size_kb": 566.3, "path": "media/audio/bali_bliss_editorial_cello_movement_5.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_deep_cello.wav", "title": "Deep Cello Suite", "category": "Editorial Stems", "description": "16.1s harmonic solo cello motif", "duration_sec": 16.1, "size_kb": 2773.6, "path": "media/audio/bali_bliss_editorial_deep_cello.wav", "deleted": false}, {"filename": "bali_bliss_editorial_dhol_celebration.m4a", "title": "Celebration Pulse", "category": "Editorial Stems", "description": "9.4s festive live Indian dhol rhythm", "duration_sec": 9.4, "size_kb": 112.3, "path": "media/audio/bali_bliss_editorial_dhol_celebration.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_dream_dress_7s.m4a", "title": "Couture Dress Reveal", "category": "Instagram Reels", "description": "6.8s couture gown reveal staccato cue", "duration_sec": 6.8, "size_kb": 59.5, "path": "media/audio/bali_bliss_editorial_dream_dress_7s.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_golden_reverie_14s.m4a", "title": "Golden Reverie Accent", "category": "Editorial Stems", "description": "14.4s golden hour romantic acoustic swell", "duration_sec": 14.4, "size_kb": 172.8, "path": "media/audio/bali_bliss_editorial_golden_reverie_14s.m4a", "deleted": false}, {"filename": "bali_bliss_editorial_rakai_bali_vows_26s.m4a", "title": "Uluwatu Ocean Vows", "category": "Instagram Reels", "description": "26.1s authentic Bali cliffside prewedding acoustic guitar & strings", "duration_sec": 26.1, "size_kb": 196.7, "path": "media/audio/bali_bliss_editorial_rakai_bali_vows_26s.m4a", "deleted": false}];
     let currentTrackIndex = -1;
     let isPlaying = false;
     let activeFilter = "all";
@@ -567,10 +567,12 @@
     const tabBtns = document.querySelectorAll(".tab-btn");
     const toastEl = document.getElementById("toast-el");
 
-    // Load deleted state from localStorage or initial json
+    // Reset local deleted tracking for pristine 11-track suite
+    localStorage.removeItem("bali_bliss_deleted_tracks_v2");
+
     function getDeletedSet() {
       try {
-        const stored = localStorage.getItem("bali_bliss_deleted_tracks_v2");
+        const stored = localStorage.getItem("bali_bliss_deleted_tracks_v3");
         return stored ? new Set(JSON.parse(stored)) : new Set();
       } catch (e) {
         return new Set();
@@ -579,11 +581,10 @@
 
     function saveDeletedSet(set) {
       try {
-        localStorage.setItem("bali_bliss_deleted_tracks_v2", JSON.stringify(Array.from(set)));
+        localStorage.setItem("bali_bliss_deleted_tracks_v3", JSON.stringify(Array.from(set)));
       } catch (e) {}
     }
 
-    // Initialize deleted status on TRACKS
     const initialDeletedSet = getDeletedSet();
     TRACKS.forEach(t => {
       if (initialDeletedSet.has(t.filename) || t.deleted) {
