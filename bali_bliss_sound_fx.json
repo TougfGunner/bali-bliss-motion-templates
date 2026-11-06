@@ -1,36 +1,60 @@
 {
-  "total_cues": 51,
+  "total_cues": 37,
+  "categories": {
+    "Soundtracks": 13,
+    "Editorial Stems": 14,
+    "Instagram Reels": 3,
+    "Sound Effects": 7
+  },
   "tracks": [
+    {
+      "filename": "bali_bliss_editorial_acoustic_romance_32s.mp3",
+      "title": "Acoustic Romance",
+      "category": "Soundtracks",
+      "description": "32.0s acoustic guitar & romantic strings",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_acoustic_romance_32s.mp3"
+    },
     {
       "filename": "bali_bliss_editorial_beat_swipe.m4a",
       "title": "Beat Swipe",
       "category": "Editorial Stems",
-      "description": "9.1s quick cinematic beat transition",
+      "description": "9.1s clean rhythmic swipe transition",
       "duration_sec": 9.1,
       "size_kb": 108.9,
       "path": "media/audio/bali_bliss_editorial_beat_swipe.m4a"
     },
     {
-      "filename": "bali_bliss_editorial_bridal_lookbook_7s.m4a",
-      "title": "Bridal Lookbook Rhythm",
-      "category": "Editorial Stems",
-      "description": "7.4s modern bridal lookbook beat",
-      "duration_sec": 7.4,
-      "size_kb": 200.9,
-      "path": "media/audio/bali_bliss_editorial_bridal_lookbook_7s.m4a"
+      "filename": "bali_bliss_editorial_beloved_romance_32s.mp3",
+      "title": "Beloved Romance Ballad",
+      "category": "Soundtracks",
+      "description": "32.0s vintage romantic bridal ballad",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_beloved_romance_32s.mp3"
     },
     {
-      "filename": "bali_bliss_editorial_camera_flash_7s.m4a",
-      "title": "Camera Flash Staccato",
+      "filename": "bali_bliss_editorial_cello_cue_20s.mp3",
+      "title": "Cello Atmosphere Cue",
       "category": "Editorial Stems",
-      "description": "7.4s sharp shutter flash cue",
-      "duration_sec": 7.4,
-      "size_kb": 89.5,
-      "path": "media/audio/bali_bliss_editorial_camera_flash_7s.m4a"
+      "description": "20.0s atmospheric cello scene transition",
+      "duration_sec": 20.0,
+      "size_kb": 783.8,
+      "path": "media/audio/bali_bliss_editorial_cello_cue_20s.mp3"
+    },
+    {
+      "filename": "bali_bliss_editorial_cello_master_full_182s.mp3",
+      "title": "Solitary Cello Suite",
+      "category": "Soundtracks",
+      "description": "182.2s full 3-minute solo cello symphony",
+      "duration_sec": 182.2,
+      "size_kb": 3695.3,
+      "path": "media/audio/bali_bliss_editorial_cello_master_full_182s.mp3"
     },
     {
       "filename": "bali_bliss_editorial_cello_movement_2.m4a",
-      "title": "Cello Movement II",
+      "title": "Cello Bowed Swell",
       "category": "Editorial Stems",
       "description": "22.8s deep atmospheric cello swell",
       "duration_sec": 22.8,
@@ -39,7 +63,7 @@
     },
     {
       "filename": "bali_bliss_editorial_cello_movement_3.m4a",
-      "title": "Cello Movement III",
+      "title": "Cello Low Resonance",
       "category": "Editorial Stems",
       "description": "18.2s slow-bowed low frequency cello",
       "duration_sec": 18.2,
@@ -48,7 +72,7 @@
     },
     {
       "filename": "bali_bliss_editorial_cello_movement_4.m4a",
-      "title": "Cello Movement IV",
+      "title": "Cello Resonant Cadence",
       "category": "Editorial Stems",
       "description": "13.6s rich resonant cello bassline",
       "duration_sec": 13.6,
@@ -57,30 +81,12 @@
     },
     {
       "filename": "bali_bliss_editorial_cello_movement_5.m4a",
-      "title": "Cello Movement V",
+      "title": "Cello Sustained Bow",
       "category": "Editorial Stems",
       "description": "18.4s cinematic solo cello sustain",
       "duration_sec": 18.4,
       "size_kb": 566.3,
       "path": "media/audio/bali_bliss_editorial_cello_movement_5.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_cello_cue_20s.mp3",
-      "title": "Cello Transition Cue",
-      "category": "Editorial Stems",
-      "description": "20.0s atmospheric cello scene transition",
-      "duration_sec": 20.0,
-      "size_kb": 783.8,
-      "path": "media/audio/bali_bliss_editorial_cello_cue_20s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_ceremony_opener_8s.m4a",
-      "title": "Ceremony Grand Opener",
-      "category": "Editorial Stems",
-      "description": "7.9s high-impact ceremony opener",
-      "duration_sec": 7.9,
-      "size_kb": 249.6,
-      "path": "media/audio/bali_bliss_editorial_ceremony_opener_8s.m4a"
     },
     {
       "filename": "bali_bliss_editorial_deep_cello.wav",
@@ -93,7 +99,7 @@
     },
     {
       "filename": "bali_bliss_editorial_dhol_celebration.m4a",
-      "title": "Dhol Celebration",
+      "title": "Celebration Pulse",
       "category": "Editorial Stems",
       "description": "9.4s festive live Indian dhol rhythm",
       "duration_sec": 9.4,
@@ -101,17 +107,35 @@
       "path": "media/audio/bali_bliss_editorial_dhol_celebration.m4a"
     },
     {
-      "filename": "bali_bliss_editorial_swipe_cue_7s.m4a",
-      "title": "Editorial Swipe Cue",
-      "category": "Editorial Stems",
-      "description": "7.4s rhythmic swipe transition",
-      "duration_sec": 7.4,
-      "size_kb": 88.6,
-      "path": "media/audio/bali_bliss_editorial_swipe_cue_7s.m4a"
+      "filename": "bali_bliss_editorial_dream_dress_7s.m4a",
+      "title": "Couture Dress Reveal",
+      "category": "Instagram Reels",
+      "description": "6.8s couture gown reveal staccato cue",
+      "duration_sec": 6.8,
+      "size_kb": 59.5,
+      "path": "media/audio/bali_bliss_editorial_dream_dress_7s.m4a"
+    },
+    {
+      "filename": "bali_bliss_editorial_elysian_strings_32s.mp3",
+      "title": "Elysian Chamber Strings",
+      "category": "Soundtracks",
+      "description": "32.0s lush acoustic chamber string arrangement",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_elysian_strings_32s.mp3"
+    },
+    {
+      "filename": "bali_bliss_editorial_f_minor_soundtrack_78s.m4a",
+      "title": "Bali F-Minor Soundtrack",
+      "category": "Soundtracks",
+      "description": "78.0s cinematic Bali luxury theme",
+      "duration_sec": 78.0,
+      "size_kb": 2423.1,
+      "path": "media/audio/bali_bliss_editorial_f_minor_soundtrack_78s.m4a"
     },
     {
       "filename": "bali_bliss_editorial_film_pulse.m4a",
-      "title": "Film Pulse",
+      "title": "Film Rhythm Pulse",
       "category": "Editorial Stems",
       "description": "7.5s 35mm motion reel heartbeat",
       "duration_sec": 7.5,
@@ -120,7 +144,7 @@
     },
     {
       "filename": "bali_bliss_editorial_flash_pulse.m4a",
-      "title": "Flash Pulse",
+      "title": "Flash Rhythm Pulse",
       "category": "Editorial Stems",
       "description": "11.3s runway camera flash pulse",
       "duration_sec": 11.3,
@@ -128,8 +152,26 @@
       "path": "media/audio/bali_bliss_editorial_flash_pulse.m4a"
     },
     {
+      "filename": "bali_bliss_editorial_french_riviera_jazz_32s.mp3",
+      "title": "French Riviera Jazz",
+      "category": "Soundtracks",
+      "description": "32.0s chic cocktail hour jazz groove",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_french_riviera_jazz_32s.mp3"
+    },
+    {
+      "filename": "bali_bliss_editorial_golden_hour_piano_32s.mp3",
+      "title": "Golden Hour Piano",
+      "category": "Soundtracks",
+      "description": "32.0s warm grand piano sunset ballad",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_golden_hour_piano_32s.mp3"
+    },
+    {
       "filename": "bali_bliss_editorial_golden_reverie_14s.m4a",
-      "title": "Golden Reverie Swell",
+      "title": "Golden Reverie Accent",
       "category": "Editorial Stems",
       "description": "14.4s golden hour romantic acoustic swell",
       "duration_sec": 14.4,
@@ -137,17 +179,17 @@
       "path": "media/audio/bali_bliss_editorial_golden_reverie_14s.m4a"
     },
     {
-      "filename": "bali_bliss_editorial_reception_entrance_9s.m4a",
-      "title": "Grand Reception Entrance",
-      "category": "Editorial Stems",
-      "description": "9.4s grand reception entrance cue",
-      "duration_sec": 9.4,
-      "size_kb": 295.6,
-      "path": "media/audio/bali_bliss_editorial_reception_entrance_9s.m4a"
+      "filename": "bali_bliss_editorial_golden_sunset_groove_32s.mp3",
+      "title": "Golden Sunset Groove",
+      "category": "Soundtracks",
+      "description": "32.0s warm coastal guitar sunset groove",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_golden_sunset_groove_32s.mp3"
     },
     {
       "filename": "bali_bliss_editorial_kigo_reverie_11s.mp3",
-      "title": "Kigo Reverie",
+      "title": "Kigo Reverie Cue",
       "category": "Editorial Stems",
       "description": "11.1s minimal ambient synth texture",
       "duration_sec": 11.1,
@@ -155,26 +197,62 @@
       "path": "media/audio/bali_bliss_editorial_kigo_reverie_11s.mp3"
     },
     {
-      "filename": "bali_bliss_editorial_magazine_flip_12s.mp3",
-      "title": "Magazine Flip Track",
-      "category": "Editorial Stems",
-      "description": "11.8s rhythmic magazine swipe cue",
-      "duration_sec": 11.8,
-      "size_kb": 462.4,
-      "path": "media/audio/bali_bliss_editorial_magazine_flip_12s.mp3"
+      "filename": "bali_bliss_editorial_lumina_piano_32s.mp3",
+      "title": "Lumina Grand Piano",
+      "category": "Soundtracks",
+      "description": "32.0s neoclassical grand piano bridal processional",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_lumina_piano_32s.mp3"
     },
     {
       "filename": "bali_bliss_editorial_magazine_pages.m4a",
-      "title": "Magazine Pages",
+      "title": "Magazine Turn Cue",
       "category": "Editorial Stems",
-      "description": "11.1s crisp editorial paper flip beat",
+      "description": "11.8s crisp editorial paper flip beat",
       "duration_sec": 11.8,
       "size_kb": 144.3,
       "path": "media/audio/bali_bliss_editorial_magazine_pages.m4a"
     },
     {
+      "filename": "bali_bliss_editorial_rakai_bali_vows_26s.m4a",
+      "title": "Uluwatu Ocean Vows",
+      "category": "Instagram Reels",
+      "description": "26.1s authentic Bali cliffside prewedding acoustic guitar & strings",
+      "duration_sec": 26.1,
+      "size_kb": 196.7,
+      "path": "media/audio/bali_bliss_editorial_rakai_bali_vows_26s.m4a"
+    },
+    {
+      "filename": "bali_bliss_editorial_romance_sculptee_14s.m4a",
+      "title": "Sculpted Romance Runway",
+      "category": "Instagram Reels",
+      "description": "13.8s modern bridal runway theme",
+      "duration_sec": 13.8,
+      "size_kb": 119.9,
+      "path": "media/audio/bali_bliss_editorial_romance_sculptee_14s.m4a"
+    },
+    {
+      "filename": "bali_bliss_editorial_runway_crescendo_32s.mp3",
+      "title": "Runway Crescendo",
+      "category": "Soundtracks",
+      "description": "32.0s bridal fashion runway build-up",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_runway_crescendo_32s.mp3"
+    },
+    {
+      "filename": "bali_bliss_editorial_sunset_chill_32s.mp3",
+      "title": "Bali Sunset Chill",
+      "category": "Soundtracks",
+      "description": "32.0s golden hour lo-fi acoustic sunset bed",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_sunset_chill_32s.mp3"
+    },
+    {
       "filename": "bali_bliss_editorial_sunset_vows_13s.m4a",
-      "title": "Sunset Vows",
+      "title": "Sunset Vows Accent",
       "category": "Editorial Stems",
       "description": "12.5s golden hour orchestral strings",
       "duration_sec": 12.5,
@@ -182,112 +260,13 @@
       "path": "media/audio/bali_bliss_editorial_sunset_vows_13s.m4a"
     },
     {
-      "filename": "bali_bliss_editorial_vows_highlight_8s.m4a",
-      "title": "Sunset Vows Highlight",
-      "category": "Editorial Stems",
-      "description": "7.5s sunset vows highlight bed",
-      "duration_sec": 7.5,
-      "size_kb": 236.6,
-      "path": "media/audio/bali_bliss_editorial_vows_highlight_8s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_atelier_couture_reveal_11s.m4a",
-      "title": "Atelier Couture Reveal",
-      "category": "Instagram Reels",
-      "description": "11.1s modern bridal couture staccato reveal",
-      "duration_sec": 11.1,
-      "size_kb": 376.1,
-      "path": "media/audio/bali_bliss_editorial_atelier_couture_reveal_11s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_drop_anthem_11s.m4a",
-      "title": "Bliss Campaign Drop",
-      "category": "Instagram Reels",
-      "description": "11.6s high-energy campaign drop audio",
-      "duration_sec": 11.6,
-      "size_kb": 273.1,
-      "path": "media/audio/bali_bliss_editorial_drop_anthem_11s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_bridal_gown_showcase_20s.m4a",
-      "title": "Bridal Gown Showcase",
-      "category": "Instagram Reels",
-      "description": "20.0s slow-motion bridal silhouette & gown sweep",
-      "duration_sec": 20.0,
-      "size_kb": 632.7,
-      "path": "media/audio/bali_bliss_editorial_bridal_gown_showcase_20s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_cathedral_veil_motion_12s.m4a",
-      "title": "Cathedral Veil Motion",
-      "category": "Instagram Reels",
-      "description": "11.5s silk organza veil ocean breeze swell",
-      "duration_sec": 11.5,
-      "size_kb": 410.8,
-      "path": "media/audio/bali_bliss_editorial_cathedral_veil_motion_12s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_cliffside_sunset_vows_12s.m4a",
-      "title": "Cliffside Sunset Vows",
-      "category": "Instagram Reels",
-      "description": "11.8s Uluwatu cliff sunset altar ambience",
-      "duration_sec": 11.8,
-      "size_kb": 485.7,
-      "path": "media/audio/bali_bliss_editorial_cliffside_sunset_vows_12s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_dream_dress_7s.m4a",
-      "title": "Couture Reveal Staccato",
-      "category": "Instagram Reels",
-      "description": "6.8s couture gown reveal staccato cue",
-      "duration_sec": 6.8,
-      "size_kb": 59.5,
-      "path": "media/audio/bali_bliss_editorial_dream_dress_7s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_dusk_table_celebration_12s.m4a",
-      "title": "Dusk Table Celebration",
-      "category": "Instagram Reels",
-      "description": "12.0s candlelight reception & floral showcase",
-      "duration_sec": 12.0,
-      "size_kb": 437.1,
-      "path": "media/audio/bali_bliss_editorial_dusk_table_celebration_12s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_ceremony_reel_10s.m4a",
-      "title": "Intimate Ceremony Ambience",
-      "category": "Instagram Reels",
-      "description": "10.1s intimate vows live ambience",
-      "duration_sec": 10.1,
-      "size_kb": 212.0,
-      "path": "media/audio/bali_bliss_editorial_ceremony_reel_10s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_romance_sculptee_14s.m4a",
-      "title": "Sculpted Romance Runway",
-      "category": "Instagram Reels",
-      "description": "13.8s haute couture bridal runway theme",
-      "duration_sec": 13.8,
-      "size_kb": 119.9,
-      "path": "media/audio/bali_bliss_editorial_romance_sculptee_14s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_rakai_bali_vows_26s.m4a",
-      "title": "Uluwatu Ocean Vows",
-      "category": "Instagram Reels",
-      "description": "26.1s authentic Bali cliffside prewedding acoustic & strings",
-      "duration_sec": 26.1,
-      "size_kb": 196.7,
-      "path": "media/audio/bali_bliss_editorial_rakai_bali_vows_26s.m4a"
-    },
-    {
-      "filename": "film_shutter_snap.wav",
-      "title": "35mm Shutter Snap",
-      "category": "Sound Effects",
-      "description": "0.5s mechanical Leica M6 click",
-      "duration_sec": 0.5,
-      "size_kb": 77.6,
-      "path": "media/audio/film_shutter_snap.wav"
+      "filename": "bali_bliss_editorial_ubud_rainforest_32s.mp3",
+      "title": "Ubud Rainforest Ambient",
+      "category": "Soundtracks",
+      "description": "32.0s morning tropical birds & river ambience",
+      "duration_sec": 32.0,
+      "size_kb": 1001.7,
+      "path": "media/audio/bali_bliss_editorial_ubud_rainforest_32s.mp3"
     },
     {
       "filename": "ceremony_string_swell.wav",
@@ -306,6 +285,15 @@
       "duration_sec": 2.8,
       "size_kb": 482.4,
       "path": "media/audio/crystal_champagne_ring.wav"
+    },
+    {
+      "filename": "film_shutter_snap.wav",
+      "title": "Film Shutter Snap",
+      "category": "Sound Effects",
+      "description": "0.5s mechanical 35mm shutter click",
+      "duration_sec": 0.5,
+      "size_kb": 77.6,
+      "path": "media/audio/film_shutter_snap.wav"
     },
     {
       "filename": "linen_page_flutter.wav",
@@ -335,123 +323,6 @@
       "path": "media/audio/ubud_sanctuary_marimba.wav"
     },
     {
-      "filename": "velvet_sub_pulse.wav",
-      "title": "Velvet Sub Pulse",
-      "category": "Sound Effects",
-      "description": "1.8s 55Hz warm cinematic bass drop",
-      "duration_sec": 1.8,
-      "size_kb": 310.1,
-      "path": "media/audio/velvet_sub_pulse.wav"
-    },
-    {
-      "filename": "bali_bliss_editorial_acoustic_romance_32s.mp3",
-      "title": "Acoustic Romance",
-      "category": "Soundtracks",
-      "description": "32.0s acoustic guitar & romantic strings",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_acoustic_romance_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_f_minor_soundtrack_78s.m4a",
-      "title": "Bali F-Minor Soundtrack",
-      "category": "Soundtracks",
-      "description": "78.0s cinematic Bali luxury theme",
-      "duration_sec": 78.0,
-      "size_kb": 2423.1,
-      "path": "media/audio/bali_bliss_editorial_f_minor_soundtrack_78s.m4a"
-    },
-    {
-      "filename": "bali_bliss_editorial_sunset_chill_32s.mp3",
-      "title": "Bali Sunset Chill",
-      "category": "Soundtracks",
-      "description": "32.0s golden hour lo-fi acoustic sunset bed",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_sunset_chill_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_beloved_romance_32s.mp3",
-      "title": "Beloved Romance Ballad",
-      "category": "Soundtracks",
-      "description": "32.0s vintage 1950s-style romantic bridal ballad",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_beloved_romance_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_cello_master_full_182s.mp3",
-      "title": "Deep Force Cello Master",
-      "category": "Soundtracks",
-      "description": "182.2s full 3-minute solo cello symphony",
-      "duration_sec": 182.2,
-      "size_kb": 3695.3,
-      "path": "media/audio/bali_bliss_editorial_cello_master_full_182s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_elysian_strings_32s.mp3",
-      "title": "Elysian Chamber Strings",
-      "category": "Soundtracks",
-      "description": "32.0s lush acoustic chamber string arrangement",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_elysian_strings_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_french_riviera_jazz_32s.mp3",
-      "title": "French Riviera Jazz",
-      "category": "Soundtracks",
-      "description": "32.0s chic cocktail hour jazz groove",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_french_riviera_jazz_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_golden_hour_piano_32s.mp3",
-      "title": "Golden Hour Piano",
-      "category": "Soundtracks",
-      "description": "32.0s warm grand piano sunset ballad",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_golden_hour_piano_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_golden_sunset_groove_32s.mp3",
-      "title": "Golden Sunset Groove",
-      "category": "Soundtracks",
-      "description": "32.0s warm coastal guitar sunset groove",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_golden_sunset_groove_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_lumina_piano_32s.mp3",
-      "title": "Lumina Grand Piano",
-      "category": "Soundtracks",
-      "description": "32.0s neoclassical grand piano bridal processional",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_lumina_piano_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_runway_crescendo_32s.mp3",
-      "title": "Runway Crescendo",
-      "category": "Soundtracks",
-      "description": "32.0s bridal fashion runway build-up",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_runway_crescendo_32s.mp3"
-    },
-    {
-      "filename": "bali_bliss_editorial_ubud_rainforest_32s.mp3",
-      "title": "Ubud Rainforest Ambient",
-      "category": "Soundtracks",
-      "description": "32.0s morning tropical birds & river ambience",
-      "duration_sec": 32.0,
-      "size_kb": 1001.7,
-      "path": "media/audio/bali_bliss_editorial_ubud_rainforest_32s.mp3"
-    },
-    {
       "filename": "uluwatu_sunset_piano.wav",
       "title": "Uluwatu Sunset Piano",
       "category": "Soundtracks",
@@ -459,6 +330,15 @@
       "duration_sec": 10.0,
       "size_kb": 1722.7,
       "path": "media/audio/uluwatu_sunset_piano.wav"
+    },
+    {
+      "filename": "velvet_sub_pulse.wav",
+      "title": "Velvet Sub Pulse",
+      "category": "Sound Effects",
+      "description": "1.8s 55Hz warm cinematic bass drop",
+      "duration_sec": 1.8,
+      "size_kb": 310.1,
+      "path": "media/audio/velvet_sub_pulse.wav"
     }
   ]
 }
